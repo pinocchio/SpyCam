@@ -1,3 +1,3 @@
 logical operations
 strongOptional
-	^ self optional skipWhitespace: true
+	^ self optional skipWhitespace: false

@@ -1,3 +1,4 @@
 as yet unclassified
 separator
-	^ (PEGParser separator | self comment) strongPlus
+	" has to be strongPlus since plus would match separator in between -> infinite recursion. "
+	^ (PEGParser separators | self comment) strongTimes

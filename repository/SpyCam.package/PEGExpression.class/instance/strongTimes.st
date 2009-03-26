@@ -1,3 +1,3 @@
 logical operations
 strongTimes
-	^ self times skipWhitespace: true
+	^ self times skipWhitespace: false

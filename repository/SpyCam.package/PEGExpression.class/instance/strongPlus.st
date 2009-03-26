@@ -1,3 +1,3 @@
 logical operations
 strongPlus
-	^ self plus skipWhitespace: true
+	^ self plus skipWhitespace: false
