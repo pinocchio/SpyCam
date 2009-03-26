@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize: expression
 	super initialize.
 	child := expression.

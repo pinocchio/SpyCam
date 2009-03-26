@@ -1,4 +1,4 @@
-as yet unclassified
+matching
 performMatch: input in: scope
 	| match |
 	match := expression match: input in: (self extendScope: scope).

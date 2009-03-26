@@ -10,5 +10,5 @@
 	"name" : "TestPEG",
 	"pools" : [
 		 ],
-	"super" : "ClassTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -1,3 +1,3 @@
-as yet unclassified
+logical operations
 & expression
 	^ PEGSequenceExpression new <= self <= expression

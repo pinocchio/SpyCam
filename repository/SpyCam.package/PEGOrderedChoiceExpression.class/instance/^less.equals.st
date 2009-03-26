@@ -1,3 +1,3 @@
-as yet unclassified
+comparing
 <= child
 	children add: child asPEG

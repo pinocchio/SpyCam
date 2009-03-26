@@ -1,3 +1,3 @@
-as yet unclassified
+comparing
 <= theExpression
 	expression := theExpression asPEG

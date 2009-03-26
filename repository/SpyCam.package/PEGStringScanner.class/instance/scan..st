@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 scan: otherString
 	" Maybe we should use other objects to mark... "
 	^ (self beginsWith: otherString)

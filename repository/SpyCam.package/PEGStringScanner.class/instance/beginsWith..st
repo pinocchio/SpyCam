@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 beginsWith: subCollection 
 	| pattern startMatch |
 	pattern := subCollection readStream.

@@ -1,4 +1,4 @@
-as yet unclassified
+matching
 privateMatch: input in: scope
 	children do: [ :child |
 		(child match: input in: scope)

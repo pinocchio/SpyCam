@@ -1,4 +1,4 @@
-as yet unclassified
+matching
 privateMatch: input in: scope
 	| result match |
 	result := OrderedCollection new.
