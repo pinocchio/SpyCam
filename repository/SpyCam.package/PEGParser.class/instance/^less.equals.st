@@ -1,3 +1,3 @@
-comparing
+adding
 <= theExpression
 	expression := theExpression asPEG

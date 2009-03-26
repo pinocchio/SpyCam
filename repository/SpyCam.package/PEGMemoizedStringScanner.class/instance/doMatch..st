@@ -1,4 +1,4 @@
-as yet unclassified
+private
 doMatch: parser
 	| result |
 	"First match then store position"

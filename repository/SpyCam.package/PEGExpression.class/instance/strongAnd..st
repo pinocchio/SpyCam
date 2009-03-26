@@ -1,3 +1,3 @@
-as yet unclassified
+logical operations
 strongAnd: other
 	^ (self & other) skipWhitespace: true

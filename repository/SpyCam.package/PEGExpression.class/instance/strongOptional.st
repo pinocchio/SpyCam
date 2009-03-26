@@ -1,3 +1,3 @@
-as yet unclassified
+logical operations
 strongOptional
 	^ self optional skipWhitespace: true

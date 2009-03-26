@@ -1,4 +1,4 @@
-as yet unclassified
+private
 bucket
 	| bucket |
 	bucket := cache at: position + 1.

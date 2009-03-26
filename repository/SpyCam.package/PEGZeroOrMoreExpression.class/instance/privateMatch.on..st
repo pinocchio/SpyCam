@@ -1,4 +1,4 @@
-as yet unclassified
+matching
 privateMatch: input on: result 
 	| match |
 	[skipWhitespace

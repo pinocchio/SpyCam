@@ -1,3 +1,3 @@
-as yet unclassified
+logical operations
 strongPlus
 	^ self plus skipWhitespace: true

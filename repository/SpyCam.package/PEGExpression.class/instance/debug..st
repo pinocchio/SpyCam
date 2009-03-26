@@ -1,4 +1,4 @@
-actions
+debugging
 debug: input 
 	PEGExpression debug ifTrue: 
 		[ PEGExpression

@@ -1,3 +1,3 @@
-as yet unclassified
+logical operations
 strongOr: other
 	^ (self | other) skipWhitespace: true

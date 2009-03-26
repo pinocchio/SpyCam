@@ -1,3 +1,3 @@
-as yet unclassified
+logical operations
 plus
 	^ PEGOneOrMoreExpression new: self

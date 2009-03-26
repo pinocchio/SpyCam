@@ -1,3 +1,3 @@
-as yet unclassified
+matching
 privateMatch: input
 	^ (child match: input) ifNil: [ true ]

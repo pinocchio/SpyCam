@@ -1,3 +1,3 @@
-as yet unclassified
+logical operations
 optional
 	^ PEGOptionalExpression new: self
