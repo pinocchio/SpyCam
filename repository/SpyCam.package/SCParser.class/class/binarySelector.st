@@ -2,7 +2,7 @@ as yet unclassified
 binarySelector
 	| parser |
 	parser := PEGParser named: 'BINARY-SELECTOR'
-				parsing: ((	(self specialCharacter | self minus)
+				parsing: ((	(self specialCharacter | '-')
 								strongAnd: (self specialCharacter) strongTimes)
 							| '|' ).
 							
@@ -10,7 +10,7 @@ binarySelector
 	
 		result isString
 			ifTrue: [ result ]
-			ifFalse: [ result second inject: result first into: [:c :e | c, e] ]
+			ifFalse: [ result second inject: result first into: [ :c :e | c, e ] ]
 			
 	].
 

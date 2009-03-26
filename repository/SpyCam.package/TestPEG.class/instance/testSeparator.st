@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSeparator
 	| string |
 	string := PEGMemoizedStringScanner on: ' a'.

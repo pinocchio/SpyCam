@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testOrderedChoiceExpression
 	| string exp1 exp2 exp3 seq1 |
 	string := PEGMemoizedStringScanner on: 'teest'.

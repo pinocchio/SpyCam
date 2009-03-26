@@ -3,5 +3,8 @@
 		 },
 	"instance" : {
 		"testBinarySelector" : "tv 3/26/2009 16:17",
+		"testCapitalIdentifier" : "tv 3/26/2009 17:08",
 		"testComment" : "tv 3/26/2009 14:35",
-		"testSeparator" : "tv 3/26/2009 14:53" } }
+		"testIdentifier" : "tv 3/26/2009 17:01",
+		"testSeparator" : "tv 3/26/2009 14:53",
+		"testString" : "tv 3/26/2009 17:39" } }

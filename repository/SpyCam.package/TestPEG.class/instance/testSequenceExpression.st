@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSequenceExpression
 	| string exp1 exp2 exp3 seq1 seq2 seq3 |
 	string := PEGMemoizedStringScanner on: 'teest'.

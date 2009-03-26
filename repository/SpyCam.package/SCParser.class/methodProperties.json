@@ -1,11 +1,17 @@
 {
 	"class" : {
 		"bar" : "tv 3/26/2009 16:19",
-		"binarySelector" : "tv 3/26/2009 16:20",
+		"binarySelector" : "tv 3/26/2009 16:25",
+		"capitalIdentifier" : "tv 3/26/2009 17:05",
 		"comment" : "tv 3/26/2009 14:30",
+		"decimalDigit" : "tv 3/26/2009 16:41",
+		"identifier" : "tv 3/26/2009 16:58",
+		"letter" : "tv 3/26/2009 16:41",
+		"lowercase" : "tv 3/26/2009 16:40",
 		"methodParser" : "tv 3/26/2009 15:05",
-		"minus" : "tv 3/26/2009 16:16",
 		"separator" : "tv 3/26/2009 14:50",
-		"specialCharacter" : "tv 3/26/2009 15:29" },
+		"specialCharacter" : "tv 3/26/2009 15:29",
+		"string" : "tv 3/26/2009 17:38",
+		"uppercase" : "tv 3/26/2009 16:40" },
 	"instance" : {
 		 } }
