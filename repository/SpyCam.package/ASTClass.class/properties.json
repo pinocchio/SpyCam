@@ -9,7 +9,8 @@
 		"name",
 		"methods",
 		"instanceVariables",
-		"superClass" ],
+		"superClass",
+		"internalClass" ],
 	"name" : "ASTClass",
 	"pools" : [
 		 ],
