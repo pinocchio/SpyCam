@@ -4,7 +4,7 @@ binarySelector
 	parser := PEGParser named: 'BINARY-SELECTOR'
 				parsing: ((	(self specialCharacter | self minus)
 								strongAnd: (self specialCharacter) strongTimes)
-							| self someBar ).
+							| '|' ).
 							
 	parser semantics: [ :result |
 	
