@@ -4,6 +4,8 @@
 	"instance" : {
 		"testBinarySelector" : "tv 3/26/2009 16:17",
 		"testCapitalIdentifier" : "tv 3/26/2009 17:08",
+		"testCharacter" : "tv 3/26/2009 17:59",
+		"testCharacterConstant" : "tv 3/26/2009 18:04",
 		"testComment" : "tv 3/26/2009 14:35",
 		"testIdentifier" : "tv 3/26/2009 17:01",
 		"testSeparator" : "tv 3/26/2009 14:53",
