@@ -8,8 +8,19 @@ methodParser
 	methodStatements 	:= PEGParser named: 'METHOD-STATEMENTS'.
 	blockStatements 		:= PEGParser named: 'BLOCK-STATEMENTS'.
 	
-	parser := PEGParser named: 'METHOD'
-						 parsing: (	messagePattern
+	parser := PEGParser 	named: 'METHOD'
+						parsing: (	messagePattern
 									& (temporaries optional)
 									& (annotations optional)
-									& (methodStatements optional))
+									& (methodStatements optional)).
+	
+	parser semantics: [ :arguments |
+		
+		ASTMethod new
+			selector:		(arguments at: 1);
+			temporaries:	(arguments at: 2);
+			annotations:	(arguments at: 3);
+			statements:	(arguments at: 4);
+			yourself
+
+	]

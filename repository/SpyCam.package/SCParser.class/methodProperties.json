@@ -1,7 +1,12 @@
 {
 	"class" : {
+		"bar" : "tv 3/26/2009 15:26",
+		"binarySelector" : "tv 3/26/2009 16:15",
 		"comment" : "tv 3/26/2009 14:30",
-		"methodParser" : "tv 3/26/2009 13:42",
-		"separator" : "tv 3/26/2009 14:50" },
+		"methodParser" : "tv 3/26/2009 15:05",
+		"minus" : "tv 3/26/2009 16:16",
+		"separator" : "tv 3/26/2009 14:50",
+		"someBar" : "tv 3/26/2009 15:27",
+		"specialCharacter" : "tv 3/26/2009 15:29" },
 	"instance" : {
 		 } }
