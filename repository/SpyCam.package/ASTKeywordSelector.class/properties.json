@@ -1,0 +1,14 @@
+{
+	"category" : "SpyCam-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"keyword" ],
+	"name" : "ASTKeywordSelector",
+	"pools" : [
+		 ],
+	"super" : "ASTSelector",
+	"type" : "normal" }

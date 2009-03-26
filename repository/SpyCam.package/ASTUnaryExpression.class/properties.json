@@ -1,0 +1,15 @@
+{
+	"category" : "SpyCam-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"argument" ],
+	"name" : "ASTUnaryExpression",
+	"pools" : [
+		 ],
+	"super" : "ASTNode",
+	"type" : "normal" }

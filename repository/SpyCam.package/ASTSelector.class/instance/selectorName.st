@@ -1,0 +1,3 @@
+accessing
+selectorName
+	self subclassResponsibility
