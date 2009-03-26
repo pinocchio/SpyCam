@@ -1,10 +1,11 @@
 {
 	"class" : {
+		"argumentName" : "tv 3/26/2009 18:10",
 		"bar" : "tv 3/26/2009 16:19",
 		"binarySelector" : "tv 3/26/2009 17:45",
 		"capitalIdentifier" : "tv 3/26/2009 17:46",
 		"character" : "tv 3/26/2009 17:56",
-		"characterConstant" : "tv 3/26/2009 18:03",
+		"characterConstant" : "tv 3/26/2009 18:07",
 		"comment" : "tv 3/26/2009 14:30",
 		"decimalDigit" : "tv 3/26/2009 16:41",
 		"identifier" : "tv 3/26/2009 17:46",
@@ -14,6 +15,8 @@
 		"separator" : "tv 3/26/2009 14:50",
 		"specialCharacter" : "tv 3/26/2009 15:29",
 		"string" : "tv 3/26/2009 17:52",
-		"uppercase" : "tv 3/26/2009 16:40" },
+		"temporaries" : "tv 3/26/2009 18:23",
+		"uppercase" : "tv 3/26/2009 16:40",
+		"variableName" : "tv 3/26/2009 18:10" },
 	"instance" : {
 		 } }
