@@ -11,6 +11,6 @@ string
 	
 		semantics: [:result |
 			first := result removeFirst.
-			first := first inject: '' into: [:c :e | c, e asString].
-			result inject: first into: [:c :e | c, '''', (e inject: '' into: [:ic :ie | ic, ie asString]) ]
+			first := first inject: '' into: [:c :e | c, e ].
+			result inject: first into: [:c :e | c, '''', (e inject: '' into: [:ic :ie | ic, ie ]) ]
 		]

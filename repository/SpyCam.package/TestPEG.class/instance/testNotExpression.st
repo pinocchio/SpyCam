@@ -10,7 +10,7 @@ testNotExpression
 	self assert: string position = 0.
 	exp := PEGNotExpression new: exp2.
 	self assert: (exp 
-			match: string) isNil not.
+			match: string) = 't'.
 	self assert: string position = 1.
 	
 	" Fail on end of string. "

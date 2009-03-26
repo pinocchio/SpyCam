@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"testExpression" : "tv 3/26/2009 11:51",
-		"testNotExpression" : "tv 3/26/2009 14:07",
-		"testOneOrMoreExpression" : "tv 3/26/2009 13:34",
+		"testNotExpression" : "tv 3/26/2009 17:51",
+		"testOneOrMoreExpression" : "tv 3/26/2009 17:51",
 		"testOptionalExpression" : "tv 3/26/2009 13:16",
 		"testOrderedChoiceExpression" : "tv 3/26/2009 11:51",
 		"testRange" : "tv 3/26/2009 17:09",
