@@ -8,14 +8,11 @@ testOrderedChoiceExpression
 	seq1 := PEGOrderedChoiceExpression new.
 	seq1 <= exp1 <= exp2.
 	seq1 
-		match: string
-		in: nil.
+		match: string.
 	self assert: string position = 2.
 	seq1 
-		match: string
-		in: nil.
+		match: string.
 	self assert: string position = 4.
 	seq1 
-		match: string
-		in: nil.
+		match: string.
 	self assert: string position = 4

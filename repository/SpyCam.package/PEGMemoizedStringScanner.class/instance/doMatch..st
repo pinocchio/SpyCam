@@ -1,6 +1,6 @@
 as yet unclassified
-doMatch: parser in: scope
+doMatch: parser
 	| result |
 	"First match then store position"
-	result := parser performMatch: self in: scope.
+	result := parser performMatch: self.
 	^ position @ result

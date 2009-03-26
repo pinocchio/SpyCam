@@ -1,10 +1,10 @@
 {
 	"class" : {
+		"named:" : "tv 3/26/2009 12:02",
+		"named:parsing:" : "tv 3/26/2009 12:01",
 		"separator" : "tv 3/25/2009 19:49" },
 	"instance" : {
 		"<=" : "tv 3/25/2009 19:44",
-		"extendScope:" : "tv 3/25/2009 19:24",
 		"initialize" : "tv 3/25/2009 19:31",
-		"parse:" : "tv 3/25/2009 19:29",
-		"parse:in:" : "tv 3/25/2009 19:29",
-		"performMatch:in:" : "tv 3/25/2009 19:24" } }
+		"parse:" : "tv 3/26/2009 13:53",
+		"performMatch:" : "tv 3/26/2009 11:48" } }

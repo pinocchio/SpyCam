@@ -8,22 +8,18 @@ testSequenceExpression
 	seq1 := PEGSequenceExpression new.
 	seq1 <= exp1 <= exp2.
 	seq1 
-		match: string
-		in: nil.
+		match: string.
 	self assert: string position = 4.
 	seq1 
-		match: string
-		in: nil.
+		match: string.
 	self assert: string position = 4.
 	seq2 := PEGSequenceExpression new.
 	seq2 <= exp3 <= exp2.
 	seq2 
-		match: string
-		in: nil.
+		match: string.
 	self assert: string position = 4.
 	seq3 := PEGSequenceExpression new.
 	seq3 <= exp3.
 	seq3 
-		match: string
-		in: nil.
+		match: string.
 	self assert: string position = 5

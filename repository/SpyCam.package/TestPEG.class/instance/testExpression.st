@@ -8,30 +8,23 @@ testExpression
 
 	" test string which occurs later on. "
 	self assert: nil = (exp2 
-				match: string
-				in: nil).
+				match: string).
 	self assert: string position = 0.
 	self assert: 'te' = (exp1 
-				match: string
-				in: nil).
+				match: string).
 	self assert: string position = 2.
 	self assert: nil = (exp1 
-				match: string
-				in: nil).
+				match: string).
 	self assert: string position = 2.
 	self assert: 'es' = (exp2 
-				match: string
-				in: nil).
+				match: string).
 	self assert: string position = 4.
 	self assert: nil = (exp2 
-				match: string
-				in: nil).
+				match: string).
 	self assert: string position = 4.
 	self assert: 't' = (exp3 
-				match: string
-				in: nil).
+				match: string).
 	self assert: string position = 5.
 	self assert: nil = (exp3 
-				match: string
-				in: nil).
+				match: string).
 	self assert: string position = 5

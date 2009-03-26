@@ -1,3 +1,3 @@
 matching
-privateMatch: input in: scope
+privateMatch: input
 	self subclassResponsibility

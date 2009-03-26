@@ -1,8 +1,9 @@
 {
 	"class" : {
-		 },
+		"on:" : "tv 3/26/2009 13:34",
+		"on:separator:" : "tv 3/26/2009 13:34" },
 	"instance" : {
 		"beginsWith:" : "tv 3/25/2009 19:03",
 		"on:separator:" : "tv 3/25/2009 16:27",
 		"scan:" : "tv 3/25/2009 18:59",
-		"skipWhitespace:" : "tv 3/25/2009 16:03" } }
+		"skipWhitespace" : "tv 3/26/2009 11:49" } }

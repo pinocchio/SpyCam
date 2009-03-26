@@ -1,7 +1,7 @@
 matching
-match: input in: scope
+match: input
 	| result |
 	self debug: input.
-	result := input memoizeMatch: self in: scope.
+	result := input memoizeMatch: self.
 	self debugEnd: input.
 	^ result

@@ -1,8 +1,8 @@
 matching
-performMatch: input in: scope 
+performMatch: input
 	| position match |
 	position := input position.
-	match := self privateMatch: input in: scope.
+	match := self privateMatch: input.
 	match
 		ifNil: [input position: position].
 	^ match

@@ -7,15 +7,12 @@ testOneOrMoreExpression
 	exp3 := PEGTerminal new: 't'.
 	exp := PEGOneOrMoreExpression new: exp1.
 	self assert: (exp 
-			match: string
-			in: nil) isNil not.
+			match: string) isNil not.
 	self assert: string position = 2.
 	exp := PEGOneOrMoreExpression new: exp2.
 	self assert: (exp 
-			match: string
-			in: nil) isNil not.
+			match: string) isNil not.
 	self assert: string position = 6.
 	self assert: (exp 
-			match: string
-			in: nil) isNil.
+			match: string) isNil.
 	self assert: string position = 6

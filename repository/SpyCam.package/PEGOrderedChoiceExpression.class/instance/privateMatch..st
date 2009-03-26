@@ -1,6 +1,6 @@
 matching
-privateMatch: input in: scope
+privateMatch: input
 	children do: [ :child |
-		(child match: input in: scope)
+		(child match: input)
 			ifNotNil: [ :match | ^ match ] ].
 	^ nil

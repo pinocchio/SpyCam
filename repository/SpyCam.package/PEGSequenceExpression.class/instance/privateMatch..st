@@ -1,12 +1,12 @@
 matching
-privateMatch: input in: scope 
+privateMatch: input
 	| result match |
 	result := OrderedCollection new.
 	children
 		do: [:child | 
 			skipWhitespace
-				ifTrue: [input skipWhitespace: scope].
-			match := child match: input in: scope.
+				ifTrue: [input skipWhitespace].
+			match := child match: input.
 			match
 				ifNil: [^ match].
 			child omit
