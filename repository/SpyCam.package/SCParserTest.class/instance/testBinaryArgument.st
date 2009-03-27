@@ -6,9 +6,9 @@ testBinaryArgument
 	
 	string := PEGMemoizedStringScanner on: '+= a'.
 	result := (parser match: string).
-	self assert: (result class = ASTArgumentSelector).
-	self assert: (result keywords = (OrderedCollection with: '+=')).
-	self assert: (result arguments = (OrderedCollection with: 'a')).
+	self assert: (result class = ASTBinarySelector).
+	self assert: (result selector = '+=').
+	self assert: (result argument = 'a').
 	self assert: (string position = 4).
 	
 	string := PEGMemoizedStringScanner on: '|= a'.
@@ -17,7 +17,7 @@ testBinaryArgument
 	
 	string := PEGMemoizedStringScanner on: '-= abc d'.
 	result := (parser match: string).
-	self assert: (result class = ASTArgumentSelector).
-	self assert: (result keywords = (OrderedCollection with: '-=')).
-	self assert: (result arguments = (OrderedCollection with: 'abc')).
+	self assert: (result class = ASTBinarySelector).
+	self assert: (result selector = '-=').
+	self assert: (result argument = 'abc').
 	self assert: (string position = 6).
