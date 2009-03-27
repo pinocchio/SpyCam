@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testBinaryArgument" : "tv 3/27/2009 11:05",
 		"testBinarySelector" : "tv 3/26/2009 16:17",
 		"testBlockArguments" : "tv 3/27/2009 09:32",
 		"testCapitalIdentifier" : "tv 3/26/2009 17:08",
