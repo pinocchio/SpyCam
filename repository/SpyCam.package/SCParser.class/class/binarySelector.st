@@ -3,8 +3,7 @@ binarySelector
 	^ PEGParser
 		named: 'BINARY-SELECTOR'
 
-		parsing: ((	(self specialCharacter | '-')
-						strongAnd: (self specialCharacter) strongTimes)
+		parsing: ((	(self specialCharacter | '-') && (self specialCharacter) strongTimes)
 					| '|' )
 							
 		semantics: [ :result |

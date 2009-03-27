@@ -1,3 +1,3 @@
 selector
 keyword
-	^ self identifier strongAnd: (':' asPEG omit: true)
+	^ self identifier && (':' asPEG omit: true)

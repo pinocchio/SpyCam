@@ -1,3 +1,3 @@
 logical operations
-strongAnd: other
+&& other
 	^ (self & other) skipWhitespace: false
