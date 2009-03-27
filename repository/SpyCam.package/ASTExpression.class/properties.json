@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selector",
-		"argument" ],
-	"name" : "ASTUnaryExpression",
+		 ],
+	"name" : "ASTExpression",
 	"pools" : [
 		 ],
-	"super" : "ASTExpression",
+	"super" : "ASTNode",
 	"type" : "normal" }

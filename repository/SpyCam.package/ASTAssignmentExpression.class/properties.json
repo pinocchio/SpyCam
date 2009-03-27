@@ -11,5 +11,5 @@
 	"name" : "ASTAssignmentExpression",
 	"pools" : [
 		 ],
-	"super" : "ASTNode",
+	"super" : "ASTExpression",
 	"type" : "normal" }

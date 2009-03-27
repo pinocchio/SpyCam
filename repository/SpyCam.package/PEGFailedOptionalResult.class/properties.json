@@ -1,15 +1,14 @@
 {
-	"category" : "SpyCam-AST",
+	"category" : "SpyCam-PEG",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selector",
-		"argument" ],
-	"name" : "ASTUnaryExpression",
+		 ],
+	"name" : "PEGFailedOptionalResult",
 	"pools" : [
 		 ],
-	"super" : "ASTExpression",
+	"super" : "PEGOptionalResult",
 	"type" : "normal" }

@@ -1,3 +1,3 @@
 matching
-privateMatch: input
-	^ (child match: input) ifNil: [ true ]
+privateMatch: input 
+	^ PEGSucceededOptionalResult new: ((child match: input) ifNil: [ ^ PEGFailedOptionalResult ])

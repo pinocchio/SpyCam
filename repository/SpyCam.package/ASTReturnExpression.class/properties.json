@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"expression",
-		"separator" ],
+		"expression" ],
 	"name" : "ASTReturnExpression",
 	"pools" : [
 		 ],
-	"super" : "ASTNode",
+	"super" : "ASTExpression",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
-as yet unclassified
+basic-block
 temporaries
 	^ PEGParser
 		named: 'TEMPORARIES'

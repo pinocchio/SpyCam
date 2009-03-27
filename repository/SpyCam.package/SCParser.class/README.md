@@ -2,8 +2,18 @@ SCParser is a PEG which parses Smalltalk code.
 
 Grammar:
 
-temporaries 		= bar & variableName + & bar
 methodParser		= messagePattern & temporaries? & annotations? & methodStatments?
+
+BASIC-BLOCK:
+
+temporaries 		= bar & variableName + & bar
+		
+subExpression 		= expression & ('.' omit)
+finalExpression 		= expression & ('.'? omit)
+return 				= ('^' omit) & finalExpression
+statements 			= subExpression * & (return | finalExpression)?
+
+
 
 ASSIGNMENT:
 
@@ -12,6 +22,7 @@ assignmentOp 		= ':=' | '_'
 BLOCK:
 
 blockArguments 	= (':' & identifier) +
+block 				= '[' & (blockArguments & bar) optional & temporaries optional & statements & ']'
 
 SELECTOR:
 
@@ -31,12 +42,12 @@ specialCharacter 	= '+' | '*' | '/' | '\' | '~' | '<' | '>' | '=' | '@' | '%' | 
 character 			= ('[' | ']' | '{' | '}' | '(' | ')' | '_' | '^' | ';' | '$' | '#' | ':' | '-' | '|' | '.') | space | decimalDigit | letter | specialCharacter
 characterConstant 	= '$' && character
 
-string 				= ( ('''' omit) && (''''!)**  && ('''' omit) ) ++
+string 				= ( ('''' omit) && (''''!)**  && ('''' omit) )++
 stringConstant 		= string
 		
-symbolKeywords 	= keyword ++
+symbolKeywords 	= (keyword + ':') ++
 symbolString 		= string
-symbol 				= symbolKeywords | identifier | binarySelector | symbolString
+symbol 				= symbolKeywords | identifier | binarySelector | string
 symbolConstant 		= ('#' omit) && symbol
 
 VARIABLE:
@@ -50,10 +61,10 @@ primaryVariable 	= identifier
 CONVENIENCE:
 
 bar 				= '|'
-decimalDigit 		= 0-9
+decimalDigit 		= [0-9]
+uppercase 			= [A-Z]
+lowercase 			= [a-z]
 letter 				= lowercase | uppercase
-uppercase 			= A-Z
-lowercase 			= a-z
 			
 SEPARATOR:
 

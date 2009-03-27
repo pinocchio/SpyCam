@@ -12,5 +12,5 @@
 	"name" : "ASTBinaryExpression",
 	"pools" : [
 		 ],
-	"super" : "ASTNode",
+	"super" : "ASTExpression",
 	"type" : "normal" }
