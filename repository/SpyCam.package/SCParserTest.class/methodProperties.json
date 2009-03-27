@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAssignmentExpressions" : "tv 3/27/2009 15:38",
 		"testBinaryArgument" : "tv 3/27/2009 11:19",
 		"testBinarySelector" : "tv 3/26/2009 16:17",
 		"testBlockArguments" : "tv 3/27/2009 09:32",

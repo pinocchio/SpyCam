@@ -1,3 +1,3 @@
 basic-block
 finalExpression
-	^ self expression & ('.' asPEG optional omit)
+	^ self expression & ('.' asPEG optional omit: true)

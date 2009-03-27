@@ -1,3 +1,3 @@
 logical operations
 & expression
-	^ PEGSequenceExpression new <= self <= expression
+	^ PEGSequenceExpression new <& self <& expression

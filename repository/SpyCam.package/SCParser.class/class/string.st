@@ -7,7 +7,7 @@ string
 	^ PEGParser
 		named: 'STRING'
 		
-		parsing: ((stringBorder && ((stringBorder not) strongTimes)) <= stringBorder) strongPlus
+		parsing: ((stringBorder && ((stringBorder not) strongTimes)) <& stringBorder) strongPlus
 	
 		semantics: [:result |
 			first := result removeFirst.

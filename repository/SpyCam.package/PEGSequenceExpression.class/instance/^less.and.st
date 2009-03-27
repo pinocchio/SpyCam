@@ -1,3 +1,3 @@
 adding
-<= child
+<& child
 	children add: child asPEG

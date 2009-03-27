@@ -3,11 +3,11 @@ block
 	^ PEGParser
 		named: 'BLOCK'
 		
-		parsing: ('[' asPEG omit
+		parsing: (('[' asPEG omit: true)
 					& (self blockArguments & self bar) optional
-					& self temporaries optional
-					& self statements
-					& ']' asPEG omit)
+					<& self temporaries optional
+					<& self statements
+					<& (']' asPEG omit: true))
 
 		semantics: [ :result |
 			ASTBlock new

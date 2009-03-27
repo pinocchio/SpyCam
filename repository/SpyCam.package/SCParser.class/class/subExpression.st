@@ -1,3 +1,3 @@
 basic-block
 subExpression
-	^ self expression & ('.' asPEG omit)
+	^ self expression & ('.' asPEG omit: true)

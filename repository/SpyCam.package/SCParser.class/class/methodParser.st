@@ -7,11 +7,11 @@ methodParser
 	blockStatements 		:= PEGParser named: 'BLOCK-STATEMENTS'.
 	
 	parser := PEGParser 	named: 'METHOD'
-						parsing: (	messagePattern
+						parsing: messagePattern
 									& (self temporaries optional)
-									& (annotations optional)
-									& (methodStatements optional))
-									& self separator. " Allow comment/whitespace at the end of a method. "
+									<& (annotations optional)
+									<& (self statements optional)
+									<& self separator. " Allow comment/whitespace at the end of a method. "
 	
 	parser semantics: [ :arguments |
 		
