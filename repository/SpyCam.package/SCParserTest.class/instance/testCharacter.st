@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCharacter
 	| parser string |
 

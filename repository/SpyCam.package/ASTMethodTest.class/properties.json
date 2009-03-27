@@ -6,13 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"temporaries",
-		"annotations",
-		"statements",
-		"selector",
-		"returnType" ],
-	"name" : "ASTBlock",
+		"m1",
+		"m2" ],
+	"name" : "ASTMethodTest",
 	"pools" : [
 		 ],
-	"super" : "ASTNode",
+	"super" : "TestCase",
 	"type" : "normal" }

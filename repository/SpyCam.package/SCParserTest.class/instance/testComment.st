@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testComment
 	| parser |
 	parser := PEGParser named: 'COMMENT' parsing: SCParser comment.

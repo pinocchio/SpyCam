@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCharacterConstant
 	| parser string result |
 

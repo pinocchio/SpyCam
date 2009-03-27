@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testBinarySelector
 	| parser string |
 

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "cb 3/27/2009 09:21",
+		"testMethodCompatible" : "cb 3/27/2009 09:35",
+		"testMethodCompatibleReturnType" : "cb 3/27/2009 09:35",
+		"testMethodCompatibleSelector" : "cb 3/27/2009 09:37" } }
