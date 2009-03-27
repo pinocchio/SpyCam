@@ -1,0 +1,8 @@
+selector
+unarySelector
+	^ PEGParser
+		named: 'UNARY-SELECTOR'
+		parsing: (self identifier strongAnd: (':' asPEG not consume: false))
+		semantics: [ :selector |
+			ASTUnarySelector new selector: selector.
+		]

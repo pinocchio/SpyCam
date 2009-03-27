@@ -1,4 +1,4 @@
 initialization
 initialize: theChild
-	child := theChild.
-	consume := true.
+	super initialize.
+	child := theChild
