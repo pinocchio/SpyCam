@@ -1,4 +1,9 @@
 literal
 numberConstant
 	" XXX For now. "
-	^ self decimalDigit times
+	^ PEGParser
+		named: 'NUMBER'
+		parsing: self decimalDigit plus
+		semantics: [ :result |
+			ASTNumber new number: (result inject: '' into: [:c :e | c, e] ); base: '10'
+		]

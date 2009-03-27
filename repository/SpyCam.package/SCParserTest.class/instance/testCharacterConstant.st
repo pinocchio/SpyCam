@@ -11,5 +11,5 @@ testCharacterConstant
 	string := PEGMemoizedStringScanner on: '$_'.
 	result := (parser match: string).
 	self assert: result class = ASTCharacter.
-	self assert: (result literal = $_).
+	self assert: (result char = $_).
 	self assert: (string position = 2).

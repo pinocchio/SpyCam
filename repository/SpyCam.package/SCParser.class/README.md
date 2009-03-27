@@ -51,7 +51,11 @@ stringConstant 		= string
 symbolKeywords 	= (keyword + ':') ++
 symbolString 		= string
 symbol 				= symbolKeywords | identifier | binarySelector | string
+symbolInArray 		= symbol
 symbolConstant 		= ('#' omit) && symbol
+		
+XXXarray 			= '(' & (number | stringConstant | symbolInArray | symbolConstant | characterConstant | array)*  & ')'
+arrayConstant 		= '#' & array
 
 VARIABLE:
 
