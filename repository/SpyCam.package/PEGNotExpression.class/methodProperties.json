@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize:" : "tv 3/25/2009 18:46",
-		"privateMatch:" : "tv 3/26/2009 17:50" } }
+		"consume:" : "tv 3/27/2009 10:18",
+		"initialize:" : "tv 3/27/2009 10:18",
+		"privateMatch:" : "tv 3/27/2009 10:20" } }

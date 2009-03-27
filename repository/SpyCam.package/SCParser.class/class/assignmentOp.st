@@ -1,3 +1,3 @@
-as yet unclassified
+assignment
 assignmentOp
 	^ (':=' asPEG | '_') omit: true
