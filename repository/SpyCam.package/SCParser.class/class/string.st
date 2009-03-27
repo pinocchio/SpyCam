@@ -1,4 +1,4 @@
-as yet unclassified
+literal
 string
 	" XXX Have to optimize and clean..."
 	| stringBorder first |

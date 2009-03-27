@@ -1,3 +1,3 @@
-as yet unclassified
+convenience
 bar
 	^ '|' asPEG omit: true.

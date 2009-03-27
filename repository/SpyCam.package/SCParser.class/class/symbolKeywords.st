@@ -1,4 +1,4 @@
-as yet unclassified
+literal
 symbolKeywords
 	^ PEGParser
 		named: 'SYMBOL-KEYWORDS'

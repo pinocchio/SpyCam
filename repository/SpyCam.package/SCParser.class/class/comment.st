@@ -1,4 +1,4 @@
-as yet unclassified
+separator
 comment
 	| commentBorder |
 	commentBorder := '"' asPEG.

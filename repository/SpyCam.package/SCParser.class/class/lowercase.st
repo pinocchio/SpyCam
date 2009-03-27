@@ -1,3 +1,3 @@
-as yet unclassified
+convenience
 lowercase
 	^ 'a-z' asPEGRange

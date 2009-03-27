@@ -1,4 +1,4 @@
-as yet unclassified
+literal
 symbol
 	^ PEGParser
 		named: 'SYMBOL'

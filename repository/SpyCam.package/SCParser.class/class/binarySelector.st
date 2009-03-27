@@ -1,4 +1,4 @@
-as yet unclassified
+selector
 binarySelector
 	^ PEGParser
 		named: 'BINARY-SELECTOR'

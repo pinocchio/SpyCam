@@ -1,3 +1,3 @@
-as yet unclassified
+selector
 keyword
 	^ self identifier strongAnd: (':' asPEG omit: true)

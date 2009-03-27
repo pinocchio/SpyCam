@@ -1,4 +1,4 @@
-as yet unclassified
+literal
 symbolString
 	^ PEGParser
 		named: 'SYMBOL-STRING'

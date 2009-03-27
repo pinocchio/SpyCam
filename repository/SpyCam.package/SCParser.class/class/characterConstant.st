@@ -1,4 +1,4 @@
-as yet unclassified
+literal
 characterConstant
 	^ PEGParser
 		named: 'CHARACTER-CONSTANT'

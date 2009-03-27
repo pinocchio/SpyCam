@@ -1,4 +1,4 @@
-as yet unclassified
+variable
 capitalIdentifier
 	^ PEGParser
 		named: 'CAPITAL-IDENTIFIER'

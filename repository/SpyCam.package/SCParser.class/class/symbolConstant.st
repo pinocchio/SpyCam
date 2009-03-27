@@ -1,4 +1,4 @@
-as yet unclassified
+literal
 symbolConstant
 	^ PEGParser
 		named: 'SYMBOL-CONSTANT'

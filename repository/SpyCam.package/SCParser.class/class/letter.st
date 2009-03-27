@@ -1,3 +1,3 @@
-as yet unclassified
+convenience
 letter
 	^ self lowercase | self uppercase
