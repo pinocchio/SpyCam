@@ -1,0 +1,14 @@
+{
+	"category" : "SpyCam-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ASTString",
+	"pools" : [
+		 ],
+	"super" : "ASTLiteral",
+	"type" : "normal" }

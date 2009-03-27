@@ -4,6 +4,10 @@ testString
 
 	parser := SCParser string.
 	
+	string := PEGMemoizedStringScanner on: ''.
+	self assert: (parser match: string) isNil.
+	self assert: (string position = 0).
+	
 	string := PEGMemoizedStringScanner on: '''abc'''.
 	self assert: (parser match: string) = 'abc'.
 	self assert: (string position = 5).
