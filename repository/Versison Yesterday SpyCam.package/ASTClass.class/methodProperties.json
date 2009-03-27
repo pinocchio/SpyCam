@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"newFromClass:" : "cb 3/26/2009 16:00" },
+	"instance" : {
+		"combineWith:" : "cb 3/26/2009 15:28",
+		"compatibleMethodsWith:" : "cb 3/27/2009 10:03",
+		"compatibleSuperClassWith:" : "cb 3/27/2009 09:09",
+		"compatibleWith:" : "cb 3/27/2009 09:00",
+		"hasCompatibleMethod:" : "cb 3/27/2009 09:18",
+		"instanceVariables" : "cb 3/26/2009 15:27",
+		"instanceVariables:" : "cb 3/26/2009 15:27",
+		"isSameTypeAs:" : "cb 3/27/2009 08:57",
+		"methods" : "cb 3/26/2009 15:27",
+		"methods:" : "cb 3/26/2009 15:27",
+		"name" : "cb 3/26/2009 15:27",
+		"name:" : "cb 3/26/2009 15:27",
+		"superClass" : "cb 3/26/2009 15:59",
+		"superClass:" : "cb 3/26/2009 15:27" } }
