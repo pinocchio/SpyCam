@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"expression",
-		"selectors" ],
+		"receiver",
+		"cascades" ],
 	"name" : "ASTMessageCascadeExpression",
 	"pools" : [
 		 ],

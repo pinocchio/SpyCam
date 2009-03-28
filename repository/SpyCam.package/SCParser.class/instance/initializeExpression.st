@@ -31,5 +31,7 @@ initializeExpression
 	
 	" After having built the expression parser, we inject the parsers into their stubs. "
 	self injectPrimary.
+	self injectMessageExpression.
+	self injectCascadedMessageExpression.
 	
 	^ parsers at: #expression
