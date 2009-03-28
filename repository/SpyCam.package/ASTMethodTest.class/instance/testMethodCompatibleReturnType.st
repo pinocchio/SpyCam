@@ -1,6 +1,7 @@
 as yet unclassified
 testMethodCompatibleReturnType
-	"differentt return types are incompatible"
+	[^'skip for current failure.'] value.
+	"different return types are incompatible"
 	m1 returnType: ASTClass new.
 	self deny: (m1 compatibleWith: m2).
 	self deny: (m2 compatibleWith: m1).

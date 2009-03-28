@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"parameters",
 		"temporaries",
-		"annotations",
-		"statements",
-		"selector",
-		"returnType" ],
+		"statements" ],
 	"name" : "ASTBlock",
 	"pools" : [
 		 ],

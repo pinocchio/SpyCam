@@ -3,6 +3,6 @@
 		 },
 	"instance" : {
 		"setUp" : "cb 3/27/2009 09:21",
-		"testMethodCompatible" : "cb 3/27/2009 09:35",
-		"testMethodCompatibleReturnType" : "cb 3/27/2009 09:35",
-		"testMethodCompatibleSelector" : "tv 3/28/2009 16:55" } }
+		"testMethodCompatible" : "tv 3/28/2009 18:24",
+		"testMethodCompatibleReturnType" : "tv 3/28/2009 18:24",
+		"testMethodCompatibleSelector" : "tv 3/28/2009 18:25" } }

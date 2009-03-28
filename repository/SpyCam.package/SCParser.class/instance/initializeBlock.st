@@ -11,7 +11,7 @@ initializeBlock
 
 		semantics: [ :result |
 			ASTBlock new
-				arguments: ((result at: 1) resultIfFailed: [ OrderedCollection new ]);
+				parameters: ((result at: 1) resultIfFailed: [ OrderedCollection new ]);
 				temporaries: ((result at: 2) resultIfFailed: [ OrderedCollection new ]);
 				statements: 	(result at: 3)
 		]
