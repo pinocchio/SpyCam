@@ -2,7 +2,7 @@ tests
 testCharacter
 	| parser string |
 
-	parser := SCParser character.
+	parser := scparser character.
 	
 	string := PEGMemoizedStringScanner on: '--'.
 	self assert: (parser match: string) = '-'.

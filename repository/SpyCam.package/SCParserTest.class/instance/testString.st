@@ -2,7 +2,7 @@ tests
 testString
 	| parser string |
 
-	parser := SCParser string.
+	parser := scparser string.
 	
 	string := PEGMemoizedStringScanner on: ''.
 	self assert: (parser match: string) isNil.

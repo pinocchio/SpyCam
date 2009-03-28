@@ -2,7 +2,7 @@ tests
 testKeywordsArguments
 	| parser string result |
 
-	parser := SCParser keywordsArguments.
+	parser := scparser keywordsArguments.
 	
 	string := PEGMemoizedStringScanner on: 'test: ab'.
 	result := (parser match: string).

@@ -2,7 +2,7 @@ tests
 testKeyword
 	| parser string |
 
-	parser := SCParser keyword.
+	parser := scparser keyword.
 	
 	string := PEGMemoizedStringScanner on: 'abcd: '.
 	self assert: ((parser match: string) = 'abcd').

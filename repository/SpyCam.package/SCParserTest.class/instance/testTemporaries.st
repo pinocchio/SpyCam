@@ -2,7 +2,7 @@ tests
 testTemporaries
 	| parser string |
 
-	parser := SCParser temporaries.
+	parser := scparser temporaries.
 	
 	string := PEGMemoizedStringScanner on: '|a b c|'.
 	self assert: ((parser match: string) asArray = #('a' 'b' 'c')).

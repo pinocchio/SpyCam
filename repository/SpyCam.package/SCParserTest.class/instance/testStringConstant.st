@@ -2,7 +2,7 @@ tests
 testStringConstant
 	| parser string result |
 
-	parser := SCParser stringConstant.
+	parser := scparser stringConstant.
 
 	string := PEGMemoizedStringScanner on: '''abc'''.
  	result := (parser match: string).

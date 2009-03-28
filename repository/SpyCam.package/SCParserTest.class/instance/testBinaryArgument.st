@@ -2,7 +2,7 @@ tests
 testBinaryArgument
 	| parser string result |
 
-	parser := SCParser binaryArgument.
+	parser := scparser binaryArgument.
 	
 	string := PEGMemoizedStringScanner on: '+= a'.
 	result := (parser match: string).

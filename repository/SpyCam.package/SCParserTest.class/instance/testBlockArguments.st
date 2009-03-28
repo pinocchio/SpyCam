@@ -2,7 +2,7 @@ tests
 testBlockArguments
 	| parser string result var |
 
-	parser := SCParser blockArguments.
+	parser := scparser blockArguments.
 	
 	string := PEGMemoizedStringScanner on: ':abcd :def'.
 	result := parser match: string.

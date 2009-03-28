@@ -1,3 +1,0 @@
-variable
-variableName
-	^ self identifier

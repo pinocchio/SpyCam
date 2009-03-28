@@ -1,9 +1,10 @@
 tests
 testPrimary
-	^ 'failing'."
 	| parser string result |
 
-	parser := SCParser primary.
+	[ ^ 'skip for failing.'] value.
+
+	parser := scparser primary.
 
 	string := PEGMemoizedStringScanner on: 'abc '.
  	result := (parser match: string).
@@ -16,4 +17,4 @@ testPrimary
 	self assert: (result class = ASTNumber).
 	self assert: (result number = '3').
 	self assert: (result base = '10').
-	self assert: (string position = 5)."
+	self assert: (string position = 5).

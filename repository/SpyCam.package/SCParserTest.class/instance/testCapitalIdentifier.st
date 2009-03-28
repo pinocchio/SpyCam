@@ -2,7 +2,7 @@ tests
 testCapitalIdentifier
 	| parser string |
 
-	parser := SCParser capitalIdentifier.
+	parser := scparser capitalIdentifier.
 	
 	string := PEGMemoizedStringScanner on: 'Abcd '.
 	self assert: (parser match: string) = 'Abcd'.

@@ -2,7 +2,7 @@ tests
 testBinarySelector
 	| parser string |
 
-	parser := SCParser binarySelector.
+	parser := scparser binarySelector.
 	
 	string := PEGMemoizedStringScanner on: '+= a'.
 	self assert: (parser match: string) = '+='.

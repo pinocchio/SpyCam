@@ -1,0 +1,3 @@
+variable
+initializeVariableName
+	^ self identifier

@@ -2,7 +2,7 @@ tests
 testArray
 	| parser string result |
 
-	parser := SCParser array.
+	parser := scparser array.
 	
 	string := PEGMemoizedStringScanner on: '()'.
 	result := (parser match: string).

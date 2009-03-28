@@ -2,7 +2,7 @@ tests
 testUnarySelector
 	| parser string result |
 
-	parser := SCParser unarySelector.
+	parser := scparser unarySelector.
 	
 	string := PEGMemoizedStringScanner on: 'abcd bla'.
 	result := (parser match: string).

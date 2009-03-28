@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "tv 3/27/2009 15:51",
 	"instvars" : [
-		 ],
+		"parsers" ],
 	"name" : "SCParser",
 	"pools" : [
 		 ],

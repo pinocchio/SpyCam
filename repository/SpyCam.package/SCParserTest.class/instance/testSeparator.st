@@ -2,7 +2,7 @@ tests
 testSeparator
 	| parser string |
 
-	parser := SCParser separator.
+	parser := scparser separator.
 	
 	string := PEGMemoizedStringScanner on: '"Test"'.
 	self assert: (parser match: string) isNil not.

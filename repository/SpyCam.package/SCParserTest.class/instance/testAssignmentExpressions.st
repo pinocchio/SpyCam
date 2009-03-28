@@ -2,7 +2,7 @@ tests
 testAssignmentExpressions
 	| parser string |
 
-	parser := SCParser assignmentExpressions.
+	parser := scparser assignmentExpressions.
 	
 	string := PEGMemoizedStringScanner on: 'a :=  b:= c := d'.
 	self assert: (parser match: string) asArray = #('a' 'b' 'c').

@@ -1,0 +1,3 @@
+variable
+initializeArgumentName
+	^ self identifier

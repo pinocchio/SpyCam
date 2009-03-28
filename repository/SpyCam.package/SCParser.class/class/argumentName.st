@@ -1,3 +1,0 @@
-variable
-argumentName
-	^ self identifier

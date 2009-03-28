@@ -2,7 +2,7 @@ tests
 testCharacterConstant
 	| parser string result |
 
-	parser := SCParser characterConstant.
+	parser := scparser characterConstant.
 	
 	string := PEGMemoizedStringScanner on: 'a'.
 	self assert: (parser match: string) isNil.
