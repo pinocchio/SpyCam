@@ -1,4 +1,5 @@
 expression
 initializeCascadedMessageExpression
-	^ PEGParser
-		named: 'CASCADED-MESSAGE-EXPRESSION'
+	self expression.
+	" expression will build this parser. "
+	^ self cascadedMessageExpression.

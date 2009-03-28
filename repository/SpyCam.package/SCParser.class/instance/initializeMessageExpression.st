@@ -1,4 +1,5 @@
 expression
 initializeMessageExpression
-	^ PEGParser
-		named: 'MESSAGE-EXPRESSION'
+	self expression.
+	" expression will build this parser. "
+	^ self messageExpression.

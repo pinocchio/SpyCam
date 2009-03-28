@@ -1,8 +1,10 @@
 expression
 initializeExpression
 	| variables expression |
-	" Prestoring a primary parser to handle circular references. "
+	" Prestoring required parsers to handle circular references. "
 	self preStorePrimary.
+	self preStoreMessageExpression.
+	self preStoreCascadedMessageExpression.
 	
 	parsers at: #expression put: (
 		
@@ -27,7 +29,7 @@ initializeExpression
 	
 	).
 	
-	" After having built the expression parser, we inject the primary parser into the stub. "
+	" After having built the expression parser, we inject the parsers into their stubs. "
 	self injectPrimary.
 	
 	^ parsers at: #expression

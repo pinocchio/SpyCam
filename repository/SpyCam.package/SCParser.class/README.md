@@ -8,14 +8,25 @@ BASIC-BLOCK:
 
 temporaries 		= bar & variableName+ & bar
 		
-XXXsubExpression 		= expression & ('.' omit)
-XXXfinalExpression 		= expression & ('.'? omit)
-XXXreturn 				= ('^' omit) & finalExpression
-XXXstatements 			= subExpression * & (return | finalExpression)?
+XXXsubExpression 	= expression & ('.' omit)
+XXXfinalExpression 	= expression & ('.'? omit)
+XXXreturn 			= ('^' omit) & finalExpression
+XXXstatements 		= subExpression * & (return | finalExpression)?
 
 XXXbraceExpression 	= ('{' omit) & subExpression* & expression & ('}' omit)
 XXXscopedExpression 	= ('(' omit) & expression & (')' omit)
+
+EXPRESSION:
+
+primary 			= primaryVariable | literal | block | braceExpression | scopedExpression
+
 XXXexpression 		= assignmentExpressions & (cascadedMessageExpression | messageExpression | primary)
+
+XXXcascadedMessageExpression = messageExpression & ((';' omit) & (keywordMessageExpression | binaryMessageExpression | unaryMessageExpression))+
+XXXmessageExpression 	= keywordExpression | binaryExpression | unaryExpression
+	
+unaryExpression 	= primary & unarySelector+
+
 
 ASSIGNMENT:
 
@@ -25,7 +36,7 @@ assignmentExpressions = (variableName & assignmentOp) times
 BLOCK:
 
 blockArguments 	= (':' & identifier) +
-XXXblock 				= '[' & (blockArguments & bar) optional & temporaries optional & statements & ']'
+XXXblock 			= '[' & (blockArguments & bar) optional & temporaries optional & statements & ']'
 
 SELECTOR:
 
