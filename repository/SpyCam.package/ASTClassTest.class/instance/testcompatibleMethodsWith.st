@@ -1,5 +1,5 @@
 as yet unclassified
-testcompatibleMethodsWith
+testCompatibleMethodsWith
 	"empty methods are compatible"
 	| m1 m2 |
 	self assert: (classA compatibleMethodsWith: classB).
@@ -7,7 +7,7 @@ testcompatibleMethodsWith
 	
 	"different numbers of methods are incompatible"
 	m1 := classA methods add: ASTMethod new.
-	self deny: (classA compatibleMethodsWith: classB).
+	self assert: (classA compatibleMethodsWith: classB).
 	self deny: (classB compatibleMethodsWith: classA).
 	
 	"empty methods should be compatible"

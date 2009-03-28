@@ -4,5 +4,5 @@
 	"instance" : {
 		"setUp" : "cb 3/27/2009 09:26",
 		"testASTClassEquals" : "cb 3/27/2009 09:04",
-		"testCompatibleSuperClass" : "cb 3/27/2009 09:06",
-		"testcompatibleMethodsWith" : "cb 3/27/2009 09:20" } }
+		"testCompatibleMethodsWith" : "cb 3/27/2009 10:02",
+		"testCompatibleSuperClass" : "cb 3/27/2009 09:06" } }
