@@ -1,6 +1,6 @@
 method
 initializeMethod
-	^ PEGParser
+	^ (PEGParser
 		named: 'METHOD'
 		parsing: self messagePattern
 					& self temporaries optional
@@ -14,4 +14,5 @@ initializeMethod
 				annotations:	(parts at: 3);
 				statements:	(parts at: 4);
 				yourself
-		]
+
+		]) separator: (self separator)
