@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "tv 3/28/2009 13:31",
+		"testAnnotation" : "tv 3/28/2009 18:54",
 		"testArray" : "tv 3/28/2009 13:31",
 		"testAssignmentExpressions" : "tv 3/28/2009 18:14",
 		"testBinaryArgument" : "tv 3/28/2009 18:00",
@@ -24,6 +25,7 @@
 		"testKeywordMessageExpression" : "tv 3/28/2009 17:26",
 		"testKeywordsArguments" : "tv 3/28/2009 17:16",
 		"testMessageExpression" : "tv 3/28/2009 17:48",
+		"testMethod" : "tv 3/28/2009 19:00",
 		"testPrimary" : "tv 3/28/2009 14:33",
 		"testSeparator" : "tv 3/28/2009 13:32",
 		"testString" : "tv 3/28/2009 13:33",
