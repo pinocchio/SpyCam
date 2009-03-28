@@ -1,4 +1,4 @@
-as yet unclassified
+method
 initializeMethod
 	^ PEGParser
 		named: 'METHOD'

@@ -1,5 +1,12 @@
 SCParser is a PEG which parses Smalltalk code.
 
+"""
+TODO:
+ - add tests for rules flagged with XXX
+ - complete grammar of expressions
+ - replace argument with parameter
+"""
+
 Grammar:
 
 methodParser					= messagePattern & temporaries? & annotations? & methodStatments?
@@ -20,13 +27,13 @@ EXPRESSION:
 
 primary 						= primaryVariable | literal | block | braceExpression | scopedExpression
 
-XXXexpression 					= assignmentExpressions & (cascadedMessageExpression | messageExpression | primary)
+expression 						= assignmentExpressions & (cascadedMessageExpression | messageExpression | primary)
 
-XXXcascadedMessageExpression 	= messageExpression & ((';' omit) & (keywordMessageExpression | binaryMessageExpression | unaryMessageExpression))+
-XXXmessageExpression 			= keywordExpression | binaryExpression | unaryExpression
+cascadedMessageExpression 		= messageExpression & ((';' omit) & (keywordMessageExpression | binaryMessageExpression | unaryMessageExpression))+
+messageExpression 				= keywordExpression | binaryExpression | unaryExpression
 	
 unaryExpression 				= primary & unarySelector+
-XXXbinaryExpression 			= unaryObjectDescription & binarySelector & binaryObjectDescription
+binaryExpression 				= unaryObjectDescription & binarySelector & binaryObjectDescription
 
 unaryMessageExpression 		= unarySelector
 binaryMessageExpression 		= binarySelector & unaryObjectDescription
