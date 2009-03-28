@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"leftArgument",
 		"selector",
-		"rightArgument" ],
+		"receiver",
+		"argument" ],
 	"name" : "ASTBinaryExpression",
 	"pools" : [
 		 ],
