@@ -1,3 +1,4 @@
 tests
 setUp
-	scparser := SCParser new
+	scparser := SCParser basicNew.
+	scparser parsers: Dictionary new.
