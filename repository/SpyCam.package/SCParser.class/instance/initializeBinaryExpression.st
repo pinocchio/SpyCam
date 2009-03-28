@@ -9,10 +9,10 @@ initializeBinaryExpression
 		named: 'BINARY-EXPRESSION'
 		parsing: (self unaryObjectDescription & self binarySelector <& self binaryObjectDescription)
 		semantics: [:parts |
-			ASTBinaryExpression new
-				receiver: (parts at: 1);
-				selector: (parts at: 2);
-				argument: (parts at: 3)
+			(parts at: 3)
+				argumentOfBinary: (ASTBinaryExpression new
+										receiver: (parts at: 1);
+										selector: (parts at: 2))
 		]
 	
 	).
