@@ -4,7 +4,7 @@
 	"instance" : {
 		"setUp" : "tv 3/28/2009 13:31",
 		"testArray" : "tv 3/28/2009 13:31",
-		"testAssignmentExpressions" : "tv 3/28/2009 13:31",
+		"testAssignmentExpressions" : "tv 3/28/2009 18:14",
 		"testBinaryArgument" : "tv 3/28/2009 18:00",
 		"testBinaryExpression" : "tv 3/28/2009 16:24",
 		"testBinaryMessageDefinition" : "tv 3/28/2009 17:14",
@@ -16,6 +16,7 @@
 		"testCharacter" : "tv 3/28/2009 13:32",
 		"testCharacterConstant" : "tv 3/28/2009 13:32",
 		"testComment" : "tv 3/28/2009 13:32",
+		"testExpression" : "tv 3/28/2009 18:12",
 		"testIdentifier" : "tv 3/28/2009 13:32",
 		"testKeyword" : "tv 3/28/2009 13:32",
 		"testKeywordExpression" : "tv 3/28/2009 17:31",
@@ -28,7 +29,7 @@
 		"testStringConstant" : "tv 3/28/2009 13:33",
 		"testSymbolConstant" : "tv 3/28/2009 13:33",
 		"testSymbolKeywords" : "tv 3/28/2009 13:33",
-		"testTemporaries" : "tv 3/28/2009 13:33",
+		"testTemporaries" : "tv 3/28/2009 18:13",
 		"testUnaryExpression" : "tv 3/28/2009 15:13",
 		"testUnaryObjectDescription" : "tv 3/28/2009 15:53",
 		"testUnarySelector" : "tv 3/28/2009 13:33" } }
