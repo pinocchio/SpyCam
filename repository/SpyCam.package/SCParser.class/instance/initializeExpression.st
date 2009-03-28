@@ -1,7 +1,12 @@
-basic-block
+expression
 initializeExpression
 	| variables expression |
-	^ PEGParser
+	" Prestoring a primary parser to handle circular references. "
+	self preStorePrimary.
+	
+	parsers at: #expression put: (
+		
+	PEGParser
 		named: 'EXPRESSION'
 		
 		parsing: self assignmentExpressions
@@ -19,3 +24,10 @@ initializeExpression
 			].
 			expression
 		]
+	
+	).
+	
+	" After having built the expression parser, we inject the primary parser into the stub. "
+	self injectPrimary.
+	
+	^ parsers at: #expression
