@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selector",
 		"receiver" ],
 	"name" : "ASTUnaryExpression",
 	"pools" : [
 		 ],
-	"super" : "ASTExpression",
+	"super" : "ASTUnarySelector",
 	"type" : "normal" }

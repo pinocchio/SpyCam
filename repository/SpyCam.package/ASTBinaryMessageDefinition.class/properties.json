@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"keywords",
-		"arguments" ],
-	"name" : "ASTArgumentSelector",
+		"parameter" ],
+	"name" : "ASTBinaryMessageDefinition",
 	"pools" : [
 		 ],
-	"super" : "ASTSelector",
+	"super" : "ASTBinarySelector",
 	"type" : "normal" }

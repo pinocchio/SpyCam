@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selector" ],
+		"arguments" ],
 	"name" : "ASTMessageExpression",
 	"pools" : [
 		 ],
-	"super" : "ASTMessageCascadeExpression",
+	"super" : "ASTKeywordSelector",
 	"type" : "normal" }

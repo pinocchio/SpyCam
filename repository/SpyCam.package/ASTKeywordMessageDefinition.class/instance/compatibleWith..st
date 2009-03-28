@@ -1,4 +1,4 @@
-typing
+comparing
 compatibleWith: aSelector 
 	(super compatibleWith: aSelector)
 		ifFalse: [^ false].

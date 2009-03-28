@@ -1,15 +1,14 @@
 selector
 initializeKeywordsArguments
 	| result |
-	^ PEGParser
+	^ PEGParser 
 		named: 'KEYWORDS-ARGUMENTS'
-		parsing: (self keyword & self argumentName) plus
-		
-		semantics: [:pairs |
-			result := ASTArgumentSelector new.
-			pairs do: [ :pair |
+		parsing: (self keyword & self parameterName) plus
+		semantics: 
+			[ :pairs | 
+			result := ASTKeywordMessageDefinition new.
+			pairs do: 
+				[ :pair | 
 				result keywords add: (pair at: 1).
-				result arguments add: (pair at: 2)
-			].
-			result
-		]
+				result parameters add: (pair at: 2) ].
+			result ]

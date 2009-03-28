@@ -27,12 +27,11 @@ XXXmessageExpression 			= keywordExpression | binaryExpression | unaryExpression
 	
 unaryExpression 				= primary & unarySelector+
 XXXbinaryExpression 			= unaryObjectDescription & binarySelector & binaryObjectDescription
-binaryMessageExpression 		= 
 
 unaryMessageExpression 		= unarySelector
 binaryMessageExpression 		= binarySelector & unaryObjectDescription
 
-XXXbinaryObjectDescription 		= binaryExpression | unaryObjectDescription
+binaryObjectDescription 			= binaryExpression | unaryObjectDescription
 unaryObjectDescription 			= unaryExpression | primary
 
 ASSIGNMENT:

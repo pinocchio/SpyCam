@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "tv 3/28/2009 15:47",
+	"commentStamp" : "tv 3/28/2009 17:03",
 	"instvars" : [
 		"parsers" ],
 	"name" : "SCParser",

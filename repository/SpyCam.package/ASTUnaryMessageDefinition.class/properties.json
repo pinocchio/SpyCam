@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selector" ],
-	"name" : "ASTBinarySelector",
+		 ],
+	"name" : "ASTUnaryMessageDefinition",
 	"pools" : [
 		 ],
-	"super" : "ASTSelector",
+	"super" : "ASTUnarySelector",
 	"type" : "normal" }

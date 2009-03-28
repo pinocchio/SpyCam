@@ -2,8 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "cb 3/26/2009 12:09",
 		"receiver" : "tv 3/27/2009 23:48",
-		"receiver:" : "tv 3/27/2009 23:48",
-		"selector" : "cb 3/26/2009 12:09",
-		"selector:" : "cb 3/26/2009 12:09" } }
+		"receiver:" : "tv 3/27/2009 23:48" } }

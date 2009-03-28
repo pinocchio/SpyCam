@@ -1,3 +1,3 @@
 variable
-initializeArgumentName
+initializeParameterName
 	^ self identifier

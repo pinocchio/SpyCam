@@ -1,12 +1,11 @@
 as yet unclassified
 testMethodCompatibleSelector
 	"different selectors are incompatible"
-	m1 selector: ASTArgumentSelector new.
+	m1 selector: ASTKeywordSelector new.
 	self deny: (m1 compatibleWith: m2).
 	self deny: (m2 compatibleWith: m1).
-	
+
 	"are"
-	m2 selector: ASTArgumentSelector new.
+	m2 selector: ASTKeywordSelector new.
 	self deny: (m1 compatibleWith: m2).
-	self deny: (m2 compatibleWith: m1).
-		
+	self deny: (m2 compatibleWith: m1)
