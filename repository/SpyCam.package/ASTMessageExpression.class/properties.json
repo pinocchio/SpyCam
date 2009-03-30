@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"receiver",
 		"arguments" ],
 	"name" : "ASTMessageExpression",
 	"pools" : [

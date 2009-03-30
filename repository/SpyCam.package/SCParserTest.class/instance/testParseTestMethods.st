@@ -5,8 +5,6 @@ testParseTestMethods
 	parser := scparser method.
 	
 	(self class methodDict keys collect: [ :key |
-		
-		"self halt."
 
 	code := self class sourceCodeAt: key.
 	string := PEGMemoizedStringScanner on: code separator: scparser separator.
@@ -15,4 +13,4 @@ testParseTestMethods
 	self assert: (string atEnd).
 	result
 	
-	]) "inspect"
+	]) inspect
