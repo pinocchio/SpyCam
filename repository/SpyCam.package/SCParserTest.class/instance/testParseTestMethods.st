@@ -13,4 +13,4 @@ testParseTestMethods
 	self assert: (string atEnd).
 	result
 	
-	]) inspect
+	]) "inspect"
