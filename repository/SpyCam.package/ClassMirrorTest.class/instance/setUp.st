@@ -1,10 +1,9 @@
 running
 setUp
 	super setUp.
-	classA := ASTClass new.
+	classA := ClassMirror new.
 	classA methods: OrderedCollection new.
 	classA instanceVariables: OrderedCollection new.
-	
-	classB := ASTClass new.
+	classB := ClassMirror new.
 	classB methods: OrderedCollection new.
-	classB instanceVariables: OrderedCollection new.
+	classB instanceVariables: OrderedCollection new

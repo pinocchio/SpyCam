@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"name",
-		"omit" ],
+		"omit",
+		"id" ],
 	"name" : "PEGExpression",
 	"pools" : [
 		 ],

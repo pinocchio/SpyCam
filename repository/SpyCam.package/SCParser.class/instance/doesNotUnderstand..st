@@ -5,5 +5,5 @@ doesNotUnderstand: message
         selector := ('initialize', message selector capitalized) asSymbol.
         (self respondsTo: selector)
             ifFalse: [ super doesNotUnderstand: message ].
-        self perform: selector
+        (self perform: selector) id: (id := id + 1)
     ]

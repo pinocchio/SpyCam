@@ -1,18 +1,22 @@
 {
 	"class" : {
-		"newFromClass:" : "cb 3/26/2009 16:00" },
+		"mirror:context:" : "tv 4/2/2009 13:20" },
 	"instance" : {
+		"classMethods" : "tv 4/2/2009 12:57",
+		"classMethods:" : "tv 4/2/2009 12:57",
 		"combineWith:" : "cb 3/26/2009 15:28",
 		"compatibleMethodsWith:" : "cb 3/27/2009 10:03",
 		"compatibleSuperClassWith:" : "cb 3/27/2009 09:09",
 		"compatibleWith:" : "cb 3/27/2009 09:00",
+		"context" : "tv 4/2/2009 13:19",
+		"context:" : "tv 4/2/2009 13:19",
 		"hasCompatibleMethod:" : "cb 3/27/2009 09:18",
 		"instanceVariables" : "cb 3/26/2009 15:27",
 		"instanceVariables:" : "cb 3/26/2009 15:27",
+		"internalClass:" : "tv 4/2/2009 13:17",
 		"isSameTypeAs:" : "cb 3/27/2009 08:57",
 		"methods" : "cb 3/26/2009 15:27",
 		"methods:" : "cb 3/26/2009 15:27",
 		"name" : "cb 3/26/2009 15:27",
 		"name:" : "cb 3/26/2009 15:27",
-		"superClass" : "cb 3/26/2009 15:59",
-		"superClass:" : "cb 3/26/2009 15:27" } }
+		"superClass" : "tv 4/2/2009 13:20" } }
