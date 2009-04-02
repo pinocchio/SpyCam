@@ -1,3 +1,3 @@
 initialization
 initialize
-	omit := false.
+	omit := false

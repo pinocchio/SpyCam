@@ -1,8 +1,10 @@
 matching
 match: input
-	| result |
-	self debug: input.
-	result := id ifNil: [ self performMatch: input ]
-				ifNotNil: [ input memoizeMatch: self ].
-	self debugEnd: input.
-	^ result
+	| position match |
+	"self debug: input."
+	position := input position.
+	match := self privateMatch: input.
+	match
+		ifNil: [input position: position].
+	"self debugEnd: input."
+	^ match
