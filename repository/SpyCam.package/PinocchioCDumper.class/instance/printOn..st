@@ -1,3 +1,3 @@
 visitor
 printOn: aStream
-	aStream nextPut: stream contents.
+	aStream nextPutAll: stream contents.
