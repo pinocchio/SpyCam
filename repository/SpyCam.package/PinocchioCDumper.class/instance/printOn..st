@@ -1,3 +1,3 @@
 visitor
 printOn: aStream
-	aStream nextPut: self output.
+	aStream nextPut: stream.
