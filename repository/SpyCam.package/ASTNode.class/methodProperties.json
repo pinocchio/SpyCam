@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"doesNotUnderstand:" : "CamilloBruni 10/19/2009 14:36" },
 	"instance" : {
 		"argumentOfBinary:" : "tv 3/28/2009 16:22",
 		"sourceObject" : "cb 3/26/2009 15:42",

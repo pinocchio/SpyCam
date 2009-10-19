@@ -1,5 +1,8 @@
 {
 	"class" : {
-		 },
+		"initialize" : "CamilloBruni 10/19/2009 14:33",
+		"visit:" : "CamilloBruni 10/19/2009 14:34",
+		"visitString:" : "CamilloBruni 10/19/2009 14:34" },
 	"instance" : {
-		 } }
+		"printOn:" : "CamilloBruni 10/19/2009 14:22",
+		"visitString:" : "CamilloBruni 10/19/2009 14:14" } }
