@@ -1,0 +1,3 @@
+hasing
+hash
+	^ id

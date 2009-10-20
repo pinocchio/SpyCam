@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"initialize" : "CamilloBruni 10/20/2009 14:12",
+		"uidFor:" : "CamilloBruni 10/20/2009 14:45" },
+	"instance" : {
+		"argumentOfBinary:" : "tv 3/28/2009 16:22",
+		"astName" : "CamilloBruni 10/20/2009 14:44",
+		"astType" : "CamilloBruni 10/20/2009 14:18",
+		"doesNotUnderstand:" : "CamilloBruni 10/19/2009 17:08",
+		"sourceObject" : "cb 3/26/2009 15:42",
+		"sourceObject:" : "cb 3/26/2009 15:42",
+		"uid" : "TestRunner 10/20/2009 15:46" } }

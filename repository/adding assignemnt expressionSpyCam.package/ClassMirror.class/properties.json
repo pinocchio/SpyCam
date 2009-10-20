@@ -1,0 +1,20 @@
+{
+	"category" : "SpyCam-Typer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"methods",
+		"classMethods",
+		"instanceVariables",
+		"superClass",
+		"internalClass",
+		"context" ],
+	"name" : "ClassMirror",
+	"pools" : [
+		 ],
+	"super" : "ASTNode",
+	"type" : "normal" }

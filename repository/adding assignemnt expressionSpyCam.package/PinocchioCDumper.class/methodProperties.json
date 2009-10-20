@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"initialize" : "CamilloBruni 10/19/2009 14:33",
+		"visit:" : "CamilloBruni 10/19/2009 14:34",
+		"visitString:" : "CamilloBruni 10/19/2009 14:34" },
+	"instance" : {
+		"clear" : "TestRunner 10/20/2009 17:04",
+		"initialize" : "TestRunner 10/20/2009 17:04",
+		"printOn:" : "CamilloBruni 10/19/2009 17:27",
+		"putNewInstance:with:" : "TestRunner 10/20/2009 16:27",
+		"variable:" : "CamilloBruni 10/20/2009 14:35",
+		"visit:" : "CamilloBruni 10/19/2009 14:42",
+		"visitArray:" : "TestRunner 10/20/2009 15:13",
+		"visitAssignmentExpression:" : "TestRunner 10/20/2009 17:05",
+		"visitCharacter:" : "DavidGurtner 10/20/2009 15:23",
+		"visitNumber:" : "DavidGurtner 10/20/2009 17:14",
+		"visitString:" : "CamilloBruni 10/20/2009 14:22",
+		"visitSymbol:" : "DavidGurtner 10/20/2009 15:48",
+		"visitVariable:" : "TestRunner 10/20/2009 16:57" } }

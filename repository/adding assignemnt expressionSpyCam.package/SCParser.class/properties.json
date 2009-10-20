@@ -1,0 +1,15 @@
+{
+	"category" : "SpyCam-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tv 3/28/2009 19:05",
+	"instvars" : [
+		"parsers",
+		"id" ],
+	"name" : "SCParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
