@@ -1,3 +1,3 @@
 initialization
 initialize 
-	uid := ASTNode uidFor: self.
+	uid := self class uidFor: self.
