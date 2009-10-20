@@ -3,5 +3,6 @@
 		 },
 	"instance" : {
 		"setUp" : "CamilloBruni 10/19/2009 14:13",
-		"testDumpString" : "CamilloBruni 10/19/2009 17:32",
-		"testVariableName" : "CamilloBruni 10/19/2009 17:05" } }
+		"testDumpArray0" : "CamilloBruni 10/20/2009 14:33",
+		"testDumpArray1" : "CamilloBruni 10/20/2009 14:32",
+		"testDumpString" : "TestRunner 10/20/2009 14:37" } }

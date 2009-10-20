@@ -6,6 +6,8 @@
 	"instance" : {
 		"initialize" : "CamilloBruni 10/19/2009 14:53",
 		"printOn:" : "CamilloBruni 10/19/2009 17:27",
-		"variableName:" : "CamilloBruni 10/19/2009 17:05",
+		"putNewInstance:with:" : "CamilloBruni 10/20/2009 14:21",
+		"variable:" : "CamilloBruni 10/20/2009 14:35",
 		"visit:" : "CamilloBruni 10/19/2009 14:42",
-		"visitString:" : "CamilloBruni 10/19/2009 17:27" } }
+		"visitArray:" : "CamilloBruni 10/20/2009 14:10",
+		"visitString:" : "CamilloBruni 10/20/2009 14:22" } }

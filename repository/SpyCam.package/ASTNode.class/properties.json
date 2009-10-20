@@ -1,12 +1,14 @@
 {
 	"category" : "SpyCam-AST",
 	"classinstvars" : [
-		 ],
+		"uidCounter" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sourceObject" ],
+		"sourceObject",
+		"uid",
+		"id" ],
 	"name" : "ASTNode",
 	"pools" : [
 		 ],
