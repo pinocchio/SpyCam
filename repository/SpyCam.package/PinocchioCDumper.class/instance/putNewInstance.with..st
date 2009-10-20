@@ -1,10 +1,7 @@
 helper
 putNewInstance: anASTNode with: newInstanceString
-	stream nextPutAll: anASTNode astType;
-		nextPutAll: '_';
-		nextPutAll: anASTNode astName;
-		nextPutAll: ' ';
+	stream nextPutAll: 'Object ';
 		nextPutAll: anASTNode uid;
-		nextPutAll: ' = ';
+		nextPutAll: ' = (Object)';
 		nextPutAll: newInstanceString;
 		nextPutAll: ';'.
