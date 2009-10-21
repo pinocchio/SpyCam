@@ -5,5 +5,5 @@ initializeUnaryAnnotation
 		parsing: self unarySelector
 		semantics: [ :result |
 			ASTUnaryAnnotation new
-				selector: result selector
+				selector: (self createSymbol: result selector)
 		]

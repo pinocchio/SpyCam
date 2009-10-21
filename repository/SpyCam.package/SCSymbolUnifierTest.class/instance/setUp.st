@@ -1,4 +1,5 @@
 running
 setUp
-	parser := SCParser new expression.
+	scparser := SCParser new.
+	parser := scparser expression.
 	unifier := SCSymbolUnifier new.

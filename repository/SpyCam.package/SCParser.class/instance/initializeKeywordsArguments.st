@@ -11,4 +11,5 @@ initializeKeywordsArguments
 				[ :pair | 
 				result keywords add: (pair at: 1).
 				result parameters add: (pair at: 2) ].
+			result selector: (self createSymbol: (result keywords joinUsing: '')).
 			result ]

@@ -8,7 +8,8 @@
 	"instvars" : [
 		"dumper",
 		"parser",
-		"unifier" ],
+		"unifier",
+		"scparser" ],
 	"name" : "SCSymbolUnifierTest",
 	"pools" : [
 		 ],

@@ -9,11 +9,11 @@ testBinaryObjectDescription
  	result := (parser match: string).
 	self assert: (result class = ASTUnaryExpression).
 	self assert: (result selector class = ASTUnarySelector).
-	self assert: (result selector selector printString = 'ghi').
+	self assert: (result selector selector asString = 'ghi').
 	result := (result receiver).
 	self assert: (result class = ASTUnaryExpression).
 	self assert: (result selector class = ASTUnarySelector).
-	self assert: (result selector selector printString = 'def').
+	self assert: (result selector selector asString = 'def').
 	self assert: (result receiver class = ASTVariable).
 	self assert: (result receiver name = 'abc').
 	self assert: (string position = 12).
@@ -29,7 +29,7 @@ testBinaryObjectDescription
 	string := PEGMemoizedStringScanner on: 'abc + ghi * c '.
  	result := (parser match: string).
 	self assert: (result class = ASTBinaryExpression).
-	self assert: (result selector = '*').
+	self assert: (result selector printString = '*').
 	self assert: (result argument class = ASTVariable).
 	self assert: (result argument name = 'c').
 	result := result receiver.	
