@@ -1,12 +1,10 @@
 {
 	"class" : {
-		 },
+		"astSelectors" : "TestRunner 10/21/2009 14:02" },
 	"instance" : {
 		"argument" : "tv 3/28/2009 15:21",
 		"argument:" : "tv 3/28/2009 15:21",
 		"argumentOfBinary:" : "tv 3/28/2009 16:27",
 		"initialize" : "cb 3/26/2009 12:09",
 		"receiver" : "tv 3/28/2009 15:20",
-		"receiver:" : "tv 3/28/2009 15:20",
-		"selector" : "cb 3/26/2009 12:09",
-		"selector:" : "cb 3/26/2009 12:09" } }
+		"receiver:" : "tv 3/28/2009 15:20" } }

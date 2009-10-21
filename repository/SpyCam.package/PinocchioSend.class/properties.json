@@ -1,0 +1,16 @@
+{
+	"category" : "SpyCam-Pinocchio-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"receiver",
+		"message",
+		"arguments" ],
+	"name" : "PinocchioSend",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

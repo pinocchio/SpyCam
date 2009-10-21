@@ -1,0 +1,15 @@
+{
+	"category" : "SpyCam-Pinocchio-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"paramCount",
+		"body" ],
+	"name" : "PinocchioBlock",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

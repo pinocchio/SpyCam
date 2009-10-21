@@ -1,3 +1,0 @@
-accessing
-selectorName
-	^ self selector

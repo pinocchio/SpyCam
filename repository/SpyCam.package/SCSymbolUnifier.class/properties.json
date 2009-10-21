@@ -1,0 +1,14 @@
+{
+	"category" : "SpyCam-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"symbols" ],
+	"name" : "SCSymbolUnifier",
+	"pools" : [
+		 ],
+	"super" : "ASTReplacementVisitor",
+	"type" : "normal" }

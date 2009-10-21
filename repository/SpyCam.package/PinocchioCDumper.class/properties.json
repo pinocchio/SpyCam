@@ -7,9 +7,11 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"stream",
-		"variableIndex" ],
+		"variableIndex",
+		"symbolDict",
+		"variableDict" ],
 	"name" : "PinocchioCDumper",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ASTVisitor",
 	"type" : "normal" }

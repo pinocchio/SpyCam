@@ -1,0 +1,16 @@
+{
+	"category" : "SpyCam-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dumper",
+		"parser",
+		"unifier" ],
+	"name" : "SCSymbolUnifierTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

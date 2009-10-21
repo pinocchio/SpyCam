@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createSymbol:" : "TestRunner 10/21/2009 14:55",
+		"initialize" : "TestRunner 10/21/2009 09:00",
+		"visitBinaryExpression:" : "TestRunner 10/21/2009 14:39" } }
