@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"selector" ],
 	"name" : "ASTSelector",
 	"pools" : [
 		 ],

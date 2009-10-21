@@ -12,7 +12,7 @@ initializeBinaryExpression
 			(parts at: 3)
 				argumentOfBinary: (ASTBinaryExpression new
 										receiver: (parts at: 1);
-										selector: (parts at: 2))
+										selector: (self createSymbol: (parts at: 2)))
 		]
 	
 	).

@@ -7,9 +7,11 @@ initializeBinarySelector
 					| '|' )
 							
 		semantics: [ :result |
-		
 			result isString
-				ifTrue: [ result ]
-				ifFalse: [ result second inject: result first into: [ :c :e | c, e ] ]
-			
+				ifTrue: [ self createSymbol: result ]
+				ifFalse: [
+					self createSymbol: 
+						(result second 
+							inject: result first 
+							into: [ :c :e | c, e ]) ]
 		]

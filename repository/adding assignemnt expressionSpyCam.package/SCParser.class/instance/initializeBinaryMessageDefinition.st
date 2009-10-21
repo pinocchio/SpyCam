@@ -5,6 +5,6 @@ initializeBinaryMessageDefinition
 		parsing: (self binarySelector & self parameterName)
 		semantics: [:result |
 			ASTBinaryMessageDefinition new
-				selector: (result at: 1);
+				selector: (self createSymbol: (result at: 1));
 				parameter: (result at: 2).
 		]

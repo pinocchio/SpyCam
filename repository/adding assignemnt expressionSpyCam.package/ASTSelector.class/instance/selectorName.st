@@ -1,3 +1,3 @@
 accessing
 selectorName
-	self subclassResponsibility
+	self selector printString
