@@ -4,4 +4,6 @@
 	"instance" : {
 		"ast:" : "TestRunner 10/21/2009 14:50",
 		"setUp" : "TestRunner 10/21/2009 14:49",
-		"testBinaryExpression" : "TestRunner 10/21/2009 14:56" } }
+		"testBinaryExpression" : "TestRunner 10/21/2009 16:12",
+		"testMessageExpression" : "TestRunner 10/21/2009 16:15",
+		"testUnaryExpression" : "TestRunner 10/21/2009 16:12" } }
