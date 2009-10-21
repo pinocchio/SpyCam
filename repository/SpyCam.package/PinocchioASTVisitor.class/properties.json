@@ -10,5 +10,5 @@
 	"name" : "PinocchioASTVisitor",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ASTVisitor",
 	"type" : "normal" }

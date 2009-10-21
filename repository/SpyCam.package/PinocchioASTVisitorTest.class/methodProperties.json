@@ -2,4 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"setUp" : "DavidGurtner 10/21/2009 15:43",
+		"testVisitAssignementExpression" : "DavidGurtner 10/21/2009 23:24",
+		"testVisitBlock" : "DavidGurtner 10/22/2009 00:19",
+		"testVisitCharacter" : "DavidGurtner 10/21/2009 18:10",
+		"testVisitNumber" : "DavidGurtner 10/21/2009 18:10",
+		"testVisitString" : "DavidGurtner 10/21/2009 18:11",
+		"testVisitSymbol" : "DavidGurtner 10/21/2009 18:11" } }

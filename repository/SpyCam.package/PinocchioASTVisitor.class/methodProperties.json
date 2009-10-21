@@ -2,4 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"visit:" : "DavidGurtner 10/21/2009 12:10" } }
+		"visitAssignmentExpression:" : "DavidGurtner 10/21/2009 15:32",
+		"visitBlock:" : "DavidGurtner 10/22/2009 00:17",
+		"visitCharacter:" : "DavidGurtner 10/21/2009 17:56",
+		"visitNumber:" : "DavidGurtner 10/21/2009 17:56",
+		"visitString:" : "DavidGurtner 10/21/2009 18:04",
+		"visitSymbol:" : "DavidGurtner 10/21/2009 17:56",
+		"visitVariable:" : "DavidGurtner 10/21/2009 18:25" } }
