@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"value" ],
+		"bool" ],
 	"name" : "PinocchioBoolean",
 	"pools" : [
 		 ],
