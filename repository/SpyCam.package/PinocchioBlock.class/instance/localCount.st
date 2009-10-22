@@ -1,3 +1,0 @@
-accessing
-localCount
-	^ localCount

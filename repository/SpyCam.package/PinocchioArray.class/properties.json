@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"size",
 		"values" ],
 	"name" : "PinocchioArray",
 	"pools" : [

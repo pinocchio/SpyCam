@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"paramCount",
-		"localCount",
-		"body" ],
+		"body",
+		"params",
+		"locals" ],
 	"name" : "PinocchioBlock",
 	"pools" : [
 		 ],
