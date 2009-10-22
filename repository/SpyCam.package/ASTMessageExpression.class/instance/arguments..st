@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 arguments: anObject
 	arguments := anObject

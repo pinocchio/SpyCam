@@ -4,10 +4,10 @@
 	"instance" : {
 		"ast:" : "TestRunner 10/22/2009 16:15",
 		"setUp" : "DavidGurtner 10/22/2009 15:58",
-		"testMethod" : "TestRunner 10/22/2009 17:28",
 		"testVisitAssignementExpression" : "DavidGurtner 10/22/2009 18:28",
 		"testVisitBlock" : "DavidGurtner 10/22/2009 18:33",
 		"testVisitCharacter" : "DavidGurtner 10/21/2009 18:10",
+		"testVisitMethod" : "TestRunner 10/22/2009 18:55",
 		"testVisitNumber" : "DavidGurtner 10/21/2009 18:10",
 		"testVisitString" : "DavidGurtner 10/21/2009 18:11",
 		"testVisitSymbol" : "DavidGurtner 10/21/2009 18:11" } }

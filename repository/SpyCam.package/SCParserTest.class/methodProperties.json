@@ -26,7 +26,6 @@
 		"testKeywordMessageExpression" : "tv 3/28/2009 17:26",
 		"testKeywordsArguments" : "tv 3/28/2009 17:16",
 		"testMessageExpression" : "tv 3/28/2009 17:48",
-		"testMethod" : "tv 3/30/2009 13:36",
 		"testParseTestMethods" : "tv 3/30/2009 13:46",
 		"testPrimary" : "tv 3/28/2009 14:33",
 		"testReturn" : "tv 3/30/2009 11:22",
@@ -40,4 +39,5 @@
 		"testTemporaries" : "tv 3/28/2009 18:13",
 		"testUnaryExpression" : "tv 3/28/2009 15:13",
 		"testUnaryObjectDescription" : "tv 3/28/2009 15:53",
-		"testUnarySelector" : "tv 3/28/2009 13:33" } }
+		"testUnarySelector" : "tv 3/28/2009 13:33",
+		"testVisitMethod" : "TestRunner 10/22/2009 18:55" } }
