@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"scope" ],
-	"name" : "PinocchioASTVisitor",
+		"parentScope" ],
+	"name" : "PinocchioSubScope",
 	"pools" : [
 		 ],
-	"super" : "ASTVisitor",
+	"super" : "PinocchioRootScope",
 	"type" : "normal" }

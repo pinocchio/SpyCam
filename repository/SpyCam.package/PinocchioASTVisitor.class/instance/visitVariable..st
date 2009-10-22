@@ -1,3 +1,3 @@
 visitor
 visitVariable: anASTVariable
-	^anASTVariable asPVariable
+	^scope lookup: anASTVariable
