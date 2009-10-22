@@ -7,7 +7,8 @@
 		"testVisitAssignementExpression" : "DavidGurtner 10/22/2009 18:28",
 		"testVisitBlock" : "DavidGurtner 10/22/2009 18:33",
 		"testVisitCharacter" : "DavidGurtner 10/21/2009 18:10",
-		"testVisitMethod" : "TestRunner 10/22/2009 18:55",
+		"testVisitMethod" : "TestRunner 10/22/2009 19:14",
+		"testVisitMethodWithReturn" : "TestRunner 10/22/2009 19:14",
 		"testVisitNumber" : "DavidGurtner 10/21/2009 18:10",
 		"testVisitString" : "DavidGurtner 10/21/2009 18:11",
 		"testVisitSymbol" : "DavidGurtner 10/21/2009 18:11" } }

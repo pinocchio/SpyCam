@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"expressions:" : "tv 3/27/2009 14:19" } }
+		"expressions:" : "tv 3/27/2009 14:19",
+		"hasReturnExpression" : "TestRunner 10/22/2009 19:19" } }

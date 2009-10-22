@@ -7,7 +7,7 @@ testUnarySelector
 	string := PEGMemoizedStringScanner on: 'abcd bla'.
 	result := (parser match: string).
 	self assert: (result class = ASTUnarySelector).
-	self assert: (result selector = 'abcd').
+	self assert: (result selector printString= 'abcd').
 	self assert: (string position = 4).
 	
 	string := PEGMemoizedStringScanner on: 'abcd: bla'.
