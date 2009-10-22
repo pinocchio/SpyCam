@@ -1,0 +1,3 @@
+visitor
+popScope
+	scope := parentScope

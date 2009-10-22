@@ -3,4 +3,5 @@
 		"astSelectors" : "TestRunner 10/21/2009 13:44" },
 	"instance" : {
 		"expression" : "cb 3/26/2009 13:26",
-		"expression:" : "cb 3/26/2009 13:26" } }
+		"expression:" : "cb 3/26/2009 13:26",
+		"isReturnExpression" : "TestRunner 10/22/2009 18:00" } }

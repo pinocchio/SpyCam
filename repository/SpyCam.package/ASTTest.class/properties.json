@@ -1,15 +1,15 @@
 {
-	"category" : "SpyCam-Pinocchio",
+	"category" : "SpyCam-AST",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"scope",
-		"parentScope" ],
-	"name" : "PinocchioASTVisitor",
+		"scparser",
+		"parser" ],
+	"name" : "ASTTest",
 	"pools" : [
 		 ],
-	"super" : "ASTVisitor",
+	"super" : "TestCase",
 	"type" : "normal" }
