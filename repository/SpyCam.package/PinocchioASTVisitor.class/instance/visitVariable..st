@@ -1,3 +1,3 @@
 visitor
-visitVariable: anASTVariable 
-	^(PinocchioVariable new name: (anASTVariable name))
+visitVariable: anASTVariable
+	^anASTVariable asPVariable
