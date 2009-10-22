@@ -1,0 +1,15 @@
+{
+	"category" : "SpyCam-Pinocchio-Runtime",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"code",
+		"context" ],
+	"name" : "PinocchioClosure",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

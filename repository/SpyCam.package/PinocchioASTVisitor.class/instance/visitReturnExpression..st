@@ -1,0 +1,3 @@
+visitor
+visitReturnExpression: aReturnExpression
+	^ aReturnExpression.

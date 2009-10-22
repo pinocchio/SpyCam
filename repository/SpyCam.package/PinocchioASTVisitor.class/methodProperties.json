@@ -3,9 +3,11 @@
 		 },
 	"instance" : {
 		"visitAssignmentExpression:" : "DavidGurtner 10/21/2009 15:32",
-		"visitBlock:" : "DavidGurtner 10/22/2009 16:08",
+		"visitBlock:" : "TestRunner 10/22/2009 17:10",
 		"visitCharacter:" : "DavidGurtner 10/22/2009 16:53",
+		"visitMethod:" : "TestRunner 10/22/2009 17:13",
 		"visitNumber:" : "DavidGurtner 10/22/2009 16:49",
+		"visitReturnExpression:" : "TestRunner 10/22/2009 17:22",
 		"visitString:" : "DavidGurtner 10/22/2009 16:46",
 		"visitSymbol:" : "DavidGurtner 10/22/2009 16:44",
 		"visitVariable:" : "DavidGurtner 10/22/2009 16:41" } }
