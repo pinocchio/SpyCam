@@ -1,20 +1,13 @@
 visitor
 visitBlock: aBlock 
-	| parameters locals values |
+	| result |
 	self pushScope.
-	aBlock parameters isNil 
-		ifTrue: 
-			[ parameters := #() ]
-		ifFalse: 
-			[ scope declareAll: aBlock parameters.
-			parameters := self acceptOnCollection: aBlock parameters ].
-	aBlock temporaries isNil 
-		ifTrue: [ locals := #() ]
-		ifFalse: 
-			[ scope declareAll: aBlock temporaries.
-			locals := self acceptOnCollection: aBlock temporaries ].
+	scope := PinocchioSubScope new: parentScope.
+	scope declareAll: aBlock parameters. 
+	scope declareAll: aBlock temporaries.
+	result := PinocchioBlock new
+		params: (self acceptOnCollection: aBlock parameters) asPArray;
+		locals: (self acceptOnCollection: aBlock temporaries) asPArray;
+		body: (self acceptOnCollection: aBlock statements) asPArray.
 	self popScope.
-	^ PinocchioBlock new
-		params: parameters asPArray;
-		locals: locals asPArray;
-		body: (self acceptOnCollection: aBlock statements) asPArray
+	^result

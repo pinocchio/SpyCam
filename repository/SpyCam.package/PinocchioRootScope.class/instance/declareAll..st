@@ -1,3 +1,3 @@
-as yet unclassified
+declarations
 declareAll: aCollection
-	aCollection do: [ :element | self declare: element ]
+	(aCollection isNil) ifFalse: [aCollection do: [ :element | self declare: element ]]

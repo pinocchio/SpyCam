@@ -1,4 +1,4 @@
-as yet unclassified
+declarations
 declare: anASTVariable
 	decls
 		at: anASTVariable name 

@@ -1,3 +1,3 @@
-visitor
+convenience
 popScope
 	scope := parentScope
