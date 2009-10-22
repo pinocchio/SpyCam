@@ -2,7 +2,6 @@ visitor
 visitBlock: aBlock 
 	| result |
 	self pushScope.
-	scope := PinocchioSubScope new: parentScope.
 	scope declareAll: aBlock parameters. 
 	scope declareAll: aBlock temporaries.
 	result := PinocchioBlock new

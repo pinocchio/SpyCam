@@ -8,7 +8,9 @@
 		"testVisitBlock" : "DavidGurtner 10/22/2009 18:33",
 		"testVisitCharacter" : "DavidGurtner 10/21/2009 18:10",
 		"testVisitMethod" : "TestRunner 10/22/2009 19:14",
-		"testVisitMethodWithReturn" : "TestRunner 10/22/2009 19:14",
+		"testVisitMethod1Arg" : "TestRunner 10/22/2009 19:27",
+		"testVisitMethod1Locals" : "TestRunner 10/22/2009 19:29",
+		"testVisitMethodWithReturn" : "TestRunner 10/22/2009 19:27",
 		"testVisitNumber" : "DavidGurtner 10/21/2009 18:10",
 		"testVisitString" : "DavidGurtner 10/21/2009 18:11",
 		"testVisitSymbol" : "DavidGurtner 10/21/2009 18:11" } }

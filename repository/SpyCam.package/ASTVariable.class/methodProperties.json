@@ -2,9 +2,11 @@
 	"class" : {
 		"astSelectors" : "TestRunner 10/21/2009 14:06" },
 	"instance" : {
+		"=" : "TestRunner 10/22/2009 20:01",
 		"asPVariable" : "DavidGurtner 10/22/2009 16:42",
 		"combineTypeWith:" : "cb 3/26/2009 15:26",
 		"hasSameTypeAs:" : "cb 3/26/2009 15:29",
+		"hash" : "TestRunner 10/22/2009 20:02",
 		"name" : "cb 3/26/2009 15:24",
 		"name:" : "cb 3/26/2009 15:20",
 		"type" : "cb 3/26/2009 15:24",

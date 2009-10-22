@@ -3,7 +3,7 @@
 		"astSelectors" : "TestRunner 10/21/2009 13:45" },
 	"instance" : {
 		"compatibleWith:" : "cb 3/28/2009 00:18",
-		"params" : "TestRunner 10/22/2009 17:27",
+		"parameters" : "TestRunner 10/22/2009 19:33",
 		"selector" : "TestRunner 10/21/2009 08:22",
 		"selector:" : "TestRunner 10/21/2009 08:42",
 		"selectorName" : "TestRunner 10/21/2009 08:22" } }
