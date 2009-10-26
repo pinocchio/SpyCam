@@ -1,6 +1,6 @@
 running
 testVisitMethodWithReturn
-	| ast block |
+	| ast block returnSend |
 	parser := scparser method.
 	ast := self ast: 'doIt' , String cr , '|a b c|', String cr , ' ^ #(a b c).'.
 	
@@ -17,4 +17,7 @@ testVisitMethodWithReturn
 	self assert: block class = PinocchioBlock.
 	self assert: block body size = 1.
 	self assert: block locals size = 3.
-	self assert: block params size = 1
+	self assert: block params size = 1.
+	self assert: (block body values at: 1) class = PinocchioSend.
+	returnSend := block body values at: 1.
+	self assert: returnSend message printString = 'escape:'.

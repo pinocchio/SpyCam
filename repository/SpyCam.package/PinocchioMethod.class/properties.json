@@ -1,0 +1,16 @@
+{
+	"category" : "SpyCam-Pinocchio-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hasReturn",
+		"callec",
+		"return" ],
+	"name" : "PinocchioMethod",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
