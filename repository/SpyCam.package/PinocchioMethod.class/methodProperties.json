@@ -2,9 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"callec" : "TestRunner 10/26/2009 11:28",
-		"callec:" : "TestRunner 10/26/2009 11:28",
-		"hasReturn" : "TestRunner 10/26/2009 11:28",
-		"hasReturn:" : "TestRunner 10/26/2009 11:28",
-		"return" : "TestRunner 10/26/2009 11:29",
-		"return:" : "TestRunner 10/26/2009 11:29" } }
+		"body" : "TestRunner 10/27/2009 14:45",
+		"body:" : "TestRunner 10/27/2009 14:45",
+		"hasReturn" : "TestRunner 10/27/2009 14:47",
+		"hasReturn:" : "TestRunner 10/27/2009 14:47",
+		"locals" : "TestRunner 10/27/2009 14:46",
+		"locals:" : "TestRunner 10/27/2009 14:46",
+		"package" : "TestRunner 10/27/2009 14:46",
+		"package:" : "TestRunner 10/27/2009 14:46",
+		"params" : "TestRunner 10/27/2009 14:46",
+		"params:" : "TestRunner 10/27/2009 14:46" } }

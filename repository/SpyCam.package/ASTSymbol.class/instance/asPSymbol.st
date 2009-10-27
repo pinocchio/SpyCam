@@ -1,3 +1,3 @@
 converting
 asPSymbol
-	^PinocchioSymbol new symbol: self symbol
+	^PinocchioSymbol named: self symbol

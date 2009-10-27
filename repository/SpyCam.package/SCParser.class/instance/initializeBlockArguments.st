@@ -4,5 +4,5 @@ initializeBlockArguments
 		named: 'BLOCK-ARGUMENTS'
 		parsing: ((':' asPEG omit: true) & self identifier) plus
 		semantics: [ :result |
-			result collect: [ :variable | ASTVariable new name: variable ]
+			result collect: [ :variable | self createVariable: variable ]
 		]

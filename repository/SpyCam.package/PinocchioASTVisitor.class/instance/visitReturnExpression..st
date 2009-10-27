@@ -1,3 +1,4 @@
 visitor
 visitReturnExpression: aReturnExpression
-	^ aReturnExpression.
+	^ PinocchioReturn new 
+		argument: (aReturnExpression expression accept: self).

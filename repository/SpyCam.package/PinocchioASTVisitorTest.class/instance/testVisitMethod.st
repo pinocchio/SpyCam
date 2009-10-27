@@ -3,8 +3,10 @@ testVisitMethod
 	| ast |
 	parser := scparser method.
 	ast := self ast: 'doIt' , String cr , ' 1 + 2.'.
-	self assert: ast class = PinocchioClosure.
-	self assert: ast code class = PinocchioBlock.
-	self assert: ast code body size = 1.
-	self assert: ast code locals size = 0.
-	self assert: ast code params size = 0
+	ast class should = PinocchioMethod.
+	ast hasReturn should  = false.
+	ast body class should = PinocchioBlock.
+	ast body body size should = (1+1).
+	ast body locals size should = 0.
+	ast body params size should = 0.
+	self assureLastIsReturningSelf: ast body

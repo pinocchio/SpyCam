@@ -1,15 +1,14 @@
 {
-	"category" : "SpyCam-Pinocchio-Runtime",
+	"category" : "SpyCam-AST",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"code",
-		"context" ],
-	"name" : "PinocchioClosure",
+		 ],
+	"name" : "ASTSuper",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ASTNode",
 	"type" : "normal" }

@@ -1,0 +1,4 @@
+accessing
+pinocchioClass
+	^ class
+	

@@ -10,5 +10,5 @@
 	"name" : "PinocchioCharacter",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PinocchioType",
 	"type" : "normal" }

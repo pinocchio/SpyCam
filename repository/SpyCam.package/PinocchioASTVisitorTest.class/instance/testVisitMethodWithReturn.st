@@ -1,23 +1,26 @@
 running
 testVisitMethodWithReturn
-	| ast block returnSend |
+	| ast block return |
 	parser := scparser method.
-	ast := self ast: 'doIt' , String cr , '|a b c|', String cr , ' ^ #(a b c).'.
-	
-	self assert: ast class = PinocchioClosure.
-	block := ast code.
-	self assert: block class = PinocchioBlock.
-	self assert: block body size = 1.
-	self assert: block locals size = 0.
-	self assert: block params size = 0.
-	self assert: block body class = PinocchioArray.
-	self assert: block body size = 1.
-	self assert: (block body values at: 1) class = PinocchioCallec.
+	ast := self ast: 'doIt' , String cr , '|a b c|' , String cr , ' ^ self bla: a foo: b bar: c.'.
+	ast class should = PinocchioMethod.
+	ast hasReturn should = true.
+	block := ast body.
+	block class should = PinocchioBlock.
+	block body size should = 1.
+	block locals size should = 0.
+	block params size should = 0.
+	block body class should = PinocchioArray.
+	block body size should = 1.
+	(block body values at: 1) class should = PinocchioCallec.
 	block := (block body values at: 1) block.
-	self assert: block class = PinocchioBlock.
-	self assert: block body size = 1.
-	self assert: block locals size = 3.
-	self assert: block params size = 1.
-	self assert: (block body values at: 1) class = PinocchioSend.
-	returnSend := block body values at: 1.
-	self assert: returnSend message printString = 'escape:'.
+	block class should = PinocchioBlock.
+	block body size should = 1.
+	block locals size should = 3.
+	block params size should = 1.
+	(block body values at: 1) class should = PinocchioReturn.
+	return := block body last.
+	return class should = PinocchioReturn.
+	return argument class should = PinocchioSend.
+	return argument message printString should = 'bla:foo:bar:'.
+	

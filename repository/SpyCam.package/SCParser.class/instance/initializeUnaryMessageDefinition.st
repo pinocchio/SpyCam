@@ -5,5 +5,5 @@ initializeUnaryMessageDefinition
 		parsing: self unarySelector
 		semantics: [ :selector |
 			ASTUnaryMessageDefinition new
-				selector: (self createSymbol: selector selector).
+				selector: selector.
 		]

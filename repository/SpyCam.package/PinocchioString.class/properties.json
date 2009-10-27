@@ -10,5 +10,5 @@
 	"name" : "PinocchioString",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PinocchioType",
 	"type" : "normal" }

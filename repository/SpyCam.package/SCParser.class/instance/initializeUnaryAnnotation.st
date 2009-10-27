@@ -3,7 +3,7 @@ initializeUnaryAnnotation
 	^ PEGParser
 		named: 'UNARY-ANNOTATION'
 		parsing: self unarySelector
-		semantics: [ :result |
+		semantics: [ :selector |
 			ASTUnaryAnnotation new
-				selector: (self createSymbol: result selector)
+				selector: selector.
 		]

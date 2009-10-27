@@ -1,7 +1,7 @@
 {
 	"category" : "SpyCam-Pinocchio-Type",
 	"classinstvars" : [
-		 ],
+		"symbolDictionary" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -10,5 +10,5 @@
 	"name" : "PinocchioSymbol",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PinocchioType",
 	"type" : "normal" }

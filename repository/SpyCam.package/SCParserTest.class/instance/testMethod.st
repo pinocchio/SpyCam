@@ -1,5 +1,5 @@
 tests
-testVisitMethod
+testMethod
 	" We just allow fully MessageExpressions in our annotations. Semantic checker will catch this (probably :)) "
 	| parser string result |
 	parser := scparser method.

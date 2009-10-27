@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 add: anObject
 	self values add: anObject.

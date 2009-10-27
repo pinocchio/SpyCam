@@ -10,5 +10,5 @@
 	"name" : "PinocchioBoolean",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PinocchioType",
 	"type" : "normal" }

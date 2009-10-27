@@ -9,7 +9,7 @@ initializeUnaryExpression
 			(parts at: 2) do: [ :selector |
 				result := ASTUnaryExpression new
 							receiver: result;
-							selector: (self createSymbol: selector)
+							selector: selector.
 			].
 			result
 		]

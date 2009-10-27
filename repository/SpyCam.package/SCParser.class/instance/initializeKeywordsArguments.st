@@ -10,6 +10,6 @@ initializeKeywordsArguments
 			pairs do: 
 				[ :pair | 
 				result keywords add: (pair at: 1).
-				result parameters add: (ASTVariable new name: (pair at: 2))].
+				result parameters add: (self createVariable: (pair at: 2))].
 				result selector: (self createSymbol: (result keywords joinUsing: '')).
 			result ]

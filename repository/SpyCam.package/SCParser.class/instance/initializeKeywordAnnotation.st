@@ -6,6 +6,6 @@ initializeKeywordAnnotation
 		semantics: [ :result |
 			ASTKeywordAnnotation new
 				keywords: (result collect: #first);
-				selector: (self createSymbol: (result joinUsing: ''));
+				selector: (ASTKeywordSelector new keywords: (result collect: #first));
 				arguments: (result collect: #second)
 		]

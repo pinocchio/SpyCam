@@ -10,5 +10,5 @@
 	"name" : "PinocchioConstant",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PinocchioASTNode",
 	"type" : "normal" }

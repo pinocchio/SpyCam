@@ -28,10 +28,10 @@ testBinaryObjectDescription
 	" binary expression "
 	string := PEGMemoizedStringScanner on: 'abc + ghi * c '.
  	result := (parser match: string).
-	self assert: (result class = ASTBinaryExpression).
-	self assert: (result selector printString = '*').
-	self assert: (result argument class = ASTVariable).
-	self assert: (result argument name = 'c').
+	result class should = ASTBinaryExpression.
+	result selector printString should = '*'.
+	result argument class should = ASTVariable.
+	result argument name should = 'c'.
 	result := result receiver.	
 	self assert: (result class = ASTBinaryExpression).
 	self assert: (result selector printString = '+').

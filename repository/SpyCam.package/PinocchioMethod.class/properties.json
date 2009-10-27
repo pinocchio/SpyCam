@@ -6,11 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"hasReturn",
-		"callec",
-		"return" ],
+		"params",
+		"locals",
+		"body",
+		"package",
+		"hasReturn" ],
 	"name" : "PinocchioMethod",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PinocchioASTNode",
 	"type" : "normal" }

@@ -4,6 +4,7 @@
 	"instance" : {
 		"compatibleWith:" : "cb 3/28/2009 00:18",
 		"parameters" : "TestRunner 10/22/2009 19:33",
-		"selector" : "TestRunner 10/21/2009 08:22",
-		"selector:" : "TestRunner 10/21/2009 08:42",
+		"printOn:" : "TestRunner 10/27/2009 17:47",
+		"selector" : "TestRunner 10/27/2009 16:24",
+		"selector:" : "TestRunner 10/27/2009 17:42",
 		"selectorName" : "TestRunner 10/21/2009 08:22" } }

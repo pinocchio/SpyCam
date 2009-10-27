@@ -1,11 +1,13 @@
 {
 	"class" : {
-		"with:" : "TestRunner 10/22/2009 20:29" },
+		"with:" : "TestRunner 10/27/2009 15:13" },
 	"instance" : {
 		"=" : "DavidGurtner 10/21/2009 16:53",
 		"add:" : "TestRunner 10/26/2009 10:43",
 		"at:" : "TestRunner 10/22/2009 20:20",
+		"first" : "TestRunner 10/27/2009 15:49",
 		"initialize" : "TestRunner 10/22/2009 20:25",
+		"last" : "TestRunner 10/27/2009 15:49",
 		"size" : "DavidGurtner 10/22/2009 14:56",
 		"values" : "DavidGurtner 10/21/2009 14:59",
 		"values:" : "DavidGurtner 10/21/2009 14:59" } }

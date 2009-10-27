@@ -3,4 +3,4 @@ initializeVariableName
 	^ PEGParser
 		named: 'VARIABLE-NAME'
 		parsing: self identifier
-		semantics: [:result | ASTVariable new name: result asSymbol]
+		semantics: [:result | self createVariable: result]

@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 with: anObject
-	^ PinocchioArray new values: (OrderedCollection newFrom: #(anObject)).
+	^ PinocchioArray new values: (OrderedCollection with: anObject).

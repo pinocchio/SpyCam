@@ -1,7 +1,10 @@
 {
 	"class" : {
-		 },
+		"initialize" : "TestRunner 10/27/2009 16:17",
+		"named:" : "TestRunner 10/27/2009 16:19",
+		"symbolDictionary" : "TestRunner 10/27/2009 16:19" },
 	"instance" : {
 		"=" : "DavidGurtner 10/21/2009 16:43",
+		"printOn:" : "TestRunner 10/27/2009 15:45",
 		"symbol" : "DavidGurtner 10/21/2009 15:12",
 		"symbol:" : "DavidGurtner 10/21/2009 15:12" } }

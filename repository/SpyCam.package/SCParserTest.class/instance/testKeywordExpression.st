@@ -6,8 +6,10 @@ testKeywordExpression
 
 	string := PEGMemoizedStringScanner on: '2+4 abc: 1 def: 2+2 ghi: 3 b '.
  	result := (parser match: string).
-	self assert: (result class = ASTMessageExpression).
-	self assert: (result keywords asArray = #('abc' 'def' 'ghi')).
+	result class should = ASTMessageExpression.
+	result keywords asArray should  = #('abc' 'def' 'ghi').
+	result selector class should = ASTKeywordSelector.
+	result selector printString should = 'abc:def:ghi:'.
 	arg := (result arguments at: 1).
 	self assert: arg class = ASTNumber.
 	arg := (result arguments at: 2).

@@ -12,5 +12,5 @@
 	"name" : "PinocchioSend",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PinocchioASTNode",
 	"type" : "normal" }

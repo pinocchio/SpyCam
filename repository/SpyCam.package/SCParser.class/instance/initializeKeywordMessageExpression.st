@@ -6,6 +6,9 @@ initializeKeywordMessageExpression
 		semantics: [ :parts |
 			ASTMessageExpression new
 				keywords: (parts collect: [:pair | pair at: 1]);
-				selector: (self createSymbol: ((parts collect: [:pair | pair at: 1]) joinUsing: ''));
+				selector: (ASTKeywordSelector new 
+							keywords: (parts collect: [:pair | pair at: 1]);
+							selector: (self createSymbol: 
+											((parts collect: [:pair | pair at: 1]) joinUsing: ':'), ':'));
 				arguments: (parts collect: [:pair | pair at: 2])
 		]
