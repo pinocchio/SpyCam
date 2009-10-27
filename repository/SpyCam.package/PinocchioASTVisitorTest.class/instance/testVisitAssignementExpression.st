@@ -4,9 +4,9 @@ testVisitAssignementExpression
 	visitor scope declare: (ASTVariable new name: 'a').
 	parser := scparser subExpression.
 	result := self ast: ' a:= 13.'.
-	self assert: (result class = PinocchioAssign).
-	self assert: (result variable class = PinocchioVariable).
-	self assert: (result variable name = 'a').
-	self assert: (result expression class = PinocchioConstant).
-	self assert: (result expression constant class = PinocchioSmallInt).
-	self assert: (result expression constant int = 13).
+	result class should = PinocchioAssign.
+	result variable class should = PinocchioVariable.
+	result variable name should = 'a'.
+	result expression class should = PinocchioConstant.
+	result expression constant class should = PinocchioSmallInt.
+	result expression constant int should = 13.

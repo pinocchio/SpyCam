@@ -3,6 +3,6 @@ testVisitCharacter
 	| character result |
 	character := ASTCharacter new char: 'c'.
 	result := visitor visit: character.
-	self assert: (result class = PinocchioConstant).
-	self assert: (result constant class = PinocchioCharacter).
-	self assert: (result constant char = 'c').
+	result class should = PinocchioConstant.
+	result constant class should = PinocchioCharacter.
+	result constant char should = 'c'.
