@@ -19,5 +19,5 @@ testVisitMethodWithIntermediateReturn
 	block locals size should = 3.
 	block params size should = 1.
 	(block body values at: 1) class should = PinocchioSend.
-	self assureLastIsReturningSelf: block body last.
+	self assureLastIsReturningSelf: block.
 	

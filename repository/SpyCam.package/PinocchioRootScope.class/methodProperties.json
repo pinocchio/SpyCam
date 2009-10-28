@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addGlobals" : "DavidGurtner 10/28/2009 14:13",
 		"declare:" : "DavidGurtner 10/22/2009 18:24",
 		"declareAll:" : "DavidGurtner 10/22/2009 19:09",
 		"decls" : "DavidGurtner 10/22/2009 17:57",
 		"decls:" : "DavidGurtner 10/22/2009 17:57",
-		"initialize" : "DavidGurtner 10/22/2009 17:58",
+		"initialize" : "DavidGurtner 10/28/2009 14:02",
 		"lookup:" : "TestRunner 10/27/2009 15:39" } }
