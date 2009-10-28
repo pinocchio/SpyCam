@@ -3,11 +3,13 @@
 		 },
 	"instance" : {
 		"assureLastIsReturningSelf:" : "TestRunner 10/27/2009 15:18",
-		"ast:" : "TestRunner 10/22/2009 16:15",
+		"ast:" : "TestRunner 10/28/2009 14:51",
 		"setUp" : "DavidGurtner 10/22/2009 15:58",
+		"testClassReference" : "TestRunner 10/28/2009 16:14",
+		"testVisitArray" : "TestRunner 10/28/2009 16:12",
 		"testVisitAssignementExpression" : "TestRunner 10/27/2009 18:07",
 		"testVisitBlock" : "TestRunner 10/27/2009 18:09",
-		"testVisitBlock2" : "TestRunner 10/28/2009 09:01",
+		"testVisitBlock2" : "TestRunner 10/28/2009 14:45",
 		"testVisitCharacter" : "TestRunner 10/27/2009 18:09",
 		"testVisitMethod" : "TestRunner 10/27/2009 15:22",
 		"testVisitMethod1Arg" : "TestRunner 10/27/2009 15:22",
@@ -16,4 +18,5 @@
 		"testVisitMethodWithReturn" : "TestRunner 10/27/2009 18:00",
 		"testVisitNumber" : "TestRunner 10/27/2009 18:10",
 		"testVisitString" : "TestRunner 10/27/2009 18:10",
-		"testVisitSymbol" : "TestRunner 10/27/2009 16:06" } }
+		"testVisitSymbol" : "TestRunner 10/27/2009 16:06",
+		"testVisitUnaryExpression" : "TestRunner 10/28/2009 16:20" } }

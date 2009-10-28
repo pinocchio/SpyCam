@@ -19,5 +19,6 @@
 		"visitSelf:" : "TestRunner 10/27/2009 15:43",
 		"visitString:" : "TestRunner 10/27/2009 16:05",
 		"visitSymbol:" : "TestRunner 10/27/2009 16:20",
+		"visitUnaryExpression:" : "TestRunner 10/28/2009 16:46",
 		"visitVariable:" : "TestRunner 10/27/2009 16:05",
 		"wrapReturningBlock:" : "TestRunner 10/27/2009 15:21" } }

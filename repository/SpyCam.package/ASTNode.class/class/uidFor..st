@@ -1,4 +1,4 @@
 accessing
 uidFor: aNode
-	uidCounter := uidCounter +1.
+	uidCounter := self uidCounter +1.
 	^ (aNode astName asLowercase, uidCounter printString) asString
