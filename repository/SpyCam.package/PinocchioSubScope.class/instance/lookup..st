@@ -1,3 +1,4 @@
 accessing
 lookup: anASTVariable
-	^decls at: anASTVariable uid ifAbsent: [super lookup: anASTVariable ].
+	^decls at: anASTVariable name
+		ifAbsent: [self parentScope lookup: anASTVariable ].

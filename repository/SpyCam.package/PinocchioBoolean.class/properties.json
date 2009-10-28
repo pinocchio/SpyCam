@@ -1,7 +1,7 @@
 {
 	"category" : "SpyCam-Pinocchio-Type",
 	"classinstvars" : [
-		 ],
+		"trueInstance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
