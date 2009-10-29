@@ -3,8 +3,7 @@
 		 },
 	"instance" : {
 		"assureLastIsReturningSelf:" : "TestRunner 10/27/2009 15:18",
-		"ast:" : "TestRunner 10/28/2009 14:51",
-		"setUp" : "DavidGurtner 10/22/2009 15:58",
+		"setUp" : "TestRunner 10/29/2009 21:50",
 		"testClassReference" : "TestRunner 10/28/2009 16:14",
 		"testVisitArray" : "DavidGurtner 10/29/2009 13:51",
 		"testVisitAssignementExpression" : "TestRunner 10/27/2009 18:07",
@@ -17,6 +16,6 @@
 		"testVisitMethodWithIntermediateReturn" : "DavidGurtner 10/28/2009 14:15",
 		"testVisitMethodWithReturn" : "TestRunner 10/27/2009 18:00",
 		"testVisitNumber" : "TestRunner 10/27/2009 18:10",
-		"testVisitString" : "TestRunner 10/27/2009 18:10",
+		"testVisitString" : "TestRunner 10/29/2009 21:57",
 		"testVisitSymbol" : "TestRunner 10/27/2009 16:06",
 		"testVisitUnaryExpression" : "TestRunner 10/28/2009 16:20" } }

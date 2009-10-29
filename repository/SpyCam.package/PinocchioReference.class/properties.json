@@ -1,15 +1,14 @@
 {
-	"category" : "SpyCam-Pinocchio-AST",
+	"category" : "SpyCam-Pinocchio-Organize",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
-		"reference" ],
+		 ],
 	"name" : "PinocchioReference",
 	"pools" : [
 		 ],
-	"super" : "PinocchioASTNode",
+	"super" : "PinocchioObject",
 	"type" : "normal" }

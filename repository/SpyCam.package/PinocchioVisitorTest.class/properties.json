@@ -1,14 +1,15 @@
 {
-	"category" : "SpyCam-Parser",
+	"category" : "SpyCam-Pinocchio",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"symbols" ],
-	"name" : "SCSymbolUnifier",
+		"parser",
+		"visitor" ],
+	"name" : "PinocchioVisitorTest",
 	"pools" : [
 		 ],
-	"super" : "ASTReplacementVisitor",
+	"super" : "TestCase",
 	"type" : "normal" }

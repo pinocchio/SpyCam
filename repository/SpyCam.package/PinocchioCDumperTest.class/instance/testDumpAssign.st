@@ -5,9 +5,10 @@ testDumpAssign
 	parser := scparser subExpression.
 	result := self ast: ' a:= 13.'.
 	dumper visit: result.
-	self assert: (dumper printString withBlanksTrimmed = ('Object ', result variable uid,
-		' = (Object)new_Type_Variable(L"a");', Character cr asString,
-		'Object ', result expression constant uid, ' = (Object)new_Type_SmallInt(13);', Character cr asString,
-		'Object ', result expression uid, ' = (Object)new_Type_Constant(', result expression constant uid, ');',
-		Character cr asString, 'Object ', result uid, ' = (Object)new_AST_Assign(', result variable uid, ', ',
-		result expression uid, ');')).
+	dumper printString withBlanksTrimmed should = 
+		('Object ', result variable uid, ' = (Object)new_Type_Variable(L"a");', String cr,
+		'Object ', result expression constant uid, ' = (Object)new_Type_SmallInt(13);', String cr,
+		'Object ',result expression uid,' = (Object)new_Type_Constant(',
+			result expression constant uid,');',String cr, 
+		'Object ', result uid, ' = (Object)new_AST_Assign(', result variable uid, ', ',
+		result expression uid, ');').

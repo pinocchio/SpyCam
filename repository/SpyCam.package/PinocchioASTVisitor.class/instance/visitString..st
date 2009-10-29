@@ -1,3 +1,3 @@
 visitor
 visitString: anASTString 
-	^ anASTString asPString
+	^ anASTString asPString asPConstant

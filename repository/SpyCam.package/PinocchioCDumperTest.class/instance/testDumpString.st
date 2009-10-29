@@ -4,5 +4,6 @@ testDumpString
 	string := ASTString new string: 'abc'.
 	result := visitor visit: string.
 	dumper visit: result.
-	self assert: (dumper printString withBlanksTrimmed = 
-				('Object ', result uid,' = (Object)new_Type_String(L"abc");')) 
+	dumper printString withBlanksTrimmed should = 
+		('Object ', result constant uid,' = (Object)new_Type_String(L"abc");', String cr,
+		 'Object ', result uid,' = (Object)new_Type_Constant(', result constant uid,');')

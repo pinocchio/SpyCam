@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"visitor",
-		"scparser",
-		"parser" ],
+		 ],
 	"name" : "PinocchioASTVisitorTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "PinocchioVisitorTest",
 	"type" : "normal" }

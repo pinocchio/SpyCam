@@ -11,7 +11,7 @@ visitMethod: aMethod
 		params: (self acceptOnCollection: aMethod message parameters) asPArray.
 		
 	"finally always return self"
-	block body last isReturnExpression ifFalse: [
+	block body isEmpty or: [block body last isReturnExpression] ifFalse: [
 		block body add: (PinocchioReturn new argument: PinocchioSelf new).
 	].
 	

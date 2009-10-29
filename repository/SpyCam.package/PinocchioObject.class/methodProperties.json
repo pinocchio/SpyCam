@@ -1,7 +1,9 @@
 {
 	"class" : {
 		"initialize" : "TestRunner 10/27/2009 13:47",
-		"uidFor:" : "DavidGurtner 10/29/2009 16:09" },
+		"uidCounter" : "TestRunner 10/29/2009 21:12",
+		"uidCounter:" : "TestRunner 10/29/2009 21:11",
+		"uidFor:" : "TestRunner 10/29/2009 21:10" },
 	"instance" : {
 		"doesNotUnderstand:" : "DavidGurtner 10/29/2009 14:13",
 		"initialize" : "DavidGurtner 10/29/2009 16:58",

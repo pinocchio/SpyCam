@@ -3,10 +3,11 @@
 		 },
 	"instance" : {
 		"setUp" : "DavidGurtner 10/29/2009 16:12",
-		"testDumpArray0" : "TestRunner 10/20/2009 16:28",
-		"testDumpArray1" : "TestRunner 10/20/2009 16:25",
-		"testDumpAssign" : "DavidGurtner 10/29/2009 17:54",
-		"testDumpCharacter" : "DavidGurtner 10/29/2009 17:42",
-		"testDumpSmallInt" : "DavidGurtner 10/29/2009 17:11",
-		"testDumpString" : "DavidGurtner 10/29/2009 17:10",
-		"testDumpSymbol" : "DavidGurtner 10/29/2009 17:15" } }
+		"testDumpArray0" : "TestRunner 10/29/2009 21:09",
+		"testDumpArray1" : "TestRunner 10/29/2009 21:09",
+		"testDumpAssign" : "TestRunner 10/29/2009 21:47",
+		"testDumpBoolean" : "TestRunner 10/29/2009 22:14",
+		"testDumpCharacter" : "TestRunner 10/29/2009 21:46",
+		"testDumpSmallInt" : "TestRunner 10/29/2009 21:46",
+		"testDumpString" : "TestRunner 10/29/2009 21:53",
+		"testDumpSymbol" : "TestRunner 10/29/2009 21:46" } }
