@@ -4,5 +4,5 @@ visitVariable: aPinocchioVariable
 		aPinocchioVariable printed: true.
 		self 
 			put: aPinocchioVariable
-			with: 'new_Type_Variable(' , 'new_Type_String(L"' , aPinocchioVariable name , '"))'.
+			with: 'new_Type_Variable(L"' , aPinocchioVariable name , '")'.
 	]

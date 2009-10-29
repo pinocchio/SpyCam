@@ -5,7 +5,8 @@
 		"setUp" : "DavidGurtner 10/29/2009 16:12",
 		"testDumpArray0" : "TestRunner 10/20/2009 16:28",
 		"testDumpArray1" : "TestRunner 10/20/2009 16:25",
-		"testDumpCharacter" : "DavidGurtner 10/29/2009 17:11",
+		"testDumpAssign" : "DavidGurtner 10/29/2009 17:54",
+		"testDumpCharacter" : "DavidGurtner 10/29/2009 17:42",
 		"testDumpSmallInt" : "DavidGurtner 10/29/2009 17:11",
 		"testDumpString" : "DavidGurtner 10/29/2009 17:10",
 		"testDumpSymbol" : "DavidGurtner 10/29/2009 17:15" } }
