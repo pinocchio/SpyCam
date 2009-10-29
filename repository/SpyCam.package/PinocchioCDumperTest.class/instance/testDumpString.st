@@ -1,7 +1,8 @@
 running
 testDumpString
-	| string |
+	| string result |
 	string := ASTString new string: 'abc'.
-	dumper visit: string.
+	result := visitor visit: string.
+	dumper visit: result.
 	self assert: (dumper printString withBlanksTrimmed = 
-				('Object ', string uid,' = (Object)new_Type_String(L"abc");')) 
+				('Object ', result uid,' = (Object)new_Type_String(L"abc");')) 

@@ -1,6 +1,8 @@
 visitor
-visitCharacter: anASTCharacter 
-	self 
-		put: anASTCharacter
-		with: ('new_Type_Character(L''' , anASTCharacter char , ''')') asString.
-	stream cr
+visitCharacter: aPinocchioCharacter 
+	aPinocchioCharacter printed ifFalse: [
+		aPinocchioCharacter printed: true.
+		self 
+			put: aPinocchioCharacter
+			with: ('new_Type_Character(L''' , aPinocchioCharacter char , ''')') asString.
+	]

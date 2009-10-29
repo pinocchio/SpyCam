@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "CamilloBruni 10/19/2009 14:13",
+		"setUp" : "DavidGurtner 10/29/2009 16:12",
 		"testDumpArray0" : "TestRunner 10/20/2009 16:28",
 		"testDumpArray1" : "TestRunner 10/20/2009 16:25",
-		"testDumpCharacter" : "TestRunner 10/20/2009 16:25",
-		"testDumpNumber" : "DavidGurtner 10/20/2009 17:12",
-		"testDumpString" : "TestRunner 10/20/2009 16:26",
-		"testDumpSymbol" : "TestRunner 10/20/2009 16:29" } }
+		"testDumpCharacter" : "DavidGurtner 10/29/2009 17:11",
+		"testDumpSmallInt" : "DavidGurtner 10/29/2009 17:11",
+		"testDumpString" : "DavidGurtner 10/29/2009 17:10",
+		"testDumpSymbol" : "DavidGurtner 10/29/2009 17:15" } }

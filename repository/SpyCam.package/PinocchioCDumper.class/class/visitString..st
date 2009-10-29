@@ -1,3 +1,0 @@
-visitor
-visitString: anASTString
-	

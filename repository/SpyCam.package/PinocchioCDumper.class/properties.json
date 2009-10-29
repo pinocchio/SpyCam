@@ -1,17 +1,15 @@
 {
 	"category" : "SpyCam-Pinocchio",
 	"classinstvars" : [
-		"stream" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		"stream",
-		"variableIndex",
-		"symbolDict",
-		"variableDict" ],
+		"symbolDict" ],
 	"name" : "PinocchioCDumper",
 	"pools" : [
 		 ],
-	"super" : "ASTVisitor",
+	"super" : "Object",
 	"type" : "normal" }

@@ -1,8 +1,9 @@
 helper
-put: anASTNode with: newInstanceString 
+put: aPinocchioObject with: newInstanceString 
 	stream
 		nextPutAll: 'Object ';
-		nextPutAll: anASTNode uid;
+		nextPutAll: aPinocchioObject uid;
 		nextPutAll: ' = (Object)';
 		nextPutAll: newInstanceString;
-		nextPutAll: ';'
+		nextPutAll: ';';
+		cr.

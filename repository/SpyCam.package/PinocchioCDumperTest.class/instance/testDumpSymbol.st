@@ -1,7 +1,10 @@
 running
 testDumpSymbol
-	| symbol |
+	| symbol result |
+	[^ nil] value.
 	symbol := ASTSymbol new symbol: 'at:put:'.
-	dumper visit: symbol.
+	result := visitor visit: symbol.
+	dumper visit: result.
 	self assert: (dumper printString withBlanksTrimmed = 
-				('Object ', symbol uid,' = (Object)new_Type_Symbol(L"at:put:");')) 
+				('Object ', result constant uid,' = (Object)new_Type_Symbol(L"at:put:");', Character cr asString,
+				'Object ', result uid,' = (Object)new_Type_Constant(', result constant uid,');'))

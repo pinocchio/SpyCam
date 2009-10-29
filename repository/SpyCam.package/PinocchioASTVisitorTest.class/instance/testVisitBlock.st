@@ -5,11 +5,11 @@ testVisitBlock
 	result := visitor visit: emptyblock.
 	result class should = PinocchioBlock.
 	result params class should = PinocchioArray.
-	result params values should = #().
+	result params values should = OrderedCollection new.
 	result locals class should = PinocchioArray.
-	result locals values should = #().
+	result locals values should = OrderedCollection new.
 	result body class should = PinocchioArray.
-	result body values should = #().
+	result body values should = OrderedCollection new.
 	
 	variable := ASTVariable new name: #element.
 	result := self ast: '[:element || temp | element := 1.]'.

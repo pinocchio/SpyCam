@@ -1,6 +1,8 @@
 visitor
-visitString: anASTString 
-	self 
-		put: anASTString
-		with: ('new_Type_String(L"' , anASTString string , '")') asString.
-	stream cr
+visitString: aPinocchioString 
+	aPinocchioString printed ifFalse: [
+		aPinocchioString printed: true.
+		self 
+			put: aPinocchioString
+			with: ('new_Type_String(L"' , aPinocchioString string , '")') asString.
+	]

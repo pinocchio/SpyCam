@@ -10,5 +10,5 @@
 	"name" : "PinocchioCDumperTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "PinocchioASTVisitorTest",
 	"type" : "normal" }
