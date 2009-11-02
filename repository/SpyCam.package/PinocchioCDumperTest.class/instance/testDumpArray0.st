@@ -1,7 +1,6 @@
 running
 testDumpArray0
 	| array |
-	array := ASTArray new literals: #().
+	array := {} asPArray.
 	dumper visit: array.
-	dumper printString withBlanksTrimmed  should = 
-		('Object ', array uid, ' = (Object)empty_Type_Array;')
+	dumper printString withBlanksTrimmed  should = ''

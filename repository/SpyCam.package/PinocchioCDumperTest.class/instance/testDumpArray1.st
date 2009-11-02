@@ -1,8 +1,8 @@
 running
 testDumpArray1
 	| array string |
-	string := ASTString new string: 'abc'.
-	array := ASTArray new literals: (Array with: string).
+	string := PinocchioString new string: 'abc'.
+	array := {string} asPArray.
 	dumper visit: array.
 	dumper printString withBlanksTrimmed should =
 		('Object ', string uid ,' = (Object)new_Type_String(L"abc");', String cr,

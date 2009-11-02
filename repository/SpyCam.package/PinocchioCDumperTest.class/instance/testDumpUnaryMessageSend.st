@@ -9,4 +9,4 @@ testDumpUnaryMessageSend
 		 'Object ', ast uid,               ' = (Object)new_AST_Send(', 
 												ast receiver uid,', ',
 												ast message uid, ', ',
-												'emptyASTArray);') 
+												'empty_Type_Array);') 

@@ -1,4 +1,4 @@
 accessing
 uid
-	self isEmpty ifTrue: [ ^ 'emptyASTArray'].
+	self isEmpty ifTrue: [ ^ 'empty_Type_Array'].
 	^ super uid.
