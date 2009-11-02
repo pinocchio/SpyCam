@@ -3,4 +3,5 @@
 		 },
 	"instance" : {
 		"block" : "TestRunner 10/26/2009 10:41",
-		"block:" : "TestRunner 10/26/2009 10:41" } }
+		"block:" : "TestRunner 10/26/2009 10:41",
+		"hasReturnExpression" : "TestRunner 11/2/2009 20:07" } }

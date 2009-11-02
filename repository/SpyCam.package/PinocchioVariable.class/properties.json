@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name" ],
+		"name",
+		"index" ],
 	"name" : "PinocchioVariable",
 	"pools" : [
 		 ],

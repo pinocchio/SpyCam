@@ -6,6 +6,7 @@
 		"uidFor:" : "TestRunner 11/2/2009 15:49" },
 	"instance" : {
 		"doesNotUnderstand:" : "DavidGurtner 10/29/2009 14:13",
+		"hasReturnExpression" : "TestRunner 11/2/2009 20:04",
 		"initialize" : "DavidGurtner 10/29/2009 16:58",
 		"isReturnExpression" : "TestRunner 10/27/2009 15:59",
 		"objectName" : "TestRunner 10/27/2009 13:47",

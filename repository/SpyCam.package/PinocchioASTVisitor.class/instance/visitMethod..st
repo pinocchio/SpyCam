@@ -1,23 +1,23 @@
 visitor
 visitMethod: aMethod 
-	| block params locals body |
-	self pushScope.
+	| block params locals |
+	self .
 	scope declareAll: aMethod message parameters.
 	scope declareAll: aMethod temporaries.
-	
-	block := PinocchioBlock new
-		body:    (self acceptOnCollection: aMethod statements) asPArray;
-		locals:   (self acceptOnCollection: aMethod temporaries) asPArray;
-		params: (self acceptOnCollection: aMethod message parameters) asPArray.
+	block := PinocchioBlock new 
+				locals: (self acceptOnCollection: aMethod temporaries) asPArray;
+				params: (self acceptOnCollection: aMethod message parameters) asPArray;
+				body: (self acceptOnCollection: aMethod statements) asPArray.
 		
 	"finally always return self"
-	block body isEmpty or: [block body last isReturnExpression] ifFalse: [
-		block body add: (PinocchioReturn new argument: PinocchioSelf new).
-	].
+	block body isEmpty 
+		ifTrue: [ block body add: PinocchioSelf new.]
+		ifFalse: [ block := self handleReturn: block].
 	
 	self popScope.
-	aMethod hasReturnExpression ifTrue: [ block := self wrapReturningBlock: block ].
 	
 	^ PinocchioMethod new 
-		body: block; 
+		body: 	 block body; 
+		locals:   block locals;
+		params: block params;
 		hasReturn: aMethod hasReturnExpression.

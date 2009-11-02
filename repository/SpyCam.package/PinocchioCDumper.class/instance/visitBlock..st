@@ -5,6 +5,6 @@ visitBlock: aPinocchioBlock
 	self visit: aPinocchioBlock body.
 	self put: aPinocchioBlock 
 		with: ('new_AST_Block_With(', 
-			aPinocchioBlock params uid,', ',
-			aPinocchioBlock locals uid,', ',
-			aPinocchioBlock body uid,')').
+			'(Type_Array)', aPinocchioBlock params uid,', ',
+			'(Type_Array)', aPinocchioBlock locals uid,', ',
+			'(Type_Array)', aPinocchioBlock body uid,')').

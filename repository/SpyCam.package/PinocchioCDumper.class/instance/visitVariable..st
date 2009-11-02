@@ -1,4 +1,4 @@
 visitor
 visitVariable: aPinocchioVariable 
 	self put: aPinocchioVariable
-		with: 'new_Type_Variable(L"' , aPinocchioVariable name , '")'.
+		with: 'new_AST_Variable_named(L"' , aPinocchioVariable name , '")'.
