@@ -22,5 +22,5 @@ testVisitMethodWithReturn
 	return := block body last.
 	return class should = PinocchioReturn.
 	return argument class should = PinocchioSend.
-	return argument message printString should = 'bla:foo:bar:'.
+	return argument message asString should = 'bla:foo:bar:'.
 	

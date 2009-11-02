@@ -1,5 +1,6 @@
 visitor
 visitUnaryExpression: anASTUnaryExpression
 	^ PinocchioSend new
-		message: (PinocchioSymbol named: anASTUnaryExpression selector);
-		receiver: (anASTUnaryExpression receiver accept: self).
+		message: (PinocchioSymbol named: anASTUnaryExpression selector asString);
+		receiver: (anASTUnaryExpression receiver accept: self);
+		arguments: (PinocchioArray new values: Array new)

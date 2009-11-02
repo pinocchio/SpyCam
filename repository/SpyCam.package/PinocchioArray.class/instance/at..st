@@ -1,3 +1,3 @@
 accessing
 at: index
-	self values at: index.
+	^ self values at: index.
