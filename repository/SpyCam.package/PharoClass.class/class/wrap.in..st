@@ -1,3 +1,3 @@
 as yet unclassified
-wrap: aClass in: package
-	^ self new cls: aClass; package: package
+wrap: aClass in: reference
+	^ self new cls: aClass; reference: reference

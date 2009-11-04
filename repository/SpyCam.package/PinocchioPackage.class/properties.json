@@ -7,10 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"parent",
-		"members",
 		"packageName" ],
 	"name" : "PinocchioPackage",
 	"pools" : [
 		 ],
-	"super" : "PinocchioObject",
+	"super" : "PinocchioRootPackage",
 	"type" : "normal" }

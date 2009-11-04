@@ -1,4 +1,4 @@
 accessing
 initialize
-	root := PinocchioPackage named: #Pinocchio.
+	root := PinocchioRootPackage new.
 	done := IdentityDictionary new.

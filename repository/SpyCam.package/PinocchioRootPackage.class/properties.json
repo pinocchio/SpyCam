@@ -1,16 +1,14 @@
 {
-	"category" : "SpyCam-Pinocchio-Bridge",
+	"category" : "SpyCam-Pinocchio-Organize",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cls",
-		"superclass",
-		"reference" ],
-	"name" : "PharoClass",
+		"members" ],
+	"name" : "PinocchioRootPackage",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PinocchioObject",
 	"type" : "normal" }
