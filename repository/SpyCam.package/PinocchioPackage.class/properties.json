@@ -1,0 +1,18 @@
+{
+	"category" : "SpyCam-Pinocchio-Organize",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parent",
+		"packages",
+		"classes",
+		"methods",
+		"instvars" ],
+	"name" : "PinocchioPackage",
+	"pools" : [
+		 ],
+	"super" : "PinocchioObject",
+	"type" : "normal" }
