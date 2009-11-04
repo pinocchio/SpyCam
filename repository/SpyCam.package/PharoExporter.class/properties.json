@@ -1,0 +1,16 @@
+{
+	"category" : "SpyCam-Pinocchio-Bridge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"todo",
+		"done",
+		"root" ],
+	"name" : "PharoExporter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,14 +1,18 @@
 {
 	"class" : {
-		 },
+		"named:" : "ToonVerwaest 11/4/2009 18:46",
+		"named:in:" : "ToonVerwaest 11/4/2009 18:40" },
 	"instance" : {
-		"classes" : "ToonVerwaest 11/4/2009 16:25",
-		"classes:" : "ToonVerwaest 11/4/2009 16:25",
-		"instvars" : "ToonVerwaest 11/4/2009 16:25",
-		"instvars:" : "ToonVerwaest 11/4/2009 16:25",
-		"methods" : "ToonVerwaest 11/4/2009 16:25",
-		"methods:" : "ToonVerwaest 11/4/2009 16:25",
-		"packages" : "ToonVerwaest 11/4/2009 16:25",
-		"packages:" : "ToonVerwaest 11/4/2009 16:25",
-		"parent" : "ToonVerwaest 11/4/2009 16:25",
-		"parent:" : "ToonVerwaest 11/4/2009 16:25" } }
+		"at:" : "ToonVerwaest 11/4/2009 17:58",
+		"at:ifAbsentPut:" : "ToonVerwaest 11/4/2009 18:35",
+		"at:put:" : "ToonVerwaest 11/4/2009 17:58",
+		"ensureClass:" : "ToonVerwaest 11/4/2009 18:42",
+		"ensurePackageNamed:" : "ToonVerwaest 11/4/2009 18:47",
+		"ensurePharoClass:" : "ToonVerwaest 11/4/2009 18:40",
+		"initialize" : "ToonVerwaest 11/4/2009 17:57",
+		"members" : "ToonVerwaest 11/4/2009 18:36",
+		"members:" : "ToonVerwaest 11/4/2009 18:36",
+		"packageName" : "ToonVerwaest 11/4/2009 18:36",
+		"packageName:" : "ToonVerwaest 11/4/2009 18:36",
+		"parent" : "ToonVerwaest 11/4/2009 18:36",
+		"parent:" : "ToonVerwaest 11/4/2009 18:36" } }
