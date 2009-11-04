@@ -7,3 +7,4 @@ SystemOrganization addCategory: #'SpyCam-Pinocchio-AST'!
 SystemOrganization addCategory: #'SpyCam-Pinocchio-Type'!
 SystemOrganization addCategory: #'SpyCam-Pinocchio-Runtime'!
 SystemOrganization addCategory: #'SpyCam-Pinocchio-Organize'!
+SystemOrganization addCategory: #SpyCam!

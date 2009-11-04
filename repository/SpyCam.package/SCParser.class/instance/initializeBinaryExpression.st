@@ -4,7 +4,6 @@ initializeBinaryExpression
 	self preStoreBinaryObjectDescription.
 	
 	parsers at: #binaryExpression ifAbsentPut: (
-	
 	PEGParser
 		named: 'BINARY-EXPRESSION'
 		parsing: (self unaryObjectDescription & self binarySelector <& self binaryObjectDescription)

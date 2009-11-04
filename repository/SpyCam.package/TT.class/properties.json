@@ -1,0 +1,20 @@
+{
+	"category" : "SpyCam",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"a",
+		"b",
+		"c",
+		"d",
+		"e",
+		"f",
+		"g" ],
+	"name" : "TT",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -39,6 +39,7 @@
 		"testSymbolConstant" : "tv 3/28/2009 13:33",
 		"testSymbolKeywords" : "tv 3/28/2009 13:33",
 		"testTemporaries" : "tv 3/28/2009 18:13",
+		"testUnaryAndBinaryPrecedence" : "TestRunner 11/3/2009 16:07",
 		"testUnaryExpression" : "TestRunner 10/22/2009 19:24",
 		"testUnaryObjectDescription" : "TestRunner 10/22/2009 19:24",
 		"testUnarySelector" : "TestRunner 10/22/2009 19:25" } }
