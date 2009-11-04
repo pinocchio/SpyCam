@@ -1,13 +1,14 @@
 {
 	"class" : {
-		 },
+		"globalDefintion" : "TestRunner 11/4/2009 14:39",
+		"initialize" : "TestRunner 11/4/2009 14:24",
+		"initializeGlobals" : "TestRunner 11/4/2009 14:40",
+		"lookup:" : "TestRunner 11/4/2009 14:24" },
 	"instance" : {
 		"declare:" : "DavidGurtner 10/22/2009 18:24",
 		"declareAll:" : "DavidGurtner 10/22/2009 19:09",
-		"declareGlobalSymbols" : "TestRunner 11/4/2009 14:03",
-		"declareGlobals" : "TestRunner 11/4/2009 13:33",
 		"decls" : "DavidGurtner 10/22/2009 17:57",
 		"decls:" : "DavidGurtner 10/22/2009 17:57",
-		"initialize" : "TestRunner 11/4/2009 13:32",
-		"lookup:" : "TestRunner 10/29/2009 21:44",
+		"initialize" : "TestRunner 11/4/2009 14:21",
+		"lookup:" : "TestRunner 11/4/2009 14:22",
 		"rawSymbols" : "TestRunner 11/4/2009 14:02" } }
