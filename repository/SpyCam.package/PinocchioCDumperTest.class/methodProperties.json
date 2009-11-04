@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "DavidGurtner 10/29/2009 16:12",
-		"testDoubleVisit" : "TestRunner 11/3/2009 14:44",
+		"testDoubleVisit" : "TestRunner 11/4/2009 14:47",
 		"testDumpArray0" : "TestRunner 11/2/2009 16:55",
 		"testDumpArray1" : "TestRunner 11/2/2009 16:53",
 		"testDumpAssign" : "TestRunner 11/3/2009 14:40",
@@ -19,4 +19,4 @@
 		"testDumpSmallInt" : "TestRunner 11/3/2009 14:43",
 		"testDumpString" : "TestRunner 11/3/2009 14:42",
 		"testDumpSymbol" : "TestRunner 11/4/2009 14:14",
-		"testDumpUnaryMessageSend" : "TestRunner 11/3/2009 14:41" } }
+		"testDumpUnaryMessageSend" : "TestRunner 11/4/2009 14:48" } }

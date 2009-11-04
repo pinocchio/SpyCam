@@ -6,4 +6,4 @@ testVisitUnaryExpression
 	ast message class should = PinocchioInternalSymbol.
 	ast message symbol class should = ByteString.
 	ast arguments class should = PinocchioArray.
-	ast receiver class should = PinocchioConstant.
+	ast receiver class should = PinocchioInternalVariable.
