@@ -19,6 +19,7 @@
 		"visitCharacter:" : "TestRunner 10/29/2009 21:30",
 		"visitCollection:" : "TestRunner 11/2/2009 14:54",
 		"visitConstant:" : "TestRunner 11/2/2009 20:38",
+		"visitInternalSymbol:" : "TestRunner 11/4/2009 14:13",
 		"visitMethod:" : "TestRunner 11/2/2009 20:34",
 		"visitSelf:" : "TestRunner 11/2/2009 20:15",
 		"visitSend:" : "TestRunner 11/2/2009 20:34",

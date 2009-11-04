@@ -1,9 +1,9 @@
 running
 testDumpSymbol
 	| symbol result |
-	symbol := ASTSymbol new symbol: 'at:put:'.
+	symbol := ASTSymbol new symbol: 'notAnInternalSymbol:at:'.
 	result := visitor visit: symbol.
 	dumper visit: result.
 	dumper printString withBlanksTrimmed should = 
-		('Object ', result constant uid,' = (Object)new_Type_Symbol(L"at:put:");', String cr,
+		('Object ', result constant uid,' = (Object)new_Type_Symbol(L"notAnInternalSymbol:at:");', String cr,
 		 'Object ', result uid,' = (Object)new_AST_Constant(', result constant uid,');')
