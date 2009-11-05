@@ -1,5 +1,5 @@
 exporting
 ensurePharoClass: pharoClass
 	| reference |
-	reference := self ensureClassReference: pharoClass name.
+	reference := self ensureClassReference: pharoClass pinocchioName.
 	^ reference ensure: pharoClass.

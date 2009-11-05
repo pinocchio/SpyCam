@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"initialize" : "TestRunner 10/27/2009 13:47",
+		"pinocchioName" : "ToonVerwaest 11/5/2009 11:20",
 		"uidCounter" : "TestRunner 10/29/2009 21:12",
 		"uidCounter:" : "TestRunner 10/29/2009 21:11",
 		"uidFor:" : "TestRunner 11/2/2009 15:49" },
@@ -9,7 +10,7 @@
 		"hasReturnExpression" : "TestRunner 11/2/2009 20:04",
 		"initialize" : "DavidGurtner 10/29/2009 16:58",
 		"isReturnExpression" : "TestRunner 10/27/2009 15:59",
-		"objectName" : "TestRunner 10/27/2009 13:47",
+		"objectName" : "ToonVerwaest 11/5/2009 11:20",
 		"printed" : "DavidGurtner 10/29/2009 13:40",
 		"printed:" : "DavidGurtner 10/29/2009 13:40",
 		"uid" : "TestRunner 10/27/2009 13:39",

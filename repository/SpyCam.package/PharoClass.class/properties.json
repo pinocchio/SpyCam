@@ -12,5 +12,5 @@
 	"name" : "PharoClass",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PinocchioObject",
 	"type" : "normal" }
