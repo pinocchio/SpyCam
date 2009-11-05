@@ -10,5 +10,5 @@
 	"name" : "PinocchioRootScope",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PinocchioObject",
 	"type" : "normal" }
