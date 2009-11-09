@@ -4,7 +4,7 @@ visitMethod: aPinocchioMethod
 	self visit: aPinocchioMethod locals.
 	self visit: aPinocchioMethod body.
 	self put: aPinocchioMethod 
-		with: ('new_AST_Method_With(',
+		with: ('new_AST_Method_with(',
 						'(Type_Array)', aPinocchioMethod params uid, ', ',
 						'(Type_Array)',aPinocchioMethod locals uid, ', ',
 						'(Type_Array)',aPinocchioMethod body uid, ')')
