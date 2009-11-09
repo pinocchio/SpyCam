@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"scope",
-		"parentScope" ],
+		"scope" ],
 	"name" : "PinocchioASTVisitor",
 	"pools" : [
 		 ],

@@ -1,3 +1,0 @@
-accessing
-className
-	^ cls name

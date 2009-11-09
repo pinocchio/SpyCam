@@ -7,11 +7,11 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"type",
-		"superClass",
 		"methods",
 		"name",
 		"package",
-		"classVariables" ],
+		"classVariables",
+		"superclass" ],
 	"name" : "PinocchioClass",
 	"pools" : [
 		 ],

@@ -1,12 +1,12 @@
 {
 	"class" : {
 		"initialize" : "TestRunner 10/27/2009 13:47",
+		"pinocchioMethods" : "CamilloBruni 11/9/2009 15:21",
 		"pinocchioName" : "ToonVerwaest 11/5/2009 11:44",
 		"uidCounter" : "TestRunner 10/29/2009 21:12",
 		"uidCounter:" : "TestRunner 10/29/2009 21:11",
 		"uidFor:" : "TestRunner 11/2/2009 15:49" },
 	"instance" : {
-		"doesNotUnderstand:" : "DavidGurtner 10/29/2009 14:13",
 		"hasReturnExpression" : "TestRunner 11/2/2009 20:04",
 		"initialize" : "DavidGurtner 10/29/2009 16:58",
 		"isReturnExpression" : "TestRunner 10/27/2009 15:59",

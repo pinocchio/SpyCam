@@ -1,7 +1,7 @@
 visitor
 visitMethod: aMethod 
 	| block params locals |
-	self .
+	self pushScope.
 	scope declareAll: aMethod message parameters.
 	scope declareAll: aMethod temporaries.
 	block := PinocchioBlock new 

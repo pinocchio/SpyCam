@@ -1,3 +1,3 @@
 accessing
-superClass
-	^ superClass
+superclass
+	^ superclass

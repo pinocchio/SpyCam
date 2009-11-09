@@ -1,6 +1,6 @@
 as yet unclassified
-ensure: pharoClass
-	cls ifNil: [ cls := PharoClass wrap: pharoClass in: self ]
-	 ifNotNil: [ (cls wraps: pharoClass) ifFalse: [ self error ] ].
+ensure: aPinocchioClass
+	cls ifNil: [ cls := aPinocchioClass ]
+	 ifNotNil: [ (cls = aPinocchioClass) ifFalse: [ self error ] ].
 	^ cls
 	

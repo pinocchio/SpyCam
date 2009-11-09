@@ -1,3 +1,3 @@
 accessing
-superClass: anObject
-	superClass := anObject
+superclass: anObject
+	superclass := anObject

@@ -1,12 +1,19 @@
 {
 	"class" : {
-		"export:" : "ToonVerwaest 11/4/2009 18:23" },
+		"export:" : "CamilloBruni 11/9/2009 14:21" },
 	"instance" : {
 		"done" : "ToonVerwaest 11/4/2009 17:18",
 		"done:" : "ToonVerwaest 11/4/2009 17:18",
-		"initialize" : "ToonVerwaest 11/4/2009 19:22",
+		"ensureClassReferenceFor:" : "CamilloBruni 11/9/2009 14:45",
+		"ensurePackageFor:" : "CamilloBruni 11/9/2009 14:44",
+		"ensurePharoClass:in:" : "CamilloBruni 11/9/2009 14:01",
+		"export" : "CamilloBruni 11/9/2009 14:22",
+		"initialize" : "CamilloBruni 11/9/2009 14:51",
 		"root" : "ToonVerwaest 11/4/2009 18:01",
 		"root:" : "ToonVerwaest 11/4/2009 18:01",
 		"todo" : "ToonVerwaest 11/4/2009 17:18",
 		"todo:" : "ToonVerwaest 11/4/2009 17:18",
-		"transformNext" : "ToonVerwaest 11/4/2009 18:21" } }
+		"transformClass:" : "CamilloBruni 11/9/2009 15:04",
+		"transformMethod:" : "CamilloBruni 11/9/2009 14:57",
+		"transformMethodsFor:" : "CamilloBruni 11/9/2009 15:25",
+		"transformNext" : "CamilloBruni 11/9/2009 14:18" } }

@@ -1,4 +1,4 @@
-precedence
+as yet unclassified
 doesNotUnderstand: aMessage
 	| selector |
 	(aMessage selector = #accept:) 

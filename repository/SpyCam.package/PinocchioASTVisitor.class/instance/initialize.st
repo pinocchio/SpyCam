@@ -1,3 +1,4 @@
 visitor
 initialize 
-	scope := PinocchioRootScope new
+	super initialize.
+	scope := PinocchioRootScope new.
