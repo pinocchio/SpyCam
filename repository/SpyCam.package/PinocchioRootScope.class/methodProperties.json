@@ -3,12 +3,13 @@
 		"globalDefintion" : "TestRunner 11/4/2009 17:33",
 		"initialize" : "TestRunner 11/4/2009 14:24",
 		"initializeGlobals" : "TestRunner 11/4/2009 14:46",
-		"lookup:" : "TestRunner 11/4/2009 14:24" },
+		"lookup:" : "CamilloBruni 11/9/2009 15:50" },
 	"instance" : {
-		"declare:" : "DavidGurtner 10/22/2009 18:24",
+		"declare:" : "CamilloBruni 11/9/2009 15:48",
+		"declare:as:" : "CamilloBruni 11/9/2009 15:49",
 		"declareAll:" : "DavidGurtner 10/22/2009 19:09",
 		"decls" : "DavidGurtner 10/22/2009 17:57",
 		"decls:" : "DavidGurtner 10/22/2009 17:57",
 		"initialize" : "TestRunner 11/4/2009 14:21",
-		"lookup:" : "TestRunner 11/4/2009 14:43",
+		"lookup:" : "CamilloBruni 11/9/2009 15:49",
 		"parentScope" : "CamilloBruni 11/9/2009 14:56" } }

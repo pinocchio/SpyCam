@@ -1,5 +1,4 @@
 accessing
 lookup: anASTVariable
-	^ decls at: anASTVariable name ifAbsent: [
-			self error: ('Undeclared variable "', anASTVariable name, '"')
-	]
+	"For now return nil for easier exporting"
+	^ decls at: anASTVariable name ifAbsent: [ ^ nil]
