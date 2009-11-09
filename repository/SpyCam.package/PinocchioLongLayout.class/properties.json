@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"values" ],
-	"name" : "PinocchioArray",
+		 ],
+	"name" : "PinocchioLongLayout",
 	"pools" : [
 		 ],
-	"super" : "PinocchioType",
-	"type" : "variable" }
+	"super" : "PinocchioLayout",
+	"type" : "normal" }

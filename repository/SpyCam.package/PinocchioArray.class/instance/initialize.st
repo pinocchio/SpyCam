@@ -1,3 +1,3 @@
 initialization
 initialize 
-	self values:( OrderedCollection new).
+	super initialize.

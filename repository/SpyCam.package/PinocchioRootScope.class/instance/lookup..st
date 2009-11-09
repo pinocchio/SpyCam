@@ -8,4 +8,5 @@ lookup: anASTVariable
 	anASTVariable name first isUppercase ifTrue: [
 		^ self declare: anASTVariable as: PinocchioClassReference new.
 	].
-	self error: ('Lookup failed. Undefined Variable: ', anASTVariable name).
+	self error: ('Lookup failed. Undefined Variable: ''', 
+						anASTVariable name, '''').

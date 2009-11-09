@@ -10,10 +10,9 @@
 		"methods",
 		"name",
 		"package",
-		"classVariables",
 		"superclass" ],
 	"name" : "PinocchioClass",
 	"pools" : [
 		 ],
 	"super" : "PinocchioType",
-	"type" : "normal" }
+	"type" : "variable" }

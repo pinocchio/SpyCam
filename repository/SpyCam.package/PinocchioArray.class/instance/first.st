@@ -1,3 +1,3 @@
 accessing
 first
-	^ self values first.
+	^ self at: 1.

@@ -1,3 +1,0 @@
-accessing
-cls
-	^ cls

@@ -4,8 +4,9 @@
 	"instance" : {
 		"handleReturn:" : "TestRunner 11/2/2009 20:09",
 		"initialize" : "CamilloBruni 11/9/2009 14:49",
+		"pinocchioClass" : "CamilloBruni 11/9/2009 17:21",
+		"pinocchioClass:" : "CamilloBruni 11/9/2009 17:34",
 		"popScope" : "CamilloBruni 11/9/2009 14:56",
-		"pushClassScope" : "DavidGurtner 10/29/2009 12:25",
 		"pushScope" : "CamilloBruni 11/9/2009 14:55",
 		"scope" : "DavidGurtner 10/22/2009 18:32",
 		"scope:" : "CamilloBruni 11/9/2009 14:51",
@@ -15,6 +16,7 @@
 		"visitBlock:" : "DavidGurtner 11/4/2009 18:25",
 		"visitBoolean:" : "TestRunner 10/29/2009 22:00",
 		"visitCharacter:" : "TestRunner 10/27/2009 16:05",
+		"visitMessageCascadeExpression:" : "CamilloBruni 11/9/2009 17:16",
 		"visitMessageExpression:" : "TestRunner 11/2/2009 15:54",
 		"visitMethod:" : "CamilloBruni 11/9/2009 14:53",
 		"visitNumber:" : "TestRunner 10/27/2009 16:05",

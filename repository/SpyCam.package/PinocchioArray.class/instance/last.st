@@ -1,3 +1,3 @@
 accessing
 last
-	^ self values last.
+	^ self atWrap: 0.

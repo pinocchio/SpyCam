@@ -13,6 +13,8 @@ transformClass: cls
 		aPinocchioClass superclass: (self transformClass: cls superclass).
 	].
 	
+	pinocchioVisitor pinocchioClass: aPinocchioClass.
 	aPinocchioClass methods: (self transformMethodsFor: cls).
+	pinocchioVisitor popScope.
 	
 	^ aPinocchioClass.
