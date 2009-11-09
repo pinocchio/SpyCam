@@ -1,7 +1,7 @@
 initialize-release
 symbolDefintion
     "Auto generated Symbol definition from system/type/SymbolInitialization.ci
-     use the script at _meta/extractSymbols to generate this method"
+     Use the script at _meta/extractSymbols to generate this method"
 
     ^ #(
         ('objectAt:putIfAbsent:' 'SMB_objectAt_putIfAbsent_')
@@ -23,7 +23,7 @@ symbolDefintion
         ('class' 'SMB_class')
         ('concat:' 'SMB_concat_')
         ('delete:' 'SMB_delete_')
-        ('divide:' 'SMB_divide_')
+        ('/' 'SMB_divide_')
         ('equals:' 'SMB_equals_')
         ('escape:' 'SMB_escape_')
         ('eval' 'SMB_eval')
@@ -42,12 +42,12 @@ symbolDefintion
         ('isNotNil' 'SMB_isNotNil')
         ('lookup:' 'SMB_lookup_')
         ('<' 'SMB_lt_')
-        ('minus:' 'SMB_minus_')
+        ('-' 'SMB_minus_')
         ('not' 'SMB_not')
         ('notEquals:' 'SMB_notEquals_')
         ('on:' 'SMB_on_')
         ('or:' 'SMB_or_')
-        ('plus:' 'SMB_plus_')
+        ('+' 'SMB_plus_')
         ('read' 'SMB_read')
         ('readAll' 'SMB_readAll')
         ('rewind' 'SMB_rewind')
@@ -55,7 +55,7 @@ symbolDefintion
         ('shiftLeft:' 'SMB_shiftLeft_')
         ('shiftRight:' 'SMB_shiftRight_')
         ('size' 'SMB_size')
-        ('times:' 'SMB_times_')
+        ('*' 'SMB_times_')
         ('update' 'SMB_update')
         ('value:' 'SMB_value_')
         ('whileFalse:' 'SMB_whileFalse_')

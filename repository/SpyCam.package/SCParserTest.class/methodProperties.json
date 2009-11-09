@@ -36,6 +36,7 @@
 		"testString" : "tv 3/28/2009 13:33",
 		"testStringConstant" : "tv 3/28/2009 13:33",
 		"testSubExpression" : "tv 3/30/2009 11:21",
+		"testSuper" : "TestRunner 11/4/2009 17:46",
 		"testSymbolConstant" : "tv 3/28/2009 13:33",
 		"testSymbolKeywords" : "tv 3/28/2009 13:33",
 		"testTemporaries" : "tv 3/28/2009 18:13",

@@ -14,6 +14,7 @@
 		"testVisitMethod" : "TestRunner 11/2/2009 19:37",
 		"testVisitMethod1Arg" : "TestRunner 11/2/2009 19:37",
 		"testVisitMethod1Locals" : "TestRunner 11/2/2009 19:38",
+		"testVisitMethodSuperAndSelf" : "TestRunner 11/4/2009 17:35",
 		"testVisitMethodWithIntermediateReturn" : "TestRunner 11/2/2009 19:43",
 		"testVisitMethodWithReturn" : "TestRunner 11/2/2009 19:42",
 		"testVisitNumber" : "TestRunner 10/27/2009 18:10",

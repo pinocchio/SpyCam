@@ -1,6 +1,8 @@
 initialize-release
 globalDefintion
 	^ #(
+		('nil', 'Nil')
+		('self', 'Self')
 		('true', 'True')
 		('false', 'False')
 		('MetaClass', 'Metaclass')
@@ -8,5 +10,5 @@ globalDefintion
 		('Object', 'Type_Object_Class')
 		('String', 'Type_String_Class')
 		('True', 'True_Class')
-		('False', 'False_Class')	
+		('False', 'False_Class')
 	)
