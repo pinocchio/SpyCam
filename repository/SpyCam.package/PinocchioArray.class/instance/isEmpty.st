@@ -1,3 +1,3 @@
 accessing
 isEmpty
-	^ self values isEmpty 
+	^ self size = 0

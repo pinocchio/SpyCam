@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"export:" : "CamilloBruni 11/9/2009 14:21" },
+		"export:" : "CamilloBruni 11/9/2009 14:21",
+		"pinocchioMethods" : "CamilloBruni 11/10/2009 15:38" },
 	"instance" : {
 		"done" : "ToonVerwaest 11/4/2009 17:18",
 		"done:" : "ToonVerwaest 11/4/2009 17:18",
@@ -9,11 +10,13 @@
 		"ensurePharoClass:in:" : "CamilloBruni 11/9/2009 14:01",
 		"export" : "CamilloBruni 11/9/2009 14:22",
 		"initialize" : "CamilloBruni 11/9/2009 14:51",
+		"instanceVariablesFor:" : "CamilloBruni 11/10/2009 14:48",
+		"layoutFor:" : "CamilloBruni 11/10/2009 14:30",
 		"root" : "ToonVerwaest 11/4/2009 18:01",
 		"root:" : "ToonVerwaest 11/4/2009 18:01",
 		"todo" : "ToonVerwaest 11/4/2009 17:18",
 		"todo:" : "ToonVerwaest 11/4/2009 17:18",
-		"transformClass:" : "CamilloBruni 11/9/2009 17:32",
+		"transformClass:" : "CamilloBruni 11/10/2009 15:20",
 		"transformMethod:" : "CamilloBruni 11/9/2009 14:57",
-		"transformMethodsFor:" : "CamilloBruni 11/9/2009 15:25",
+		"transformMethodsFor:" : "CamilloBruni 11/10/2009 15:36",
 		"transformNext" : "CamilloBruni 11/9/2009 14:18" } }

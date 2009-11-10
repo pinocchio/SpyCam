@@ -1,3 +1,3 @@
 accessing
 last: aNode
-	^ self atWrap: 0 put: aNode.
+	^ self at: self size put: aNode.
