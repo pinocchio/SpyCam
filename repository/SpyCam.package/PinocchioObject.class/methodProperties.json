@@ -7,12 +7,11 @@
 		"uidCounter:" : "CamilloBruni 11/10/2009 16:28",
 		"uidFor:" : "TestRunner 11/2/2009 15:49" },
 	"instance" : {
+		"doesNotUnderstand:" : "CamilloBruni 11/10/2009 18:27",
 		"hasReturnExpression" : "TestRunner 11/2/2009 20:04",
+		"hash" : "CamilloBruni 11/10/2009 18:29",
 		"initialize" : "DavidGurtner 10/29/2009 16:58",
 		"isReturnExpression" : "TestRunner 10/27/2009 15:59",
 		"objectName" : "ToonVerwaest 11/5/2009 11:20",
-		"printed" : "DavidGurtner 10/29/2009 13:40",
-		"printed:" : "DavidGurtner 10/29/2009 13:40",
 		"uid" : "TestRunner 10/27/2009 13:39",
-		"uid1" : "TestRunner 11/4/2009 14:08",
 		"uid:" : "TestRunner 11/4/2009 14:08" } }

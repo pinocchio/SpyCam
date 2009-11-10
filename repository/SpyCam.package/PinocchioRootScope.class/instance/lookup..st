@@ -6,7 +6,8 @@ lookup: anASTVariable
 	].
 	result ifNotNil: [ ^ result].
 	anASTVariable name first isUppercase ifTrue: [
-		^ self declare: anASTVariable as: PinocchioClassReference new.
+		^ self declare: anASTVariable 
+					as:( PinocchioClassReference named: anASTVariable name)
 	].
 	self error: ('Lookup failed. Undefined Variable: ''', 
 						anASTVariable name, '''').

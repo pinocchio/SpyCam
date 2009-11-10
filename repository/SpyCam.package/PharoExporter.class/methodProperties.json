@@ -3,12 +3,15 @@
 		"export:" : "CamilloBruni 11/9/2009 14:21",
 		"pinocchioMethods" : "CamilloBruni 11/10/2009 15:38" },
 	"instance" : {
+		"addDanglingClassReference:" : "CamilloBruni 11/10/2009 19:27",
 		"done" : "ToonVerwaest 11/4/2009 17:18",
 		"done:" : "ToonVerwaest 11/4/2009 17:18",
-		"ensureClassReferenceFor:" : "CamilloBruni 11/9/2009 14:45",
+		"ensureClassReferenceFor:" : "CamilloBruni 11/10/2009 18:58",
 		"ensurePackageFor:" : "CamilloBruni 11/9/2009 14:44",
 		"ensurePharoClass:in:" : "CamilloBruni 11/9/2009 14:01",
-		"export" : "CamilloBruni 11/9/2009 14:22",
+		"export" : "CamilloBruni 11/10/2009 19:11",
+		"fetchDanglingClassReferences" : "CamilloBruni 11/10/2009 19:23",
+		"fetchDanglingClassReferencesIn:" : "CamilloBruni 11/10/2009 19:30",
 		"initialize" : "CamilloBruni 11/9/2009 14:51",
 		"instanceVariablesFor:" : "CamilloBruni 11/10/2009 14:48",
 		"layoutFor:" : "CamilloBruni 11/10/2009 14:30",
@@ -18,5 +21,5 @@
 		"todo:" : "ToonVerwaest 11/4/2009 17:18",
 		"transformClass:" : "CamilloBruni 11/10/2009 15:20",
 		"transformMethod:" : "CamilloBruni 11/10/2009 16:34",
-		"transformMethodsFor:" : "CamilloBruni 11/10/2009 15:36",
-		"transformNext" : "CamilloBruni 11/9/2009 14:18" } }
+		"transformMethodsFor:" : "CamilloBruni 11/10/2009 19:46",
+		"transformNext" : "CamilloBruni 11/10/2009 19:11" } }

@@ -6,8 +6,7 @@
 		"uidCounter" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"uid",
-		"printed" ],
+		"uid" ],
 	"name" : "PinocchioObject",
 	"pools" : [
 		 ],

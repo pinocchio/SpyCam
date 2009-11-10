@@ -1,4 +1,4 @@
-initialize-release
+error handling
 doesNotUnderstand: aMessage
 	| selector |
 	(aMessage selector = #accept:) 

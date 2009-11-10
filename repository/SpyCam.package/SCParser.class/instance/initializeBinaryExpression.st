@@ -10,9 +10,9 @@ initializeBinaryExpression
 		semantics: [:parts |
 			(parts at: 3)
 				argumentOfBinary: (ASTBinaryExpression new
-										receiver: (parts at: 1);
-										selector: (ASTBinarySelector new
-													selector: (self createSymbol: (parts at: 2))))
+					receiver: (parts at: 1);
+					selector: (ASTBinarySelector new
+						selector: (self createSymbol: (parts at: 2))))
 		]
 	).
 	

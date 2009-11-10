@@ -6,5 +6,5 @@ initializeBinaryMessageDefinition
 		semantics: [:result |
 			ASTBinaryMessageDefinition new
 				selector: (self createSymbol: (result at: 1));
-				parameter: (result at: 2).
+				parameter: (self createVariable: (result at: 2))
 		]

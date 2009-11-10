@@ -7,6 +7,7 @@ testVisitMethod1Locals
 	ast hasReturn should = false.
 	ast body class should = PinocchioArray.
 	ast params class should = PinocchioArray.
+	ast params size should = 0.
 	ast locals class should = PinocchioArray.
 	ast body size should = (1+1).
 	ast locals size should = 1.

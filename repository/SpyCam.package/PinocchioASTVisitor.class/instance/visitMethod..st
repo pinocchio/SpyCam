@@ -1,6 +1,7 @@
 visitor
 visitMethod: aMethod 
 	| block params locals |
+	currentMethod := aMethod.
 	self pushScope.
 	scope declareAll: aMethod message parameters.
 	scope declareAll: aMethod temporaries.

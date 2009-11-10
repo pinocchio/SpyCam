@@ -5,6 +5,6 @@ memoizeMatch: parser
 	doCache ifTrue: [
 		result := self bucket at: parser ifAbsentPut: [ self doMatch: parser ].
 		position := result x.
-		^ result y
+		^ result y.
 	]
 	ifFalse: [ ^ (self doMatch: parser) y]

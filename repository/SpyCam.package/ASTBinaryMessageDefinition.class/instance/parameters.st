@@ -1,3 +1,3 @@
 accessing
 parameters
-	^ OrderedCollection newFrom: #(self parameter).
+	^ OrderedCollection with: self parameter.
