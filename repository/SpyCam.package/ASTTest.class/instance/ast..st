@@ -1,3 +1,3 @@
 convenience
 ast: aString
-	^ parser match: (PEGMemoizedStringScanner on: aString).
+	^ parser match: (PEGStringScanner on: aString).

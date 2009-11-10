@@ -4,12 +4,12 @@ testUnarySelector
 
 	parser := scparser unarySelector.
 	
-	string := PEGMemoizedStringScanner on: 'abcd bla'.
+	string := PEGStringScanner on: 'abcd bla'.
 	result := (parser match: string).
 	self assert: (result class = ASTUnarySelector).
 	self assert: (result selector printString= 'abcd').
 	self assert: (string position = 4).
 	
-	string := PEGMemoizedStringScanner on: 'abcd: bla'.
+	string := PEGStringScanner on: 'abcd: bla'.
 	self assert: (parser match: string) isNil.
 	self assert: (string position = 0).

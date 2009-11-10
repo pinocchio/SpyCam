@@ -5,6 +5,9 @@
 		"pinocchioMethods" : "CamilloBruni 11/10/2009 15:37" },
 	"instance" : {
 		"beginsWith:" : "tv 3/25/2009 19:03",
-		"on:separator:" : "tv 3/25/2009 16:27",
+		"bucket" : "CamilloBruni 11/10/2009 18:06",
+		"doMatch:" : "CamilloBruni 11/10/2009 17:44",
+		"memoizeMatch:" : "CamilloBruni 11/10/2009 17:52",
+		"on:separator:" : "CamilloBruni 11/10/2009 17:43",
 		"scan:" : "tv 3/25/2009 18:59",
 		"skipWhitespace" : "tv 3/26/2009 11:49" } }

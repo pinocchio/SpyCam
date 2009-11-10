@@ -4,14 +4,14 @@ testSeparator
 
 	parser := scparser separator.
 	
-	string := PEGMemoizedStringScanner on: '"Test"'.
+	string := PEGStringScanner on: '"Test"'.
 	self assert: (parser match: string) isNil not.
 	self assert: (string position = 6).
 	
-	string := PEGMemoizedStringScanner on: ' 	"Test" "boe"	"" ab'.
+	string := PEGStringScanner on: ' 	"Test" "boe"	"" ab'.
 	self assert: (parser match: string) isNil not.
 	self assert: (string position = 18).
 	
-	string := PEGMemoizedStringScanner on: ''.
+	string := PEGStringScanner on: ''.
 	self assert: (parser match: string) isNil not.
 	self assert: (string position = 0).

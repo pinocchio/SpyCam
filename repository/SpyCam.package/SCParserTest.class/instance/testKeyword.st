@@ -4,10 +4,10 @@ testKeyword
 
 	parser := scparser keyword.
 	
-	string := PEGMemoizedStringScanner on: 'abcd: '.
+	string := PEGStringScanner on: 'abcd: '.
 	self assert: ((parser match: string) = 'abcd').
 	self assert: (string position = 5).
 	
-	string := PEGMemoizedStringScanner on: 'abcd '.
+	string := PEGStringScanner on: 'abcd '.
 	self assert: ((parser match: string) isNil).
 	self assert: (string position = 0).

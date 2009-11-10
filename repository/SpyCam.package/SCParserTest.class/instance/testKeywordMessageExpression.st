@@ -4,7 +4,7 @@ testKeywordMessageExpression
 
 	parser := scparser keywordMessageExpression.
 
-	string := PEGMemoizedStringScanner on: 'abc: 1 def: 2+2 ghi: 3 b '.
+	string := PEGStringScanner on: 'abc: 1 def: 2+2 ghi: 3 b '.
  	result := (parser match: string).
 	self assert: (result class = ASTMessageExpression).
 	self assert: (result keywords asArray = #('abc' 'def' 'ghi')).

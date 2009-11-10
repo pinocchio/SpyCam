@@ -5,7 +5,7 @@ testBinaryObjectDescription
 	parser := scparser binaryObjectDescription.
 
 	" unary object description -> unary expression "
-	string := PEGMemoizedStringScanner on: 'abc def ghi '.
+	string := PEGStringScanner on: 'abc def ghi '.
  	result := (parser match: string).
 	self assert: (result class = ASTUnaryExpression).
 	self assert: (result selector class = ASTUnarySelector).
@@ -19,14 +19,14 @@ testBinaryObjectDescription
 	self assert: (string position = 12).
 	
 	" unary object description -> primary "
-	string := PEGMemoizedStringScanner on: '3'.
+	string := PEGStringScanner on: '3'.
  	result := (parser match: string).
 	self assert: (result class = ASTNumber).
 	self assert: (result number = '3').
 	self assert: (string position = 1).
 	
 	" binary expression "
-	string := PEGMemoizedStringScanner on: 'abc + ghi * c '.
+	string := PEGStringScanner on: 'abc + ghi * c '.
  	result := (parser match: string).
 	result class should = ASTBinaryExpression.
 	result selector printString should = '*'.

@@ -1,3 +1,3 @@
 hasing
 hash
-	^ id
+	^ name hash

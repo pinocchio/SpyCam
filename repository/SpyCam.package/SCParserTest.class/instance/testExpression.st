@@ -4,7 +4,7 @@ testExpression
 
 	parser := scparser expression.
 
-	string := PEGMemoizedStringScanner on: 'a:= b :=    c:= 2+4 abc: 1 def: 2+2 ghi: 3 b '.
+	string := PEGStringScanner on: 'a:= b :=    c:= 2+4 abc: 1 def: 2+2 ghi: 3 b '.
  	result := (parser match: string).
 	self assert: (result class = ASTAssignmentExpression).
 	self assert: (result variable class = ASTVariable).

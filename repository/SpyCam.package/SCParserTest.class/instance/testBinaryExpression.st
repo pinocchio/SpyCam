@@ -4,7 +4,7 @@ testBinaryExpression
 
 	parser := scparser binaryObjectDescription.
 
-	string := PEGMemoizedStringScanner on: 'abc + ghi '.
+	string := PEGStringScanner on: 'abc + ghi '.
  	result := (parser match: string).
 	self assert: (result class = ASTBinaryExpression).
 	self assert: (result selector printString = '+').
@@ -15,7 +15,7 @@ testBinaryExpression
 	self assert: (string position = 9).
 	
 	" becomes (abc + ghi) * c "
-	string := PEGMemoizedStringScanner on: 'abc + ghi * c '.
+	string := PEGStringScanner on: 'abc + ghi * c '.
  	result := (parser match: string).
 	self assert: (result class = ASTBinaryExpression).
 	self assert: (result selector printString = '*').

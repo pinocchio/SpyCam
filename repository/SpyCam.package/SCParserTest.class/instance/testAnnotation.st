@@ -6,7 +6,7 @@ testAnnotation
 
 	parser := scparser annotation.
 
-	string := PEGMemoizedStringScanner on: '<abc: 1 def: (2 + 3) ghi: (3 b)>'.
+	string := PEGStringScanner on: '<abc: 1 def: (2 + 3) ghi: (3 b)>'.
  	result := (parser match: string).
 	self assert: (result class = ASTKeywordAnnotation).
 	self assert: (result keywords asArray = #('abc' 'def' 'ghi')).
@@ -18,13 +18,13 @@ testAnnotation
 	self assert: arg class = ASTUnaryExpression.
 	self assert: (string atEnd).
 	
-	string := PEGMemoizedStringScanner on: '<abc> '.
+	string := PEGStringScanner on: '<abc> '.
  	result := (parser match: string).
 	self assert: (result class = ASTUnaryAnnotation).
 	self assert: (result selector asString = 'abc').
 	self assert: (string position = 5).
 	
-	string := PEGMemoizedStringScanner on: '<temps: 4 annotations: 1 statements: 2>'.
+	string := PEGStringScanner on: '<temps: 4 annotations: 1 statements: 2>'.
  	result := (parser match: string).
 	self assert: (result class = ASTKeywordAnnotation).
 	self assert: (result keywords asArray = #('temps' 'annotations' 'statements')).

@@ -1,10 +1,10 @@
 tests
 testBlockArguments
-	| parser string result var |
+	| string result var parser |
 
 	parser := scparser blockArguments.
 	
-	string := PEGMemoizedStringScanner on: ':abcd :def'.
+	string := PEGStringScanner on: ':abcd :def'.
 	result := parser match: string.
 	self assert: (string position = 10).
 	self assert: (result class = OrderedCollection).
@@ -18,7 +18,7 @@ testBlockArguments
 	self assert: (var class = ASTVariable).
 	self assert: (var name = 'def').
 	
-	string := PEGMemoizedStringScanner on: ' :  abcd:   def '.
+	string := PEGStringScanner on: ' :  abcd:   def '.
 	result := parser match: string.
 	self assert: (string position = 16).
 	self assert: (result class = OrderedCollection).

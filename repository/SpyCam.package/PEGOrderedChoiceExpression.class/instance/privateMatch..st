@@ -1,6 +1,8 @@
 matching
 privateMatch: input
+	|match |
 	children do: [ :child |
-		(child match: input)
-			ifNotNil: [ :match | ^ match ] ].
+		match := child match: input.
+		match ifNotNil: [ ^ match].
+	].
 	^ nil

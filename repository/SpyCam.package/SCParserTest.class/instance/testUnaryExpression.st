@@ -4,7 +4,7 @@ testUnaryExpression
 
 	parser := scparser unaryExpression.
 
-	string := PEGMemoizedStringScanner on: 'abc def ghi '.
+	string := PEGStringScanner on: 'abc def ghi '.
  	result := (parser match: string).
 	self assert: (result class = ASTUnaryExpression).
 	self assert: (result selector class = ASTUnarySelector).
@@ -17,5 +17,5 @@ testUnaryExpression
 	self assert: (result receiver name = 'abc').
 	self assert: (string position = 12).
 	
-	string := PEGMemoizedStringScanner on: 'abc'.
+	string := PEGStringScanner on: 'abc'.
  	self assert: (parser match: string) isNil.

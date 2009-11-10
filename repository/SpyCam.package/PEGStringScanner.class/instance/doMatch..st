@@ -1,4 +1,4 @@
-private
+initialization
 doMatch: parser
 	| result |
 	"First match then store position"

@@ -1,7 +1,7 @@
 tests
 testNotExpression
 	| string exp1 exp2 exp exp3 |
-	string := PEGMemoizedStringScanner on: 'teesest'.
+	string := PEGStringScanner on: 'teesest'.
 	exp1 := PEGTerminal new: 'te'.
 	exp2 := PEGTerminal new: 'es'.
 	exp := PEGNotExpression new: exp1.
@@ -14,11 +14,11 @@ testNotExpression
 	self assert: string position = 1.
 	
 	" Fail on end of string. "
-	string := PEGMemoizedStringScanner on: ''.
+	string := PEGStringScanner on: ''.
 	self assert: (exp 
 		match: string) isNil.
 		
-	string := PEGMemoizedStringScanner on: 'test'.
+	string := PEGStringScanner on: 'test'.
 	exp3 := 'x' asPEG not consume: false.
 	self assert: (exp3
 			match: string) isNil not.
@@ -29,7 +29,7 @@ testNotExpression
 			match: string) = 't'.
 	self assert: string position = 1.
 	
-	string := PEGMemoizedStringScanner on: ''.
+	string := PEGStringScanner on: ''.
 	exp3 := 'x' asPEG not consume: false.
 	self assert: (exp3
 			match: string) isNil not.

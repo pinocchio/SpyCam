@@ -4,12 +4,12 @@ testArray
 
 	parser := scparser array.
 	
-	string := PEGMemoizedStringScanner on: '()'.
+	string := PEGStringScanner on: '()'.
 	result := (parser match: string).
 	self assert: (result class = ASTArray).
 	self assert: (result literals asArray = #()).
 	
-	string := PEGMemoizedStringScanner on: '(1 a #a ''b'' (4)))'.
+	string := PEGStringScanner on: '(1 a #a ''b'' (4)))'.
 	result := (parser match: string).
 	self assert: (result class = ASTArray).
 	self assert: (result literals size = 5).

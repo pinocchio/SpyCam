@@ -1,7 +1,7 @@
 tests
 testOptionalExpression
 	| string exp1 exp2 exp |
-	string := PEGMemoizedStringScanner on: 'teesest'.
+	string := PEGStringScanner on: 'teesest'.
 	exp1 := PEGTerminal new: 'te'.
 	exp2 := PEGTerminal new: 'es'.
 	exp := PEGOptionalExpression new: exp1.

@@ -1,4 +1,4 @@
-private
+initialization
 bucket
 	| bucket |
 	bucket := cache at: position + 1.

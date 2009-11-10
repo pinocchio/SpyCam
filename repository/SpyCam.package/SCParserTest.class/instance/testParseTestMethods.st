@@ -1,13 +1,13 @@
-tests
+nontests
 testParseTestMethods
 	| parser string result code annotations annotation |
-	<temps: 4 annotations: 1 statements: 2>
+	<temps: 6 annotations: 1 statements: 3>
 	parser := scparser method.
-	
+	"Test All Methods"
 	(self class methodDict keys collect: [ :key |
-
+	Transcript show: key; cr.
 	code := self class sourceCodeAt: key.
-	string := PEGMemoizedStringScanner on: code separator: scparser separator.
+	string := PEGStringScanner on: code separator: scparser separator.
 	result := (parser match: string).
 	self assert: (result class = ASTMethod).
 	

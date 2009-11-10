@@ -1,7 +1,7 @@
 tests
 testExpression
 	| string exp1 exp2 exp3 |
-	string := PEGMemoizedStringScanner on: 'teest'.
+	string := PEGStringScanner on: 'teest'.
 	exp1 := PEGTerminal new: 'te'.
 	exp2 := PEGTerminal new: 'es'.
 	exp3 := PEGTerminal new: 't'.

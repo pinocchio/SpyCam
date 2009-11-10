@@ -4,7 +4,7 @@ testCascadedMessageExpression
 
 	parser := scparser cascadedMessageExpression.
 
-	string := PEGMemoizedStringScanner on: '2+4; x: 3 b; d: 3 c: 4; x '.
+	string := PEGStringScanner on: '2+4; x: 3 b; d: 3 c: 4; x '.
  	result := (parser match: string).
 	self assert: (result class = ASTMessageCascadeExpression).
 	self assert: (result receiver class) = ASTBinaryExpression.

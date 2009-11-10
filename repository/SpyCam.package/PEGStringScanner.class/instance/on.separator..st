@@ -1,4 +1,5 @@
 initialization
-on: aCollection separator: aSeparator
-	super on: aCollection.
+on: aString separator: aSeparator
+	super on: aString.
 	separator := aSeparator.
+	cache := Array new: (aString size + 1).

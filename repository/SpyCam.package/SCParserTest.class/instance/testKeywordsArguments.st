@@ -2,17 +2,17 @@ tests
 testKeywordsArguments
 	| parser string result |
 	parser := scparser keywordsArguments.
-	string := PEGMemoizedStringScanner on: 'test: ab'.
+	string := PEGStringScanner on: 'test: ab'.
 	result := parser match: string.
 	self assert: result class = ASTKeywordMessageDefinition.
 	self assert: result keywords = (OrderedCollection with: 'test').
 	self assert: result parameters size = 1.
 	self assert: result parameters first = (ASTVariable new name:'ab').
 	self assert: string position = 8.
-	string := PEGMemoizedStringScanner on: 'bla a'.
+	string := PEGStringScanner on: 'bla a'.
 	self assert: (parser match: string) isNil.
 	self assert: string position = 0.
-	string := PEGMemoizedStringScanner on: 'test: d bla: c boe'.
+	string := PEGStringScanner on: 'test: d bla: c boe'.
 	result := parser match: string.
 	self assert: result class = ASTKeywordMessageDefinition.
 	self assert: result keywords = (OrderedCollection 

@@ -5,7 +5,7 @@ testUnaryObjectDescription
 	parser := scparser unaryObjectDescription.
 
 	" unary expression "
-	string := PEGMemoizedStringScanner on: 'abc def ghi '.
+	string := PEGStringScanner on: 'abc def ghi '.
  	result := (parser match: string).
 	self assert: (result class = ASTUnaryExpression).
 	self assert: (result selector class = ASTUnarySelector).
@@ -19,7 +19,7 @@ testUnaryObjectDescription
 	self assert: (string position = 12).
 	
 	" primary "
-	string := PEGMemoizedStringScanner on: '3'.
+	string := PEGStringScanner on: '3'.
  	result := (parser match: string).
 	self assert: (result class = ASTNumber).
 	self assert: (result number = '3').

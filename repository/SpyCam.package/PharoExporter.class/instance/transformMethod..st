@@ -1,5 +1,5 @@
 exporting
 transformMethod: aMethodSource
 	|ast|
-	ast :=  scparser method match: (PEGMemoizedStringScanner on: aMethodSource).
+	ast :=  scparser method match: (PEGStringScanner on: aMethodSource).
 	^ pinocchioVisitor visit: ast.

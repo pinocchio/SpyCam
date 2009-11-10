@@ -3,7 +3,7 @@ testUnaryAndBinaryPrecedence
 	| parser ast |
 	parser := scparser statements.
 	
-	ast := (parser match: (PEGMemoizedStringScanner on: '2 fib + 3 ')) first.
+	ast := (parser match: (PEGStringScanner on: '2 fib + 3 ')) first.
 	
 	ast class should = ASTBinaryExpression.
 	ast receiver class should = ASTUnaryExpression.

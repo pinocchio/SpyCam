@@ -4,7 +4,7 @@ testReturn
 
 	parser := scparser return.
 
-	string := PEGMemoizedStringScanner on: '^ a:= b :=    c:= 2+4 abc: 1 def: 2+2 ghi: 3 b '.
+	string := PEGStringScanner on: '^ a:= b :=    c:= 2+4 abc: 1 def: 2+2 ghi: 3 b '.
  	result := (parser match: string).
 	self assert: (result class = ASTReturnExpression).
 	result := result expression.
@@ -25,7 +25,7 @@ testReturn
 	
 	self assert: (result expression class = ASTMessageExpression).
 	
-	string := PEGMemoizedStringScanner on: '^ a:= b :=    c:= 2+4 abc: 1 def: 2+2 ghi: 3 b. '.
+	string := PEGStringScanner on: '^ a:= b :=    c:= 2+4 abc: 1 def: 2+2 ghi: 3 b. '.
  	result := (parser match: string).
 	self assert: (result class = ASTReturnExpression).
 	result := result expression.
