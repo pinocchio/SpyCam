@@ -6,4 +6,4 @@ testDumpArray1
 	dumper visit: array.
 	dumper printString withBlanksTrimmed should =
 		('Object ', string uid ,' = (Object)new_Type_String(L"abc");', String cr,
-		  'Object ', array uid, ' = (Object)new_Type_Array_With(1, ', string uid, ');')
+		  'Object ', array uid, ' = (Object)new_Type_Array_with(1, ', string uid, ');')

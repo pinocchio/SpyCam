@@ -5,26 +5,20 @@ testVisitBlock
 	result := visitor visit: emptyblock.
 	result class should = PinocchioBlock.
 	result params class should = PinocchioArray.
-	result params values should = OrderedCollection new.
 	result locals class should = PinocchioArray.
-	result locals values should = OrderedCollection new.
 	result body class should = PinocchioArray.
-	result body values should = OrderedCollection new.
 	
 	variable := ASTVariable new name: #element.
 	result := self ast: '[:element || temp | element := 1.]'.
 	result class should = PinocchioBlock.
 	result params class should = PinocchioArray.
-	result params values class should = OrderedCollection.
-	result params values first class should = PinocchioVariable.
-	result params values first name should = 'element'.
+	result params first class should = PinocchioVariable.
+	result params first name should = 'element'.
 	result locals class should = PinocchioArray.
-	result locals values class should = OrderedCollection.
-	result locals values first class should = PinocchioVariable.
-	result locals values first name should = 'temp'.
+	result locals first class should = PinocchioVariable.
+	result locals first name should = 'temp'.
 	result body class should = PinocchioArray.
-	result body values class should = OrderedCollection.
-	result body values first class should = PinocchioAssign.
-	result body values first variable class should = PinocchioVariable.
-	result body values first variable name should = 'element'.
-	result body values first variable should == result params values first.
+	result body first class should = PinocchioAssign.
+	result body first variable class should = PinocchioVariable.
+	result body first variable name should = 'element'.
+	result body first variable should == result params first.
