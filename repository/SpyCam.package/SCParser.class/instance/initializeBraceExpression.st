@@ -7,5 +7,5 @@ initializeBraceExpression
 		
 		semantics: [ :result |
 			ASTBraceExpression new
-				expressions: ((result at: 1) add: (result at: 2); yourself)
+				expressions: ((result first) add: (result at: 2); yourself)
 		]

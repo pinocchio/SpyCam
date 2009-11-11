@@ -9,6 +9,6 @@ injectCascadedMessageExpression
 					
 		semantics: [:parts |
 			ASTMessageCascadeExpression new
-				receiver: (parts at: 1);
+				receiver: (parts first);
 				cascades: (parts at: 2)
 		]

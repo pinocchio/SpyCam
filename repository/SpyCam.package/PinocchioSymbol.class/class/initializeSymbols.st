@@ -1,8 +1,8 @@
 initialize-release
 initializeSymbols
 	self symbolDefintion do: [ :pair|
-		self symbolDictionary at: (pair at: 1) 
+		self symbolDictionary at: (pair first) 
 			ifAbsentPut: [PinocchioInternalSymbol new 
-								symbol: (pair at: 1);
+								symbol: (pair first);
 								uid: (pair at: 2)] 
 	]

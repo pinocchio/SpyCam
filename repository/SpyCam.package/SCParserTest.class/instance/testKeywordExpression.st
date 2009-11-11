@@ -10,7 +10,7 @@ testKeywordExpression
 	result keywords asArray should  = #('abc' 'def' 'ghi').
 	result selector class should = ASTKeywordSelector.
 	result selector printString should = 'abc:def:ghi:'.
-	arg := (result arguments at: 1).
+	arg := result arguments first.
 	self assert: arg class = ASTNumber.
 	arg := (result arguments at: 2).
 	self assert: arg class = ASTBinaryExpression.

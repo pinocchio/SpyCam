@@ -1,3 +1,3 @@
 debugging
 debugEnd: input 
-	PEGExpression debug ifTrue: [ PEGExpression descreaseIndent ]
+	self debug ifTrue: [ PEGExpression descreaseIndent ]
