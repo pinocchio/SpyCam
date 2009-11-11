@@ -21,6 +21,7 @@
 		"visitClassReference:" : "CamilloBruni 11/10/2009 18:34",
 		"visitCollection:" : "TestRunner 11/2/2009 14:54",
 		"visitConstant:" : "TestRunner 11/2/2009 20:38",
+		"visitInstanceVariable:" : "TestRunner 11/11/2009 13:25",
 		"visitInternalSymbol:" : "TestRunner 11/4/2009 14:13",
 		"visitInternalVariable:" : "TestRunner 11/4/2009 14:47",
 		"visitMethod:" : "CamilloBruni 11/9/2009 13:24",

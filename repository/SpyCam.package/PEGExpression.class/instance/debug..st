@@ -4,6 +4,6 @@ debug: input
 		[ PEGExpression
 			indent;
 			increaseIndent.
-		Transcript show: 'Trying to match: ' , self asString , ' at: '.
+		"Transcript show: 'Trying to match: ' , self asString , ' at: '.
 		Transcript show: input sample.
-		Transcript cr ]
+		Transcript cr" ]
