@@ -8,7 +8,8 @@ testBinaryArgument
 	result := (parser match: string).
 	self assert: (result class = ASTBinaryMessageDefinition).
 	self assert: (result selector printString = '+=').
-	self assert: (result parameter = 'a').
+	self assert: (result parameter class =  ASTVariable).
+	self assert: (result parameter name asString = 'a').
 	self assert: (string position = 4).
 	
 	string := PEGStringScanner on: '|= a'.
@@ -19,5 +20,6 @@ testBinaryArgument
 	result := (parser match: string).
 	self assert: (result class = ASTBinaryMessageDefinition).
 	self assert: (result selector printString = '-=').
-	self assert: (result parameter = 'abc').
+	self assert: (result parameter class =  ASTVariable).
+	self assert: (result parameter name asString = 'abc').
 	self assert: (string position = 6).

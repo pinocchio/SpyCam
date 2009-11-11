@@ -5,6 +5,6 @@ initializeBinaryMessageExpression
 		parsing: (self binarySelector & (self unaryObjectDescription))
 		semantics: [ :parts |
 			ASTBinaryExpression new
-				selector: (self createSymbol: (parts at: 1));
+				selector: (self createSymbol: (parts first));
 				argument: (parts at: 2)
 		]

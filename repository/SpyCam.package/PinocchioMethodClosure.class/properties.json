@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"code",
 		"class",
 		"selector",
 		"info" ],

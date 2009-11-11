@@ -1,7 +1,7 @@
 {
 	"category" : "SpyCam-Pinocchio",
 	"classinstvars" : [
-		"UIDCounter" ],
+		"uidCounter" ],
 	"classvars" : [
 		"uidCounter" ],
 	"commentStamp" : "",

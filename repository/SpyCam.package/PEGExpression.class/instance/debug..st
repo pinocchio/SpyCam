@@ -1,6 +1,6 @@
 debugging
 debug: input 
-	PEGExpression debug ifTrue: 
+	self debug ifTrue: 
 		[ PEGExpression
 			indent;
 			increaseIndent.

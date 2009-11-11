@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"mirror:context:" : "tv 4/2/2009 13:20" },
+		"mirror:context:" : "TestRunner 11/11/2009 14:48" },
 	"instance" : {
 		"classMethods" : "tv 4/2/2009 12:57",
 		"classMethods:" : "tv 4/2/2009 12:57",
 		"combineWith:" : "cb 3/26/2009 15:28",
 		"compatibleMethodsWith:" : "cb 3/27/2009 10:03",
 		"compatibleSuperClassWith:" : "cb 3/27/2009 09:09",
-		"compatibleWith:" : "cb 3/27/2009 09:00",
+		"compatibleWith:" : "TestRunner 11/11/2009 14:42",
 		"context" : "tv 4/2/2009 13:19",
 		"context:" : "tv 4/2/2009 13:19",
-		"hasCompatibleMethod:" : "cb 3/27/2009 09:18",
+		"hasCompatibleMethod:" : "TestRunner 11/11/2009 14:34",
 		"instanceVariables" : "cb 3/26/2009 15:27",
 		"instanceVariables:" : "cb 3/26/2009 15:27",
 		"internalClass:" : "tv 4/2/2009 13:17",

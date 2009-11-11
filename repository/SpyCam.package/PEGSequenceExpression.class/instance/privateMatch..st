@@ -9,5 +9,5 @@ privateMatch: input
 		child omit 
 			ifFalse: [result add: match]].
 	result size = 1 
-		ifTrue: [^ result at: 1].
+		ifTrue: [^ result first].
 	^ result

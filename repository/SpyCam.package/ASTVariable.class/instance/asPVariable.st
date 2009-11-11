@@ -1,3 +1,3 @@
 convenience
 asPVariable 
-	^PinocchioVariable new name: self name
+	^PinocchioLocalVariable new name: self name

@@ -10,7 +10,7 @@ initializeBinaryExpression
 		semantics: [:parts |
 			(parts at: 3)
 				argumentOfBinary: (ASTBinaryExpression new
-					receiver: (parts at: 1);
+					receiver: (parts first);
 					selector: (ASTBinarySelector new
 						selector: (self createSymbol: (parts at: 2))))
 		]

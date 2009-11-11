@@ -1,4 +1,4 @@
-matching
+adding
 performMatch: input
 	| match |
 	match := expression match: input.

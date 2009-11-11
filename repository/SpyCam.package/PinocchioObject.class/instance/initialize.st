@@ -1,3 +1,3 @@
 initialization
 initialize
-	printed := false.
+	super initialize.

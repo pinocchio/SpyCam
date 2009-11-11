@@ -5,7 +5,7 @@ testVisitAssignementExpression
 	parser := scparser subExpression.
 	result := self ast: ' a:= 13.'.
 	result class should = PinocchioAssign.
-	result variable class should = PinocchioVariable.
+	result variable class should = PinocchioLocalVariable.
 	result variable name should = 'a'.
 	result expression class should = PinocchioConstant.
 	result expression constant class should = PinocchioSmallInt.

@@ -10,7 +10,7 @@ testAnnotation
  	result := (parser match: string).
 	self assert: (result class = ASTKeywordAnnotation).
 	self assert: (result keywords asArray = #('abc' 'def' 'ghi')).
-	arg := (result arguments at: 1).
+	arg := result arguments first.
 	self assert: arg class = ASTNumber.
 	arg := (result arguments at: 2).
 	self assert: arg class = ASTBinaryExpression.

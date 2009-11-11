@@ -4,7 +4,7 @@ testParseTestMethods
 	<temps: 6 annotations: 1 statements: 3>
 	parser := scparser method.
 	"Test All Methods"
-	(self class methodDict keys collect: [ :key |
+	(self class methodDict keys do: [ :key |
 	Transcript show: key; cr.
 	code := self class sourceCodeAt: key.
 	string := PEGStringScanner on: code separator: scparser separator.
@@ -13,7 +13,7 @@ testParseTestMethods
 	
 	annotations := result annotations select: [ :ann | (ann class = ASTKeywordAnnotation) and: [ ann keywords asArray = #(temps annotations statements) ] ].
 	(annotations size = 1) ifTrue: [ annotation := annotations first.
-		result temporaries size = (annotation arguments at: 1) asInteger.
+		result temporaries size = annotation arguments first asInteger.
 		result annotations size = (annotation arguments at: 2) asInteger.
 		result statements size = (annotation arguments at: 3) asInteger.
 	].

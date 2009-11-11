@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	separator := PEGParser separator
+	separator := self class separator

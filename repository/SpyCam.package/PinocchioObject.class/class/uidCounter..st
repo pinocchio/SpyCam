@@ -1,3 +1,3 @@
 accessing
-uidCounter: anObject
-	UIDCounter := anObject
+UIDCounter: anObject 
+	uidCounter := anObject

@@ -1,4 +1,4 @@
 accessing
 uidCounter
-	UIDCounter ifNil: [ UIDCounter := 0 ].
-	^ UIDCounter
+	uidCounter ifNil: [ uidCounter := 0 ].
+	^ uidCounter

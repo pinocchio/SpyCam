@@ -1,3 +1,3 @@
 *SpyCam-Pinocchio
 asPVariable
-	^PinocchioVariable new name: self
+	^PinocchioLocalVariable new name: self
