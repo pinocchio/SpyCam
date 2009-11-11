@@ -8,5 +8,6 @@ visitBlock: aBlock
 		params: (self acceptOnCollection: aBlock parameters) asPArray;
 		locals: (self acceptOnCollection: aBlock temporaries) asPArray;
 		body: (self acceptOnCollection: aBlock statements) asPArray.
+		self halt.
 	self popScope.
-	^block
+	^ block

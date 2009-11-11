@@ -17,7 +17,7 @@ initializeExpression
 						<= self primary)
 		
 		semantics: [ :result |
-			variables := result first.
+			variables := result at: 1.
 			expression := result at: 2.
 			variables reverse do: [ :variable |
 				expression := ASTAssignmentExpression new
@@ -26,7 +26,9 @@ initializeExpression
 			].
 			expression
 		]
+	
 	).
+	
 	" After having built the expression parser, we inject the parsers into their stubs. "
 	self injectPrimary.
 	self injectMessageExpression.

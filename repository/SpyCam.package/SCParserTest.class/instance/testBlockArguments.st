@@ -24,7 +24,7 @@ testBlockArguments
 	self assert: (result class = OrderedCollection).
 	self assert: (result size = 2).
 	
-	var := result first.
+	var := result at: 1.
 	self assert: (var class = ASTVariable).
 	self assert: (var name = 'abcd').
 

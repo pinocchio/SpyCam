@@ -1,4 +1,4 @@
 accessing
-uidFor: anObject 
-	self UIDCounter: self uidCounter + 1.
-	^ (anObject objectName asLowercase , self uidCounter asString) asString
+uidFor: anObject
+	self uidCounter: (self uidCounter +1).
+	^ (anObject objectName asLowercase, self uidCounter asString) asString

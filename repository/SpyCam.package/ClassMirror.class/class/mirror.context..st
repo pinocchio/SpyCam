@@ -1,5 +1,5 @@
 instance creation
 mirror: aClass context: aContext 
-	^ self new
+	^ ClassMirror new
 		internalClass: aClass;
 		context: aContext

@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"UIDCounter:" : "TestRunner 11/11/2009 14:22",
-		"initialize" : "TestRunner 11/11/2009 14:21",
+		"initialize" : "TestRunner 10/27/2009 13:47",
 		"pinocchioMethods" : "CamilloBruni 11/10/2009 15:36",
 		"pinocchioName" : "ToonVerwaest 11/5/2009 11:44",
-		"uidCounter" : "TestRunner 11/11/2009 14:21",
-		"uidFor:" : "TestRunner 11/11/2009 14:22" },
+		"uidCounter" : "CamilloBruni 11/10/2009 16:28",
+		"uidCounter:" : "CamilloBruni 11/10/2009 16:28",
+		"uidFor:" : "TestRunner 11/2/2009 15:49" },
 	"instance" : {
 		"doesNotUnderstand:" : "CamilloBruni 11/10/2009 18:27",
 		"hasReturnExpression" : "TestRunner 11/2/2009 20:04",
 		"hash" : "CamilloBruni 11/10/2009 18:29",
-		"initialize" : "TestRunner 11/11/2009 14:17",
+		"initialize" : "DavidGurtner 10/29/2009 16:58",
 		"isReturnExpression" : "TestRunner 10/27/2009 15:59",
 		"objectName" : "ToonVerwaest 11/5/2009 11:20",
 		"uid" : "TestRunner 10/27/2009 13:39",

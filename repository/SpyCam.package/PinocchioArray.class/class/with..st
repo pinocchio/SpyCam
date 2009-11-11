@@ -1,3 +1,3 @@
 instance creation
 with: anObject
-	^ self new values: (OrderedCollection with: anObject).
+	^ PinocchioArray new values: (OrderedCollection with: anObject).

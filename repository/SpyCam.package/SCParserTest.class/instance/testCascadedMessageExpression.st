@@ -11,7 +11,7 @@ testCascadedMessageExpression
 	
 	self assert: (result cascades size = 3).
 	
-	expression := result cascades first.
+	expression := result cascades at: 1.
 	self assert: (expression class = ASTMessageExpression).
 	
 	expression := result cascades at: 2.

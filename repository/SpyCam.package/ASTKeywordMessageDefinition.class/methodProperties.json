@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"compatibleArgumentsWith:" : "TestRunner 11/11/2009 14:35",
+		"compatibleArgumentsWith:" : "tv 3/28/2009 16:59",
 		"compatibleWith:" : "tv 3/28/2009 16:59",
 		"initialize" : "TestRunner 10/22/2009 19:58",
 		"parameters" : "tv 3/28/2009 16:57",

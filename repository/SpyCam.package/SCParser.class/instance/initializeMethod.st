@@ -9,7 +9,7 @@ initializeMethod
 					<& self separator " Allow comment/whitespace at the end of a method. "
 		semantics: [ :parts |
 			ASTMethod new
-				message:	(parts first);
+				message:	(parts at: 1);
 				temporaries:	((parts at: 2) resultIfFailed: [ OrderedCollection new ]);
 				annotations:	(parts at: 3);
 				statements:	(parts at: 4);

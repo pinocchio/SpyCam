@@ -1,3 +1,8 @@
 matching
 performMatch: input
-	self error: 'Should not send performMatch to PEGParser'
+	| match |
+	match := expression match: input.
+	^ match ifNil: [ match ]
+		ifNotNil: [
+			semantics ifNil: [ ^ match ].
+			semantics value: match ]

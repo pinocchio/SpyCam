@@ -1,4 +1,3 @@
 *SpyCam-Pinocchio
 asPArray
-	^ (PinocchioArray new: self size )
-			addAll: self.
+	^ (PinocchioArray newFrom: self)

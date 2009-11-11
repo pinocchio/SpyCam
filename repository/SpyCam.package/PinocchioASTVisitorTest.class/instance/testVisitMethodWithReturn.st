@@ -2,7 +2,7 @@ running
 testVisitMethodWithReturn
 	| ast block return body |
 	parser := scparser method.
-	ast := self ast: 'doIt' , String cr , '|a b c|' , String cr , ' ^ self bla: a foo: b bar: c.'.
+	ast := self ast: 'doIt' , String cr , '|a b c|' , String cr , ' ^ self foo: a bar: b baz: c.'.
 	[^ nil] value.
 	ast class should = PinocchioMethod.
 	ast params class should = PinocchioArray.
@@ -25,5 +25,5 @@ testVisitMethodWithReturn
 	return := block body last.
 	return class should = PinocchioReturn.
 	return argument class should = PinocchioSend.
-	return argument message asString should = 'bla:foo:bar:'.
+	return argument message asString should = 'foo:bar:baz'.
 	

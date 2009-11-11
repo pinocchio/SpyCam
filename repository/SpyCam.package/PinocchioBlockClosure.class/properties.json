@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"code",
 		"context" ],
 	"name" : "PinocchioBlockClosure",
 	"pools" : [

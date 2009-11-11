@@ -1,3 +1,3 @@
 instance creation
 named: anObject
-	^ self new symbol: anObject.
+	^ ASTSymbol new symbol: anObject.

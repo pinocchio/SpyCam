@@ -1,7 +1,5 @@
 accessing
 hasReturnExpression
-	self arguments do: [ :el | 
+	^ self arguments anySatisfy: [ :el | 
 		el isReturnExpression 
-			or: [ el hasReturnExpression ]
-			ifTrue: [ ^ true ] ].
-	^ false
+			or: [ el hasReturnExpression ]].

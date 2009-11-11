@@ -1,3 +1,6 @@
 comparing
 hasCompatibleMethod: aMethod
-	^ methods allSatisfy: [:m| m compatibleWith: aMethod]
+	methods do: [:m|
+		(m compatibleWith: aMethod)
+			ifFalse: [^false]].
+	^ true.
