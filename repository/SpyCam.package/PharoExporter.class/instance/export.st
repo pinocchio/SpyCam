@@ -4,4 +4,5 @@ export
 		self transformNext.
 		self fetchDanglingClassReferences.
 	].
+	self halt.
 	^ root.

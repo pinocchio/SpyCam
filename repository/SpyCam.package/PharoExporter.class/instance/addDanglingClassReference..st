@@ -1,3 +1,3 @@
 as yet unclassified
 addDanglingClassReference: aClassReference
-	self transformClass: (Smalltalk at: aClassReference referenceName asSymbol)
+	self todo add: (Smalltalk at: aClassReference referenceName asSymbol).
