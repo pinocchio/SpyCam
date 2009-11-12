@@ -3,10 +3,10 @@
 		"export:" : "CamilloBruni 11/9/2009 14:21",
 		"pinocchioMethods" : "CamilloBruni 11/10/2009 15:38" },
 	"instance" : {
-		"addDanglingClassReference:" : "TestRunner 11/11/2009 17:28",
+		"addDanglingClassReference:" : "TestRunner 11/11/2009 22:32",
 		"done" : "ToonVerwaest 11/4/2009 17:18",
 		"done:" : "ToonVerwaest 11/4/2009 17:18",
-		"ensureClassReferenceFor:" : "TestRunner 11/11/2009 13:21",
+		"ensureClassReferenceFor:" : "TestRunner 11/11/2009 22:32",
 		"ensurePackageFor:" : "CamilloBruni 11/9/2009 14:44",
 		"ensurePharoClass:in:" : "CamilloBruni 11/9/2009 14:01",
 		"export" : "TestRunner 11/11/2009 17:20",
