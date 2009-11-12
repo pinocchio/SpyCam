@@ -3,10 +3,11 @@
 		 },
 	"instance" : {
 		"at:" : "ToonVerwaest 11/4/2009 19:19",
+		"at:ifAbsent:" : "TestRunner 11/12/2009 17:29",
 		"at:ifAbsentPut:" : "ToonVerwaest 11/4/2009 19:19",
 		"at:ifPresent:" : "TestRunner 11/12/2009 15:30",
 		"at:put:" : "ToonVerwaest 11/4/2009 19:19",
-		"ensureClassReference:" : "ToonVerwaest 11/4/2009 19:21",
+		"ensureClassReference:" : "TestRunner 11/12/2009 17:46",
 		"ensurePackageNamed:" : "ToonVerwaest 11/4/2009 19:21",
 		"ensurePath:" : "CamilloBruni 11/9/2009 13:57",
 		"initialize" : "ToonVerwaest 11/4/2009 19:21",

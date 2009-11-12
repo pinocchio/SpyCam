@@ -1,3 +1,3 @@
 accessing
 symbol: anObject
-	symbol := anObject
+	symbol := anObject asSymbol

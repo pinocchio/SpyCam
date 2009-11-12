@@ -5,5 +5,5 @@ export
 		clsReference := self transformNext.
 		self fetchDanglingClassReferences.
 	].
-	self halt.
+self halt.
 	^ root.

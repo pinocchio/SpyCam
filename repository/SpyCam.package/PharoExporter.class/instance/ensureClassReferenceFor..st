@@ -1,7 +1,8 @@
 exporting
 ensureClassReferenceFor: aPinocchioClass 
 	| classReference |
-	classReference := aPinocchioClass package ensureClassReference: aPinocchioClass name.
+	classReference := aPinocchioClass package ensureClassReference: aPinocchioClass name asString.
+	classReference referenceName: (PinocchioSymbol named: aPinocchioClass name).
 	classReference ensure: aPinocchioClass.
 	pinocchioVisitor rootScope decls at: classReference referenceName ifPresent: [ :el|
 		el becomeForward: classReference.
