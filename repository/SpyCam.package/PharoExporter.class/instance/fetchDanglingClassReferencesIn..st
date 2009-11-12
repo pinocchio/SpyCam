@@ -8,8 +8,8 @@ fetchDanglingClassReferencesIn: aCollection
 			self halt.
 			self fetchDanglingClassReferencesIn: member members.
 		].
-		(member isKindOf: PinocchioClassReference) 
-			and: [member isDangling] ifTrue: [
+		((member isKindOf: PinocchioClassReference) 
+			and: [member isDangling]) ifTrue: [
 			self addDanglingClassReference: member.
 		].
 	].

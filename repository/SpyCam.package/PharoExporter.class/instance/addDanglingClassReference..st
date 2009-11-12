@@ -1,7 +1,9 @@
 as yet unclassified
 addDanglingClassReference: aClassReference
-	| cls |
-	cls := (Smalltalk at: aClassReference referenceName asSymbol).
-	(self todo includes: cls) ifFalse: [
-		self todo add: cls.
+	| cls package |
+	cls := Smalltalk at: aClassReference referenceName asSymbol.
+	package := self ensurePackageFor: cls.
+	package storeClassReference: aClassReference.
+	done at: cls ifAbsent: [
+		self todo add: cls
 	]

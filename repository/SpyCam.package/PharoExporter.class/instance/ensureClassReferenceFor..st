@@ -11,3 +11,4 @@ ensureClassReferenceFor: aPinocchioClass
 	self assert: classReference package ~= nil.
 	self assert: classReference referenceName ~= nil.
 	
+	^ classReference

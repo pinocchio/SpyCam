@@ -1,6 +1,6 @@
 exporting
 transformClass: cls
-	|aPinocchioClass|
+	|aPinocchioClass |
 	Transcript show: cls name; cr.
 	self done at: cls ifPresent: [ :present| ^ present ].
 	
@@ -8,7 +8,7 @@ transformClass: cls
 	self done at: cls put: aPinocchioClass.
 
 	aPinocchioClass package: (self ensurePackageFor: cls).
-	self ensureClassReferenceFor: aPinocchioClass.
+	self pushClassReference: (self ensureClassReferenceFor: aPinocchioClass).
 	cls superclass ifNotNil: [ 
 		aPinocchioClass superclass: 
 			(self transformClass: cls superclass).
@@ -18,5 +18,5 @@ transformClass: cls
 	pinocchioVisitor pinocchioClass: aPinocchioClass.
 	aPinocchioClass methods: (self transformMethodsFor: cls).
 	pinocchioVisitor popScope.
-	
+
 	^ aPinocchioClass.

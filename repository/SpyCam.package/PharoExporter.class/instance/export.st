@@ -1,7 +1,8 @@
 as yet unclassified
 export
+	| clsReference |
 	[todo isEmpty ] whileFalse: [
-		self transformNext.
+		clsReference := self transformNext.
 		self fetchDanglingClassReferences.
 	].
 	self halt.
