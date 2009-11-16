@@ -5,4 +5,4 @@ testVisitCharacter
 	result := visitor visit: character.
 	result class should = PinocchioConstant.
 	result constant class should = PinocchioCharacter.
-	result constant char should = 'c'.
+	result constant char should = $c.

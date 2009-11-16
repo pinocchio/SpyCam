@@ -13,7 +13,7 @@
 		"testDumpBoolean" : "TestRunner 10/29/2009 22:14",
 		"testDumpCharacter" : "TestRunner 11/3/2009 14:44",
 		"testDumpCharacterBackslash" : "TestRunner 11/16/2009 16:52",
-		"testDumpCharacterEscapeDoubleQuote" : "TestRunner 11/16/2009 16:51",
+		"testDumpCharacterEscapeDoubleQuote" : "TestRunner 11/16/2009 18:12",
 		"testDumpCharacterEscapeNewline" : "TestRunner 11/16/2009 16:49",
 		"testDumpCharacterEscapeSingleQuote" : "TestRunner 11/16/2009 16:51",
 		"testDumpCharacterEscapeTab" : "TestRunner 11/16/2009 16:49",
@@ -27,6 +27,6 @@
 		"testDumpStringEscapeDoubleQuote" : "TestRunner 11/16/2009 15:54",
 		"testDumpStringEscapeDoubleTab" : "TestRunner 11/16/2009 16:43",
 		"testDumpStringEscapeNewline" : "TestRunner 11/16/2009 16:44",
-		"testDumpStringEscapeSingleQuote" : "TestRunner 11/16/2009 15:55",
+		"testDumpStringEscapeSingleQuote" : "TestRunner 11/16/2009 18:12",
 		"testDumpSymbol" : "CamilloBruni 11/10/2009 16:25",
 		"testDumpUnaryMessageSend" : "TestRunner 11/4/2009 16:09" } }

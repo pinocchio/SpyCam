@@ -10,10 +10,7 @@ cEscaped
 		dict at: Character tab put: '\t'.
 		dict at: $\ put: '\\'.
 		dict at: $' put: '\'''.
+		dict at: $" put: '\"'.
 		dictArray at: 1 put: dict.
 	].
-	(dict includesKey: self) ifTrue: [
-		^ (dict at: self).
-	] ifFalse: [
-		^ self.
-	]
+	^ dict at: self ifAbsent: [ ^ self asString ]
