@@ -1,4 +1,4 @@
 exporting
-ensureClassReference: name
-	self haltIf: [name isKindOf: PinocchioSymbol ].
-	^ self at: name ifAbsentPut: [ PinocchioClassReference named: name in: self ].
+ensureClassReference: aNameSymbol
+	self haltIf: [(aNameSymbol isKindOf: PinocchioSymbol) not ].
+	^ self at: aNameSymbol ifAbsentPut: [ PinocchioClassReference named: aNameSymbol in: self ].

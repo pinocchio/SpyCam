@@ -4,7 +4,7 @@
 	"instance" : {
 		"createSendTo:" : "TestRunner 11/11/2009 17:03",
 		"handleReturn:" : "DavidGurtner 11/11/2009 15:43",
-		"initialize" : "CamilloBruni 11/10/2009 19:22",
+		"initialize" : "TestRunner 11/16/2009 13:27",
 		"pinocchioClass" : "CamilloBruni 11/9/2009 17:21",
 		"pinocchioClass:" : "CamilloBruni 11/10/2009 12:10",
 		"popScope" : "CamilloBruni 11/9/2009 14:56",
@@ -28,5 +28,7 @@
 		"visitSuper:" : "TestRunner 11/4/2009 17:46",
 		"visitSymbol:" : "TestRunner 10/27/2009 16:20",
 		"visitUnaryExpression:" : "TestRunner 11/11/2009 17:05",
-		"visitVariable:" : "TestRunner 10/29/2009 21:43",
+		"visitVariable:" : "TestRunner 11/16/2009 13:52",
+		"world" : "TestRunner 11/16/2009 13:26",
+		"world:" : "TestRunner 11/16/2009 13:26",
 		"wrapReturningBlock:" : "TestRunner 10/27/2009 15:21" } }

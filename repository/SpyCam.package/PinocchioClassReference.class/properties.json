@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cls",
 		"referenceName",
-		"package" ],
+		"package",
+		"pinocchioClass" ],
 	"name" : "PinocchioClassReference",
 	"pools" : [
 		 ],

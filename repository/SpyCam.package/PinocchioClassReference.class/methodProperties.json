@@ -4,11 +4,11 @@
 		"named:in:" : "CamilloBruni 11/10/2009 19:04",
 		"new" : "CamilloBruni 11/10/2009 19:01" },
 	"instance" : {
-		"cls" : "ToonVerwaest 11/4/2009 19:14",
-		"ensure:" : "CamilloBruni 11/9/2009 13:48",
+		"ensurePinocchioClass:" : "TestRunner 11/16/2009 15:12",
 		"initialize" : "CamilloBruni 11/10/2009 19:00",
 		"isDangling" : "TestRunner 11/12/2009 18:14",
 		"package" : "ToonVerwaest 11/4/2009 19:17",
 		"package:" : "ToonVerwaest 11/4/2009 19:16",
+		"pinocchioClass" : "TestRunner 11/16/2009 15:10",
 		"referenceName" : "ToonVerwaest 11/4/2009 19:14",
 		"referenceName:" : "ToonVerwaest 11/4/2009 19:14" } }

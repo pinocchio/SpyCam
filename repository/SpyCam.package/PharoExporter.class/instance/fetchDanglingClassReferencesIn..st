@@ -1,4 +1,4 @@
-as yet unclassified
+convenience
 fetchDanglingClassReferencesIn: aCollection
 	aCollection do: [ :member|
 		(member isKindOf: PinocchioClassReference) 
