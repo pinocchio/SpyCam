@@ -10,7 +10,8 @@
 		"done",
 		"root",
 		"scparser",
-		"pinocchioVisitor" ],
+		"pinocchioVisitor",
+		"cdumper" ],
 	"name" : "PharoExporter",
 	"pools" : [
 		 ],

@@ -6,3 +6,4 @@ initialize
 	scparser := SCParser new.
 	pinocchioVisitor := PinocchioASTVisitor new.
 	pinocchioVisitor world: self.
+	cdumper := PinocchioCDumper new.

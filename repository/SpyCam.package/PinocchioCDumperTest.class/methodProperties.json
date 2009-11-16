@@ -18,5 +18,10 @@
 		"testDumpKeywordMessageSend2Arg" : "TestRunner 11/4/2009 16:09",
 		"testDumpSmallInt" : "TestRunner 11/3/2009 14:43",
 		"testDumpString" : "TestRunner 11/3/2009 14:42",
+		"testDumpStringEscapeBackslash" : "TestRunner 11/16/2009 15:54",
+		"testDumpStringEscapeDoubleQuote" : "TestRunner 11/16/2009 15:54",
+		"testDumpStringEscapeDoubleTab" : "TestRunner 11/16/2009 16:43",
+		"testDumpStringEscapeNewline" : "TestRunner 11/16/2009 16:44",
+		"testDumpStringEscapeSingleQuote" : "TestRunner 11/16/2009 15:55",
 		"testDumpSymbol" : "CamilloBruni 11/10/2009 16:25",
 		"testDumpUnaryMessageSend" : "TestRunner 11/4/2009 16:09" } }
