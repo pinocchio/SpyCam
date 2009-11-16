@@ -18,6 +18,7 @@ visitMethod: aMethod
 	self popScope.
 	
 	^ PinocchioMethod new 
+		selector: (self visit: aMethod message);
 		body: 	 block body; 
 		locals:   block locals;
 		params: block params;

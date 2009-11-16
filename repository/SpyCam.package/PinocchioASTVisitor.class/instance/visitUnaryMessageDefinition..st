@@ -1,0 +1,3 @@
+visitor
+visitUnaryMessageDefinition: anASTUnaryMessageDefinition 
+	^ PinocchioSymbol named: anASTUnaryMessageDefinition selectorSymbol
