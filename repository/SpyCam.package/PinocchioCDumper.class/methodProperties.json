@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"clear" : "TestRunner 10/29/2009 21:33",
+		"clear" : "TestRunner 11/17/2009 10:57",
 		"comment:" : "TestRunner 11/17/2009 10:01",
 		"createSymbol:" : "TestRunner 10/20/2009 23:46",
-		"hasVisited:" : "TestRunner 11/2/2009 14:50",
+		"hasVisited:" : "TestRunner 11/17/2009 10:56",
 		"initialize" : "DavidGurtner 10/29/2009 15:34",
-		"installClassMethods:" : "TestRunner 11/17/2009 10:12",
+		"installClassMethods:" : "TestRunner 11/17/2009 10:49",
 		"installMethod:for:" : "TestRunner 11/17/2009 10:25",
 		"newline" : "TestRunner 11/17/2009 10:01",
 		"printOn:" : "DavidGurtner 10/29/2009 16:56",
