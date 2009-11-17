@@ -1,4 +1,4 @@
-helper
+convenience
 put: aPinocchioObject with: newInstanceString 
 	stream
 		nextPutAll: 'Object ';

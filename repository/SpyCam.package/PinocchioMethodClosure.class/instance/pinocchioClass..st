@@ -1,4 +1,4 @@
 accessing
 pinocchioClass: aPinocchioClass
-	class := aPinocchioClass
+	pinocchioClass := aPinocchioClass
 	

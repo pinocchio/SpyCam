@@ -1,4 +1,4 @@
 accessing
 pinocchioClass
-	^ class
+	^ pinocchioClass
 	

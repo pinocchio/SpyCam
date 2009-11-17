@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"class",
 		"selector",
-		"info" ],
+		"info",
+		"pinocchioClass" ],
 	"name" : "PinocchioMethodClosure",
 	"pools" : [
 		 ],

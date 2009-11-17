@@ -4,3 +4,4 @@ visitClass: aPinocchioClass
 	self visit: aPinocchioClass package.
 	self visit: aPinocchioClass superclass.
 	self visit: aPinocchioClass name.
+	self installClassMethods: aPinocchioClass.

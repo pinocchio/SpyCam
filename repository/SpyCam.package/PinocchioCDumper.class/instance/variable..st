@@ -1,4 +1,4 @@
-helper
+convenience
 variable: anASTNode
 	stream nextPutAll: anASTNode astType;
 		nextPutAll: '_';

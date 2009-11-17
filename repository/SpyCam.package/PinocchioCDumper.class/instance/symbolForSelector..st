@@ -1,3 +1,3 @@
-helper
+convenience
 symbolForSelector: selector
 	^ symbolDict at: selector.
