@@ -3,5 +3,7 @@ printOn: aStream
 	super printOn: aStream.
 	aStream nextPutAll: ' '.
 	self name printOn: aStream.
+	aStream nextPutAll: ' '.
+	self scopeId printOn: aStream.
 	aStream nextPutAll: '@'.
-	self index printOn: aStream.
+	self localId printOn: aStream.

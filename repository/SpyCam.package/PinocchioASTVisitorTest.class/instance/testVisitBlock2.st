@@ -8,6 +8,7 @@ testVisitBlock2
 	result locals size should = 2.
 	result params size should = 1.
 	result body size should = 1.
+	result level should = 0.
 	
 	send := result body first.
 	send class should = PinocchioSend.

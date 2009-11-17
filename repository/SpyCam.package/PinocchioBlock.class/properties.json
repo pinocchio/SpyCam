@@ -8,7 +8,8 @@
 	"instvars" : [
 		"body",
 		"params",
-		"locals" ],
+		"locals",
+		"level" ],
 	"name" : "PinocchioBlock",
 	"pools" : [
 		 ],

@@ -10,7 +10,8 @@
 		"rootScope",
 		"pinocchioClass",
 		"currentMethod",
-		"world" ],
+		"world",
+		"currentBlock" ],
 	"name" : "PinocchioASTVisitor",
 	"pools" : [
 		 ],

@@ -2,7 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"createBlock" : "TestRunner 11/17/2009 11:30",
 		"createSendTo:" : "TestRunner 11/11/2009 17:03",
+		"currentBlock" : "TestRunner 11/17/2009 11:28",
+		"currentBlock:" : "TestRunner 11/17/2009 11:28",
 		"handleReturn:" : "DavidGurtner 11/11/2009 15:43",
 		"initialize" : "TestRunner 11/16/2009 13:27",
 		"pinocchioClass" : "CamilloBruni 11/9/2009 17:21",
@@ -16,7 +19,7 @@
 		"visitAssignmentExpression:" : "TestRunner 11/11/2009 16:58",
 		"visitBinaryExpression:" : "TestRunner 11/11/2009 17:02",
 		"visitBinaryMessageDefinition:" : "TestRunner 11/16/2009 18:22",
-		"visitBlock:" : "TestRunner 11/11/2009 16:27",
+		"visitBlock:" : "TestRunner 11/17/2009 11:29",
 		"visitBoolean:" : "TestRunner 10/29/2009 22:00",
 		"visitCharacter:" : "TestRunner 10/27/2009 16:05",
 		"visitKeywordMessageDefinition:" : "TestRunner 11/16/2009 18:17",
