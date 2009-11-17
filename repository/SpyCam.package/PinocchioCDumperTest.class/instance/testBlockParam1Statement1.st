@@ -1,5 +1,5 @@
 running
-testDumpBlockParam1Statement1
+testBlockParam1Statement1
 	| ast result |
 	ast := self ast: '[:a| 1]'.
 	dumper visit: ast.

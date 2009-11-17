@@ -1,7 +1,8 @@
 visitor
 visitClassReference: aPinocchioClassReference 
-	"Don't visit the other elements at first"
 	self visit: aPinocchioClassReference referenceName.
+	self visit: aPinocchioClassReference pinocchioClass.
+	self visit: aPinocchioClassReference package.
 	
 	self put: aPinocchioClassReference 
 		with: 'new_Organization_ClassReference(',
@@ -14,5 +15,3 @@ visitClassReference: aPinocchioClassReference
 		nextPutAll: aPinocchioClassReference referenceName uid;
 		nextPutAll: ';'; cr.
 	
-	self visit: aPinocchioClassReference package.
-	self visit: aPinocchioClassReference pinocchioClass.
