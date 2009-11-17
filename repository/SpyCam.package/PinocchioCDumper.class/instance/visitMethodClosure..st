@@ -12,5 +12,4 @@ visitMethodClosure: aPinocchioMethodClosure
 		nextPutAll: aPinocchioMethodClosure selector uid;
 		nextPutAll: ', (Runtime_MethodClosure)';
 		nextPutAll: aPinocchioMethodClosure uid;
-		nextPutAll: ');'.
-	self newline.
+		nextPutAll: ');'; cr.

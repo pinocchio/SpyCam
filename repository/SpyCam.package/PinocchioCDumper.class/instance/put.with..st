@@ -1,9 +1,4 @@
 convenience
 put: aPinocchioObject with: newInstanceString 
-	stream
-		nextPutAll: 'Object ';
-		nextPutAll: aPinocchioObject uid;
-		nextPutAll: ' = (Object)';
-		nextPutAll: newInstanceString;
-		nextPutAll: ';';
-		cr.
+	self assign: '(Object)', newInstanceString 
+			to: aPinocchioObject.
