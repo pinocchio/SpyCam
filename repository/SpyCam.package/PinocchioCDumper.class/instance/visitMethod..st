@@ -1,7 +1,7 @@
 visitor
 visitMethod: aPinocchioMethod
 	self newline.
-	self comment: aPinocchioMethod selector asString. 
+	self comment: (self currentClass name asString, '>>', aPinocchioMethod selector asString). 
 	self visit: aPinocchioMethod params.	
 	self visit: aPinocchioMethod locals.
 	self visit: aPinocchioMethod body.

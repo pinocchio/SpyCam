@@ -8,7 +8,8 @@
 	"instvars" : [
 		"stream",
 		"symbolDict",
-		"visitedNodes" ],
+		"visitedNodes",
+		"currentClass" ],
 	"name" : "PinocchioCDumper",
 	"pools" : [
 		 ],

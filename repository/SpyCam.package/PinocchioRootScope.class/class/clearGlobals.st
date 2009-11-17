@@ -1,6 +1,4 @@
 initialize-release
-initialize 
-	super initialize.
-	self clearGlobals.
+clearGlobals
 	decls := Dictionary new.
 	self initializeGlobals.

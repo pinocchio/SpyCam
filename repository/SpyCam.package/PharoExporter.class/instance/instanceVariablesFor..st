@@ -1,13 +1,13 @@
 exporting
 instanceVariablesFor: aClass 
-	| instVarNames instVars index |
+	| instVarNames instVars localId |
 	instVarNames := OrderedCollection newFrom: aClass instVarNames.
-	index := -1.
+	localId := -1.
 	instVars := instVarNames collect: [ :each|
-		index := index +1.
+		localId := localId +1.
 		PinocchioInstanceVariable new 
 			name: each;
-			index: index.
+			localId: localId.
 	].
 	self done at: aClass superclass ifPresent: [ :superclass|
 		instVars addAll: superclass layout.

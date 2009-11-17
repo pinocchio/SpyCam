@@ -7,5 +7,7 @@ visitArray: aPinocchioArray
 		with: ('new_Type_Array_with(', ( 
 					aPinocchioArray 
 						inject:  aPinocchioArray size asString
-						into: [ :values :element| values,', ', element uid]),')').
+						into: [ :values :element| 
+							self assert: element uid size > 2.
+							values, ', ', element uid]),')').
 	

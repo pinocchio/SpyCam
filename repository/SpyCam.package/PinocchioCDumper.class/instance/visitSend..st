@@ -5,5 +5,5 @@ visitSend: aPinocchioSend
 	self visit: aPinocchioSend arguments.
 	self put: aPinocchioSend 
 		with: ('new_AST_Send(',aPinocchioSend receiver uid,', ',
-							    aPinocchioSend message uid,', ',
+							    '(Type_Symbol)', aPinocchioSend message uid,', ',
 							    '(Type_Array)', aPinocchioSend arguments uid,')').
