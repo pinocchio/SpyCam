@@ -1,4 +1,4 @@
-as yet unclassified
+exporting
 export: classes
 	^ self new 
 			todo: classes asOrderedCollection;

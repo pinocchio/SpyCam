@@ -1,16 +1,14 @@
 test-source-output
-generateTestSourcesFor: methodSelector on: outStream
+generateTestSourcesFor: methodSelector on: outStream 
 	self putSeparatorOn: outStream.
 	outStream nextPutAll: 'NEW_TEST(';
-		nextPutAll: 'AutoGenTest_'; 
+		nextPutAll: 'AutoGenTest_';
 		nextPutAll: methodSelector asString;
 		nextPutAll: ')'; cr; cr.
-	[ self dumpSourcesFor: methodSelector on: outStream. ] on: Error do: [ :error|
-		outStream nextPutAll: 'assert1(0, "Smalltalk Parsing failed: ';
-			nextPutAll: error asString cEscaped;
-			nextPutAll: '");'; cr;
-			nextPutAll: '/*'; cr;
-			nextPutAll: error signalerContext shortStack;
-			nextPutAll: '*/'; cr.
-	].
-	outStream cr; nextPutAll: '}'.
+	self generateMethodFor: methodSelector on: outStream.
+	
+	"[ self generateMethodFor: methodSelector on: outStream ] on: Error do: [ :error | 
+		self dumpSourceError: error on: outStream 
+	]."
+	outStream cr;
+		nextPutAll: '}'

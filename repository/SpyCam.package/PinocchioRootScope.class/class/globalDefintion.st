@@ -5,7 +5,7 @@ globalDefintion
 		('self' 			'Self')
 		('true' 			'True')
 		('false' 		'False')
-		('MetaClass' 	'Metaclass')
+		('Metaclass' 	'Metaclass')
 		('Behaviour' 	'Behaviour')
 		('Object' 		'Type_Object_Class')
 		('String' 		'Type_String_Class')

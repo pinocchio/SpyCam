@@ -8,6 +8,7 @@
 		"symbolDictionary" : "TestRunner 11/17/2009 10:06" },
 	"instance" : {
 		"=" : "TestRunner 11/12/2009 16:34",
+		"asPSymbol" : "TestRunner 11/18/2009 14:34",
 		"asString" : "TestRunner 11/2/2009 15:51",
 		"asSymbol" : "TestRunner 11/12/2009 18:01",
 		"printOn:" : "TestRunner 11/16/2009 14:49",

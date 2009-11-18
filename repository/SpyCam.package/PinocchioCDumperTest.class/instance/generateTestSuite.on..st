@@ -7,7 +7,7 @@ generateTestSuite: selectorList on: outStream
 	selectorList do: [ :selector|
 		outStream nextPutAll: '    RUN_TEST(';
 			nextPutAll: 'AutoGenTest_';
-			nextPutAll: selector asString;
+			nextPutAll: selector asString ;
 			nextPutAll: ');'; cr.
 	].
 	outStream nextPutAll: '})'

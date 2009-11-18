@@ -1,5 +1,5 @@
 test-source-output
-dumpSourcesFor: methodSelector on: outStream
+generateMethodFor: methodSelector on: outStream
 	| method methodSourceString ast |
 	method := self class methodDict at: methodSelector.
 	methodSourceString := method getSource asString.

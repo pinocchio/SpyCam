@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"exportProtocol:from:" : "TestRunner 11/18/2009 14:03",
+		"extractMethodsFromProtocol:from:" : "TestRunner 11/18/2009 13:59" },
+	"instance" : {
+		"ast:" : "TestRunner 11/18/2009 13:44",
+		"clear" : "TestRunner 11/18/2009 13:44",
+		"export" : "TestRunner 11/18/2009 14:03",
+		"exportClass" : "TestRunner 11/18/2009 14:02",
+		"exportClass:" : "TestRunner 11/18/2009 14:02",
+		"extractMethod:" : "TestRunner 11/18/2009 13:53",
+		"generateHeader" : "TestRunner 11/18/2009 13:49",
+		"generateMethod:" : "TestRunner 11/18/2009 14:10",
+		"generateMethodCallFor:" : "TestRunner 11/18/2009 14:40",
+		"generateMethodInstallFor:withCode:" : "TestRunner 11/18/2009 14:12",
+		"generateTestCaseFor:" : "TestRunner 11/18/2009 14:20",
+		"generateTestCases" : "TestRunner 11/18/2009 14:04",
+		"generateTestSuite" : "TestRunner 11/18/2009 13:49",
+		"initialize" : "TestRunner 11/18/2009 14:13",
+		"methods" : "TestRunner 11/18/2009 14:02",
+		"methods:" : "TestRunner 11/18/2009 14:02",
+		"outStream" : "TestRunner 11/18/2009 13:41",
+		"outStream:" : "TestRunner 11/18/2009 13:46",
+		"separator" : "TestRunner 11/18/2009 14:06" } }
