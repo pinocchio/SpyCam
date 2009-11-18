@@ -2,6 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"dumpSourcesFor:on:" : "TestRunner 11/18/2009 10:43",
+		"extractTestMethods" : "TestRunner 11/18/2009 10:02",
+		"generateTestSourcesFor:on:" : "TestRunner 11/18/2009 11:02",
+		"generateTestSuite:on:" : "TestRunner 11/18/2009 10:43",
+		"putSeparatorOn:" : "TestRunner 11/18/2009 10:09",
 		"setUp" : "CamilloBruni 11/10/2009 17:20",
 		"testArray0" : "TestRunner 11/17/2009 16:14",
 		"testArray1" : "TestRunner 11/17/2009 16:14",
@@ -19,6 +24,7 @@
 		"testDumpUnaryMessageSend" : "TestRunner 11/4/2009 16:09",
 		"testEmptyBlock" : "TestRunner 11/17/2009 16:16",
 		"testFibonacci" : "TestRunner 11/17/2009 16:16",
+		"testGenerateTestSourcesForTestMethods" : "TestRunner 11/18/2009 10:37",
 		"testKeywordMessageSend1Arg" : "TestRunner 11/17/2009 16:16",
 		"testKeywordMessageSend2Arg" : "TestRunner 11/17/2009 16:16",
 		"testSmallInt" : "TestRunner 11/17/2009 16:17",
@@ -29,4 +35,9 @@
 		"testStringEscapeNewline" : "TestRunner 11/17/2009 16:17",
 		"testStringEscapeSingleQuote" : "TestRunner 11/17/2009 16:17",
 		"testSymbol" : "TestRunner 11/17/2009 16:17",
-		"testVisit" : "TestRunner 11/17/2009 16:13" } }
+		"testVisit" : "TestRunner 11/17/2009 16:13",
+		"tmClassReferenceReturn" : "TestRunner 11/18/2009 09:38",
+		"tmExtendedReturn" : "TestRunner 11/18/2009 09:38",
+		"tmMethodArgument:" : "TestRunner 11/18/2009 10:22",
+		"tmMethodArguments:with:with:" : "TestRunner 11/18/2009 10:22",
+		"tmSimpleReturn" : "TestRunner 11/18/2009 09:37" } }
