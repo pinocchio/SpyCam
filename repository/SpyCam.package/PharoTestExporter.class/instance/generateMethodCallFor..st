@@ -9,5 +9,5 @@ generateMethodCallFor: anPinocchioASTMethod
 	
 	outStream nextPutAll: 'Object result = (Object)Eval((Object)';
 		nextPutAll: send uid asString;
-		nextPutAll: ');'; cr;
-		nextPutAll: 'ASSERT_EMPTY_STACK'; cr.
+		nextPutAll: ');'; cr.
+	self assertEmptyStack.

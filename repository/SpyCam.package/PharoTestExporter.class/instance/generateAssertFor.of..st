@@ -6,13 +6,18 @@ generateAssertFor: anASTMethod of: aCompiledMethod
 	anASTMethod annotations isEmpty  ifTrue: [
 		arguments := Array new.
 	] ifFalse: [
-		arguments := self testArgumentsFor: anASTMethod.
+		arguments := self testArgumentsFor: aCompiledMethod.
 	].
-	[result := instance perform: anASTMethod selector asSymbol.] on: Error do: [
+	[result := instance perform: anASTMethod selector asSymbol
+						withArguments: arguments.
+	] on: Error do: [
 		self error: 'Invalid number of arguments for testmethod ',  
 				anASTMethod selector asString, '. Did you add an argument annotation?'.
 	].
 	result == instance ifTrue: [
 		^ self putAssert: 'result == test_Class_Instance'.
 	].
-	self generateAssertForResult: result.
+	[self generateAssertForResult: result.] on: Error do: [ 
+		self generateEqualsSendFor: result.
+		self generateAssertForResult: true.
+	]

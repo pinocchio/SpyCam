@@ -8,11 +8,10 @@ generateTestCaseFor: methodSelector
 	outStream nextPutAll: 'NEW_TEST(';
 		nextPutAll: 'AutoGenTest_';
 		nextPutAll: selector asString;
-		nextPutAll: ')'; cr; cr.
+		nextPutAll: ')'; cr.
 		
 	astMethod := self generateMethod: method.
 	self generateMethodCallFor: astMethod.
 	self generateAssertFor: astMethod of: method.
-	outStream cr; 
-		nextPutAll: 'ASSERT_EMPTY_STACK'; cr;
-		nextPutAll: '}'
+	self assertEmptyStack.
+	outStream nextPutAll: '}'

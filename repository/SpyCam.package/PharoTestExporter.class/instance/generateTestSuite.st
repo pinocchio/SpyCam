@@ -7,6 +7,7 @@ generateTestSuite
 	self generateTestClass.
 	self generateTestClassInstance.
 	self generateTestSymbol.
+	outStream cr.
 	selectorList do: [ :selector|
 		outStream nextPutAll: '    RUN_TEST(';
 			nextPutAll: 'AutoGenTest_';
