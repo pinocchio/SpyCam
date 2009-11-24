@@ -4,6 +4,8 @@ testVisitMethod1Arg
 	parser := scparser method.
 	ast := self ast: 'doIt: a' , String cr , ' a + 2.'.
 	ast class should = PinocchioMethod.
+	ast selector class should = PinocchioSymbol.
+	ast selector asString should = 'doIt:'.
 	ast params class should = PinocchioArray.
 	ast locals class should = PinocchioArray.
 	ast locals size should = 0.

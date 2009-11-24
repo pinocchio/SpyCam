@@ -16,10 +16,10 @@ visitMethod: aMethod
 		ifFalse: [ block := self handleReturn: block].
 	
 	self popScope.
-	
 	^ PinocchioMethod new 
 		selector: (self visit: aMethod message);
 		body: 	 block body; 
 		locals:   block locals;
 		params: block params;
+		annotations:  (self acceptOnCollection: aMethod annotations) asPArray;
 		hasReturn: aMethod hasReturnExpression.

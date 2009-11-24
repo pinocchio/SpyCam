@@ -10,6 +10,6 @@ initializeKeywordsArguments
 				result keywords add: pair first.
 				result parameters add: (self createVariable: (pair at: 2))
 			].
-			result selector: (self createSymbol: (result keywords joinUsing: '')).
+			result selector:  (ASTSymbol named: result selectorName).
 			result 
 		]

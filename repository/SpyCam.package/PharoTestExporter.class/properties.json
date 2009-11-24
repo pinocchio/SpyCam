@@ -13,7 +13,8 @@
 		"cdumper",
 		"visitor",
 		"exportClass",
-		"testCaseClass" ],
+		"testCaseClass",
+		"selectorList" ],
 	"name" : "PharoTestExporter",
 	"pools" : [
 		 ],

@@ -5,6 +5,8 @@ testVisitMethod
 	ast := self ast: 'doIt' , String cr , ' 1 + 2.'.
 	ast class should = PinocchioMethod.
 	ast hasReturn should  = false.
+	ast selector class should = PinocchioSymbol.
+	ast selector asString should = 'doIt'.
 	ast body class should = PinocchioArray.
 	ast params class should = PinocchioArray.
 	ast locals class should = PinocchioArray.

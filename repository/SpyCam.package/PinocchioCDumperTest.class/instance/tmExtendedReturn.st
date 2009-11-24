@@ -1,5 +1,4 @@
 test-method
 tmExtendedReturn
-	true 
-		ifTrue: [ ^ 1]
-		ifFalse: [ ^ 0].
+	1 > 2 ifTrue: [ ^ 1 ]
+		ifFalse: [ ^ 2].

@@ -6,9 +6,7 @@ initializeString
 
 	^ PEGParser
 		named: 'STRING'
-		
 		parsing: ((stringBorder && ((stringBorder not) strongTimes)) <& stringBorder) strongPlus
-	
 		semantics: [:result |
 			first := result removeFirst.
 			first := first inject: '' into: [:c :e | c, e ].

@@ -7,13 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"selector",
-		"params",
-		"locals",
-		"body",
-		"package",
-		"annotations",
-		"hasReturn" ],
-	"name" : "PinocchioMethod",
+		"keywords",
+		"arguments" ],
+	"name" : "PinocchioAnnotation",
 	"pools" : [
 		 ],
 	"super" : "PinocchioASTNode",

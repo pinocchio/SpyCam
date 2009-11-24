@@ -1,8 +1,14 @@
 exporting
 generateMethodInstallFor: method withCode: code
-	cdumper stream: outStream.
-	cdumper visit: (
-		PinocchioMethodClosure new
+	| closure |
+	outStream cr.
+	closure := PinocchioMethodClosure new
 			code: code;
 			pinocchioClass: testCaseClass;
-			selector: method selector asPSymbol)
+			selector: method selector asPSymbol.
+	cdumper stream: outStream.
+	cdumper visit: closure.
+	outStream nextPutAll: 'store_method(Test_Class, SMB_runTestCase';
+		nextPutAll: closure uid asString;
+		nextPutAll: ');'; cr; cr.
+		

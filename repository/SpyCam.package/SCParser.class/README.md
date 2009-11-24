@@ -13,11 +13,11 @@ methodParser					= messagePattern & temporaries? & annotations? & methodStatment
 
 BASIC-BLOCK:
 
-temporaries 					= bar & variableName+ & bar
+temporaries 						= bar & variableName+ & bar
 		
-XXXsubExpression 				= expression & ('.' omit)
+XXXsubExpression 					= expression & ('.' omit)
 XXXfinalExpression 				= expression & ('.'? omit)
-XXXreturn 						= ('^' omit) & finalExpression
+XXXreturn 							= ('^' omit) & finalExpression
 XXXstatements 					= subExpression * & (return | finalExpression)?
 
 XXXbraceExpression 				= ('{' omit) & subExpression* & expression & ('}' omit)
@@ -25,7 +25,7 @@ XXXscopedExpression 				= ('(' omit) & expression & (')' omit)
 
 EXPRESSION:
 
-primary 						= primaryVariable | literal | block | braceExpression | scopedExpression
+primary 							= primaryVariable | literal | block | braceExpression | scopedExpression
 
 expression 						= assignmentExpressions & (cascadedMessageExpression | messageExpression | primary)
 

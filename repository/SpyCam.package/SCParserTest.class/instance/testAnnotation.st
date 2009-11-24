@@ -9,7 +9,7 @@ testAnnotation
 	string := PEGStringScanner on: '<abc: 1 def: (2 + 3) ghi: (3 b)>'.
  	result := (parser match: string).
 	self assert: (result class = ASTKeywordAnnotation).
-	self assert: (result keywords asArray = #('abc' 'def' 'ghi')).
+	self assert: ((result keywords asArray collect: #asSymbol) = #(abc def ghi)).
 	arg := result arguments first.
 	self assert: arg class = ASTNumber.
 	arg := (result arguments at: 2).
@@ -27,5 +27,5 @@ testAnnotation
 	string := PEGStringScanner on: '<temps: 4 annotations: 1 statements: 2>'.
  	result := (parser match: string).
 	self assert: (result class = ASTKeywordAnnotation).
-	self assert: (result keywords asArray = #('temps' 'annotations' 'statements')).
+	self assert: ((result keywords asArray collect: #asSymbol) = #('temps' 'annotations' 'statements')).
 	self assert: (string atEnd).
