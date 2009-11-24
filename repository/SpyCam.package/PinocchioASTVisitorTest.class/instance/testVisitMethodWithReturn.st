@@ -3,7 +3,6 @@ testVisitMethodWithReturn
 	| ast block return body |
 	parser := scparser method.
 	ast := self ast: 'doIt' , String cr , '|a b c|' , String cr , ' ^ self foo: a bar: b baz: c.'.
-	[^ nil] value.
 	ast class should = PinocchioMethod.
 	ast params class should = PinocchioArray.
 	ast locals class should = PinocchioArray.

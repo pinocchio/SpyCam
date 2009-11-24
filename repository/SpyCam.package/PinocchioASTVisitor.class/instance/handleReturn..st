@@ -1,4 +1,4 @@
-visitor
+convenience
 handleReturn: aPinocchioBlock
 	aPinocchioBlock body last isReturnExpression 
 		ifTrue: [ aPinocchioBlock body last: aPinocchioBlock body last argument]

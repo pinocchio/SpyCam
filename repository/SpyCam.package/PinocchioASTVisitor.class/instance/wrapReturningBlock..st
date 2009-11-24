@@ -6,6 +6,7 @@ wrapReturningBlock: aBlock
 					params: (PinocchioArray  with: 'return' asPVariable);
 					body: aBlock body copy;
 					locals: aBlock locals).
+	self halt.
 	^ PinocchioBlock new
 		params: aBlock params;
 		body: (PinocchioArray with: callec);

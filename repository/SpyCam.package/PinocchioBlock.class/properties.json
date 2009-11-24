@@ -9,7 +9,7 @@
 		"body",
 		"params",
 		"locals",
-		"level" ],
+		"depth" ],
 	"name" : "PinocchioBlock",
 	"pools" : [
 		 ],

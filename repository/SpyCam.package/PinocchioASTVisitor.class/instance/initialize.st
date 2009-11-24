@@ -1,4 +1,4 @@
-visitor
+initialize-release
 initialize 
 	super initialize.
 	scope := PinocchioRootScope new.

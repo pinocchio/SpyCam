@@ -1,9 +1,9 @@
 running
 testVisitMethodWithIntermediateReturn
-	| ast block return |
+	| ast block return returningBlock |
 	parser := scparser method.
-	ast := self ast: 'doIt' , String cr , '|a b c|' , String cr , ' true ifTrue: [^ self bla: a foo: b bar: c].'.
-	[^ nil] value.
+	ast := self ast: 'doIt' , String cr , '|a b c|' , String cr , ' true ifTrue: [^ 1].'.
+
 	ast class should = PinocchioMethod.
 	ast hasReturn should = true.
 	block := ast body.
@@ -11,18 +11,13 @@ testVisitMethodWithIntermediateReturn
 	ast params class should = PinocchioArray.
 	ast locals class should = PinocchioArray.
 	ast body class should = PinocchioArray.
-	ast body size should = 1.
-	block := ast body first.
-	ast locals size should = 0.
-	ast body params size should = 0.
-	block body class should = PinocchioArray.
-	block body size should = 1.
-	(block body values at: 1) class should = PinocchioCallec.
-	block := (block body values at: 1) block.
-	block class should = PinocchioBlock.
-	block body size should = 2.
-	block locals size should = 3.
-	block params size should = 1.
-	(block body values at: 1) class should = PinocchioSend.
-	self assureLastIsReturningSelf: block.
+	ast body size should = 2. "send, self"
+	ast body first class should = PinocchioSend.
+	(ast body at: 2) class should = PinocchioSelf.
 	
+	returningBlock := ast body first arguments first.
+	returningBlock class should = PinocchioBlock.
+	returningBlock body size should = 1.
+	return := returningBlock body first.
+	
+	return class should = PinocchioSend.
