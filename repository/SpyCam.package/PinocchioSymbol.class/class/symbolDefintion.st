@@ -25,8 +25,6 @@ symbolDefintion
         ('delete:' 'SMB_delete_')
         ('/' 'SMB_divide_')
         ('equals:' 'SMB_equals_')
-        ('=' 'SMB__equal')
-        ('==' 'SMB__pequal')
         ('escape:' 'SMB_escape_')
         ('eval' 'SMB_eval')
         ('eval:' 'SMB_eval_')

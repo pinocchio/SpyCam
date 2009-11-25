@@ -3,8 +3,8 @@ globalDefintion
 	^ #(
 		('nil'			'Nil')
 		('self' 			'Self')
-		('true' 			'True_Const')
-		('false' 		'False_Const')
+		('true' 			'True')
+		('false' 		'False')
 		('Metaclass' 	'Metaclass')
 		('Behaviour' 	'Behaviour')
 		('Object' 		'Type_Object_Class')

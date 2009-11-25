@@ -1,4 +1,7 @@
 visitor
 visitReturnExpression: aReturnExpression
-	^ PinocchioReturn new 
-		argument: (aReturnExpression expression accept: self).
+	^ PinocchioSend new
+		arguments: (PinocchioArray with: (aReturnExpression expression accept: self));
+		receiver: self currentCallecVariable;
+		message: #escape: asPSymbol.
+		

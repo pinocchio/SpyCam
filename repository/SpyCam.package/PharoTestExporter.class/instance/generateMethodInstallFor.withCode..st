@@ -4,7 +4,7 @@ generateMethodInstallFor: method withCode: code
 	closure := PinocchioMethodClosure new
 			code: code;
 			pinocchioClass: testCaseClass;
-			selector: method selector asPSymbol.
+			selector: (PinocchioInternalVariable new uid: 'SMB_runTestCase').
 	cdumper stream: outStream.
 	cdumper visit: closure.
 	outStream cr.

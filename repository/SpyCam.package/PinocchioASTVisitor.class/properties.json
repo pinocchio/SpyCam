@@ -11,7 +11,8 @@
 		"pinocchioClass",
 		"currentMethod",
 		"world",
-		"currentBlock" ],
+		"currentBlock",
+		"currentCallecVariable" ],
 	"name" : "PinocchioASTVisitor",
 	"pools" : [
 		 ],
