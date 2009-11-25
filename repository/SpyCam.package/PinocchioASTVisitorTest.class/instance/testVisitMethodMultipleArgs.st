@@ -14,5 +14,6 @@ testVisitMethodMultipleArgs
 	ast body class should = PinocchioArray.	
 	ast body size should = (1+1).
 	(ast params at: 1) class should = PinocchioLocalVariable.
+	ast body last class should = PinocchioSelf.
 	
 	self assureLastIsReturningSelf: ast body

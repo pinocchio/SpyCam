@@ -11,6 +11,7 @@ testMethod
 			1 + [ |a| a ] value: 3.
 			^ 7 '.
 	result := parser parse: string.
+	self assert: result hasReturnExpression.
 	self assert: result class = ASTMethod.
 	self assert: result message class = ASTKeywordMessageDefinition.
 	self assert: result temporaries size = 3.

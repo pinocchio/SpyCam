@@ -11,3 +11,4 @@ testVisitMethodSubCollection
 		self next ~= pattern next 
 			ifTrue: [ ^ false ] ].
 	^ true'.
+	ast hasReturn should = true.
