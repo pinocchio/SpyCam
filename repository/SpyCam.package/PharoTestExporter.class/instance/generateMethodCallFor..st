@@ -2,7 +2,7 @@ exporting
 generateMethodCallFor: anPinocchioASTMethod
 	| send arguments |
 	send := PinocchioSend new
-				receiver: testCaseClass;
+				receiver: testCaseInstance;
 				message: anPinocchioASTMethod selector asPSymbol.
 	cdumper stream: outStream.
 	cdumper visit: send.

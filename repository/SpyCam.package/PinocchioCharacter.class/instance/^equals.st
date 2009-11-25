@@ -1,3 +1,4 @@
 comparing
 = other
-	^self char = other char
+	(other isKindOf: self class) ifTrue: [ ^ self char = other char ].
+	^ false

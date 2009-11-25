@@ -14,7 +14,8 @@
 		"visitor",
 		"exportClass",
 		"testCaseClass",
-		"selectorList" ],
+		"selectorList",
+		"testCaseInstance" ],
 	"name" : "PharoTestExporter",
 	"pools" : [
 		 ],

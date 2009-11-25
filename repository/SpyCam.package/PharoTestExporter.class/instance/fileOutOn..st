@@ -1,6 +1,6 @@
 exporting
 fileOutOn: aFileName
 	| outputStream |
-	outputStream := CrLfFileStream fileNamed: aFileName.
+	outputStream := CrLfFileStream newFileNamed: aFileName.
 	outputStream nextPutAll: outStream contents.
 	outputStream close.

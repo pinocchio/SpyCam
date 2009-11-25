@@ -1,0 +1,3 @@
+test-basics
+tmString
+	^ 'String'
