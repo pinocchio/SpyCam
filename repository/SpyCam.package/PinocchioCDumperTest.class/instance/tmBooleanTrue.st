@@ -1,0 +1,3 @@
+test-basics
+tmBooleanTrue
+	^ true
