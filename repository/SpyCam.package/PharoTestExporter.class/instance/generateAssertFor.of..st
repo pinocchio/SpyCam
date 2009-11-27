@@ -3,11 +3,7 @@ generateAssertFor: anASTMethod of: aCompiledMethod
 	"Creates the corresponding ast object and sends an equals to it"
 	| instance result arguments |
 	instance := self exportClass new.
-	anASTMethod annotations isEmpty  ifTrue: [
-		arguments := Array new.
-	] ifFalse: [
-		arguments := self testArgumentsFor: aCompiledMethod.
-	].
+	arguments := self testArgumentsFor: anASTMethod of: aCompiledMethod.
 	[result := instance perform: anASTMethod selector asSymbol
 						withArguments: arguments.
 	] on: Error do: [

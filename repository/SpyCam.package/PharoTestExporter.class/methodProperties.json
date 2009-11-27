@@ -14,14 +14,14 @@
 		"exportClass:" : "TestRunner 11/18/2009 14:02",
 		"extractMethod:" : "TestRunner 11/18/2009 13:53",
 		"fileOutOn:" : "TestRunner 11/25/2009 16:12",
-		"generateAssertFor:of:" : "TestRunner 11/24/2009 16:06",
+		"generateAssertFor:of:" : "SamuelSchuerch 11/27/2009 17:58",
 		"generateAssertForResult:" : "TestRunner 11/24/2009 17:12",
 		"generateEqualsSendFor:" : "SamuelSchuerch 11/27/2009 16:22",
 		"generateHeader" : "TestRunner 11/24/2009 17:10",
 		"generateMethod:" : "TestRunner 11/18/2009 14:10",
-		"generateMethodCallFor:" : "TestRunner 11/25/2009 15:35",
+		"generateMethodCallFor:of:" : "SamuelSchuerch 11/27/2009 17:57",
 		"generateMethodInstallFor:withCode:" : "TestRunner 11/25/2009 15:56",
-		"generateTestCaseFor:" : "TestRunner 11/24/2009 16:19",
+		"generateTestCaseFor:" : "SamuelSchuerch 11/27/2009 17:53",
 		"generateTestCases" : "TestRunner 11/18/2009 14:04",
 		"generateTestClass" : "TestRunner 11/24/2009 17:05",
 		"generateTestClassInstance" : "TestRunner 11/25/2009 15:37",
@@ -33,4 +33,4 @@
 		"outStream:" : "TestRunner 11/18/2009 13:46",
 		"putAssert:" : "TestRunner 11/24/2009 15:08",
 		"separator" : "TestRunner 11/18/2009 14:06",
-		"testArgumentsFor:" : "TestRunner 11/24/2009 15:42" } }
+		"testArgumentsFor:of:" : "SamuelSchuerch 11/27/2009 17:56" } }

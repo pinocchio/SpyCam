@@ -11,7 +11,7 @@ generateTestCaseFor: methodSelector
 		nextPutAll: ')'; cr.
 		
 	astMethod := self generateMethod: method.
-	self generateMethodCallFor: astMethod.
+	self generateMethodCallFor: astMethod of: method.
 	self generateAssertFor: astMethod of: method.
 	self assertEmptyStack.
 	outStream nextPutAll: '}'
