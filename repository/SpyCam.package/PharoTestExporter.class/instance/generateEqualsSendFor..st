@@ -1,8 +1,12 @@
 exporting
 generateEqualsSendFor: anObject
 	| ast |
-	(anObject isKindOf: String) ifTrue: [
-		ast := PinocchioString new string: anObject.
+	(anObject isKindOf: Symbol) ifTrue: [
+		ast := anObject asPSymbol.
+	] ifFalse: [
+		(anObject isKindOf: String) ifTrue: [
+			ast := PinocchioString new string: anObject.
+		]
 	].
 	
 	ast ifNil: [ self error: 'Unknown type given']. 

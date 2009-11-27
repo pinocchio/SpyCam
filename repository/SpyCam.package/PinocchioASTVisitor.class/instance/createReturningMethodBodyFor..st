@@ -9,7 +9,7 @@ createReturningMethodBodyFor: aMethod
 	].
 	"Now wrap all in a callec"
 	callec := PinocchioSend new
-			receiver: (PinocchioInternalVariable named: 'AST_Callec_Class');
+			receiver: (PinocchioInternalVariable named: 'AST_Callec_Reference');
 			message: #on: asPSymbol;
 			arguments: (PinocchioArray with: (self createCallecBodyFor: aMethod)).
 	
