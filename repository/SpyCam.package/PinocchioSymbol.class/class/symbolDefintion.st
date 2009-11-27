@@ -65,4 +65,5 @@ symbolDefintion
         ('whileTrue:' 'SMB_whileTrue_')
         ('writeAll:' 'SMB_writeAll_')
         ('write:' 'SMB_write_')
+		 ('name' 'SMB_name')
     )

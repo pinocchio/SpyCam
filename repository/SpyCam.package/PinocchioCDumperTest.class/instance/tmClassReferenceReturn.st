@@ -1,3 +1,3 @@
 test-method
 tmClassReferenceReturn
-	Metaclass name.
+	^ Metaclass name.
