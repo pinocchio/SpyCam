@@ -1,4 +1,4 @@
-visitor
+method
 createNonReturningMethodBodyFor: aMethod
 	| statements |
 	statements := aMethod statements.

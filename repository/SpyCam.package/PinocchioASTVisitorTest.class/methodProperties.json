@@ -22,7 +22,7 @@
 		"testVisitMethodSuperAndSelf" : "TestRunner 11/25/2009 14:30",
 		"testVisitMethodWithDirectReturn" : "TestRunner 11/25/2009 13:47",
 		"testVisitMethodWithDirectReturn2" : "TestRunner 11/25/2009 14:22",
-		"testVisitMethodWithIntermediateReturn" : "TestRunner 11/25/2009 14:33",
+		"testVisitMethodWithIntermediateReturn" : "TestRunner 11/30/2009 11:30",
 		"testVisitMethodWithReturn" : "TestRunner 11/25/2009 14:01",
 		"testVisitMethodWithReturn2" : "TestRunner 11/25/2009 14:20",
 		"testVisitMethodWithReturnSimpleCall" : "TestRunner 11/25/2009 13:57",

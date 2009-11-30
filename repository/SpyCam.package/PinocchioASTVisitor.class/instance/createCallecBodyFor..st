@@ -1,4 +1,4 @@
-visitor
+method
 createCallecBodyFor: aMethod
 	| body |
 	self pushScope.
