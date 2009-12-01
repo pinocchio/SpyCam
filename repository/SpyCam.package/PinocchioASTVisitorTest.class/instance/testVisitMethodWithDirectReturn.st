@@ -6,10 +6,7 @@ testVisitMethodWithDirectReturn
 
 	ast class should = PinocchioMethod.
 	ast hasReturn should = true.
-	block := ast body.
-	block class should = PinocchioArray.
 	ast params class should = PinocchioArray.
 	ast locals class should = PinocchioArray.
-	ast body class should = PinocchioArray.
-	ast body size should = 1.  "true"
-	ast body first class should = PinocchioInternalVariable.
+	ast size should = 1.  "true"
+	ast first class should = PinocchioInternalVariable.

@@ -2,12 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"body" : "DavidGurtner 10/21/2009 15:07",
-		"body:" : "DavidGurtner 10/21/2009 15:07",
 		"depth" : "TestRunner 11/24/2009 16:43",
 		"depth:" : "TestRunner 11/24/2009 16:49",
+		"do:" : "CamilloBruni 12/1/2009 14:01",
+		"first" : "CamilloBruni 12/1/2009 14:13",
+		"first:" : "CamilloBruni 12/1/2009 14:13",
 		"initialize" : "TestRunner 11/25/2009 18:01",
+		"inject:into:" : "CamilloBruni 12/1/2009 14:01",
 		"isEmpty" : "TestRunner 10/29/2009 21:02",
+		"last" : "CamilloBruni 12/1/2009 14:13",
+		"last:" : "CamilloBruni 12/1/2009 14:13",
 		"locals" : "TestRunner 11/24/2009 16:44",
 		"locals:" : "DavidGurtner 10/22/2009 15:10",
 		"params" : "DavidGurtner 10/22/2009 15:10",

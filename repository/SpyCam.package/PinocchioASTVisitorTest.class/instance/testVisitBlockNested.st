@@ -7,12 +7,12 @@ testVisitBlockNested
 	result class should = PinocchioBlock.
 	result locals size should = 2.
 	result params size should = 1.
-	result body size should = 1.
+	result size should = 1.
 	result depth should = 0.
-	result body first class should = PinocchioBlock.
-	result body first depth should = 1.
+	result first class should = PinocchioBlock.
+	result first depth should = 1.
 	
-	result body first body first class should = PinocchioBlock.
-	result body first body first depth should = 2.
+	result first first class should = PinocchioBlock.
+	result first first depth should = 2.
 	
 	

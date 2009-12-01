@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"body",
 		"params",
 		"locals",
 		"depth" ],
@@ -14,4 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "PinocchioASTNode",
-	"type" : "normal" }
+	"type" : "variable" }

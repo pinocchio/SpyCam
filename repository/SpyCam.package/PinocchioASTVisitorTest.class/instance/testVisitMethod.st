@@ -7,10 +7,9 @@ testVisitMethod
 	ast hasReturn should  = false.
 	ast selector class should = PinocchioSymbol.
 	ast selector asString should = 'doIt'.
-	ast body class should = PinocchioArray.
 	ast params class should = PinocchioArray.
 	ast locals class should = PinocchioArray.
-	ast body size should = 2. " +; self"
+	ast size should = 2. " +; self"
 	ast locals size should = 0.
 	ast params size should = 0.
-	self assureLastIsReturningSelf: ast body
+	self assureLastIsReturningSelf: ast

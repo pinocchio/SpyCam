@@ -1,7 +1,7 @@
 convenience
-createBlock
+createBlock: size
 	| block |
-	block := PinocchioBlock new.
+	block := PinocchioBlock new: size.
 	self currentBlock ifNotNil: [
 		block depth: self currentBlock depth + 1.
 	].

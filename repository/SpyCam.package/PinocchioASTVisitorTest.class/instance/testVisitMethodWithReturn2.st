@@ -7,13 +7,11 @@ testVisitMethodWithReturn2
 	ast params class should = PinocchioArray.
 	ast locals class should = PinocchioArray.
 	ast hasReturn should = true.
-	body := ast body.
-	body class should = PinocchioArray.
 	
-	body size should = 2. "assignment. return"
+	ast size should = 2. "assignment. return"
 	ast locals size should = 3.
 	ast params size should = 0.
-	send := body last.
+	send := ast last.
 	send class should = PinocchioSend.
 	send receiver class = PinocchioSelf.
 	send message asSymbol should = #foo:bar:baz:

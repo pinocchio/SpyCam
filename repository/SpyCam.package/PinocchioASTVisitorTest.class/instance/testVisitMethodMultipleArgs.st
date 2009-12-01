@@ -11,9 +11,8 @@ testVisitMethodMultipleArgs
 	ast locals size should = 0.
 	ast params size should = 4.
 	ast hasReturn should = false.
-	ast body class should = PinocchioArray.	
-	ast body size should = (1+1).
+	ast size should = (1+1).
 	(ast params at: 1) class should = PinocchioLocalVariable.
-	ast body last class should = PinocchioSelf.
+	ast last class should = PinocchioSelf.
 	
-	self assureLastIsReturningSelf: ast body
+	self assureLastIsReturningSelf: ast

@@ -6,7 +6,6 @@ testVisitBlock
 	result class should = PinocchioBlock.
 	result params class should = PinocchioArray.
 	result locals class should = PinocchioArray.
-	result body class should = PinocchioArray.
 	
 	variable := ASTVariable new name: #element.
 	result := self ast: '[:element || temp | element := 1.]'.
@@ -17,8 +16,7 @@ testVisitBlock
 	result locals class should = PinocchioArray.
 	result locals first class should = PinocchioLocalVariable.
 	result locals first name should = 'temp'.
-	result body class should = PinocchioArray.
-	result body first class should = PinocchioAssign.
-	result body first variable class should = PinocchioLocalVariable.
-	result body first variable name should = 'element'.
-	result body first variable should == result params first.
+	result first class should = PinocchioAssign.
+	result first variable class should = PinocchioLocalVariable.
+	result first variable name should = 'element'.
+	result first variable should == result params first.

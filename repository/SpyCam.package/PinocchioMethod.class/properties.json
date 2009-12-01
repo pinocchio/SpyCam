@@ -9,7 +9,6 @@
 		"selector",
 		"params",
 		"locals",
-		"body",
 		"package",
 		"annotations",
 		"hasReturn" ],
@@ -17,4 +16,4 @@
 	"pools" : [
 		 ],
 	"super" : "PinocchioASTNode",
-	"type" : "normal" }
+	"type" : "variable" }

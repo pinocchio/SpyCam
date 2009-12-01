@@ -1,12 +1,16 @@
 method
-createCallecBodyFor: aMethod
-	| body |
+createCallecBodyFor: anASTMethod
+	| body index |
 	self pushScope.
 	self currentCallecVariable: (PinocchioVariable named: #return).
 	"self scope declare: self currentCallecVariable as: 1."
-	body := self createBlock.
-	body params: (PinocchioArray with: self currentCallecVariable);
-		body: (self acceptOnCollection: aMethod statements) asPArray.
+	body := self createBlock: anASTMethod statements size.
+	body params: (PinocchioArray with: self currentCallecVariable).
+	index := 1.
+	anASTMethod statements do: [ :each|
+		body at: index put: (self visit: each).
+		index := index +1.
+	].
 	self popScope.
 	^ body
 	

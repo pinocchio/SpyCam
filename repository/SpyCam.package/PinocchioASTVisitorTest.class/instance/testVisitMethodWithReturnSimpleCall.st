@@ -10,11 +10,8 @@ testVisitMethodWithReturnSimpleCall
 	ast params size should = 0.
 	ast hasReturn should = true.
 	
-	body := ast body.
-	body class should = PinocchioArray.
-	
-	body size should = 1. "Just a send: self foo"
-	send := body first.
+	ast size should = 1. "Just a send: self foo"
+	send := ast first.
 	send class should = PinocchioSend.
 	send receiver class should = PinocchioSelf.
 	send message asSymbol should = #foo 

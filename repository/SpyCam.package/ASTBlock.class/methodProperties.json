@@ -3,6 +3,7 @@
 		"astSelectors" : "TestRunner 10/21/2009 13:43" },
 	"instance" : {
 		"hasReturnExpression" : "DavidGurtner 11/11/2009 14:50",
+		"initialize" : "CamilloBruni 12/1/2009 14:29",
 		"parameters" : "tv 3/28/2009 18:22",
 		"parameters:" : "tv 3/28/2009 18:23",
 		"statements" : "cb 3/26/2009 12:06",
