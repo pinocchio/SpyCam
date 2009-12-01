@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"exportProtocolNamed:fromClass:" : "CamilloBruni 12/1/2009 15:33",
+		"exportProtocolNamed:fromClass:" : "SamuelSchuerch 12/1/2009 17:30",
 		"exportProtocols:fromClass:" : "CamilloBruni 12/1/2009 15:34",
 		"extractMethodsFromProtocolNamed:fromClass:" : "CamilloBruni 12/1/2009 15:35" },
 	"instance" : {
 		"assertEmptyStack" : "TestRunner 11/24/2009 16:16",
 		"ast:" : "TestRunner 11/18/2009 13:44",
-		"clear" : "TestRunner 11/18/2009 14:56",
+		"clear" : "SamuelSchuerch 12/1/2009 15:49",
 		"createSelectorFor:" : "TestRunner 11/18/2009 15:01",
 		"dumpSources" : "TestRunner 11/24/2009 16:21",
 		"export" : "TestRunner 11/24/2009 16:21",
