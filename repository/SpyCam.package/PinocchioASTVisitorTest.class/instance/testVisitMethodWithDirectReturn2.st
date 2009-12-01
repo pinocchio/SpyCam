@@ -6,6 +6,7 @@ testVisitMethodWithDirectReturn2
 	^ true.'.
 
 	ast class should = PinocchioMethod.
+	ast depth should = 0.
 	ast hasReturn should = true.
 	ast params class should = PinocchioArray.
 	ast locals class should = PinocchioArray.

@@ -4,6 +4,7 @@
 	"instance" : {
 		"annotations" : "TestRunner 11/24/2009 10:58",
 		"annotations:" : "TestRunner 11/24/2009 14:10",
+		"depth" : "CamilloBruni 12/1/2009 17:07",
 		"do:" : "CamilloBruni 12/1/2009 14:02",
 		"first" : "CamilloBruni 12/1/2009 14:03",
 		"first:" : "CamilloBruni 12/1/2009 14:03",
@@ -12,7 +13,6 @@
 		"inject:into:" : "CamilloBruni 12/1/2009 14:02",
 		"last" : "CamilloBruni 12/1/2009 14:04",
 		"last:" : "CamilloBruni 12/1/2009 14:04",
-		"level" : "TestRunner 11/17/2009 11:23",
 		"locals" : "TestRunner 10/27/2009 14:46",
 		"locals:" : "TestRunner 10/27/2009 14:46",
 		"package" : "TestRunner 10/27/2009 14:46",

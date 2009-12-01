@@ -1,5 +1,5 @@
 instance creation
-exportProtocol: protocolName from: class
+exportProtocolNamed: protocolName fromClass: class
 	^ PharoTestExporter new
 		methods: (self extractMethodsFromProtocol: protocolName from: class);
 		exportClass: class.

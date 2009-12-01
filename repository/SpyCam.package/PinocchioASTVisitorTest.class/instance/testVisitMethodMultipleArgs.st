@@ -4,6 +4,7 @@ testVisitMethodMultipleArgs
 	parser := scparser method.
 	ast := self ast: 'doIt: a withA: b withB: c withC: d' , String cr , ' a + 2.'.
 	ast class should = PinocchioMethod.
+	ast depth should = 0.
 	ast selector class should = PinocchioSymbol.
 	ast selector asString should = 'doIt:withA:withB:withC:'.
 	ast params class should = PinocchioArray.

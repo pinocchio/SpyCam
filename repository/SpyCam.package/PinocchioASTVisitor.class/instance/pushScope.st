@@ -1,3 +1,3 @@
 scope
 pushScope
-	scope := PinocchioSubScope new: scope
+	scope := PinocchioSubScope new: scope.

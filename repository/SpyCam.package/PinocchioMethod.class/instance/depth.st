@@ -1,3 +1,3 @@
 accessing
-level
+depth
 	^ 0

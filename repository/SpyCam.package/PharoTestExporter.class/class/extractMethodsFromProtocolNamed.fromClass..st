@@ -1,5 +1,5 @@
 instance creation
-extractMethodsFromProtocol: protocolName from: class
+extractMethodsFromProtocolNamed: protocolName fromClass: class
 	| browser |
 	browser := Browser new.
 	browser setClass: class selector: nil.
