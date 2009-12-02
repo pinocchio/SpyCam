@@ -4,7 +4,7 @@ generateTestClass
 	declarations := WriteStream on: ''.
 	exporter := PharoExporter new 
 					todo: (OrderedCollection with: self exportClass);
-					onAssignTo: [ :str :ast|
+					onAssignTo: [ :str :ast |
 						declarations nextPutAll: 'Object ';
 							nextPutAll:  ast uid asString;
 							nextPutAll: ';';

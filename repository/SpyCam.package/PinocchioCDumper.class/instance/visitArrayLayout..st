@@ -11,8 +11,9 @@ visitArrayLayout: aPinocchioArrayLayout
 	1 to: aPinocchioArrayLayout size do: [ :index|
 		element := aPinocchioArrayLayout at: index.
 		self visit: element.
-		stream nextPutAll: aPinocchioArrayLayout uid; 
-			nextPutAll: ('->values[', (index - 1) asString, '] = ');
+		stream nextPutAll: '((Type_Array)';
+			nextPutAll: aPinocchioArrayLayout uid; 
+			nextPutAll: (')->values[', (index - 1) asString, '] = ');
 			nextPutAll: element uid;
 			nextPutAll: ';'.
 	]
