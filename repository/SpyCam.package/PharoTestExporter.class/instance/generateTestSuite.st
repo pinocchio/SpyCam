@@ -4,7 +4,6 @@ generateTestSuite
 	outStream nextPutAll: 'TEST_SUITE(';
 		nextPutAll: 'AutoGenTest,'; cr;
 		nextPutAll: '{'; cr.
-	self generateTestClass.
 	self generateTestClassInstance.
 	outStream cr.
 	selectorList do: [ :selector|

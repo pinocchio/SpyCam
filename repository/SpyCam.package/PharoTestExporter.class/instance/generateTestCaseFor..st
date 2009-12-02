@@ -10,8 +10,7 @@ generateTestCaseFor: methodSelector
 		nextPutAll: selector asString;
 		nextPutAll: ')'; cr.
 	self generateMethodSourceStringFor: method.
-	
-	astMethod := self generateMethod: method.
+	astMethod := pinocchioClass methods at: method selector asPSymbol.
 	self generateMethodCallFor: astMethod of: method.
 	self generateAssertFor: astMethod of: method.
 	self assertEmptyStack.

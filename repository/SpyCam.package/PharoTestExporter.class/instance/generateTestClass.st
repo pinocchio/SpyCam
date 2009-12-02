@@ -1,3 +1,25 @@
 exporting
 generateTestClass
-	outStream nextPutAll: '    Test_Class = new_Class_named((Object)Type_Object_Class, L"Test_Object", Type_Object_Class->type);'; cr.
+	| exporter declarations |
+	declarations := WriteStream on: ''.
+	exporter := PharoExporter new 
+					todo: (OrderedCollection with: self exportClass);
+					onAssignTo: [ :str :ast|
+						declarations nextPutAll: 'Object ';
+							nextPutAll:  ast uid asString;
+							nextPutAll: ';';
+							nextPutAll: String cr.
+						ast uid asString, ' = ', str, ';', String cr.
+					];
+					export.
+					
+	outStream nextPutAll: declarations contents; cr; cr;
+		nextPutAll: 'void create_ast() {'; cr.
+	exporter printOn: outStream.
+	outStream nextPutAll: '}'; cr.
+	
+	rootPackage := exporter root.
+	
+	pinocchioClassPackage := rootPackage lookUp: self exportClass category.
+	pinocchioClass := exporter classASTs at: self exportClass name.
+	

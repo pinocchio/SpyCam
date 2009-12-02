@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assign:to:" : "TestRunner 11/17/2009 13:45",
+		"assign:to:" : "CamilloBruni 12/2/2009 14:48",
 		"clear" : "TestRunner 11/17/2009 10:57",
 		"comment:" : "TestRunner 11/17/2009 13:46",
 		"createClass:" : "TestRunner 11/17/2009 14:13",
@@ -15,6 +15,8 @@
 		"installMethod:" : "TestRunner 11/17/2009 16:19",
 		"multiArgFor:" : "TestRunner 11/24/2009 16:59",
 		"newline" : "TestRunner 11/17/2009 10:01",
+		"onAssignTo" : "CamilloBruni 12/2/2009 14:36",
+		"onAssignTo:" : "CamilloBruni 12/2/2009 14:36",
 		"printOn:" : "DavidGurtner 10/29/2009 16:56",
 		"put:with:" : "TestRunner 11/17/2009 13:45",
 		"stream" : "DavidGurtner 10/29/2009 16:23",

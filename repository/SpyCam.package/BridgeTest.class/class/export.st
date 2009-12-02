@@ -1,4 +1,4 @@
-as yet unclassified
+exporting
 export
-	(PharoTestExporter exportAllProtocolsFromClass: self) 
+	(PharoTestExporter exportTestClass: self) 
 		export: 'test.ci'

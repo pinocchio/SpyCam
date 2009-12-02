@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"export" : "CamilloBruni 12/2/2009 10:25" },
+		"export" : "CamilloBruni 12/2/2009 11:44",
+		"pinocchioMethods" : "CamilloBruni 12/2/2009 13:46" },
 	"instance" : {
 		"tmBooleanEquals" : "CamilloBruni 12/2/2009 10:22",
 		"tmBooleanFalse" : "CamilloBruni 12/2/2009 10:22",
@@ -9,6 +10,7 @@
 		"tmCharacterEquals" : "CamilloBruni 12/2/2009 10:22",
 		"tmClassReferenceReturn" : "CamilloBruni 12/2/2009 10:22",
 		"tmExtendedReturn" : "CamilloBruni 12/2/2009 10:22",
+		"tmFibonacci" : "CamilloBruni 12/2/2009 10:32",
 		"tmLocalVariable" : "CamilloBruni 12/2/2009 10:22",
 		"tmMethodArgument:" : "CamilloBruni 12/2/2009 10:22",
 		"tmMethodArguments:with:with:" : "CamilloBruni 12/2/2009 10:22",
@@ -19,8 +21,11 @@
 		"tmNumberMult" : "CamilloBruni 12/2/2009 10:22",
 		"tmNumberSubtract" : "CamilloBruni 12/2/2009 10:22",
 		"tmSimpleBasicArithmetik" : "CamilloBruni 12/2/2009 10:22",
+		"tmSimpleInstanceCreation" : "CamilloBruni 12/2/2009 10:34",
 		"tmSimpleReturn" : "CamilloBruni 12/2/2009 10:22",
 		"tmString" : "CamilloBruni 12/2/2009 10:22",
 		"tmStringEquals" : "CamilloBruni 12/2/2009 10:22",
 		"tmSymbol" : "CamilloBruni 12/2/2009 10:22",
-		"tmSymbolEquals" : "CamilloBruni 12/2/2009 10:22" } }
+		"tmSymbolEquals" : "CamilloBruni 12/2/2009 10:22",
+		"tmVariableInstanceCreation" : "CamilloBruni 12/2/2009 10:35",
+		"tmVariableInstanceCreationSized" : "CamilloBruni 12/2/2009 14:02" } }

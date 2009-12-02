@@ -15,7 +15,11 @@
 		"exportClass",
 		"testCaseClass",
 		"selectorList",
-		"testCaseInstance" ],
+		"testCaseInstance",
+		"rootPackage",
+		"exportClassAST",
+		"pinocchioClassPackage",
+		"pinocchioClass" ],
 	"name" : "PharoTestExporter",
 	"pools" : [
 		 ],

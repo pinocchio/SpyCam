@@ -9,7 +9,8 @@
 		"stream",
 		"symbolDict",
 		"visitedNodes",
-		"currentClass" ],
+		"currentClass",
+		"onAssignToBlock" ],
 	"name" : "PinocchioCDumper",
 	"pools" : [
 		 ],

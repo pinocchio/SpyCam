@@ -17,5 +17,7 @@ transformClass: cls
 	pinocchioVisitor pinocchioClass: aPinocchioClass.
 	aPinocchioClass methods: (self transformMethodsFor: cls).
 	pinocchioVisitor popScope.
-
+	
+	classASTs at: cls name put: aPinocchioClass.
+	
 	^ aPinocchioClass.

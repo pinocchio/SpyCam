@@ -1,0 +1,3 @@
+accessing
+classASTsclassASTs
+	^ classASTs

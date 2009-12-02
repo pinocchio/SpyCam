@@ -4,12 +4,8 @@ generateAssertFor: anASTMethod of: aCompiledMethod
 	| instance result arguments |
 	instance := self exportClass new.
 	arguments := self testArgumentsFor: anASTMethod of: aCompiledMethod.
-	[result := instance perform: anASTMethod selector asSymbol
+	result := instance perform: anASTMethod selector asSymbol
 						withArguments: arguments.
-	] on: Error do: [
-		self error: 'Invalid number of arguments for testmethod ',  
-				anASTMethod selector asString, '. Did you add an argument annotation?'.
-	].
 	result == instance ifTrue: [
 		^ self putAssert: 'result == test_Class_Instance'.
 	].

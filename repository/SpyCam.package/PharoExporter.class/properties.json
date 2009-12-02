@@ -11,7 +11,8 @@
 		"root",
 		"scparser",
 		"pinocchioVisitor",
-		"cdumper" ],
+		"cdumper",
+		"classASTs" ],
 	"name" : "PharoExporter",
 	"pools" : [
 		 ],
