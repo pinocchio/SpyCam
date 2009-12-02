@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"export" : "CamilloBruni 12/2/2009 10:25" },
+	"instance" : {
+		"tmBooleanEquals" : "CamilloBruni 12/2/2009 10:22",
+		"tmBooleanFalse" : "CamilloBruni 12/2/2009 10:22",
+		"tmBooleanTrue" : "CamilloBruni 12/2/2009 10:22",
+		"tmCharacter" : "CamilloBruni 12/2/2009 10:22",
+		"tmCharacterEquals" : "CamilloBruni 12/2/2009 10:22",
+		"tmClassReferenceReturn" : "CamilloBruni 12/2/2009 10:22",
+		"tmExtendedReturn" : "CamilloBruni 12/2/2009 10:22",
+		"tmLocalVariable" : "CamilloBruni 12/2/2009 10:22",
+		"tmMethodArgument:" : "CamilloBruni 12/2/2009 10:22",
+		"tmMethodArguments:with:with:" : "CamilloBruni 12/2/2009 10:22",
+		"tmNumber" : "CamilloBruni 12/2/2009 10:22",
+		"tmNumberAdd" : "CamilloBruni 12/2/2009 10:22",
+		"tmNumberDiv" : "CamilloBruni 12/2/2009 10:22",
+		"tmNumberEquals" : "CamilloBruni 12/2/2009 10:22",
+		"tmNumberMult" : "CamilloBruni 12/2/2009 10:22",
+		"tmNumberSubtract" : "CamilloBruni 12/2/2009 10:22",
+		"tmSimpleBasicArithmetik" : "CamilloBruni 12/2/2009 10:22",
+		"tmSimpleReturn" : "CamilloBruni 12/2/2009 10:22",
+		"tmString" : "CamilloBruni 12/2/2009 10:22",
+		"tmStringEquals" : "CamilloBruni 12/2/2009 10:22",
+		"tmSymbol" : "CamilloBruni 12/2/2009 10:22",
+		"tmSymbolEquals" : "CamilloBruni 12/2/2009 10:22" } }

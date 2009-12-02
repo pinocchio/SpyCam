@@ -1,5 +1,5 @@
 test-basics
-tmLocalVariableAssignment
+tmLocalVariable
 	|a|
 	a := 1.
 	^ a
