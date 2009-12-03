@@ -1,9 +1,11 @@
 visitor
 visitClass: aPinocchioClass 
+	| oldClass |
 	(aPinocchioClass superclass isKindOf: PinocchioNil)
 		ifFalse: [ self visit: aPinocchioClass superclass package ].
 	self visit: aPinocchioClass superclass.
 	
+	oldClass := self currentClass.
 	self currentClass: aPinocchioClass.
 	self visit: aPinocchioClass name.
 	self visit: aPinocchioClass layout.
@@ -12,3 +14,5 @@ visitClass: aPinocchioClass
 	self visitCollection: aPinocchioClass methods.
 	
 	self visit: aPinocchioClass package.
+	
+	self currentClass: oldClass.

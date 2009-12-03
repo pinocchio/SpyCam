@@ -10,5 +10,5 @@ export
 	]) isEmpty.
 	self assert: (done select: [:each |
 		(each package at: each name) pinocchioClass isNil
-	]) isEmpty.	
+	]) isEmpty.
 	cdumper clear; visit: root.
