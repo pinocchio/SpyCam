@@ -7,7 +7,7 @@ generateAssertFor: anASTMethod of: aCompiledMethod
 	result := instance perform: anASTMethod selector asSymbol
 						withArguments: arguments.
 	result == instance ifTrue: [
-		^ self putAssert: 'result == test_Class_Instance'.
+		^ self putAssert: 'result == ((AST_Constant)test_Class_Instance)->constant'.
 	].
 	[self generateAssertForResult: result.] on: Error do: [ 
 		self generateEqualsSendFor: result.
