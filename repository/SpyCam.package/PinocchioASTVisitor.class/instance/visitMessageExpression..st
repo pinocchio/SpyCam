@@ -1,5 +1,7 @@
 visitor
 visitMessageExpression: aMessageExpression
+	| message |
+	message := self visit: aMessageExpression selector.
 	^ (self createSendTo: aMessageExpression receiver)
-			message: (PinocchioSymbol named: aMessageExpression selector asString);
+			message: message;
 			arguments: (self acceptOnCollection: aMessageExpression arguments) asPArray

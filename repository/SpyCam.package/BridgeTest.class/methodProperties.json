@@ -3,6 +3,7 @@
 		"export" : "CamilloBruni 12/2/2009 11:44",
 		"pinocchioMethods" : "CamilloBruni 12/2/2009 13:46" },
 	"instance" : {
+		"assert:" : "ToonVerwaest 12/3/2009 18:28",
 		"tmBooleanEquals" : "CamilloBruni 12/2/2009 10:22",
 		"tmBooleanFalse" : "CamilloBruni 12/2/2009 10:22",
 		"tmBooleanTrue" : "CamilloBruni 12/2/2009 10:22",

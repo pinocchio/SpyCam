@@ -13,7 +13,6 @@ visitMessageCascadeExpression: anASTMessageCascadeExpression
 	send := ASTMessageExpression new
 			receiver: block;
 			arguments: (OrderedCollection with: anASTMessageCascadeExpression receiver);
-			selector: (ASTKeywordSelector new 
-				keywords: (OrderedCollection with: 
-								(ASTSymbol named: #value:))).
+			selector: (ASTKeywordSelector new
+							keywords: (OrderedCollection with: #value)).
 	^ self visit: send.

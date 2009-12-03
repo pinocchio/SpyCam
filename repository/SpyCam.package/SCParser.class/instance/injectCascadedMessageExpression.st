@@ -8,7 +8,8 @@ injectCascadedMessageExpression
 					<= self unaryMessageExpression)) plus);
 					
 		semantics: [:parts |
+			(parts at: 2) addFirst: parts first.
 			ASTMessageCascadeExpression new
-				receiver: (parts first);
+				receiver: (parts first) receiver;
 				cascades: (parts at: 2)
 		]

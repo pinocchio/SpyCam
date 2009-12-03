@@ -4,7 +4,8 @@
 		"globalDefintion" : "SamuelSchuerch 11/27/2009 16:59",
 		"initialize" : "TestRunner 11/17/2009 11:54",
 		"initializeGlobals" : "TestRunner 11/4/2009 14:46",
-		"lookup:" : "CamilloBruni 11/9/2009 15:50" },
+		"lookup:" : "CamilloBruni 11/9/2009 15:50",
+		"lookupNamed:" : "ToonVerwaest 12/3/2009 18:25" },
 	"instance" : {
 		"declare:" : "CamilloBruni 11/9/2009 15:48",
 		"declare:as:" : "CamilloBruni 11/9/2009 15:49",
