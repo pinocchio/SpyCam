@@ -1,7 +1,7 @@
 test-method
 tmVariableInstanceCreationSized
 	| instance |
-	instance := StandardVariableTestClass new: 100.
+	instance := StandardVariableTestClass basicNew: 100.
 	instance at: 1 put: 1.
 	instance at: 100 put: 100.
 	self assert: (instance at: 1) = 1.

@@ -1,7 +1,7 @@
 test-method
 tmSimpleInstanceCreation
 	| instance |
-	instance := StandardTestClass new.
+	instance := StandardTestClass basicNew.
 	instance a: 1; b: 2; c: 3.
 	self assert: instance a = 1.
 	self assert: instance b = 2.
