@@ -3,7 +3,7 @@ visitMessageCascadeExpression: anASTMessageCascadeExpression
 	"TODO: Maybe optimize by adding a tmp to the current block"
 	| receiver block send |
 	receiver := ASTVariable new name: 'receiver'.
-	anASTMessageCascadeExpression cascades do: [ :message|
+	anASTMessageCascadeExpression cascades do: [ :message |
 			message receiver: receiver.
 	].
 	block := ASTBlock new
@@ -12,7 +12,7 @@ visitMessageCascadeExpression: anASTMessageCascadeExpression
 	
 	send := ASTMessageExpression new
 			receiver: block;
-			arguments: (OrderedCollection with: 								anASTMessageCascadeExpression receiver);
+			arguments: (OrderedCollection with: anASTMessageCascadeExpression receiver);
 			selector: (ASTKeywordSelector new 
 				keywords: (OrderedCollection with: 
 								(ASTSymbol named: #value:))).
