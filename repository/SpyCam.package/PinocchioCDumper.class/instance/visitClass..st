@@ -1,5 +1,7 @@
 visitor
 visitClass: aPinocchioClass 
+	(aPinocchioClass superclass isKindOf: PinocchioNil)
+		ifFalse: [ self visit: aPinocchioClass superclass package ].
 	self visit: aPinocchioClass superclass.
 	
 	self currentClass: aPinocchioClass.

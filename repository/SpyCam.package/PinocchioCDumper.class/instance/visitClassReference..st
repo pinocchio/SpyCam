@@ -1,6 +1,5 @@
 visitor
-visitClassReference: aPinocchioClassReference 
-	self visit: aPinocchioClassReference referenceName.
+visitClassReference: aPinocchioClassReference
 	self visit: aPinocchioClassReference pinocchioClass.
 	self visit: aPinocchioClassReference package.
 	
