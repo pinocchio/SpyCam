@@ -1,5 +1,5 @@
 test-class
 tmSuperClassSuperSend
 	| instance |
-	instance := ChildClassTestClass new.
+	instance := ChildClassTestClass basicNew.
 	^ instance test

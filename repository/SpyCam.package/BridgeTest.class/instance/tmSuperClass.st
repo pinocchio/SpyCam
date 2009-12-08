@@ -1,7 +1,7 @@
 test-class
 tmSuperClass
 	| instance |
-	instance := ChildClassTestClass new.
+	instance := ChildClassTestClass basicNew.
 	instance a: 1.
 	instance b: 2.
 	self assert: instance a = 1.

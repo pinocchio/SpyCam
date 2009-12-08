@@ -13,5 +13,4 @@ generateTestCaseFor: methodSelector
 	astMethod := pinocchioClass methods at: method selector asPSymbol.
 	self generateMethodCallFor: astMethod of: method.
 	self generateAssertFor: astMethod of: method.
-	self assertEmptyStack.
 	outStream nextPutAll: '}'
