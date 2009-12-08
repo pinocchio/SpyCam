@@ -3,19 +3,19 @@ generateTestClass
 	| exporter declarations |
 	declarations := WriteStream on: ''.
 	exporter := PharoExporter new 
-					todo: (OrderedCollection with: self exportClass);
-					onAssignTo: [ :str :ast |
-						declarations nextPutAll: 'Object ';
-							nextPutAll:  ast uid asString;
-							nextPutAll: ';';
-							nextPutAll: String cr.
-						ast uid asString, ' = ', str, ';', String cr.
-					];
-					export.
-					
+		cdumper: cdumper;
+		todo: (OrderedCollection with: self exportClass);
+		onAssignTo: [ :str :ast |
+			declarations nextPutAll: 'Object ';
+				nextPutAll:  ast uid asString;
+				nextPutAll: ';';
+				nextPutAll: String cr.
+				ast uid asString, ' = ', str, ';', String cr.
+			];
+		export.
 	outStream nextPutAll: declarations contents; cr; cr;
 		nextPutAll: 'void create_ast() {'; cr.
-	exporter printOn: outStream.
+		exporter printOn: outStream.
 	outStream nextPutAll: '}'; cr.
 	
 	rootPackage := exporter root.

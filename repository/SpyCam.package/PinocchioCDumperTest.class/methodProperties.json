@@ -40,4 +40,5 @@
 		"testStringEscapeNewline" : "TestRunner 11/17/2009 16:17",
 		"testStringEscapeSingleQuote" : "TestRunner 11/17/2009 16:17",
 		"testSymbol" : "TestRunner 11/17/2009 16:17",
-		"testVisit" : "TestRunner 11/17/2009 16:13" } }
+		"testVisit" : "TestRunner 11/17/2009 16:13",
+		"tmLocalVariable" : "CamilloBruni 12/1/2009 17:01" } }

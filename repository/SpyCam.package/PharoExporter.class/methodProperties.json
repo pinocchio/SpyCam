@@ -4,8 +4,9 @@
 		"pinocchioMethods" : "TestRunner 11/18/2009 13:38" },
 	"instance" : {
 		"addDanglingClassReference:" : "TestRunner 11/16/2009 14:25",
+		"cdumper" : "CamilloBruni 12/8/2009 11:04",
+		"cdumper:" : "CamilloBruni 12/8/2009 11:04",
 		"classASTs" : "CamilloBruni 12/2/2009 13:23",
-		"classASTsclassASTs" : "CamilloBruni 12/2/2009 13:22",
 		"done" : "ToonVerwaest 11/4/2009 17:18",
 		"done:" : "ToonVerwaest 11/4/2009 17:18",
 		"ensureClassReferenceFor:" : "TestRunner 11/16/2009 15:31",
