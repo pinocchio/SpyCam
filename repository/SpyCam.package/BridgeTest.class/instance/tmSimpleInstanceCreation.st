@@ -1,4 +1,4 @@
-test-method
+test-class
 tmSimpleInstanceCreation
 	| instance |
 	instance := StandardTestClass basicNew.

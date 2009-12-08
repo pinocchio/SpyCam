@@ -1,0 +1,14 @@
+{
+	"category" : "SpyCam-Pinocchio-Bridge-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"b" ],
+	"name" : "ChildClassTestClass",
+	"pools" : [
+		 ],
+	"super" : "SuperClassTestClass",
+	"type" : "normal" }

@@ -6,9 +6,11 @@
 		"assert:" : "ToonVerwaest 12/3/2009 18:28",
 		"tmBooleanEquals" : "CamilloBruni 12/2/2009 10:22",
 		"tmBooleanFalse" : "CamilloBruni 12/2/2009 10:22",
+		"tmBooleanSymbolEquals" : "CamilloBruni 12/8/2009 11:13",
 		"tmBooleanTrue" : "CamilloBruni 12/2/2009 10:22",
 		"tmCharacter" : "CamilloBruni 12/2/2009 10:22",
 		"tmCharacterEquals" : "CamilloBruni 12/2/2009 10:22",
+		"tmCharacterStringEquals" : "CamilloBruni 12/8/2009 11:11",
 		"tmClassReferenceReturn" : "CamilloBruni 12/2/2009 10:22",
 		"tmExtendedReturn" : "CamilloBruni 12/2/2009 10:22",
 		"tmFibonacci" : "CamilloBruni 12/2/2009 10:32",
@@ -26,7 +28,10 @@
 		"tmSimpleReturn" : "CamilloBruni 12/2/2009 10:22",
 		"tmString" : "CamilloBruni 12/2/2009 10:22",
 		"tmStringEquals" : "CamilloBruni 12/2/2009 10:22",
+		"tmSuperClass" : "CamilloBruni 12/8/2009 11:31",
+		"tmSuperClassSuperSend" : "CamilloBruni 12/8/2009 11:32",
 		"tmSymbol" : "CamilloBruni 12/2/2009 10:22",
+		"tmSymbolCharacterEquals" : "CamilloBruni 12/8/2009 11:12",
 		"tmSymbolEquals" : "CamilloBruni 12/2/2009 10:22",
 		"tmVariableInstanceCreation" : "ToonVerwaest 12/3/2009 15:56",
-		"tmVariableInstanceCreationSized" : "ToonVerwaest 12/3/2009 20:08" } }
+		"tmVariableInstanceCreationSized" : "CamilloBruni 12/8/2009 11:14" } }
