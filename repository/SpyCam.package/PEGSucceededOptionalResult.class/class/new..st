@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 new: result
 	^ super new result: result

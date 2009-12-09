@@ -6,7 +6,6 @@ compatibleMethodsWith: anObject
 	methods size < anObject methods size
 		ifTrue: [^false].
 		
-	anObject methods do: [ :method|
-		(self hasCompatibleMethod: method)
-			ifFalse:[ ^false ]].
-	^ true
+	^ anObject methods allSatisfy: [ :method|
+		self hasCompatibleMethod: method
+	].

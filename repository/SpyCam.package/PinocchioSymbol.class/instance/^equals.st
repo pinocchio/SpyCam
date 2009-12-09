@@ -1,3 +1,3 @@
 comparing
 = other
-	^(other isKindOf: PinocchioSymbol) and: [self symbol = other symbol]
+	^(other isKindOf: self class) and: [self symbol = other symbol]

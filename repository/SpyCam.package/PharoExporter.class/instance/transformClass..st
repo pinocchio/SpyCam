@@ -10,9 +10,7 @@ transformClass: aClass
 
 	aPinocchioClass package: (self ensurePackageFor: cls).
 	self declareClassReference: (self ensureClassReferenceFor: aPinocchioClass) as: cls name.
-	cls superclass 
-		ifNil: [ aPinocchioClass superclass: PinocchioNil nil]
-		ifNotNil: [ aPinocchioClass superclass: (self transformClass: cls superclass).].
+	self transformSuperClassOf: cls pinocchioClass: aPinocchioClass.
 	aPinocchioClass layout: (self layoutFor: cls).
 	
 	pinocchioVisitor pinocchioClass: aPinocchioClass.

@@ -1,4 +1,4 @@
-as yet unclassified
+convenience
 ensurePinocchioClass: aPinocchioClass 
 	pinocchioClass 
 		ifNil: [ pinocchioClass := aPinocchioClass ]

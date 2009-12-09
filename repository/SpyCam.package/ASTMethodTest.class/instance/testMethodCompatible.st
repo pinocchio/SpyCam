@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testMethodCompatible
 	"empty methods should be compatible"
 	[^'skip for current failure.'] value.

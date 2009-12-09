@@ -6,7 +6,7 @@ transformMethodsFor: cls
 		methods := cls methods collect: #selector. 
 	].
 	methodDict := Dictionary new.
-	methods collect: [ :selector|
+	methods do: [ :selector|
 		method := cls methodDictionary at: selector.
 		Transcript show: ('    ', cls name, '>>', method selector); cr.
 		method :=  self transformMethod: method getSource.

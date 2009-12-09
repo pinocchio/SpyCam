@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testMethodCompatibleReturnType
 	[ ^ 'skip for current failure.' ] value.
 	"different return types are incompatible"

@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
 	super setUp.
 	m1 := ASTMethod new.

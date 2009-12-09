@@ -1,3 +1,3 @@
 test-basics
 tmSimpleBasicArithmetik
-	^ (1 + 2) + 2 * 5
+	^ ((1 + 2) + 2) * 5

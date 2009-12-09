@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 named: theName parsing: expression
 	^ (self named: theName) <= expression

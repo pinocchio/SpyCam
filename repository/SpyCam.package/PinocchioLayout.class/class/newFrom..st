@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newFrom: aCollection
 	| instance index |
 	instance := self new: aCollection size.

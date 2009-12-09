@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testHasReturnExpression 
 	parser := scparser method.
 	self assert: (self ast: ('method', String cr, '^ 1')) hasReturnExpression.

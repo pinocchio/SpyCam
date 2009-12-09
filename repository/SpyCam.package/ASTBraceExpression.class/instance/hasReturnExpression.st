@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 hasReturnExpression
 	self expressions do: [ :el | 
 		el isReturnExpression 

@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"dumpSourceError:on:" : "TestRunner 11/18/2009 11:06",
-		"extractTestMethods" : "TestRunner 11/18/2009 10:02",
+		"extractTestMethods" : "CamilloBruni 12/9/2009 11:07",
 		"generateMethodFor:on:" : "CamilloBruni 12/1/2009 14:41",
 		"generateMethodInstallFor:with:on:" : "TestRunner 11/18/2009 13:06",
 		"generateTestHeaderOn:" : "TestRunner 11/18/2009 13:05",

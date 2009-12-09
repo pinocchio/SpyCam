@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCompatibleMethodsWith
 	"empty methods are compatible"
 	| m1 m2 |

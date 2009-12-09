@@ -1,11 +1,9 @@
 convenience
 ensureClassReferenceForName: aString 
-	| package cls aClassReference aClassName aClassNameSymbol |
-	"TODO solve this in a more elegent way"
+	| package cls aClassReference aClassNameSymbol |
 	cls := Smalltalk at: aString asSymbol.
-	aClassName := cls pinocchioName.
 	package := self ensurePackageFor: cls.
-	aClassNameSymbol := aClassName asPSymbol.
+	aClassNameSymbol := cls pinocchioName asPSymbol.
 	package at: aClassNameSymbol ifPresent: [ :el| ^ el].
 	
 	aClassReference := PinocchioClassReference named: aClassNameSymbol

@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
 	super setUp.
 	selector := ASTKeywordSelector new keywords: {   }.

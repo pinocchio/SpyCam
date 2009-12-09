@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testMethodCompatibleSelector
 	[^'skip for current failure.'] value.
 	"different selectors are incompatible"

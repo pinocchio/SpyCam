@@ -1,4 +1,4 @@
-as yet unclassified
+enumerating
 withAll: aCollection
 	| result index |
 	result := self new: aCollection size.

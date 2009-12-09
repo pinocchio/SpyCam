@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 keywords: aPinocchioArray
 	keywords := aPinocchioArray

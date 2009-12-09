@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCompatibleSuperClass
 	[^'skip for current failure'] value.
 	classA superClass: Number class.
