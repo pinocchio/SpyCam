@@ -1,7 +1,9 @@
 {
 	"class" : {
-		 },
+		"newWith:" : "DavidGurtner 12/9/2009 17:36" },
 	"instance" : {
+		"cls" : "DavidGurtner 12/9/2009 17:22",
+		"cls:" : "DavidGurtner 12/9/2009 17:22",
 		"initialize" : "CamilloBruni 11/10/2009 12:26",
 		"layout" : "CamilloBruni 11/10/2009 12:22",
 		"layout:" : "CamilloBruni 11/10/2009 12:22",

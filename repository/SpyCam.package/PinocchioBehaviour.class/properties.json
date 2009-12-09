@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"layout",
-		"methods",
-		"name",
-		"package",
-		"superclass",
-		"cls" ],
-	"name" : "PinocchioClass",
+		 ],
+	"name" : "PinocchioBehaviour",
 	"pools" : [
 		 ],
-	"super" : "PinocchioType",
+	"super" : "PinocchioInternalClass",
 	"type" : "variable" }

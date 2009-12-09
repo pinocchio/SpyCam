@@ -1,7 +1,7 @@
 exporting
 ensureClassReferenceFor: aPinocchioClass 
 	| classReference |
-	aPinocchioClass package at: aPinocchioClass name ifPresent: [ :el | 
+	aPinocchioClass package at: aPinocchioClass name asSymbol ifPresent: [ :el | 
 		el ensurePinocchioClass: aPinocchioClass.
 		^ el 
 	].

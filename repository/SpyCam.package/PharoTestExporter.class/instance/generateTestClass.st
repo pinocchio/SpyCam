@@ -21,5 +21,5 @@ generateTestClass
 	rootPackage := exporter root.
 	
 	pinocchioClassPackage := rootPackage lookUp: self exportClass category.
-	pinocchioClass := exporter classASTs at: self exportClass name.
+	pinocchioClass := exporter classASTs at: self exportClass name asSymbol.
 	

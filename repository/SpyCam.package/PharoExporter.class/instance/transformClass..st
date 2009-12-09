@@ -1,22 +1,21 @@
 exporting
-transformClass: aClass
-	|aPinocchioClass cls |
-	cls := aClass asPinocchioInternalClass.
-	self done at: cls ifPresent: [ :present| ^ present ].
+transformClass: cls
+	| aPinocchioClass |
+	aPinocchioClass := cls asPClass.
+	self done at: aPinocchioClass ifPresent: [ :present | ^ present ].
 	
-	Transcript show: cls name; cr.
-	aPinocchioClass := cls asPClass. 
-	self done at: cls put: aPinocchioClass.
+	Transcript show: aPinocchioClass name; cr.
+	self done at: aPinocchioClass put: aPinocchioClass.
 
-	aPinocchioClass package: (self ensurePackageFor: cls).
-	self declareClassReference: (self ensureClassReferenceFor: aPinocchioClass) as: cls name.
-	self transformSuperClassOf: cls pinocchioClass: aPinocchioClass.
-	aPinocchioClass layout: (self layoutFor: cls).
+	aPinocchioClass package: (self ensurePackageFor: aPinocchioClass cls).
+	self declareClassReference: (self ensureClassReferenceFor: aPinocchioClass) as: aPinocchioClass name asSymbol.
+	self transformSuperClassOf: aPinocchioClass cls pinocchioClass: aPinocchioClass.
+	aPinocchioClass layout: (self layoutFor: aPinocchioClass cls).
 	
 	pinocchioVisitor pinocchioClass: aPinocchioClass.
-	aPinocchioClass methods: (self transformMethodsFor: cls).
+	aPinocchioClass methods: (self transformMethodsFor: aPinocchioClass cls).
 	pinocchioVisitor popScope.
 	
-	classASTs at: cls name put: aPinocchioClass.
+	classASTs at: aPinocchioClass name asSymbol put: aPinocchioClass.
 	
 	^ aPinocchioClass.

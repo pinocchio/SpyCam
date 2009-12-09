@@ -1,3 +1,3 @@
 *SpyCam-Pinocchio
 pinocchioName
-	^ self name
+	^ self name asSymbol
