@@ -1,4 +1,3 @@
 accessing
 astSelectors 
-	^ (OrderedCollection newFrom: #(#name))
-		addEvery: (self superclass astSelectors)
+	^ OrderedCollection newFrom: self superclass astSelectors; add: #name

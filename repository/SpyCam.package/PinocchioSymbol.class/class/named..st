@@ -1,3 +1,4 @@
 instance creation
-named: name
-	^ self symbolDictionary at: name ifAbsentPut: [self new symbol: name] 
+named: aSymbol
+	^ self symbolDictionary at: aSymbol 
+			ifAbsentPut: [self new symbol: aSymbol] 

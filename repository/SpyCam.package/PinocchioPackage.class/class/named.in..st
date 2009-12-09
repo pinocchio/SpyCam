@@ -1,3 +1,3 @@
 instance creation
-named: name in: package
-	^ (self named: name) parent: package
+named: aSymbol in: package
+	^ (self named: aSymbol) parent: package

@@ -1,4 +1,4 @@
 instance creation
-named: name
-	self assert: (name isKindOf: PinocchioSymbol).
-	^ self new packageName: name.
+named: aSymbol
+	self assert: (aSymbol isKindOf: PinocchioSymbol).
+	^ self new packageName: aSymbol.

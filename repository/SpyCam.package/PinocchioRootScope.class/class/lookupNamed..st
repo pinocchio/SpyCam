@@ -1,4 +1,4 @@
 accessing
-lookupNamed: name
+lookupNamed: aSymbol
 	"For now return nil for easier exporting"
-	^ decls at: name ifAbsent: [ ^ nil]
+	^ decls at: aSymbol ifAbsent: [ ^ nil]
