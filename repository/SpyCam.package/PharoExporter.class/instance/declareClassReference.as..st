@@ -1,4 +1,4 @@
 convenience
-pushClassReference: aClassReference as: aName
+declareClassReference: aClassReference as: aName
 	self haltIf: [ aName isKindOf: PinocchioSymbol ].
 	pinocchioVisitor rootScope decls at: aName put: aClassReference.

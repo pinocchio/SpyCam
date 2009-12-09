@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 hash
 	^ self uid hash

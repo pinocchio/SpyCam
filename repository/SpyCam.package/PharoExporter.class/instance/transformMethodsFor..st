@@ -3,7 +3,7 @@ transformMethodsFor: cls
 	| method methods methodDict |
 	methods := cls pinocchioMethods.
 	methods = #all ifTrue: [
-		methods := cls methods collect: #selector.
+		methods := cls methods collect: #selector. 
 	].
 	methodDict := Dictionary new.
 	methods collect: [ :selector|

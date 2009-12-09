@@ -1,0 +1,14 @@
+{
+	"category" : "SpyCam-Pinocchio-Type",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PinocchioInternalClass",
+	"pools" : [
+		 ],
+	"super" : "PinocchioClass",
+	"type" : "variable" }

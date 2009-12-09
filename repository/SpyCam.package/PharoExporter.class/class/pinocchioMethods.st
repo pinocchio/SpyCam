@@ -1,3 +1,3 @@
-as yet unclassified
+*SpyCam-Pinocchio
 pinocchioMethods
 	^ #().

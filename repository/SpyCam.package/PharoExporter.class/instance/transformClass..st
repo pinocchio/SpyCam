@@ -1,14 +1,15 @@
 exporting
-transformClass: cls
-	|aPinocchioClass |
-	Transcript show: cls name; cr.
+transformClass: aClass
+	|aPinocchioClass cls |
+	cls := aClass asPinocchioInternalClass.
 	self done at: cls ifPresent: [ :present| ^ present ].
 	
-	aPinocchioClass := PinocchioClass new name: (PinocchioSymbol named: cls pinocchioName).
+	Transcript show: cls name; cr.
+	aPinocchioClass := cls asPClass. 
 	self done at: cls put: aPinocchioClass.
 
 	aPinocchioClass package: (self ensurePackageFor: cls).
-	self pushClassReference: (self ensureClassReferenceFor: aPinocchioClass) as: cls name.
+	self declareClassReference: (self ensureClassReferenceFor: aPinocchioClass) as: cls name.
 	cls superclass 
 		ifNil: [ aPinocchioClass superclass: PinocchioNil nil]
 		ifNotNil: [ aPinocchioClass superclass: (self transformClass: cls superclass).].

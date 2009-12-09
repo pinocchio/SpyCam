@@ -2,4 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"pinocchioMethods" : "TestRunner 11/12/2009 16:21" } }
+		"asPClass" : "CamilloBruni 12/9/2009 10:14",
+		"asPinocchioInternalClass" : "CamilloBruni 12/9/2009 09:54",
+		"isPinocchioInternalClass" : "CamilloBruni 12/9/2009 10:02",
+		"pinocchioMethods" : "TestRunner 11/12/2009 16:21",
+		"pinocchioName" : "CamilloBruni 12/9/2009 09:54",
+		"pinocchioPackage" : "CamilloBruni 12/9/2009 09:54" } }

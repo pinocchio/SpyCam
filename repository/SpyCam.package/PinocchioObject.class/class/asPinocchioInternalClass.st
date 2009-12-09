@@ -1,0 +1,3 @@
+accessing
+asPinocchioInternalClass
+	^ self
