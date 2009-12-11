@@ -1,7 +1,10 @@
 {
 	"class" : {
-		 },
+		"newWith:exporting:uid:" : "CamilloBruni 12/11/2009 14:19" },
 	"instance" : {
 		"isInternal" : "CamilloBruni 12/9/2009 10:37",
+		"methodProvider" : "CamilloBruni 12/11/2009 13:23",
+		"methodProvider:" : "CamilloBruni 12/11/2009 13:23",
+		"pinocchioMethods" : "CamilloBruni 12/11/2009 14:13",
 		"uid" : "CamilloBruni 12/9/2009 10:43",
 		"uid:" : "CamilloBruni 12/9/2009 10:43" } }

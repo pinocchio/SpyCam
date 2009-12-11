@@ -1,6 +1,7 @@
 exporting
 transformClass: cls
 	| aPinocchioClass |
+	cls = ProtoObject ifTrue: [ ^ nil ].
 	aPinocchioClass := cls asPClass.
 	self done at: aPinocchioClass ifPresent: [ :present | ^ present ].
 	
@@ -13,7 +14,7 @@ transformClass: cls
 	aPinocchioClass layout: (self layoutFor: aPinocchioClass cls).
 	
 	pinocchioVisitor pinocchioClass: aPinocchioClass.
-	aPinocchioClass methods: (self transformMethodsFor: aPinocchioClass cls).
+	aPinocchioClass methods: (self transformMethodsFor: aPinocchioClass).
 	pinocchioVisitor popScope.
 	
 	classASTs at: aPinocchioClass name asSymbol put: aPinocchioClass.

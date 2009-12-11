@@ -1,10 +1,8 @@
 exporting
-transformMethodsFor: cls
-	| method methods methodDict |
-	methods := cls pinocchioMethods.
-	methods = #all ifTrue: [
-		methods := cls methods collect: #selector. 
-	].
+transformMethodsFor: aPinocchioClass
+	| method methods methodDict cls |
+	cls := aPinocchioClass methodProvider.
+	methods := aPinocchioClass pinocchioMethods.
 	methodDict := Dictionary new.
 	methods do: [ :selector|
 		method := cls methodDictionary at: selector.

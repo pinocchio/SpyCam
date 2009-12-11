@@ -1,3 +1,3 @@
 accessing
 pinocchioMethods 
-	^ #all.
+	^ #'pinocchio-export'.

@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "PinocchioBehaviour",
+	"name" : "PinocchioFalse",
 	"pools" : [
 		 ],
-	"super" : "PinocchioObject",
-	"type" : "variable" }
+	"super" : "PinocchioBoolean",
+	"type" : "normal" }

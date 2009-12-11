@@ -4,9 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "CamilloBruni 12/11/2009 13:23",
 	"instvars" : [
-		 ],
+		"methodProvider" ],
 	"name" : "PinocchioInternalClass",
 	"pools" : [
 		 ],

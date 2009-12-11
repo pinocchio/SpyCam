@@ -10,5 +10,5 @@
 	"name" : "PinocchioMetaclass",
 	"pools" : [
 		 ],
-	"super" : "PinocchioInternalClass",
+	"super" : "PinocchioObject",
 	"type" : "variable" }

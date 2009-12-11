@@ -1,0 +1,3 @@
+exporting
+pinocchioMethods
+	^ #all
