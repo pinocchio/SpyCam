@@ -1,20 +1,20 @@
 exporting
-layoutFor: cls
+layoutFor: aPinocchioClass
 	| layout |
-	cls isBytes ifTrue: [ 
+	aPinocchioClass cls isBytes ifTrue: [ 
 		self error: 'Not supperted layout!'.
 	].
-	cls isBits ifTrue: [ 
+	aPinocchioClass cls isBits ifTrue: [ 
 		self error: 'Not supperted layout!'.
 	].
-	cls isWeak ifTrue: [ 
+	aPinocchioClass cls isWeak ifTrue: [ 
 		self error: 'Not supperted layout!'.
 	].
-	cls isVariable ifTrue: [ 
-		^ PinocchioArrayLayout newFrom: (self instanceVariablesFor: cls). 
+	aPinocchioClass cls isVariable ifTrue: [ 
+		^ PinocchioArrayLayout newFrom: (self instanceVariablesFor: aPinocchioClass ). 
 	].
-	cls isFixed ifTrue: [
-		^ PinocchioObjectLayout newFrom: (self instanceVariablesFor: cls).
+	aPinocchioClass cls isFixed ifTrue: [
+		^ PinocchioObjectLayout newFrom: (self instanceVariablesFor: aPinocchioClass ).
 	].
 	self error: 'Got unknown type'.
 	

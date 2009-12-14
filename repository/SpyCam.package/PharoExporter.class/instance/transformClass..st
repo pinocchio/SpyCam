@@ -11,7 +11,7 @@ transformClass: cls
 	aPinocchioClass package: (self ensurePackageFor: aPinocchioClass cls).
 	self declareClassReference: (self ensureClassReferenceFor: aPinocchioClass) as: aPinocchioClass name asSymbol.
 	self transformSuperClassOf: aPinocchioClass cls pinocchioClass: aPinocchioClass.
-	aPinocchioClass layout: (self layoutFor: aPinocchioClass cls).
+	aPinocchioClass layout: (self layoutFor: aPinocchioClass).
 	
 	pinocchioVisitor pinocchioClass: aPinocchioClass.
 	aPinocchioClass methods: (self transformMethodsFor: aPinocchioClass).

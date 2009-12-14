@@ -1,13 +1,13 @@
 exporting
-instanceVariablesFor: aClass 
-	| instVarNames instVars localId |
-	instVarNames := OrderedCollection newFrom: aClass instVarNames.
-	localId := -1.
-	instVars := instVarNames collect: [ :each |
-		localId := localId + 1.
-		(PinocchioInstanceVariable named: each) localId: localId.
+instanceVariablesFor: aPinocchioClass  
+	| instVarNames instVars localId supercls |
+	instVarNames := OrderedCollection newFrom: aPinocchioClass cls instVarNames.
+	instVars := OrderedCollection new.
+	supercls := self transformClass: aPinocchioClass cls superclass.
+	supercls ifNotNil: [
+		instVars addAll: supercls layout.
 	].
-	self done at: aClass superclass ifPresent: [ :superclass|
-		instVars addAll: superclass layout.
+	instVarNames do: [ :each |
+		instVars add: ((PinocchioInstanceVariable named: each) localId: instVars size).
 	].
 	^ instVars.
