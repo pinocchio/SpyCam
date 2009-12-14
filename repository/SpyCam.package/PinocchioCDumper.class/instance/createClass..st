@@ -1,12 +1,15 @@
 convenience
 createClass: aPinocchioClass
+	| classLayout |
 	self flag: 'Should check the layout of the superclass'.
+	classLayout := aPinocchioClass pinocchioClass layout.
+	self visit: classLayout.
 	
 	self visit: aPinocchioClass name.
 	self visit: aPinocchioClass layout.
 	
 	self put: aPinocchioClass 
-		with: 'new_Class(', aPinocchioClass superclass uid, ', ', aPinocchioClass layout uid, ')'.
+		with: 'new_Class_withMeta(', aPinocchioClass superclass uid, ', ', aPinocchioClass layout uid, ', ', classLayout uid , ')'.
 		
 	stream nextPutAll: '((Type_Class)';
 		nextPutAll: aPinocchioClass uid;

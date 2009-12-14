@@ -7,10 +7,10 @@ transformClass: cls
 	
 	Transcript show: aPinocchioClass name; cr.
 	self done at: aPinocchioClass put: aPinocchioClass.
-
 	aPinocchioClass package: (self ensurePackageFor: aPinocchioClass cls).
 	self declareClassReference: (self ensureClassReferenceFor: aPinocchioClass) as: aPinocchioClass name asSymbol.
-	self transformSuperClassOf: aPinocchioClass cls pinocchioClass: aPinocchioClass.
+	self transformSuperClassOf: aPinocchioClass.
+	self transformClassSideOf: aPinocchioClass.
 	aPinocchioClass layout: (self layoutFor: aPinocchioClass).
 	
 	pinocchioVisitor pinocchioClass: aPinocchioClass.

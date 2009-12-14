@@ -12,7 +12,6 @@ visitClass: aPinocchioClass
 	].
 	
 	self visitCollection: aPinocchioClass methods.
-	
 	self visit: aPinocchioClass package.
 	
 	self currentClass: oldClass.

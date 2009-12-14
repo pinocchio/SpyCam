@@ -3,7 +3,7 @@ instanceVariablesFor: aPinocchioClass
 	| instVarNames instVars localId supercls |
 	instVarNames := OrderedCollection newFrom: aPinocchioClass cls instVarNames.
 	instVars := OrderedCollection new.
-	supercls := self transformClass: aPinocchioClass cls superclass.
+	supercls :=  aPinocchioClass superclass.
 	supercls ifNotNil: [
 		instVars addAll: supercls layout.
 	].
