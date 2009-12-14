@@ -3,7 +3,7 @@ testParseTestMethods
 	| parser string result code annotations annotation |
 	<temps: 6 annotations: 1 statements: 3>
 	parser := scparser method.
-	"Test All Methods"
+	"Test All Methods 0"
 	(self class methodDict keys do: [ :key |
 	Transcript show: key; cr.
 	code := self class sourceCodeAt: key.
