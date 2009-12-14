@@ -3,7 +3,7 @@ asPClass
 	|dict|
 	dict ifNil: [
 		dict := Dictionary new.
-		dict at: Object 		put: {PinocchioObject. 'Type_Object'}.
+		dict at: Object 		put: {PinocchioObject. 'Type_Object_Class'}.
 		dict at: Class 			put: {PinocchioClass}.
 		dict at: Metaclass 	put: {PinocchioMetaclass}.
 		dict at: True 			put: {PinocchioTrue}.

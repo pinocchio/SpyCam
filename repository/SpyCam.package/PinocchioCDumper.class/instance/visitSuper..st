@@ -4,4 +4,4 @@ visitSuper: aPinocchioSuper
 	self visitCollection: aPinocchioSuper arguments.
 	self put: aPinocchioSuper 
 		with: ('new_AST_Super(', aPinocchioSuper message uid , ', ',
-							'(Type_Array)', aPinocchioSuper arguments uid, ')').
+								(self multiArgFor: aPinocchioSuper arguments) ,')').
