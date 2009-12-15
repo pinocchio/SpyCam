@@ -1,21 +1,16 @@
 tests
 testBinarySelector
 	| parser string |
-
 	parser := scparser binarySelector.
-	
 	string := PEGStringScanner on: '+= a'.
-	self assert: (parser match: string) printString = '+='.
-	self assert: (string position = 2).
-	
+	(parser match: string) printString should = '+='.
+	string position should = 2.
 	string := PEGStringScanner on: '|= a'.
-	self assert: (parser match: string) printString = '|'.
-	self assert: (string position = 1).
-	
+	(parser match: string) printString should = '|'.
+	string position should = 1.
 	string := PEGStringScanner on: '-= a'.
-	self assert: (parser match: string) printString = '-='.
-	self assert: (string position = 2).
-	
+	(parser match: string) printString should = '-='.
+	string position should = 2.
 	string := PEGStringScanner on: '=- a'.
-	self assert: (parser match: string) printString = '='.
-	self assert: (string position = 1).
+	(parser match: string) printString should = '='.
+	string position should = 1

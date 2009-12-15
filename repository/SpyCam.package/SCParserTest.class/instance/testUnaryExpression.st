@@ -1,21 +1,18 @@
 tests
 testUnaryExpression
 	| parser string result |
-
 	parser := scparser unaryExpression.
-
 	string := PEGStringScanner on: 'abc def ghi '.
- 	result := (parser match: string).
-	self assert: (result class = ASTUnaryExpression).
-	self assert: (result selector class = ASTUnarySelector).
-	self assert: (result selector selector printString = 'ghi').
-	result := (result receiver).
-	self assert: (result class = ASTUnaryExpression).
-	self assert: (result selector class = ASTUnarySelector).
-	self assert: (result selector selector printString = 'def').
-	self assert: (result receiver class = ASTVariable).
-	self assert: (result receiver name = 'abc').
-	self assert: (string position = 12).
-	
+	result := parser match: string.
+	result class should = ASTUnaryExpression.
+	result selector class should = ASTUnarySelector.
+	result selector selector printString should = 'ghi'.
+	result := result receiver.
+	result class should = ASTUnaryExpression.
+	result selector class should = ASTUnarySelector.
+	result selector selector printString should = 'def'.
+	result receiver class should = ASTVariable.
+	result receiver name should = 'abc'.
+	string position should = 12.
 	string := PEGStringScanner on: 'abc'.
- 	self assert: (parser match: string) isNil.
+	(parser match: string) should be isNil

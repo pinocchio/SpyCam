@@ -1,6 +1,4 @@
 exporting
 ensurePackageNamed: aPinocchioSymbol
-	self assert: (aPinocchioSymbol isKindOf: PinocchioSymbol ).
-	^ self at: aPinocchioSymbol ifAbsentPut: [ 
-		PinocchioPackage named: aPinocchioSymbol in: self 
-	].
+	aPinocchioSymbol should beKindOf: PinocchioSymbol.
+	^ self at: aPinocchioSymbol ifAbsentPut: [ PinocchioPackage named: aPinocchioSymbol in: self ]

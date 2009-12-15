@@ -1,5 +1,5 @@
 tests
 testASTClassEquals
-	self deny: classA = classB.
-	self assert: classA = classA.
-	self assert: classB = classB.
+	self assert: (classA = classB) not.
+	classA should = classA.
+	classB should = classB

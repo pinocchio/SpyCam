@@ -1,4 +1,4 @@
 test-class
 tmClassSide
-	self assert: (Object class class = Metaclass).
+	self assert: Object class class = Metaclass.
 	^ StandardTestClass aClassSideMethod

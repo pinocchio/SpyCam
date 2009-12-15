@@ -4,8 +4,6 @@ testSequenceOmit
 	string := PEGStringScanner on: 'abc'.
 	exp1 := 'a' asPEG omit: true.
 	exp2 := 'b' asPEG.
-	
 	seq1 := exp1 && exp2.
-	
-	self assert: (seq1 match: string) = 'b'.
-	self assert: string position = 2.
+	(seq1 match: string) should = 'b'.
+	string position should = 2

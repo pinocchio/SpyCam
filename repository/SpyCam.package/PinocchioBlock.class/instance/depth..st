@@ -1,4 +1,4 @@
 accessing
-depth: anInteger 
+depth: anInteger
 	depth := anInteger.
-	self assert: anInteger isNil not.
+	anInteger should not be isNil

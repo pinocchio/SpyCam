@@ -1,17 +1,13 @@
 tests
 testSeparator
 	| parser string |
-
 	parser := scparser separator.
-	
 	string := PEGStringScanner on: '"Test"'.
-	self assert: (parser match: string) isNil not.
-	self assert: (string position = 6).
-	
+	(parser match: string) should not be isNil.
+	string position should = 6.
 	string := PEGStringScanner on: ' 	"Test" "boe"	"" ab'.
-	self assert: (parser match: string) isNil not.
-	self assert: (string position = 18).
-	
+	(parser match: string) should not be isNil.
+	string position should = 18.
 	string := PEGStringScanner on: ''.
-	self assert: (parser match: string) isNil not.
-	self assert: (string position = 0).
+	(parser match: string) should not be isNil.
+	string position should = 0

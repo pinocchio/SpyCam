@@ -1,13 +1,10 @@
 tests
 testTemporaries
 	| parser string |
-
 	parser := scparser temporaries.
-	
 	string := PEGStringScanner on: '|a b c|'.
-	self assert: (((parser match: string) collect: #name) asArray = #('a' 'b' 'c')).
-	self assert: (string position = 7).
-	
+	((parser match: string) collect: #name) asArray should = #('a' 'b' 'c').
+	string position should = 7.
 	string := PEGStringScanner on: '|  a b c  |'.
-	self assert: (((parser match: string) collect: #name) asArray = #('a' 'b' 'c')).
-	self assert: (string position = 11).
+	((parser match: string) collect: #name) asArray should = #('a' 'b' 'c').
+	string position should = 11

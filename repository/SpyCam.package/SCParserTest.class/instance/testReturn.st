@@ -1,47 +1,36 @@
 tests
 testReturn
 	| parser string result |
-
 	parser := scparser return.
-
 	string := PEGStringScanner on: '^ a:= b :=    c:= 2+4 abc: 1 def: 2+2 ghi: 3 b '.
- 	result := (parser match: string).
-	self assert: (result class = ASTReturnExpression).
+	result := parser match: string.
+	result class should = ASTReturnExpression.
 	result := result expression.
-	
-	self assert: (result class = ASTAssignmentExpression).
-	self assert: (result variable class = ASTVariable).
-	self assert: (result variable name = 'a').
-	
-	result := (result expression).
-	self assert: (result class = ASTAssignmentExpression).
-	self assert: (result variable class = ASTVariable).
-	self assert: (result variable name = 'b').
-	
-	result := (result expression).
-	self assert: (result class = ASTAssignmentExpression).
-	self assert: (result variable class = ASTVariable).
-	self assert: (result variable name = 'c').
-	
-	self assert: (result expression class = ASTMessageExpression).
-	
+	result class should = ASTAssignmentExpression.
+	result variable class should = ASTVariable.
+	result variable name should = 'a'.
+	result := result expression.
+	result class should = ASTAssignmentExpression.
+	result variable class should = ASTVariable.
+	result variable name should = 'b'.
+	result := result expression.
+	result class should = ASTAssignmentExpression.
+	result variable class should = ASTVariable.
+	result variable name should = 'c'.
+	result expression class should = ASTMessageExpression.
 	string := PEGStringScanner on: '^ a:= b :=    c:= 2+4 abc: 1 def: 2+2 ghi: 3 b. '.
- 	result := (parser match: string).
-	self assert: (result class = ASTReturnExpression).
+	result := parser match: string.
+	result class should = ASTReturnExpression.
 	result := result expression.
-	
-	self assert: (result class = ASTAssignmentExpression).
-	self assert: (result variable class = ASTVariable).
-	self assert: (result variable name = 'a').
-	
-	result := (result expression).
-	self assert: (result class = ASTAssignmentExpression).
-	self assert: (result variable class = ASTVariable).
-	self assert: (result variable name = 'b').
-	
-	result := (result expression).
-	self assert: (result class = ASTAssignmentExpression).
-	self assert: (result variable class = ASTVariable).
-	self assert: (result variable name = 'c').
-	
-	self assert: (result expression class = ASTMessageExpression)
+	result class should = ASTAssignmentExpression.
+	result variable class should = ASTVariable.
+	result variable name should = 'a'.
+	result := result expression.
+	result class should = ASTAssignmentExpression.
+	result variable class should = ASTVariable.
+	result variable name should = 'b'.
+	result := result expression.
+	result class should = ASTAssignmentExpression.
+	result variable class should = ASTVariable.
+	result variable name should = 'c'.
+	result expression class should = ASTMessageExpression

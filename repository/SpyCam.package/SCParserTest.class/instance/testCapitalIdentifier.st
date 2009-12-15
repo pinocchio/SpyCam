@@ -1,17 +1,13 @@
 tests
 testCapitalIdentifier
 	| parser string |
-
 	parser := scparser capitalIdentifier.
-	
 	string := PEGStringScanner on: 'Abcd '.
-	self assert: (parser match: string) = 'Abcd'.
-	self assert: (string position = 4).
-	
+	(parser match: string) should = 'Abcd'.
+	string position should = 4.
 	string := PEGStringScanner on: 'AbCd145 '.
-	self assert: (parser match: string) = 'AbCd145'.
-	self assert: (string position = 7).
-	
+	(parser match: string) should = 'AbCd145'.
+	string position should = 7.
 	string := PEGStringScanner on: 'abcdD'.
-	self assert: (parser match: string) isNil.
-	self assert: (string position = 0).
+	(parser match: string) should be isNil.
+	string position should = 0

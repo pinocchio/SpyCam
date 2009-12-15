@@ -2,9 +2,8 @@ tests
 testSeparator
 	| string |
 	string := PEGStringScanner on: ' a'.
-	self assert: (PEGParser separator match: string) isNil not.
-	self assert: (string position = 1).
-	
+	(PEGParser separator match: string) should not be isNil.
+	string position should = 1.
 	string := PEGStringScanner on: ' 	 a'.
-	self assert: (PEGParser separator match: string) isNil not.
-	self assert: (string position = 3).
+	(PEGParser separator match: string) should not be isNil.
+	string position should = 3

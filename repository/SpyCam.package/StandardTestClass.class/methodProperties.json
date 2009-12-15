@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"aClassSideMethod" : "CamilloBruni 12/15/2009 13:47",
+		"aClassSideMethodWithInstanceVariables" : "CamilloBruni 12/15/2009 17:28",
 		"pinocchioClassMethods" : "CamilloBruni 12/15/2009 13:41",
 		"pinocchioMethods" : "CamilloBruni 12/2/2009 13:46" },
 	"instance" : {

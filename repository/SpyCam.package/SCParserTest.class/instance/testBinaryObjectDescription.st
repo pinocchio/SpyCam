@@ -1,42 +1,35 @@
 tests
 testBinaryObjectDescription
 	| parser string result |
-
-	parser := scparser binaryObjectDescription.
-
-	" unary object description -> unary expression "
+	parser := scparser binaryObjectDescription.	" unary object description -> unary expression "
 	string := PEGStringScanner on: 'abc def ghi '.
- 	result := (parser match: string).
-	self assert: (result class = ASTUnaryExpression).
-	self assert: (result selector class = ASTUnarySelector).
-	self assert: (result selector selector asString = 'ghi').
-	result := (result receiver).
-	self assert: (result class = ASTUnaryExpression).
-	self assert: (result selector class = ASTUnarySelector).
-	self assert: (result selector selector asString = 'def').
-	self assert: (result receiver class = ASTVariable).
-	self assert: (result receiver name = 'abc').
-	self assert: (string position = 12).
-	
-	" unary object description -> primary "
+	result := parser match: string.
+	result class should = ASTUnaryExpression.
+	result selector class should = ASTUnarySelector.
+	result selector selector asString should = 'ghi'.
+	result := result receiver.
+	result class should = ASTUnaryExpression.
+	result selector class should = ASTUnarySelector.
+	result selector selector asString should = 'def'.
+	result receiver class should = ASTVariable.
+	result receiver name should = 'abc'.
+	string position should = 12.	" unary object description -> primary "
 	string := PEGStringScanner on: '3'.
- 	result := (parser match: string).
-	self assert: (result class = ASTNumber).
-	self assert: (result number = '3').
-	self assert: (string position = 1).
-	
-	" binary expression "
+	result := parser match: string.
+	result class should = ASTNumber.
+	result number should = '3'.
+	string position should = 1.	" binary expression "
 	string := PEGStringScanner on: 'abc + ghi * c '.
- 	result := (parser match: string).
+	result := parser match: string.
 	result class should = ASTBinaryExpression.
 	result selector printString should = '*'.
 	result argument class should = ASTVariable.
 	result argument name should = 'c'.
-	result := result receiver.	
-	self assert: (result class = ASTBinaryExpression).
-	self assert: (result selector printString = '+').
-	self assert: (result receiver class = ASTVariable).
-	self assert: (result receiver name = 'abc').
-	self assert: (result argument class = ASTVariable).
-	self assert: (result argument name = 'ghi').
-	self assert: (string position = 13).
+	result := result receiver.
+	result class should = ASTBinaryExpression.
+	result selector printString should = '+'.
+	result receiver class should = ASTVariable.
+	result receiver name should = 'abc'.
+	result argument class should = ASTVariable.
+	result argument name should = 'ghi'.
+	string position should = 13

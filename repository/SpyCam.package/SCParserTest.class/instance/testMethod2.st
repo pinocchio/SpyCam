@@ -1,6 +1,7 @@
 tests
 testMethod2
 	" We just allow fully MessageExpressions in our annotations. Semantic checker will catch this (probably :)) "
+
 	| parser string result |
 	parser := scparser method.
 	string := 'a: b c: d
@@ -11,9 +12,9 @@ testMethod2
 			1 + [ |a| a ] value: "mmh" 3.
 			^ 7 "biep". "bla" '.
 	result := parser parse: string.
-	self assert: result hasReturnExpression.
-	self assert: result class = ASTMethod.
-	self assert: result message class = ASTKeywordMessageDefinition.
-	self assert: result temporaries size = 3.
-	self assert: result annotations size = 3.
-	self assert: result statements size = 2
+	result hasReturnExpression should be true.
+	result class should = ASTMethod.
+	result message class should = ASTKeywordMessageDefinition.
+	result temporaries size should = 3.
+	result annotations size should = 3.
+	result statements size should = 2

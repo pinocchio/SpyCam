@@ -1,5 +1,4 @@
 instance creation
 named: referenceName in: package
-	self assert: package ~= nil.
-	^ (self named: referenceName)
-		package: package 
+	package should not = nil.
+	^ (self named: referenceName) package: package

@@ -4,21 +4,19 @@ testKeywordsArguments
 	parser := scparser keywordsArguments.
 	string := PEGStringScanner on: 'test: ab'.
 	result := parser match: string.
-	self assert: result class = ASTKeywordMessageDefinition.
-	self assert: result keywords = (OrderedCollection with: 'test').
-	self assert: result parameters size = 1.
-	self assert: result parameters first = (ASTVariable new name:'ab').
-	self assert: string position = 8.
+	result class should = ASTKeywordMessageDefinition.
+	result keywords should = (OrderedCollection with: 'test').
+	result parameters size should = 1.
+	result parameters first should = (ASTVariable new name: 'ab').
+	string position should = 8.
 	string := PEGStringScanner on: 'bla a'.
-	self assert: (parser match: string) isNil.
-	self assert: string position = 0.
+	(parser match: string) should be isNil.
+	string position should = 0.
 	string := PEGStringScanner on: 'test: d bla: c boe'.
 	result := parser match: string.
-	self assert: result class = ASTKeywordMessageDefinition.
-	self assert: result keywords = (OrderedCollection 
-				with: 'test'
-				with: 'bla').
-	self assert: result parameters size = 2.
-	self assert: result parameters first = (ASTVariable new name:'d').
-	self assert: result parameters second = (ASTVariable new name:'c').
-	self assert: string position = 15
+	result class should = ASTKeywordMessageDefinition.
+	result keywords should = (OrderedCollection with: 'test' with: 'bla').
+	result parameters size should = 2.
+	result parameters first should = (ASTVariable new name: 'd').
+	result parameters second should = (ASTVariable new name: 'c').
+	string position should = 15

@@ -1,5 +1,5 @@
 convenience
 checkClassReference: classReference
-	self assert: classReference pinocchioClass ~= nil.
-	self assert: classReference package ~= nil.
-	self assert: classReference referenceName ~= nil.
+	classReference pinocchioClass should not = nil.
+	classReference package should not = nil.
+	classReference referenceName should not = nil

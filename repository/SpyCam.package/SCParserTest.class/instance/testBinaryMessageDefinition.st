@@ -1,25 +1,21 @@
 tests
 testBinaryMessageDefinition
 	| parser string result |
-
 	parser := scparser binaryMessageDefinition.
-	
 	string := PEGStringScanner on: '+= a'.
-	result := (parser match: string).
-	self assert: (result class = ASTBinaryMessageDefinition).
-	self assert: (result selector printString = '+=').
-	self assert: (result parameter class =  ASTVariable).
-	self assert: (result parameter name asString = 'a').
-	self assert: (string position = 4).
-	
+	result := parser match: string.
+	result class should = ASTBinaryMessageDefinition.
+	result selector printString should = '+='.
+	result parameter class should = ASTVariable.
+	result parameter name asString should = 'a'.
+	string position should = 4.
 	string := PEGStringScanner on: '|= a'.
-	self assert: (parser match: string) isNil.
-	self assert: (string position = 0).
-	
+	(parser match: string) should be isNil.
+	string position should = 0.
 	string := PEGStringScanner on: '-= abc d'.
-	result := (parser match: string).
-	self assert: (result class = ASTBinaryMessageDefinition).
-	self assert: (result selector printString = '-=').
-	self assert: (result parameter name asString = 'abc').
-	self assert: (result parameter class =  ASTVariable).
-	self assert: (string position = 6).
+	result := parser match: string.
+	result class should = ASTBinaryMessageDefinition.
+	result selector printString should = '-='.
+	result parameter name asString should = 'abc'.
+	result parameter class should = ASTVariable.
+	string position should = 6

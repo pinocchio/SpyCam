@@ -8,7 +8,7 @@ testMethod4
 		  ifFalse: [^ c]
 	'.
 	result := parser parse: string.
-	self assert: result hasReturnExpression.
-	self assert: result class = ASTMethod.
-	self assert: result message asString = 'withA:withB:withC:'.
-	self assert: result statements last hasReturnExpression.
+	result hasReturnExpression should be true.
+	result class should = ASTMethod.
+	result message asString should = 'withA:withB:withC:'.
+	result statements last hasReturnExpression should be true.

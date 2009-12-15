@@ -1,13 +1,10 @@
 tests
 testKeyword
 	| parser string |
-
 	parser := scparser keyword.
-	
 	string := PEGStringScanner on: 'abcd: '.
-	self assert: ((parser match: string) = 'abcd').
-	self assert: (string position = 5).
-	
+	(parser match: string) should = 'abcd'.
+	string position should = 5.
 	string := PEGStringScanner on: 'abcd '.
-	self assert: ((parser match: string) isNil).
-	self assert: (string position = 0).
+	(parser match: string) should be isNil.
+	string position should = 0

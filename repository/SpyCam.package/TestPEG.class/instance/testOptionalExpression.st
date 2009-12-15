@@ -5,11 +5,10 @@ testOptionalExpression
 	exp1 := PEGTerminal new: 'te'.
 	exp2 := PEGTerminal new: 'es'.
 	exp := PEGOptionalExpression new: exp1.
-	
-	self assert: ((exp match: string) resultIfFailed: [ 10 ]) = 'te'.
-	self assert: string position = 2.
-	self assert: ((exp match: string) resultIfFailed: [ 10 ]) = 10.
-	self assert: string position = 2.
+	((exp match: string) resultIfFailed: [ 10 ]) should = 'te'.
+	string position should = 2.
+	((exp match: string) resultIfFailed: [ 10 ]) should = 10.
+	string position should = 2.
 	exp := PEGOptionalExpression new: exp2.
-	self assert: ((exp match: string) resultIfFailed: [ 10 ]) = 'es'.
-	self assert: string position = 4
+	((exp match: string) resultIfFailed: [ 10 ]) should = 'es'.
+	string position should = 4
