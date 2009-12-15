@@ -6,7 +6,7 @@ transformClassSideOf: aPinocchioClass
 	aPinocchioMetaClass layout: (self layoutFor: aPinocchioMetaClass).
 	
 	pinocchioVisitor pinocchioClass: aPinocchioMetaClass.
-	aPinocchioMetaClass methods: (self transformMethodsFor: aPinocchioMetaClass).
+	aPinocchioMetaClass methods: (self transformClassMethodsFor: aPinocchioClass).
 	pinocchioVisitor popScope.
 	
 	aPinocchioClass pinocchioClass: aPinocchioMetaClass.

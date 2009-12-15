@@ -1,0 +1,3 @@
+*SpyCam-Pinocchio
+pinocchioClassMethods
+	^ {}
