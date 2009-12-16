@@ -11,10 +11,10 @@ layoutFor: aPinocchioClass
 		self error: 'Not supperted layout!'.
 	].
 	aPinocchioClass cls isVariable ifTrue: [ 
-		^ PinocchioArrayLayout newFrom: (self instanceVariablesFor: aPinocchioClass ). 
+		^ PinocchioArrayLayout newFrom: aPinocchioClass instVariables. 
 	].
 	aPinocchioClass cls isFixed ifTrue: [
-		^ PinocchioObjectLayout newFrom: (self instanceVariablesFor: aPinocchioClass ).
+		^ PinocchioObjectLayout newFrom: aPinocchioClass instVariables.
 	].
 	self error: 'Got unknown type'.
 	

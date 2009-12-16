@@ -15,5 +15,5 @@ visitArrayLayout: aPinocchioArrayLayout
 			nextPutAll: aPinocchioArrayLayout uid; 
 			nextPutAll: (')->values[', (index - 1) asString, '] = ');
 			nextPutAll: element uid;
-			nextPutAll: ';'.
+			nextPutAll: ';' ; cr.
 	]

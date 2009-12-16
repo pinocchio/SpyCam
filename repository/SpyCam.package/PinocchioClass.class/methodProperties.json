@@ -6,9 +6,10 @@
 		"cls" : "DavidGurtner 12/9/2009 17:22",
 		"cls:" : "DavidGurtner 12/9/2009 17:22",
 		"initialize" : "CamilloBruni 11/10/2009 12:26",
+		"instVariables" : "DavidGurtner 12/16/2009 17:46",
 		"layout" : "CamilloBruni 11/10/2009 12:22",
 		"layout:" : "CamilloBruni 11/10/2009 12:22",
-		"methodProvider" : "CamilloBruni 12/11/2009 14:15",
+		"methodProvider" : "DavidGurtner 12/16/2009 17:50",
 		"methods" : "TestRunner 10/27/2009 14:36",
 		"methods:" : "TestRunner 10/27/2009 14:35",
 		"name" : "TestRunner 10/27/2009 14:37",
@@ -20,5 +21,6 @@
 		"pinocchioClassMethods" : "CamilloBruni 12/15/2009 14:01",
 		"pinocchioMethods" : "CamilloBruni 12/11/2009 14:13",
 		"printOn:" : "CamilloBruni 11/10/2009 15:05",
+		"rawInstVarNames" : "DavidGurtner 12/16/2009 17:47",
 		"superclass" : "CamilloBruni 11/9/2009 15:27",
 		"superclass:" : "CamilloBruni 11/9/2009 15:27" } }

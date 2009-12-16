@@ -1,9 +1,9 @@
-exporting
-instanceVariablesFor: aPinocchioClass  
+accessing
+instVariables
 	| instVarNames instVars localId supercls |
-	instVarNames := OrderedCollection newFrom: aPinocchioClass cls instVarNames.
+	instVarNames := OrderedCollection newFrom: self rawInstVarNames.
 	instVars := OrderedCollection new.
-	supercls :=  aPinocchioClass superclass.
+	supercls :=  self superclass.
 	supercls ifNotNil: [
 		instVars addAll: supercls layout.
 	].
