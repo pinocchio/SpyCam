@@ -1,7 +1,8 @@
 {
 	"category" : "SpyCam-Pinocchio-Bridge-Test",
 	"classinstvars" : [
-		 ],
+		"a",
+		"b" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
