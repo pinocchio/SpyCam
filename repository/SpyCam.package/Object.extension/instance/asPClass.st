@@ -3,14 +3,14 @@ asPClass
 	|dict|
 	dict ifNil: [
 		dict := Dictionary new.
-		dict at: Object 		put: {PinocchioObject. 'Type_Object_Class'}.
+		dict at: Object 			put: {PinocchioObject. 'Type_Object_Class'}.
 		dict at: Class 			put: {PinocchioClass. 'Class'}.
-		dict at: Metaclass 	put: {PinocchioMetaclass. 'Metaclass'}.
+		dict at: Metaclass 		put: {PinocchioMetaclass. 'Metaclass'}.
 		dict at: Behavior 	 	put: {PinocchioBehaviour. 'Behaviour'}.
 		dict at: True 			put: {PinocchioTrue}.
 		dict at: False 			put: {PinocchioFalse}.
 		dict at: String 			put: {PinocchioString}.
-		dict at: Symbol 		put: {PinocchioSymbol}.
+		dict at: Symbol 			put: {PinocchioSymbol}.
 		dict at: Character 		put: {PinocchioCharacter}.
 		dict at: SmallInteger 	put: {PinocchioSmallInt}.
 	].

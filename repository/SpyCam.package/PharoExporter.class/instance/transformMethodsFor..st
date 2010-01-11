@@ -1,6 +1,8 @@
 exporting
 transformMethodsFor: aPinocchioClass
 	| method methods methodDict cls |
+	pinocchioVisitor pinocchioClass: aPinocchioClass.
+	
 	cls := aPinocchioClass methodProvider.
 	methods := aPinocchioClass pinocchioMethods.
 	methodDict := Dictionary new.
@@ -11,4 +13,5 @@ transformMethodsFor: aPinocchioClass
 		methodDict at: method selector put: method.
 	].
 
+	pinocchioVisitor popScope.
 	^ methodDict.

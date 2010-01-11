@@ -3,6 +3,7 @@ transformClass: cls
 	| aPinocchioClass |
 	cls = ProtoObject ifTrue: [ ^ nil ].
 	aPinocchioClass := cls asPClass.
+	Transcript show: aPinocchioClass.
 	self done at: aPinocchioClass ifPresent: [ :present | ^ present ].
 	
 	self haltIf: (pinocchioVisitor rootScope isKindOf: PinocchioRootScope) not.
@@ -15,9 +16,7 @@ transformClass: cls
 	self transformClassSideOf: aPinocchioClass.
 	aPinocchioClass layout: (self layoutFor: aPinocchioClass).
 	
-	pinocchioVisitor pinocchioClass: aPinocchioClass.
 	aPinocchioClass methods: (self transformMethodsFor: aPinocchioClass).
-	pinocchioVisitor popScope.
 	
 	classASTs at: aPinocchioClass name asSymbol put: aPinocchioClass.
 	

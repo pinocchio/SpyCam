@@ -20,6 +20,7 @@
 		"fileOutOn:" : "TestRunner 11/25/2009 16:12",
 		"generateAssertFor:of:" : "CamilloBruni 12/8/2009 10:49",
 		"generateAssertForResult:" : "TestRunner 11/24/2009 17:12",
+		"generateDeclarationFor:withString:" : "CamilloBruni 1/11/2010 10:23",
 		"generateEqualsSendFor:" : "CamilloBruni 12/1/2009 17:05",
 		"generateHeader" : "TestRunner 11/24/2009 17:10",
 		"generateMethod:" : "CamilloBruni 12/1/2009 14:45",
@@ -28,7 +29,7 @@
 		"generateMethodSourceStringFor:" : "CamilloBruni 12/1/2009 14:46",
 		"generateTestCaseFor:" : "CamilloBruni 12/8/2009 11:34",
 		"generateTestCases" : "CamilloBruni 12/8/2009 11:07",
-		"generateTestClass" : "DavidGurtner 12/9/2009 17:42",
+		"generateTestClass" : "CamilloBruni 1/11/2010 10:24",
 		"generateTestClassInstance" : "DavidGurtner 12/3/2009 15:54",
 		"generateTestSuite" : "CamilloBruni 12/2/2009 11:33",
 		"initialize" : "TestRunner 11/25/2009 15:34",
@@ -37,5 +38,6 @@
 		"outStream" : "TestRunner 11/18/2009 13:41",
 		"outStream:" : "TestRunner 11/18/2009 13:46",
 		"putAssert:" : "TestRunner 11/24/2009 15:08",
+		"self" : "CamilloBruni 1/11/2010 10:11",
 		"separator" : "TestRunner 11/18/2009 14:06",
 		"testArgumentsFor:of:" : "SamuelSchuerch 11/27/2009 17:56" } }
