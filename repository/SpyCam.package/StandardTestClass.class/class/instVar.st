@@ -1,3 +1,3 @@
-as yet unclassified
+pinocchio-export
 instVar
 	^ instVar

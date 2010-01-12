@@ -10,7 +10,7 @@ layoutFor: aPinocchioClass
 	aPinocchioClass cls isWeak ifTrue: [ 
 		self error: 'Not supperted layout!'.
 	].
-	aPinocchioClass cls isVariable ifTrue: [ 
+	aPinocchioClass cls isVariable ifTrue: [
 		^ PinocchioArrayLayout newFrom: aPinocchioClass instVariables. 
 	].
 	aPinocchioClass cls isFixed ifTrue: [

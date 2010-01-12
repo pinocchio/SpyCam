@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 	super initialize.
 	instVarNames := OrderedCollection with: #type with: #super with: #method.

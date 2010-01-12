@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 rawInstVarNames
 	^ instVarNames copy addAll: super rawInstVarNames; yourself.
