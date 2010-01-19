@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		"uidCounter" ],
 	"classvars" : [
-		"uidCounter" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		"uid" ],

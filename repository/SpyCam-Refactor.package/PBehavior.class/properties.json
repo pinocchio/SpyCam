@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"superclass",
+		"layout",
+		"methods",
+		"pclass" ],
 	"name" : "PBehavior",
 	"pools" : [
 		 ],

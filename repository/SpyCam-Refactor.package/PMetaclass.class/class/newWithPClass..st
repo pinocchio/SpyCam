@@ -1,5 +1,4 @@
 instance creation
 newWithPClass: aPInternalClass
-	^ self new 
-		sclass: aPInternalClass sclass; 
+	^ self new  
 		pclass: aPInternalClass.

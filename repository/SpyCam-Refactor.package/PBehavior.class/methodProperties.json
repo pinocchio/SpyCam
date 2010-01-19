@@ -2,6 +2,17 @@
 	"class" : {
 		"pMethods" : "CamilloBruni 1/19/2010 14:31" },
 	"instance" : {
+		"initialize" : "CamilloBruni 1/19/2010 20:33",
+		"instVariables" : "CamilloBruni 1/19/2010 20:54",
 		"isInternal" : "DavidGurtner 12/9/2009 16:51",
+		"layout" : "CamilloBruni 1/19/2010 20:27",
+		"layout:" : "CamilloBruni 1/19/2010 20:27",
+		"methods" : "CamilloBruni 1/19/2010 20:30",
+		"methods:" : "CamilloBruni 1/19/2010 20:30",
 		"new" : "CamilloBruni 1/11/2010 09:46",
-		"new:" : "CamilloBruni 1/11/2010 09:46" } }
+		"new:" : "CamilloBruni 1/11/2010 09:46",
+		"pInstVarNames" : "CamilloBruni 1/19/2010 19:57",
+		"pclass" : "CamilloBruni 1/19/2010 20:31",
+		"pclass:" : "CamilloBruni 1/19/2010 20:31",
+		"superclass" : "CamilloBruni 1/19/2010 20:31",
+		"superclass:" : "CamilloBruni 1/19/2010 20:31" } }

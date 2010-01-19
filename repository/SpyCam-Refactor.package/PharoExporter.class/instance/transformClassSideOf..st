@@ -3,11 +3,12 @@ transformClassSideOf: aPinocchioClass
 	| aPinocchioMetaClass |
 	aPinocchioMetaClass := aPinocchioClass pmetaclass. 
 	
-	aPinocchioClass superclass = PNil nil
-		ifTrue: [aPinocchioMetaClass superclass: PNil nil]
-		ifFalse: [aPinocchioMetaClass superclass: aPinocchioClass superclass pclass.].
-	self haltIf: aPinocchioClass superclass isNil.
-		
+	aPinocchioClass hasSuperclass ifTrue: [
+		aPinocchioMetaClass superclass: aPinocchioClass superclass pmetaclass.
+	].
+	"Only Object has no superclass"
+	"aPinocchioMetaClass superclass: (self classASTs at: #Behavior) pmetaclass."
+	
 	aPinocchioMetaClass layout: (self layoutFor: aPinocchioMetaClass).
 
 	pinocchioVisitor pclass: aPinocchioMetaClass.
