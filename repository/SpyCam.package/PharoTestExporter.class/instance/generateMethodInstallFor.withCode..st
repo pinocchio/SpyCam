@@ -1,7 +1,7 @@
 exporting
 generateMethodInstallFor: method withCode: code
 	| closure |
-	closure := PinocchioMethodClosure new
+	closure := PMethodClosure new
 			code: code;
 			pinocchioClass: testCaseClass;
 			selector: method selector asPSymbol.

@@ -1,3 +1,3 @@
 *SpyCam-Pinocchio
 asPObject
-	^ PinocchioSmallInt new int: self
+	^ PSmallInt new int: self

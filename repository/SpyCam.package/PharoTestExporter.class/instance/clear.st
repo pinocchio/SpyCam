@@ -1,7 +1,7 @@
 initialize-release
 clear
-	PinocchioSymbol clearSymbolCache.
-	PinocchioRootScope clearGlobals.
+	PSymbol clearSymbolCache.
+	PRootScope clearGlobals.
 	self outStream: (WriteStream on: '').
 	parser := scparser method.
 	selectorList := Set new.

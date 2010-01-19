@@ -1,0 +1,14 @@
+{
+	"category" : "SpyCam-Pinocchio-Type",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PBytesLayout",
+	"pools" : [
+		 ],
+	"super" : "PLayout",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "SpyCam-Pinocchio-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"block" ],
+	"name" : "PCallec",
+	"pools" : [
+		 ],
+	"super" : "PASTNode",
+	"type" : "normal" }

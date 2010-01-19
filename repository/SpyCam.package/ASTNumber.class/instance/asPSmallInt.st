@@ -1,3 +1,3 @@
 converting
 asPSmallInt
-	^PinocchioSmallInt new int: self asInteger
+	^PSmallInt new int: self asInteger

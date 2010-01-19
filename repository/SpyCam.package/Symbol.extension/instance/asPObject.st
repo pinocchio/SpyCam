@@ -1,3 +1,3 @@
 *SpyCam-Pinocchio
 asPObject
-	^ PinocchioSymbol new symbol: self
+	^ PSymbol new symbol: self

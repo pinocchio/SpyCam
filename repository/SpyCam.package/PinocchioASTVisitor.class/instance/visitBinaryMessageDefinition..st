@@ -1,3 +1,0 @@
-visitor
-visitBinaryMessageDefinition: anASTBinaryMessageDefinition 
-	^ PinocchioSymbol named: anASTBinaryMessageDefinition selectorSymbol

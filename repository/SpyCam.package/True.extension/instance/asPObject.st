@@ -1,3 +1,3 @@
 *SpyCam-Pinocchio
 asPObject
-	^ PinocchioRootScope lookupNamed: 'true'.
+	^ PRootScope lookupNamed: 'true'.

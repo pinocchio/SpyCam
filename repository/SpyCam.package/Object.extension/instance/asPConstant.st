@@ -1,3 +1,3 @@
 *SpyCam-Pinocchio
 asPConstant
-	^PinocchioConstant new constant: self
+	^PConstant new constant: self

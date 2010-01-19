@@ -1,3 +1,3 @@
 *SpyCam-Pinocchio
 asPSymbol
-	^ PinocchioSymbol named: self.
+	^ PSymbol named: self.

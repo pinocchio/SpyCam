@@ -3,20 +3,20 @@ asPClass
 	|dict|
 	dict ifNil: [
 		dict := Dictionary new.
-		dict at: Object 			put: {PinocchioObject. 'Type_Object_Class'}.
-		dict at: Class 			put: {PinocchioClass. 'Class'}.
-		dict at: Metaclass 		put: {PinocchioMetaclass. 'Metaclass'}.
-		dict at: Behavior 	 	put: {PinocchioBehaviour. 'Behaviour'}.
-		dict at: True 			put: {PinocchioTrue}.
-		dict at: False 			put: {PinocchioFalse}.
-		dict at: String 			put: {PinocchioString}.
-		dict at: Symbol 			put: {PinocchioSymbol}.
-		dict at: Character 		put: {PinocchioCharacter}.
-		dict at: SmallInteger 	put: {PinocchioSmallInt}.
+		dict at: Object 			put: {PObject. 'Type_Object_Class'}.
+		dict at: Class 			put: {PClass. 'Class'}.
+		dict at: Metaclass 		put: {PMetaclass. 'Metaclass'}.
+		dict at: Behavior 	 	put: {PBehaviour. 'Behaviour'}.
+		dict at: True 			put: {PTrue}.
+		dict at: False 			put: {PFalse}.
+		dict at: String 			put: {PString}.
+		dict at: Symbol 			put: {PSymbol}.
+		dict at: Character 		put: {PCharacter}.
+		dict at: SmallInteger 	put: {PSmallInt}.
 	].
 	dict at: self ifPresent: [ :aTuple|
-		^ PinocchioInternalClass newWith: self 
+		^ PInternalClass newWith: self 
 				exporting: aTuple first
 				uid: aTuple second.
 	].
-	^ PinocchioClass newWith: self.
+	^ PClass newWith: self.

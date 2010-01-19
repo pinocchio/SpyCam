@@ -6,7 +6,7 @@ transformClass: cls
 	Transcript show: aPinocchioClass.
 	self done at: aPinocchioClass ifPresent: [ :present | ^ present ].
 	
-	self haltIf: (pinocchioVisitor rootScope isKindOf: PinocchioRootScope) not.
+	self haltIf: (pinocchioVisitor rootScope isKindOf: PRootScope) not.
 	
 	Transcript show: aPinocchioClass name; cr.
 	self done at: aPinocchioClass put: aPinocchioClass.

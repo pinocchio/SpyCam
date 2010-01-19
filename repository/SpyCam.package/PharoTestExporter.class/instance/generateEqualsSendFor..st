@@ -5,7 +5,7 @@ generateEqualsSendFor: anObject
 		ast := anObject asPSymbol.
 	] ifFalse: [
 		(anObject isKindOf: String) ifTrue: [
-			ast := PinocchioString new string: anObject.
+			ast := PString new string: anObject.
 		]
 	].
 	

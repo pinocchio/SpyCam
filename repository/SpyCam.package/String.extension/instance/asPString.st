@@ -1,3 +1,3 @@
 *SpyCam-Pinocchio
 asPString
-	^PinocchioString new string: self
+	^PString new string: self

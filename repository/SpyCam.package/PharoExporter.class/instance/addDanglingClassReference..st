@@ -3,7 +3,7 @@ addDanglingClassReference: aClassReference
 	| cls package |
 	cls := Smalltalk at: aClassReference referenceName asSymbol.
 	package := self ensurePackageFor: cls.
-	aClassReference referenceName: (PinocchioSymbol named: cls pinocchioName).
+	aClassReference referenceName: (PSymbol named: cls pinocchioName).
 	package at: aClassReference referenceName ifAbsent: [
 		package storeClassReference: aClassReference.
 		done at: cls ifAbsent: [

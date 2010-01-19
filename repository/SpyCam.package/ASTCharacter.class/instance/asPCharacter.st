@@ -1,3 +1,3 @@
 converting
 asPCharacter
-	^PinocchioCharacter new char: self char
+	^PCharacter new char: self char

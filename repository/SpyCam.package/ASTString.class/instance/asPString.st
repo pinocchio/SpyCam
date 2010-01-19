@@ -1,3 +1,3 @@
 converting
 asPString 
-	^PinocchioString new string: self string
+	^PString new string: self string

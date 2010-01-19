@@ -6,7 +6,7 @@ ensureClassReferenceForName: aString
 	aClassNameSymbol := cls pinocchioName asPSymbol.
 	package at: aClassNameSymbol ifPresent: [ :el| ^ el].
 	
-	aClassReference := PinocchioClassReference named: aClassNameSymbol
+	aClassReference := PClassReference named: aClassNameSymbol
 													in: package.
 	Transcript show: ('ensureClassReferenceForName: ', aClassNameSymbol printString).
 	package storeClassReference: aClassReference.

@@ -1,11 +1,11 @@
 initialize-release
 initialize
 	super initialize.
-	root := PinocchioRootPackage new.
+	root := PRootPackage new.
 	done := IdentityDictionary new.
 	todo := OrderedCollection new.
 	scparser := SCParser new.
-	pinocchioVisitor := PinocchioASTVisitor new.
+	pinocchioVisitor := PASTVisitor new.
 	pinocchioVisitor world: self.
-	cdumper := PinocchioCDumper new.
+	cdumper := PCDumper new.
 	classASTs := Dictionary new.

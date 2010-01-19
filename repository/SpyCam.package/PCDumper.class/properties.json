@@ -1,0 +1,18 @@
+{
+	"category" : "SpyCam-Pinocchio",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream",
+		"symbolDict",
+		"visitedNodes",
+		"currentClass",
+		"onAssignToBlock" ],
+	"name" : "PCDumper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

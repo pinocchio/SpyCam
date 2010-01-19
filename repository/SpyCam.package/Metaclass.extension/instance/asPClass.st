@@ -1,3 +1,3 @@
 *SpyCam-Pinocchio
 asPClass
-	^ PinocchioClassClass newWith: self.
+	^ PClassClass newWith: self.

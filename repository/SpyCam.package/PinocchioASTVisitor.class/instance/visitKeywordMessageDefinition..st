@@ -1,3 +1,0 @@
-visitor
-visitKeywordMessageDefinition: anASTKeywordMessageDefinition
-	^ PinocchioSymbol named: anASTKeywordMessageDefinition selector symbol.

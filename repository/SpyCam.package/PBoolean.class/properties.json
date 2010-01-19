@@ -1,0 +1,15 @@
+{
+	"category" : "SpyCam-Pinocchio-Type",
+	"classinstvars" : [
+		"trueInstance",
+		"falseInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bool" ],
+	"name" : "PBoolean",
+	"pools" : [
+		 ],
+	"super" : "PType",
+	"type" : "normal" }

@@ -1,7 +1,7 @@
 convenience
 fetchDanglingClassReferencesIn: aCollection
 	aCollection do: [ :member|
-		(member isKindOf: PinocchioClassReference) 
+		(member isKindOf: PClassReference) 
 			ifTrue: [
 				member isDangling ifTrue: 
 					[self addDanglingClassReference: member.]]

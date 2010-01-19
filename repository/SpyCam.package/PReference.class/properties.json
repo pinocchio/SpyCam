@@ -1,0 +1,14 @@
+{
+	"category" : "SpyCam-Pinocchio-Organize",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PReference",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

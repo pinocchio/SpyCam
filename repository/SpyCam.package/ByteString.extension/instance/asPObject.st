@@ -1,3 +1,3 @@
 *SpyCam-Pinocchio
 asPObject
-	^ PinocchioString new string: self
+	^ PString new string: self

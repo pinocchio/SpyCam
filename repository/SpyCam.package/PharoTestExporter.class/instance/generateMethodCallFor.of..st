@@ -3,7 +3,7 @@ generateMethodCallFor: anPinocchioASTMethod of: aCompiledMethod
 	| send arguments |
 	arguments := ((self testArgumentsFor: anPinocchioASTMethod of: aCompiledMethod)
 						collect: [:o | o asPObject asPConstant ]) asPArray.
-	send := PinocchioSend new
+	send := PSend new
 				receiver: testCaseInstance;
 				message: anPinocchioASTMethod selector asPSymbol;
 				arguments: arguments.
