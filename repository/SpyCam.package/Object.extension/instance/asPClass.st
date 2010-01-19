@@ -6,7 +6,7 @@ asPClass
 		dict at: Object 			put: {PObject. 'Type_Object_Class'}.
 		dict at: Class 			put: {PClass. 'Class'}.
 		dict at: Metaclass 		put: {PMetaclass. 'Metaclass'}.
-		dict at: Behavior 	 	put: {PBehaviour. 'Behaviour'}.
+		dict at: Behavior 	 	put: {PBehavior. 'Behavior'}.
 		dict at: True 			put: {PTrue}.
 		dict at: False 			put: {PFalse}.
 		dict at: String 			put: {PString}.

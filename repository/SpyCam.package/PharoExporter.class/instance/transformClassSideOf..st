@@ -3,9 +3,10 @@ transformClassSideOf: aPinocchioClass
 	| aPinocchioMetaClass |
 	aPinocchioMetaClass := aPinocchioClass cls class asPClass. 
 	
-	aPinocchioClass superclass 
-		ifNil: [aPinocchioMetaClass superclass: PNil nil]
-		ifNotNil: [aPinocchioMetaClass superclass: aPinocchioClass superclass pinocchioClass.].
+	aPinocchioClass superclass = PNil nil
+		ifTrue: [aPinocchioMetaClass superclass: PNil nil]
+		ifFalse: [aPinocchioMetaClass superclass: aPinocchioClass superclass pinocchioClass.].
+	self haltIf: aPinocchioClass superclass isNil.
 		
 	aPinocchioMetaClass layout: (self layoutFor: aPinocchioMetaClass).
 

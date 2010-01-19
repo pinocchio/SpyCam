@@ -7,7 +7,7 @@ instVariables
 	supercls = PNil nil ifFalse: [
 		instVars addAll: supercls layout.
 	] ifTrue: [ Transcript show: self cls name, ' was nil'; cr ].
-	instVarNames do: [ :each |
-		instVars add: ((PInstanceVariable named: each) localId: instVars size).
+		instVarNames do: [ :each |
+			instVars add: ((PInstanceVariable named: each) localId: instVars size).
 	].
 	^ instVars.

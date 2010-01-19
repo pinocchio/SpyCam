@@ -1,0 +1,15 @@
+{
+	"category" : "SpyCam-Pinocchio-Bridge-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pclass",
+		"currentRoot" ],
+	"name" : "PharoExporterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

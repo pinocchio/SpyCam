@@ -4,9 +4,9 @@
 	"instance" : {
 		"at:" : "CamilloBruni 12/2/2009 13:25",
 		"at:ifAbsent:" : "CamilloBruni 1/19/2010 11:16",
-		"at:ifAbsentPut:" : "CamilloBruni 1/19/2010 11:16",
+		"at:ifAbsentPut:" : "CamilloBruni 1/19/2010 12:18",
 		"at:ifPresent:" : "CamilloBruni 1/19/2010 11:16",
-		"at:put:" : "CamilloBruni 1/19/2010 11:16",
+		"at:put:" : "CamilloBruni 1/19/2010 12:18",
 		"ensureClassReference:" : "CamilloBruni 1/19/2010 11:16",
 		"ensurePackageNamed:" : "CamilloBruni 1/19/2010 11:16",
 		"ensurePath:" : "TestRunner 11/16/2009 14:27",

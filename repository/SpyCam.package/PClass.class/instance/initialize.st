@@ -1,4 +1,4 @@
-initialization
+initialize-release
 initialize 
 	super initialize.
-	self layout: PLayout new.
+	self superclass: PNil nil.
