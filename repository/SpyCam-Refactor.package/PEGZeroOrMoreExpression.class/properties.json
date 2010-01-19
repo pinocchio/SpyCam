@@ -1,0 +1,15 @@
+{
+	"category" : "SpyCam-PEG",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"child",
+		"skipWhitespace" ],
+	"name" : "PEGZeroOrMoreExpression",
+	"pools" : [
+		 ],
+	"super" : "PEGExpression",
+	"type" : "normal" }

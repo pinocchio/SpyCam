@@ -1,0 +1,14 @@
+{
+	"category" : "SpyCam-Typer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"typer" ],
+	"name" : "SCTyperTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

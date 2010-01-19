@@ -1,0 +1,14 @@
+{
+	"category" : "SpyCam-Pinocchio-Runtime",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"code" ],
+	"name" : "PRuntimeObject",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

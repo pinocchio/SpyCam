@@ -1,0 +1,14 @@
+{
+	"category" : "SpyCam-Pinocchio",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parentScope" ],
+	"name" : "PSubScope",
+	"pools" : [
+		 ],
+	"super" : "PRootScope",
+	"type" : "normal" }

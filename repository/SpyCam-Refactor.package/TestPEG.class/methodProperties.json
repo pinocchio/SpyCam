@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testExpression" : "CamilloBruni 12/15/2009 15:58",
+		"testNotExpression" : "CamilloBruni 12/15/2009 15:58",
+		"testOneOrMoreExpression" : "CamilloBruni 12/15/2009 15:58",
+		"testOptionalExpression" : "CamilloBruni 12/15/2009 15:58",
+		"testOrderedChoiceExpression" : "CamilloBruni 12/15/2009 15:58",
+		"testRange" : "CamilloBruni 12/15/2009 15:58",
+		"testSeparator" : "CamilloBruni 12/15/2009 15:58",
+		"testSequenceExpression" : "CamilloBruni 12/15/2009 15:58",
+		"testSequenceOmit" : "CamilloBruni 12/15/2009 15:58",
+		"testZeroOrMoreExpression" : "CamilloBruni 12/15/2009 15:58" } }

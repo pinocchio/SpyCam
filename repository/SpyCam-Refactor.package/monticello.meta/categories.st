@@ -1,0 +1,14 @@
+SystemOrganization addCategory: #'SpyCam-PEG'!
+SystemOrganization addCategory: #'SpyCam-AST'!
+SystemOrganization addCategory: #'SpyCam-Parser'!
+SystemOrganization addCategory: #'SpyCam-Typer'!
+SystemOrganization addCategory: #'SpyCam-Pinocchio'!
+SystemOrganization addCategory: #'SpyCam-Pinocchio-AST'!
+SystemOrganization addCategory: #'SpyCam-Pinocchio-Type'!
+SystemOrganization addCategory: #'SpyCam-Pinocchio-Runtime'!
+SystemOrganization addCategory: #'SpyCam-Pinocchio-Organize'!
+SystemOrganization addCategory: #'SpyCam-Pinocchio-Bridge'!
+SystemOrganization addCategory: #SpyCam!
+SystemOrganization addCategory: #'SpyCam-Pinocchio-Test'!
+SystemOrganization addCategory: #'SpyCam-Pinocchio-Bridge-Test'!
+SystemOrganization addCategory: #'SpyCam-Pinocchio-Class'!

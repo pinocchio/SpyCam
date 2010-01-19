@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"mirror:context:" : "TestRunner 11/11/2009 14:48" },
+	"instance" : {
+		"classMethods" : "tv 4/2/2009 12:57",
+		"classMethods:" : "tv 4/2/2009 12:57",
+		"combineWith:" : "cb 3/26/2009 15:28",
+		"compatibleMethodsWith:" : "CamilloBruni 12/9/2009 11:03",
+		"compatibleSuperClassWith:" : "cb 3/27/2009 09:09",
+		"compatibleWith:" : "TestRunner 11/11/2009 14:42",
+		"context" : "tv 4/2/2009 13:19",
+		"context:" : "tv 4/2/2009 13:19",
+		"hasCompatibleMethod:" : "TestRunner 11/11/2009 14:34",
+		"instanceVariables" : "cb 3/26/2009 15:27",
+		"instanceVariables:" : "cb 3/26/2009 15:27",
+		"internalClass:" : "tv 4/2/2009 13:17",
+		"isSameTypeAs:" : "cb 3/27/2009 08:57",
+		"methods" : "cb 3/26/2009 15:27",
+		"methods:" : "cb 3/26/2009 15:27",
+		"name" : "cb 3/26/2009 15:27",
+		"name:" : "cb 3/26/2009 15:27",
+		"superClass" : "tv 4/2/2009 13:20" } }

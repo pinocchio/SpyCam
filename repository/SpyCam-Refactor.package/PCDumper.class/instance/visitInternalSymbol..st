@@ -1,0 +1,3 @@
+visitor
+visitInternalSymbol: aPinocchioInternalSymbol 
+	^ aPinocchioInternalSymbol

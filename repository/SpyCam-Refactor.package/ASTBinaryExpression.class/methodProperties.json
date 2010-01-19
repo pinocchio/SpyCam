@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"astSelectors" : "CamilloBruni 12/9/2009 11:38" },
+	"instance" : {
+		"argument" : "tv 3/28/2009 15:21",
+		"argument:" : "tv 3/28/2009 15:21",
+		"argumentOfBinary:" : "tv 3/28/2009 16:27",
+		"initialize" : "cb 3/26/2009 12:09",
+		"printOn:" : "TestRunner 11/3/2009 14:56",
+		"receiver" : "tv 3/28/2009 15:20",
+		"receiver:" : "tv 3/28/2009 15:20" } }

@@ -1,0 +1,3 @@
+exporting
+methodProvider
+	^ self sclass

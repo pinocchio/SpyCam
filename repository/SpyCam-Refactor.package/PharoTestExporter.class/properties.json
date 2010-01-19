@@ -1,0 +1,28 @@
+{
+	"category" : "SpyCam-Pinocchio-Bridge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CamilloBruni 1/11/2010 10:27",
+	"instvars" : [
+		"methods",
+		"outStream",
+		"parser",
+		"scparser",
+		"cdumper",
+		"visitor",
+		"exportClass",
+		"testCaseClass",
+		"selectorList",
+		"testCaseInstance",
+		"rootPackage",
+		"exportClassAST",
+		"pinocchioClassPackage",
+		"pinocchioClass",
+		"exportClassInstance" ],
+	"name" : "PharoTestExporter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

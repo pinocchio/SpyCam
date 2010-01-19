@@ -1,0 +1,3 @@
+convenience
+fetchDanglingClassReferences
+	self fetchDanglingClassReferencesIn: pinocchioVisitor rootScope decls.

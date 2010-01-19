@@ -1,0 +1,16 @@
+{
+	"category" : "SpyCam-Pinocchio-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parser",
+		"visitor",
+		"scparser" ],
+	"name" : "PVisitorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

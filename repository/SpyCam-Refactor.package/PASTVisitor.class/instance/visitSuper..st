@@ -1,0 +1,3 @@
+visitor
+visitSuper: anASTSuper 
+	^ anASTSuper

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "tv 4/2/2009 13:20",
+		"testASTClassEquals" : "CamilloBruni 12/15/2009 15:58",
+		"testCompatibleMethodsWith" : "CamilloBruni 12/15/2009 15:58",
+		"testCompatibleSuperClass" : "CamilloBruni 12/15/2009 15:58" } }

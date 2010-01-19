@@ -1,0 +1,14 @@
+{
+	"category" : "SpyCam-Pinocchio",
+	"classinstvars" : [
+		"uidCounter" ],
+	"classvars" : [
+		"uidCounter" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"uid" ],
+	"name" : "PObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

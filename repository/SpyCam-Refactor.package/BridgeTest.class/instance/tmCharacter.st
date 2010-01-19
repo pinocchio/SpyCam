@@ -1,0 +1,3 @@
+test-basics
+tmCharacter
+	^ $C

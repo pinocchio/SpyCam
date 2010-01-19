@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"astSelectors" : "CamilloBruni 12/9/2009 11:37" },
+	"instance" : {
+		"=" : "TestRunner 10/22/2009 20:01",
+		"asPVariable" : "CamilloBruni 1/19/2010 11:13",
+		"combineTypeWith:" : "cb 3/26/2009 15:26",
+		"hasSameTypeAs:" : "cb 3/26/2009 15:29",
+		"hash" : "TestRunner 10/22/2009 20:02",
+		"initialize" : "CamilloBruni 11/10/2009 20:17",
+		"name" : "cb 3/26/2009 15:24",
+		"name:" : "cb 3/26/2009 15:20",
+		"type" : "cb 3/26/2009 15:24",
+		"type:" : "cb 3/26/2009 15:24" } }

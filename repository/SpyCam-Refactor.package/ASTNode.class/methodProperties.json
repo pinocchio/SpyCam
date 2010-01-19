@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"astSelectors" : "TestRunner 10/21/2009 14:07",
+		"initialize" : "CamilloBruni 10/20/2009 14:12",
+		"pMethods" : "CamilloBruni 1/19/2010 14:31",
+		"uidCounter" : "TestRunner 10/28/2009 14:41",
+		"uidFor:" : "TestRunner 10/28/2009 14:41" },
+	"instance" : {
+		"argumentOfBinary:" : "tv 3/28/2009 16:22",
+		"astName" : "CamilloBruni 10/20/2009 14:44",
+		"astType" : "CamilloBruni 10/20/2009 14:18",
+		"doesNotUnderstand:" : "TestRunner 10/28/2009 16:28",
+		"hasReturnExpression" : "TestRunner 10/22/2009 18:01",
+		"isReturnExpression" : "TestRunner 10/22/2009 18:00",
+		"sourceObject" : "cb 3/26/2009 15:42",
+		"sourceObject:" : "cb 3/26/2009 15:42",
+		"uid" : "TestRunner 10/20/2009 15:46" } }
