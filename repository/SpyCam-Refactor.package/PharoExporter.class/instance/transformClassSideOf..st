@@ -15,5 +15,4 @@ transformClassSideOf: aPinocchioClass
 	aPinocchioMetaClass methods: (self transformClassMethodsFor: aPinocchioClass).
 	pinocchioVisitor popScope.
 	
-	aPinocchioClass pclass: aPinocchioMetaClass.
 	^ aPinocchioMetaClass.

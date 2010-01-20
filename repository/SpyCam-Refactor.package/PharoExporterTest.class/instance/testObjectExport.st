@@ -11,7 +11,7 @@ testObjectExport
 	
 	objectClass layout class should = PObjectLayout.
 	
-	objectClass pclass class should = PInternalMetaclass.
+	objectClass pmetaclass class should = PInternalMetaclass.
 	
 	package := objectClass package.
 	package packageName asSymbol should = #Objects.

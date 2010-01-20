@@ -9,8 +9,8 @@ instVariables
 	].
 
 	self pInstVarNames do: [ :each |
-			instVar := PInstanceVariable named: each.
-			instVar localId: instVars size.
-			instVars add: instVar.
+		instVar := PInstanceVariable named: each.
+		instVar localId: instVars size.
+		instVars add: instVar.
 	].
 	^ instVars.

@@ -1,5 +1,4 @@
 printing
 printOn: aStream
-	super printOn: aStream.
-	aStream nextPutAll: ' '.
+	aStream nextPutAll: ' P'.
 	self symbol printOn: aStream .

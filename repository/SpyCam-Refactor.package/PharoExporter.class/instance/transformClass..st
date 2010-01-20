@@ -21,5 +21,4 @@ transformClass: sclass
 	aPinocchioClass methods: (self transformMethodsFor: aPinocchioClass).
 	
 	classASTs at: aPinocchioClass name asSymbol put: aPinocchioClass.
-	
 	^ aPinocchioClass.

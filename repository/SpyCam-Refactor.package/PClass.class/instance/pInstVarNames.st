@@ -1,5 +1,3 @@
 exporting
 pInstVarNames
-	^ OrderedCollection
-		with: #name;
-		with: #package.
+	^ self sclass instVarNames

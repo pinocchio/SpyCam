@@ -18,7 +18,7 @@ testInternalMetaclassExport
 		exported := self exportClass: each.
 		exported class should = PInternalClass.
 		exported sclass should = each.
-		exported pclass class should = PInternalMetaclass.
-		exported pclass sclass should = each.
-		exported pclass smetaclass should = each class.
+		exported pmetaclass class should = PInternalMetaclass.
+		exported sclass should = each.
+		exported smetaclass should = each class.
 	]

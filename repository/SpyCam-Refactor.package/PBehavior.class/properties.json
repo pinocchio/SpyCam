@@ -8,8 +8,7 @@
 	"instvars" : [
 		"superclass",
 		"layout",
-		"methods",
-		"pclass" ],
+		"methods" ],
 	"name" : "PBehavior",
 	"pools" : [
 		 ],

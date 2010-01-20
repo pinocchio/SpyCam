@@ -1,5 +1,6 @@
 exporting
 pInstVarNames
-	^ OrderedCollection
-		with: #name;
-		with: #package.
+	(self pclass respondsTo: #pInstVarNames) ifTrue: [ 
+		^ self sclass pInstVarNames
+	].
+	^ OrderedCollection new.

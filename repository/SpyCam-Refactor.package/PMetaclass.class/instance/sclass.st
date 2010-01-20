@@ -1,3 +1,3 @@
 accessing
 sclass
-	^ pclass sclass
+	^ self pclass sclass

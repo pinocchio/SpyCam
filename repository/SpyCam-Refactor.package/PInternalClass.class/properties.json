@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "CamilloBruni 1/12/2010 15:14",
 	"instvars" : [
-		"methodProvider" ],
+		"methodProvider",
+		"pclass" ],
 	"name" : "PInternalClass",
 	"pools" : [
 		 ],
