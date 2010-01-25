@@ -5,5 +5,5 @@ testBehaviorLayout
 	layout := objectClass layout.
 	layout class should = PObjectLayout.
 	layout size should = 3.
-	self checkClassLayoutMembers: layout.
+	self checkBehaviorLayoutMembers: layout.
 	

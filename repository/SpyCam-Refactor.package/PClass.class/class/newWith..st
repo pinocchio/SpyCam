@@ -1,3 +1,5 @@
 instance creation
 newWith: cls
-	^ self new sclass: cls ; name: cls pinocchioName asPSymbol.
+	^ self new 
+		sclass: cls; 
+		name: cls pinocchioName asPSymbol.

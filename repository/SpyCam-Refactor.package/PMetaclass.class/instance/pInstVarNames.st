@@ -1,5 +1,3 @@
 exporting
 pInstVarNames
-	^ super pInstVarNames
-		addAll: self smetaclass instVarNames;
-		yourself.
+	^ self sclass class instVarNames

@@ -1,3 +1,3 @@
-as yet unclassified
+exporting
 pInstVarNames 
 	^ OrderedCollection new.

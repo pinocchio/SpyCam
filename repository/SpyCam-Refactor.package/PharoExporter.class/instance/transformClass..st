@@ -1,7 +1,8 @@
 exporting
-transformClass: sclass
-	| aPinocchioClass |
-	sclass = ProtoObject ifTrue: [ ^ nil ].
+transformClass: sclassIn
+	| aPinocchioClass sclass|
+	sclass := self shortcutSClass: sclassIn.
+	sclass ifNil: [ ^ nil].
 	aPinocchioClass := sclass asPClass.
 	self done at: aPinocchioClass ifPresent: [ :present | ^ present ].
 	

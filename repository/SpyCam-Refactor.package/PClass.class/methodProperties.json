@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"newWith:" : "CamilloBruni 1/19/2010 16:13" },
+		"newWith:" : "CamilloBruni 1/25/2010 15:40",
+		"pInstVarNames" : "CamilloBruni 1/25/2010 15:31" },
 	"instance" : {
 		"=" : "CamilloBruni 12/11/2009 13:07",
 		"createPMetaclass" : "CamilloBruni 1/19/2010 16:24",
-		"hasSuperclass" : "CamilloBruni 1/19/2010 19:59",
 		"initialize" : "CamilloBruni 1/19/2010 13:32",
 		"methodProvider" : "CamilloBruni 1/19/2010 16:12",
 		"name" : "TestRunner 10/27/2009 14:37",
 		"name:" : "TestRunner 10/27/2009 14:36",
 		"pClassMethods" : "CamilloBruni 1/19/2010 16:19",
-		"pInstVarNames" : "CamilloBruni 1/20/2010 16:00",
+		"pInstVarNames" : "CamilloBruni 1/25/2010 15:44",
 		"pMethods" : "CamilloBruni 1/19/2010 16:19",
 		"package" : "TestRunner 10/27/2009 14:37",
 		"package:" : "TestRunner 10/27/2009 14:37",
