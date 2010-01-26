@@ -1,3 +1,0 @@
-accessing
-pinocchioMethods 
-	^ #'pinocchio-export'.

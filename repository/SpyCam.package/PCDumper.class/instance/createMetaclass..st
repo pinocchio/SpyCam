@@ -1,4 +1,4 @@
 convenience
 createMetaclass: aPinocchioClass
-	self put: aPinocchioClass pinocchioClass
+	self put: aPinocchioClass pmetaclass
 		with: 'HEADER(', aPinocchioClass uid, ')'.

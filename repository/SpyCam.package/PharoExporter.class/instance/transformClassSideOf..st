@@ -1,18 +1,18 @@
 exporting
 transformClassSideOf: aPinocchioClass
 	| aPinocchioMetaClass |
-	aPinocchioMetaClass := aPinocchioClass cls class asPClass. 
+	aPinocchioMetaClass := aPinocchioClass pmetaclass. 
 	
-	aPinocchioClass superclass = PNil nil
-		ifTrue: [aPinocchioMetaClass superclass: PNil nil]
-		ifFalse: [aPinocchioMetaClass superclass: aPinocchioClass superclass pinocchioClass.].
-	self haltIf: aPinocchioClass superclass isNil.
-		
+	aPinocchioClass hasSuperclass ifTrue: [
+		aPinocchioMetaClass superclass: aPinocchioClass superclass pmetaclass.
+	].
+	"Only Object has no superclass"
+	"aPinocchioMetaClass superclass: (self classASTs at: #Behavior) pmetaclass."
+	
 	aPinocchioMetaClass layout: (self layoutFor: aPinocchioMetaClass).
 
-	pinocchioVisitor pinocchioClass: aPinocchioMetaClass.
+	pinocchioVisitor pclass: aPinocchioMetaClass.
 	aPinocchioMetaClass methods: (self transformClassMethodsFor: aPinocchioClass).
 	pinocchioVisitor popScope.
 	
-	aPinocchioClass pinocchioClass: aPinocchioMetaClass.
 	^ aPinocchioMetaClass.

@@ -1,0 +1,3 @@
+visitor
+visitInternalMetaclass: aPInternalMetaclass 
+	self visitInternalClass: aPInternalMetaclass.

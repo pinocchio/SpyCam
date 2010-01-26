@@ -8,11 +8,11 @@ export
 	].
 
 	(pinocchioVisitor rootScope decls select: [ :each | 
-		each pinocchioClass isNil 
+		each pclass isNil 
 	]) isEmpty should be true.
 
 	(done select: [ :each | 
-		(each package at: each name) pinocchioClass isNil 
+		(each package at: each name) pclass isNil 
 	]) isEmpty should be true.
 	
 	cdumper clear;

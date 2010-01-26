@@ -1,3 +1,3 @@
 exporting
 methodProvider
-	^ self cls
+	^ self sclass

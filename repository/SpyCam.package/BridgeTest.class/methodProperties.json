@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"export" : "CamilloBruni 12/2/2009 11:44",
-		"pinocchioMethods" : "CamilloBruni 12/2/2009 13:46" },
+		"pMethods" : "CamilloBruni 1/19/2010 14:31" },
 	"instance" : {
 		"assert:" : "ToonVerwaest 12/3/2009 18:28",
 		"tmBooleanEquals" : "CamilloBruni 12/2/2009 10:22",

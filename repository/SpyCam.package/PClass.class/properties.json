@@ -1,20 +1,17 @@
 {
-	"category" : "SpyCam-Pinocchio-Type",
+	"category" : "SpyCam-Pinocchio-Class",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "CamilloBruni 1/12/2010 15:13",
 	"instvars" : [
-		"layout",
-		"methods",
 		"name",
 		"package",
-		"superclass",
-		"pinocchioClass",
-		"cls" ],
+		"pmetaclass",
+		"sclass" ],
 	"name" : "PClass",
 	"pools" : [
 		 ],
-	"super" : "PType",
+	"super" : "PBehavior",
 	"type" : "variable" }

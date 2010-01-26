@@ -1,14 +1,15 @@
 convenience
 createClass: aPinocchioClass
 	| classLayout |
-	self flag: 'Should check the layout of the superclass'.
-	classLayout := aPinocchioClass pinocchioClass layout.
+	classLayout := aPinocchioClass pmetaclass layout.
 	self visit: classLayout.
 	self visit: aPinocchioClass name.
 	self visit: aPinocchioClass layout.
 	self put: aPinocchioClass
 		with:
-			'new_Class_withMeta((Object)' , aPinocchioClass superclass uid , ', ' , aPinocchioClass layout uid , ', ' ,
+			'new_Class_withMeta((Object)' ,
+					aPinocchioClass superclass uid , ', ' ,
+					aPinocchioClass layout uid , ', ' ,
 					classLayout uid , ')'.
 	stream
 		nextPutAll: '((Type_Class)';
@@ -17,6 +18,4 @@ createClass: aPinocchioClass
 		nextPutAll: aPinocchioClass name uid;
 		nextPutAll: ';';
 		cr.
-	self createMetaclass: aPinocchioClass.
-	self createClassMethods: aPinocchioClass pinocchioClass methods.
 	currentClass should = aPinocchioClass

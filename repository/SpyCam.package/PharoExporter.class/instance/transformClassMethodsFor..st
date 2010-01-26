@@ -2,7 +2,7 @@ exporting
 transformClassMethodsFor: aPinocchioClass
 	| method methods methodDict cls |
 	cls := aPinocchioClass methodProvider.
-	methods := aPinocchioClass pinocchioClassMethods.
+	methods := aPinocchioClass pClassMethods.
 	methodDict := Dictionary new.
 	methods do: [ :selector|
 		method := cls class methodDictionary at: selector.

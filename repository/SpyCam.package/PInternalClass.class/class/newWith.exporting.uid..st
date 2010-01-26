@@ -1,6 +1,7 @@
 initialize-release
 newWith: cls exporting: aPinocchioObject uid: uid
-	^ self new cls: cls ; 
+	^ self new sclass: cls; 
 		name: cls pinocchioName asPSymbol;
 		methodProvider: aPinocchioObject;
+		pclass: aPinocchioObject;
 		uid: uid.

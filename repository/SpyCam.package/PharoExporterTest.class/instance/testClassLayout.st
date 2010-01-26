@@ -1,5 +1,9 @@
 tests
 testClassLayout
-	| childClass parentClass |
-	childClass := self exportClass: ChildClassTestClass.
-	parentClass := self exportClass: SuperClassTestClass
+	| objectClass layout |
+	objectClass := self exportClass: Class.
+	layout := objectClass layout.
+	layout class should = PObjectLayout.
+	layout size should = 5.
+	self checkClassLayoutMembers: layout.
+	

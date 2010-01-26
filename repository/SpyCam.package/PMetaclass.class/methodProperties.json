@@ -1,8 +1,14 @@
 {
 	"class" : {
 		"isPinocchioInternalClass" : "CamilloBruni 12/9/2009 10:03",
-		"newWith:" : "CamilloBruni 1/19/2010 13:44",
-		"pinocchioMethods" : "CamilloBruni 1/11/2010 15:59" },
+		"newWithPClass:" : "CamilloBruni 1/19/2010 19:52",
+		"pInstVarNames" : "CamilloBruni 1/25/2010 15:30",
+		"pMethods" : "CamilloBruni 1/19/2010 14:31" },
 	"instance" : {
-		"cls" : "CamilloBruni 1/19/2010 13:44",
-		"cls:" : "CamilloBruni 1/19/2010 13:44" } }
+		"initialize" : "CamilloBruni 1/19/2010 14:00",
+		"pInstVarNames" : "CamilloBruni 1/25/2010 15:51",
+		"package" : "CamilloBruni 1/25/2010 16:28",
+		"pclass" : "CamilloBruni 1/20/2010 15:25",
+		"pclass:" : "CamilloBruni 1/20/2010 15:25",
+		"printOn:" : "CamilloBruni 1/20/2010 15:35",
+		"sclass" : "CamilloBruni 1/20/2010 15:24" } }

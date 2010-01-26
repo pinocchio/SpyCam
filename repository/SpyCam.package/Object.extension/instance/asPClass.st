@@ -7,12 +7,12 @@ asPClass
 		dict at: Class 			put: {PClass. 'Class'}.
 		dict at: Metaclass 		put: {PMetaclass. 'Metaclass'}.
 		dict at: Behavior 	 	put: {PBehavior. 'Behavior'}.
-		dict at: True 			put: {PTrue}.
-		dict at: False 			put: {PFalse}.
-		dict at: String 			put: {PString}.
-		dict at: Symbol 			put: {PSymbol}.
-		dict at: Character 		put: {PCharacter}.
-		dict at: SmallInteger 	put: {PSmallInt}.
+		dict at: True 			put: {PTrue. 'True_Class'}.
+		dict at: False 			put: {PFalse. 'False_Class'}.
+		dict at: String 			put: {PString. 'String_Class'}.
+		dict at: Symbol 			put: {PSymbol. 'Symbol_Class'}.
+		dict at: Character 		put: {PCharacter. 'Character_Class'}.
+		dict at: SmallInteger 	put: {PSmallInt. 'SmallInt_Class'}.
 	].
 	dict at: self ifPresent: [ :aTuple|
 		^ PInternalClass newWith: self 

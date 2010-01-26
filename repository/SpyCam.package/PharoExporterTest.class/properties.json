@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"pclass",
-		"currentRoot" ],
+		"currentRoot",
+		"currentClass",
+		"currentExporter" ],
 	"name" : "PharoExporterTest",
 	"pools" : [
 		 ],

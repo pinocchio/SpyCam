@@ -3,7 +3,7 @@ generateMethodInstallFor: method withCode: code
 	| closure |
 	closure := PMethodClosure new
 			code: code;
-			pinocchioClass: testCaseClass;
+			pclass: testCaseClass;
 			selector: method selector asPSymbol.
 	cdumper stream: outStream.
 	cdumper visit: closure.

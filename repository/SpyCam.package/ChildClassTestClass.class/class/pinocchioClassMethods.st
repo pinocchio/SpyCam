@@ -1,3 +1,0 @@
-exporting
-pinocchioClassMethods
-	^ #'pinocchio-export'

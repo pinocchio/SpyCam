@@ -4,7 +4,7 @@ installMethod: aPinocchioMethod
 	self currentClass ifNil: [ ^ aPinocchioMethod ].
 	closure := PMethodClosure new
 					code: aPinocchioMethod;
-					pinocchioClass: self currentClass;
+					pclass: self currentClass;
 					selector: aPinocchioMethod selector.
 	"Explicitely avoid caching for method closures"
 	closure accept: self.

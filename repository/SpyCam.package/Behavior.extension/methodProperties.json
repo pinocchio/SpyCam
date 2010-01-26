@@ -1,8 +1,8 @@
 {
 	"class" : {
-		 },
+		"pInstVarNames" : "CamilloBruni 1/20/2010 15:28" },
 	"instance" : {
-		"pinocchioClassMethods" : "CamilloBruni 1/12/2010 11:46",
-		"pinocchioMethods" : "TestRunner 11/12/2009 16:21",
+		"pClassMethods" : "CamilloBruni 1/19/2010 14:30",
+		"pMethods" : "CamilloBruni 1/19/2010 14:31",
 		"pinocchioName" : "DavidGurtner 12/9/2009 17:36",
 		"pinocchioPackage" : "CamilloBruni 12/14/2009 17:25" } }

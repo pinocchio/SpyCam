@@ -1,4 +1,6 @@
 convenience
 exportClass: aClass 
-	currentRoot := PharoExporter export: (OrderedCollection with: aClass).
-	self halt.
+	currentExporter := PharoExporter export: (OrderedCollection with: aClass).
+	currentRoot := currentExporter root.
+	currentClass := currentExporter classASTs at: aClass name.
+	^ currentClass

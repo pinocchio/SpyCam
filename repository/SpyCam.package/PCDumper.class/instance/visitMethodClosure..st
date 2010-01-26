@@ -7,7 +7,7 @@ visitMethodClosure: aPinocchioMethodClosure
 		with: ('new_Runtime_MethodClosure(', aPinocchioMethodClosure code uid, ')').
 		
 	stream nextPutAll: 'store_method((Type_Class)';
-		nextPutAll: aPinocchioMethodClosure pinocchioClass uid; 
+		nextPutAll: aPinocchioMethodClosure pclass uid; 
 		nextPutAll: ', (Type_Symbol)';
 		nextPutAll: aPinocchioMethodClosure selector uid;
 		nextPutAll: ', (Runtime_MethodClosure)';

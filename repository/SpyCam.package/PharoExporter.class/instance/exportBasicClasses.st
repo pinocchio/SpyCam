@@ -1,3 +1,6 @@
 convenience
 exportBasicClasses
-	self todo addFirst: Metaclass.
+	self todo addFirst: Object; 
+		addFirst: Behavior;
+		addFirst: Metaclass;
+		addFirst: Class.

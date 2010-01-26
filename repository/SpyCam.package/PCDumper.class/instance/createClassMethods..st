@@ -1,9 +1,9 @@
 visitor
-createClassMethods: methods
+createClassMethods: aPinocchioClass
 	| oldClass |
 	oldClass := currentClass.
-	currentClass  := currentClass pinocchioClass.
-	methods do: [ :each|
+	currentClass  := aPinocchioClass pmetaclass.
+	currentClass methods do: [ :each|
 		self visit: each.
 	].
 	currentClass := oldClass.

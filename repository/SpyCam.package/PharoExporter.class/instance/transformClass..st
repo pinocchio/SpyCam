@@ -1,16 +1,19 @@
 exporting
-transformClass: cls
-	| aPinocchioClass |
-	cls = ProtoObject ifTrue: [ ^ nil ].
-	aPinocchioClass := cls asPClass.
-	Transcript show: aPinocchioClass.
+transformClass: sclassIn
+	| aPinocchioClass sclass|
+	sclass := self shortcutSClass: sclassIn.
+	sclass ifNil: [ ^ nil].
+	aPinocchioClass := sclass asPClass.
 	self done at: aPinocchioClass ifPresent: [ :present | ^ present ].
+	
+	Transcript show: aPinocchioClass.
 	
 	self haltIf: (pinocchioVisitor rootScope isKindOf: PRootScope) not.
 	
 	Transcript show: aPinocchioClass name; cr.
+	
 	self done at: aPinocchioClass put: aPinocchioClass.
-	aPinocchioClass package: (self ensurePackageFor: aPinocchioClass cls).
+	aPinocchioClass package: (self ensurePackageFor: aPinocchioClass sclass).
 	self declareClassReference: (self ensureClassReferenceFor: aPinocchioClass) as: aPinocchioClass name asSymbol.
 	self transformSuperClassOf: aPinocchioClass.
 	self transformClassSideOf: aPinocchioClass.
@@ -19,5 +22,4 @@ transformClass: cls
 	aPinocchioClass methods: (self transformMethodsFor: aPinocchioClass).
 	
 	classASTs at: aPinocchioClass name asSymbol put: aPinocchioClass.
-	
 	^ aPinocchioClass.
