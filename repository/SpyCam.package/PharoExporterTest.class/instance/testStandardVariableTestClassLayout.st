@@ -1,12 +1,12 @@
 tests
 testStandardVariableTestClassLayout
 	| objectClass layout metaLayout |
-	objectClass := self exportClass: StandardTestClass.
+	objectClass := self exportClass: StandardVariableTestClass.
 	layout := objectClass layout.
-	layout class should = PObjectLayout.
+	layout class should = PArrayLayout.
 	layout size should = 3.
 	
 	metaLayout := objectClass pmetaclass layout.
 	metaLayout class should = PObjectLayout.
-	metaLayout size should = (5+2).
+	metaLayout size should = 5.
 	self checkClassLayoutMembers: metaLayout.
