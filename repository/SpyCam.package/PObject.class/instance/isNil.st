@@ -1,3 +1,3 @@
 pinocchio-export
-name 
-	^ name
+isNil
+	^ false
