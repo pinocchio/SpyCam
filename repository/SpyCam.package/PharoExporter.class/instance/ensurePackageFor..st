@@ -1,3 +1,3 @@
 exporting
-ensurePackageFor: cls
-	^ root ensurePath: ('-' split: cls pinocchioPackage).
+ensurePackageFor: sclass
+	^ root ensurePath: ('-' split: sclass pinocchioPackage).

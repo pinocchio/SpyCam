@@ -1,3 +1,0 @@
-pinocchio-export
-super
-	^ super

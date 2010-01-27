@@ -2,7 +2,7 @@ as yet unclassified
 pClassInstVarNames
 	^ OrderedCollection
 		with: #type
-		with: #super
+		with: #superclass
 		with: #methods
 		with: #name
 		with: #package

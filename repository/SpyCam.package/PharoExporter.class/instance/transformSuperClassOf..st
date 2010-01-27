@@ -7,4 +7,4 @@ transformSuperClassOf: aPinocchioClass.
 		].
 	"Could be that we got ProtoObject. In this case transformClass returns nil!"
 	aPinocchioClass superclass ifNil: [aPinocchioClass superclass: PNil nil].
-	self haltIf: aPinocchioClass superclass isNil.
+	self haltIf: aPinocchioClass superclass class = UndefinedObject.

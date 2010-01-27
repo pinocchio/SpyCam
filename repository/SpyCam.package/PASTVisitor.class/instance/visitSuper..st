@@ -1,3 +1,4 @@
 visitor
-visitSuper: anASTSuper 
+visitSuper: anASTSuper
+	self halt.
 	^ anASTSuper
