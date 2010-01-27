@@ -3,4 +3,6 @@ pClassInstVarNames
 	^ OrderedCollection
 		with: #type
 		with: #super
-		with: #methods 
+		with: #methods
+		with: #name
+		with: #package

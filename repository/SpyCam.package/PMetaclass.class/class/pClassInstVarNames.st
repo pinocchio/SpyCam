@@ -1,3 +1,0 @@
-exporting
-pClassInstVarNames 
-	^ OrderedCollection new.
