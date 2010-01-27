@@ -1,3 +1,3 @@
 exporting
-pInstVarNames
+pClassInstVarNames
 	^ self sclass class instVarNames

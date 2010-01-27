@@ -7,7 +7,8 @@
 		"pMethods" : "CamilloBruni 1/19/2010 14:31" },
 	"instance" : {
 		"initialize" : "CamilloBruni 1/19/2010 14:00",
-		"pInstVarNames" : "CamilloBruni 1/25/2010 15:51",
+		"instVariables" : "CamilloBruni 1/27/2010 15:44",
+		"pClassInstVarNames" : "CamilloBruni 1/27/2010 15:43",
 		"package" : "CamilloBruni 1/25/2010 16:28",
 		"pclass" : "CamilloBruni 1/20/2010 15:25",
 		"pclass:" : "CamilloBruni 1/20/2010 15:25",

@@ -1,3 +1,6 @@
 exporting
 pClassInstVarNames 
-	^ OrderedCollection with: #name with: #package
+	^ (OrderedCollection withAll: super pClassInstVarNames)
+		add: #name;
+		add: #package;
+		yourself

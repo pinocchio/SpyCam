@@ -8,5 +8,5 @@ testStandardVariableTestClassLayout
 	
 	metaLayout := objectClass pmetaclass layout.
 	metaLayout class should = PObjectLayout.
-	metaLayout size should = 5.
+	metaLayout size should = (5+2).
 	self checkClassLayoutMembers: metaLayout.
