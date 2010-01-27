@@ -10,3 +10,4 @@ visitMethod: aPinocchioMethod
 						'(Type_Array)', aPinocchioMethod params uid, ', ',
 						'(Type_Array)', aPinocchioMethod locals uid).
 	self installMethod: aPinocchioMethod.
+	self newline.

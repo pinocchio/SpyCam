@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"newWith:" : "CamilloBruni 1/25/2010 15:40",
-		"pInstVarNames" : "CamilloBruni 1/25/2010 15:31" },
+		"pClassInstVarNames" : "CamilloBruni 1/27/2010 14:54",
+		"pInstVarNames" : "CamilloBruni 1/27/2010 14:59" },
 	"instance" : {
 		"=" : "CamilloBruni 12/11/2009 13:07",
 		"createPMetaclass" : "CamilloBruni 1/19/2010 16:24",

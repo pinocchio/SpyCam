@@ -2,7 +2,8 @@
 	"class" : {
 		"isPinocchioInternalClass" : "CamilloBruni 12/9/2009 10:03",
 		"newWithPClass:" : "CamilloBruni 1/19/2010 19:52",
-		"pInstVarNames" : "CamilloBruni 1/25/2010 15:30",
+		"pClassInstVarNames" : "CamilloBruni 1/27/2010 14:59",
+		"pInstVarNames" : "CamilloBruni 1/27/2010 14:59",
 		"pMethods" : "CamilloBruni 1/19/2010 14:31" },
 	"instance" : {
 		"initialize" : "CamilloBruni 1/19/2010 14:00",
