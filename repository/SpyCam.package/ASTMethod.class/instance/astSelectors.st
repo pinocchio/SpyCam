@@ -1,3 +1,3 @@
 accessing
 astSelectors 
-	^ #(#annotations #message #statements #temporaries).
+	^ Array with: #annotations with: #message with: #statements with: #temporaries.
