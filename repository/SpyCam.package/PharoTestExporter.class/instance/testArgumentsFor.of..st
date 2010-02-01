@@ -1,12 +1,13 @@
 convenience
-testArgumentsFor: anASTMethod of: aCompileMethod 
-	| pragma arguments |
-	anASTMethod annotations isEmpty  ifTrue: [
-		arguments := Array new.
-	] ifFalse: [
-		arguments := 
-			(aCompileMethod literals select: [ :each|
-					each isKindOf: AdditionalMethodState
-			]) first pragmas first arguments.
+testArgumentsFor: aPMethod of: aCompileMethod 
+	| pragma arguments firstKeyword |
+	aPMethod annotations isEmpty  ifTrue: [
+		^ Array new.
 	].
-	^ arguments
+	"make sure that the test methods have the number of args in the first annotation"
+	firstKeyword := aPMethod annotations first keywords first constant asSymbol.
+	(firstKeyword  = #arg1 or: [ firstKeyword = #arg])
+		ifFalse: [^ Array new].
+	^ (aCompileMethod literals select: [ :each|
+			each isKindOf: AdditionalMethodState
+		]) first pragmas first arguments.

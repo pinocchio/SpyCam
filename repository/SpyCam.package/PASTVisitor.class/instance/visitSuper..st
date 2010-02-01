@@ -1,4 +1,3 @@
 visitor
 visitSuper: anASTSuper
-	self halt.
-	^ anASTSuper
+	self error: 'Should not get an AST Super'.

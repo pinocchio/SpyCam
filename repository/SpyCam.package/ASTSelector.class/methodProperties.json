@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"astSelectors" : "TestRunner 10/21/2009 13:45" },
+		"astSelectors" : "CamilloBruni 1/27/2010 23:30" },
 	"instance" : {
 		"asString" : "TestRunner 11/2/2009 15:45",
 		"compatibleWith:" : "TestRunner 11/11/2009 14:40",
-		"parameters" : "TestRunner 10/22/2009 19:33",
+		"parameters" : "CamilloBruni 1/27/2010 23:30",
 		"printOn:" : "TestRunner 10/27/2009 17:47",
 		"selector" : "TestRunner 10/27/2009 16:24",
 		"selector:" : "CamilloBruni 12/15/2009 15:58",

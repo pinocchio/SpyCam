@@ -20,7 +20,8 @@
 		"exportClassAST",
 		"pinocchioClassPackage",
 		"pinocchioClass",
-		"exportClassInstance" ],
+		"exportClassInstance",
+		"name" ],
 	"name" : "PharoTestExporter",
 	"pools" : [
 		 ],

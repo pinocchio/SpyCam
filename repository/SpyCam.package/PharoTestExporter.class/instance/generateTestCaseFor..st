@@ -6,7 +6,8 @@ generateTestCaseFor: methodSelector
 	self separator.
 	selector := self createSelectorFor: methodSelector.
 	outStream nextPutAll: 'NEW_TEST(';
-		nextPutAll: 'AutoGenTest_';
+		nextPutAll: self name;
+		nextPutAll: '_';
 		nextPutAll: selector asString;
 		nextPutAll: ')'; cr.
 	self generateMethodSourceStringFor: method.

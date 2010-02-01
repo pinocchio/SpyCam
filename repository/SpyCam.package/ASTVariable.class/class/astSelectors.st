@@ -1,3 +1,5 @@
 accessing
 astSelectors 
-	^ OrderedCollection newFrom: self superclass astSelectors; add: #name
+	self halt.
+	^ (OrderedCollection newFrom: self superclass astSelectors) 
+		add: #name

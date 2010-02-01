@@ -1,3 +1,3 @@
 exporting
 pexportTest
-	self pexportTest: 'scparser-test.ci'
+	self pexportTest: 'scparser-test.ci' named: 'SCParserTest'.

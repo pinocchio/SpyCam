@@ -1,14 +1,14 @@
 exporting
 transformMethodsFor: aPinocchioClass
-	| method methods methodDict cls |
+	| method methods methodDict sclass |
 	pinocchioVisitor pclass: aPinocchioClass.
 	
-	cls := aPinocchioClass methodProvider.
+	sclass := aPinocchioClass methodProvider.
 	methods := aPinocchioClass pMethods.
 	methodDict := Dictionary new.
 	methods do: [ :selector|
-		method := cls methodDictionary at: selector.
-		Transcript show: ('    ', cls name, '>>', method selector); cr.
+		method := sclass methodDictionary at: selector.
+		Transcript show: ('    ', sclass name, '>>', method selector); cr.
 		method :=  self transformMethod: method getSource.
 		methodDict at: method selector put: method.
 	].

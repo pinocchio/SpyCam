@@ -1,3 +1,3 @@
 accessing
 astSelectors 
-	^ #(#literals).
+	^ Array with: #literals.

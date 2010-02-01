@@ -1,3 +1,3 @@
 exporting
 pexportTest
-	self pexportTest: 'bridge-test.ci'
+	self pexportTest: 'bridge-test.ci' named: 'BridgeTest'.

@@ -1,5 +1,5 @@
 accessing
 astSelectors 
-	^ OrderedCollection newFrom: #(#argument #receiver); 
+	^ (OrderedCollection with: #argument with: #receiver) 
 		addAll: super astSelectors;
 		yourself.

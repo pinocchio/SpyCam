@@ -1,11 +1,12 @@
 {
 	"class" : {
 		"pMethods" : "CamilloBruni 1/19/2010 14:31",
-		"pexportTest" : "CamilloBruni 1/27/2010 17:17" },
+		"pexportTest" : "CamilloBruni 2/1/2010 16:42" },
 	"instance" : {
 		"assert:" : "ToonVerwaest 12/3/2009 18:28",
 		"tmBooleanEquals" : "CamilloBruni 12/2/2009 10:22",
 		"tmBooleanFalse" : "CamilloBruni 12/2/2009 10:22",
+		"tmBooleanNotEquals" : "CamilloBruni 1/28/2010 00:03",
 		"tmBooleanSymbolEquals" : "CamilloBruni 12/8/2009 11:13",
 		"tmBooleanTrue" : "CamilloBruni 12/2/2009 10:22",
 		"tmCharacter" : "CamilloBruni 12/2/2009 10:22",
@@ -27,16 +28,19 @@
 		"tmNumberDiv" : "CamilloBruni 12/2/2009 10:22",
 		"tmNumberEquals" : "CamilloBruni 12/2/2009 10:22",
 		"tmNumberMult" : "CamilloBruni 12/2/2009 10:22",
+		"tmNumberNotEquals" : "CamilloBruni 1/28/2010 00:03",
 		"tmNumberSubtract" : "CamilloBruni 12/2/2009 10:22",
 		"tmSimpleBasicArithmetik" : "CamilloBruni 12/9/2009 11:06",
 		"tmSimpleInstanceCreation" : "CamilloBruni 12/15/2009 16:00",
 		"tmSimpleReturn" : "CamilloBruni 12/2/2009 10:22",
 		"tmString" : "CamilloBruni 12/2/2009 10:22",
 		"tmStringEquals" : "CamilloBruni 12/2/2009 10:22",
+		"tmStringNotEquals" : "CamilloBruni 1/28/2010 00:03",
 		"tmSuperClass" : "CamilloBruni 12/15/2009 16:01",
 		"tmSuperClassSuperSend" : "CamilloBruni 12/15/2009 16:01",
 		"tmSymbol" : "CamilloBruni 12/2/2009 10:22",
 		"tmSymbolCharacterEquals" : "CamilloBruni 12/8/2009 11:12",
 		"tmSymbolEquals" : "CamilloBruni 12/2/2009 10:22",
+		"tmSymbolNotEquals" : "CamilloBruni 1/28/2010 00:04",
 		"tmVariableInstanceCreation" : "CamilloBruni 12/15/2009 16:01",
 		"tmVariableInstanceCreationSized" : "CamilloBruni 12/15/2009 16:01" } }

@@ -7,7 +7,7 @@ generateTestClass
 		onAssignTo: [ :str :ast | self generateDeclarationFor: ast withString: str];
 		export.
 	
-	outStream cr; nextPutAll: 'void create_ast() {'; cr.
+	outStream cr; nextPutAll: 'void ', self name,'_create_ast() {'; cr.
 	exporter printOn: outStream.
 	outStream nextPutAll: '}'; cr.
 	

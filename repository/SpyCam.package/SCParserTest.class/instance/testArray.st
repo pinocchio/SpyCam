@@ -5,7 +5,7 @@ testArray
 	string := PEGStringScanner on: '()'.
 	result := parser match: string.
 	result class should = ASTArray.
-	result literals asArray should = #().
+	result literals asArray should = Array new.
 	string := PEGStringScanner on: '(1 a #a ''b'' (4)))'.
 	result := parser match: string.
 	result class should = ASTArray.

@@ -2,13 +2,14 @@ exporting
 generateTestSuite
 	self separator.
 	outStream nextPutAll: 'TEST_SUITE(';
-		nextPutAll: 'AutoGenTest,'; cr;
+		nextPutAll: self name,','; cr;
 		nextPutAll: '{'; cr.
 	self generateTestClassInstance.
 	outStream cr.
 	selectorList do: [ :selector|
 		outStream nextPutAll: '    RUN_TEST(';
-			nextPutAll: 'AutoGenTest_';
+			nextPutAll: self name;
+			nextPutAll: '_';
 			nextPutAll: selector asString ;
 			nextPutAll: ');'; cr.
 	].

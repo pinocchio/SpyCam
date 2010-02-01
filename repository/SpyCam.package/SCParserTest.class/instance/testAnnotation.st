@@ -6,7 +6,11 @@ testAnnotation
 	string := PEGStringScanner on: '<abc: 1 def: (2 + 3) ghi: (3 b)>'.
 	result := parser match: string.
 	result class should = ASTKeywordAnnotation.
-	(result keywords asArray collect: #asSymbol) should = #(#abc #def #ghi).
+	(result keywords asArray collect: #asSymbol) should = ((Array new: 3)
+	at: 1 put: #abc;
+	at: 2 put: #def;
+	at: 3 put: #ghi;
+	yourself).
 	arg := result arguments first.
 	arg class should = ASTNumber.
 	arg := result arguments at: 2.
@@ -22,5 +26,9 @@ testAnnotation
 	string := PEGStringScanner on: '<temps: 4 annotations: 1 statements: 2>'.
 	result := parser match: string.
 	result class should = ASTKeywordAnnotation.
-	(result keywords asArray collect: #asSymbol) should = #('temps' 'annotations' 'statements').
+	(result keywords asArray collect: #asSymbol) should = ((Array new: 3)
+	at: 1 put: 'temps';
+	at: 2 put: 'annotations';
+	at: 3 put: 'statements';
+	yourself).
 	string atEnd should be true.

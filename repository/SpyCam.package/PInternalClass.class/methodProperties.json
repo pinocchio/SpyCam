@@ -3,6 +3,7 @@
 		"newWith:exporting:uid:" : "CamilloBruni 1/25/2010 15:24" },
 	"instance" : {
 		"createPMetaclass" : "CamilloBruni 1/19/2010 16:21",
+		"initialize" : "CamilloBruni 2/2/2010 00:39",
 		"isInternal" : "CamilloBruni 1/25/2010 16:37",
 		"methodProvider" : "CamilloBruni 12/11/2009 13:23",
 		"methodProvider:" : "CamilloBruni 12/11/2009 13:23",

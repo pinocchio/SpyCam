@@ -1,3 +1,3 @@
 accessing
 astSelectors 
-	^ #(#selector).
+	^ Array with: #selector.

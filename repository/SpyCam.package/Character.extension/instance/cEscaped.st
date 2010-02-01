@@ -1,7 +1,7 @@
 *SpyCam-Pinocchio
 cEscaped
 	| dictArray dict |
-	dictArray := #( nil. ).
+	dictArray := Array with: nil with: #'.'.
 	dict := dictArray at: 1.
 	dict ifNil: [
 		dict := SmallDictionary new.
