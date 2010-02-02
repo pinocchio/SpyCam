@@ -7,7 +7,8 @@ generateTestSuite
 	self generateTestClassInstance.
 	outStream cr.
 	selectorList do: [ :selector|
-		outStream nextPutAll: '    RUN_TEST(';
+		outStream nextPutAll: '    ',self name, '_setUp();'; cr;
+			nextPutAll: '    RUN_TEST(';
 			nextPutAll: self name;
 			nextPutAll: '_';
 			nextPutAll: selector asString ;

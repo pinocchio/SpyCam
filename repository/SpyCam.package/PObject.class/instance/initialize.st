@@ -1,3 +1,2 @@
-initialization
+pinocchio-export
 initialize
-	super initialize.

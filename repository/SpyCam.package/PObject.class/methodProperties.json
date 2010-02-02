@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"UIDCounter:" : "TestRunner 11/11/2009 14:22",
+		"asPClass" : "CamilloBruni 2/2/2010 15:00",
 		"asPinocchioInternalClass" : "CamilloBruni 12/9/2009 09:44",
 		"initialize" : "TestRunner 11/11/2009 14:21",
 		"isPinocchioInternalClass" : "CamilloBruni 12/9/2009 10:03",
@@ -12,11 +13,12 @@
 	"instance" : {
 		"doesNotUnderstand:" : "CamilloBruni 11/10/2009 18:27",
 		"hash" : "TestRunner 11/17/2009 11:11",
-		"initialize" : "TestRunner 11/11/2009 14:17",
+		"initialize" : "CamilloBruni 2/2/2010 16:27",
 		"isInternal" : "CamilloBruni 12/9/2009 10:38",
 		"isNil" : "CamilloBruni 1/27/2010 16:59",
 		"isReturnExpression" : "TestRunner 10/27/2009 15:59",
 		"objectName" : "ToonVerwaest 11/5/2009 11:20",
 		"uid" : "TestRunner 10/27/2009 13:39",
 		"uid:" : "TestRunner 11/4/2009 14:08",
-		"yourself" : "CamilloBruni 1/27/2010 16:56" } }
+		"yourself" : "CamilloBruni 1/27/2010 16:56",
+		"~=" : "CamilloBruni 2/2/2010 16:06" } }

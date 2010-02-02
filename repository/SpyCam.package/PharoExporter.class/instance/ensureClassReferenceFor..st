@@ -14,5 +14,6 @@ ensureClassReferenceFor: aPinocchioClass
 		ifPresent: [ :el | el becomeForward: classReference ].
 	
 	self checkClassReference: classReference.
-		
+	
+	self assert: classReference isNil not.
 	^ classReference

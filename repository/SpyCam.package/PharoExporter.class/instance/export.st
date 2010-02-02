@@ -7,9 +7,9 @@ export
 		self fetchDanglingClassReferences
 	].
 
-	(pinocchioVisitor rootScope decls select: [ :each | 
+	(pinocchioVisitor rootScope decls anySatisfy: [ :each | 
 		each pclass isNil 
-	]) isEmpty should be true.
+	]) should be false.
 
 	(done select: [ :each | 
 		(each package at: each name) pclass isNil 

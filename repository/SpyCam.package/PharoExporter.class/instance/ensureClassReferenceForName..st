@@ -4,11 +4,12 @@ ensureClassReferenceForName: aString
 	cls := Smalltalk at: aString asSymbol.
 	package := self ensurePackageFor: cls.
 	aClassNameSymbol := cls pinocchioName asPSymbol.
+	
 	package at: aClassNameSymbol ifPresent: [ :el| ^ el].
 	
 	aClassReference := PClassReference named: aClassNameSymbol
 													in: package.
 	Transcript show: ('ensureClassReferenceForName: ', aClassNameSymbol printString).
 	package storeClassReference: aClassReference.
-	self todo add: cls.
+	(self todo includes: cls) ifFalse: [ self todo add: cls ].
 	^ aClassReference

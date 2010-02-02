@@ -1,3 +1,3 @@
 accessing
 pclass
-	^ pinocchioClass
+	^ pClass
