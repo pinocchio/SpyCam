@@ -1,3 +1,4 @@
 accessing
 uid
+	<preventExport>
 	^ #Nil

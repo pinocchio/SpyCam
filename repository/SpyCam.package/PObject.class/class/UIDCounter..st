@@ -1,3 +1,4 @@
 accessing
-UIDCounter: anObject 
+UIDCounter: anObject
+	<preventExport>
 	uidCounter := anObject

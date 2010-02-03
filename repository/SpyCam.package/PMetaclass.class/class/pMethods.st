@@ -1,3 +1,3 @@
 exporting
 pMethods
-	^ #'pinocchio-export'.
+	^ #all.

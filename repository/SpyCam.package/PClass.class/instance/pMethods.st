@@ -1,5 +1,6 @@
 exporting
 pMethods
+	self halt.
 	methods := sclass pMethods.
 	methods = #all ifTrue: [
 		^ sclass methods collect: #selector. 

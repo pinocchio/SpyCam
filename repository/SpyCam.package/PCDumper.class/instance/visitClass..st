@@ -7,7 +7,6 @@ visitClass: aPinocchioClass
 	
 	oldClass := self currentClass.
 	self currentClass: aPinocchioClass.
-	self currentClass isInternal ifTrue: [ self halt. ].
 	
 	self createClass: aPinocchioClass.
 	self createMetaclass: aPinocchioClass.

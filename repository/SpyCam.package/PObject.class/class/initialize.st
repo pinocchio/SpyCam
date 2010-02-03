@@ -1,4 +1,4 @@
 initialize-release
 initialize 
-	super initialize.
+	<preventExport>
 	uidCounter := 0.

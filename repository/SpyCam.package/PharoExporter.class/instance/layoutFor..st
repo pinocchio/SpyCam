@@ -1,6 +1,6 @@
 exporting
 layoutFor: aPinocchioClass
-	| layout |
+	| layout |	
 	aPinocchioClass sclass isFixed ifTrue: [
 		^ PObjectLayout newFrom: aPinocchioClass instVariables.
 	].
@@ -16,6 +16,6 @@ layoutFor: aPinocchioClass
 	aPinocchioClass sclass isWeak ifTrue: [ 
 		self error: 'Not supperted layout!'.
 	].
-	self error: 'Got unknown type'.
+	self error: 'Got unknown layout'.
 	
 	

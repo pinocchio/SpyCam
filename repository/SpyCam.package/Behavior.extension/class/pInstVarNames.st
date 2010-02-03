@@ -1,6 +1,6 @@
 *SpyCam-Pinocchio
 pInstVarNames
 	^ OrderedCollection
-		with: #type
+		with: #layout
 		with: #super
 		with: #methods.

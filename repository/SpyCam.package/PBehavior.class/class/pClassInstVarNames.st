@@ -1,7 +1,7 @@
 as yet unclassified
 pClassInstVarNames
 	^ OrderedCollection
-		with: #type
+		with: #layout
 		with: #superclass
 		with: #methods
 		with: #name

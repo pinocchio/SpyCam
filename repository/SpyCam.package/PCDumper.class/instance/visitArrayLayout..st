@@ -5,7 +5,7 @@ visitArrayLayout: aPinocchioArrayLayout
 		^ aPinocchioArrayLayout uid: 'empty_array_layout'.
 	].
 	self put: aPinocchioArrayLayout 
-		with: 'create_type_with_vars(Type_ArrayLayout, ',
+		with: 'create_layout_with_vars(Type_ArrayLayout, ',
 				aPinocchioArrayLayout size asString ,')'.
 						
 	1 to: aPinocchioArrayLayout size do: [ :index|

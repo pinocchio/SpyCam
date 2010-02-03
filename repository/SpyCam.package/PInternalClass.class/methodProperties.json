@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"newWith:exporting:uid:" : "CamilloBruni 1/25/2010 15:24" },
+		"newWith:exporting:uid:" : "CamilloBruni 1/25/2010 15:24",
+		"newWith:uid:" : "CamilloBruni 2/3/2010 11:23" },
 	"instance" : {
 		"createPMetaclass" : "CamilloBruni 1/19/2010 16:21",
 		"initialize" : "CamilloBruni 2/2/2010 00:39",
-		"isInternal" : "CamilloBruni 1/25/2010 16:37",
 		"methodProvider" : "CamilloBruni 12/11/2009 13:23",
 		"methodProvider:" : "CamilloBruni 12/11/2009 13:23",
 		"pInstVarNames" : "CamilloBruni 1/25/2010 15:24",
-		"pMethods" : "CamilloBruni 1/19/2010 14:31",
+		"pMethods" : "CamilloBruni 2/3/2010 13:21",
 		"pclass" : "CamilloBruni 1/20/2010 15:21",
 		"pclass:" : "CamilloBruni 1/20/2010 15:21",
-		"uid" : "CamilloBruni 2/2/2010 13:18",
-		"uid:" : "CamilloBruni 12/9/2009 10:43" } }
+		"uid" : "CamilloBruni 2/3/2010 13:48",
+		"uid:" : "CamilloBruni 2/3/2010 13:48" } }

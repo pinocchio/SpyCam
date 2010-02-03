@@ -1,10 +1,11 @@
 exporting
 pClassMethods
-	methods := sclass pClassMethods.
+	methods := self methodProvider pClassMethods.
 	methods = #all ifTrue: [
-		^ sclass class methods collect: #selector. 
+		methods := self methodProvider class methods collect: #selector. 
 	].
 	methods isSymbol ifTrue: [
-		^ sclass class organization listAtCategoryNamed: methods
+		methods := self methodProvider class organization listAtCategoryNamed: methods
 	].
-	^ methods.
+	
+	^ self methodProvider class filterExportMethodSelectors: methods.

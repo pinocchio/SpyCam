@@ -1,3 +1,4 @@
 accessing
-pMethods 
-	^ #'pinocchio-export'.
+pMethods
+	<preventExport>
+	^ #all.

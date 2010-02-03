@@ -1,6 +1,6 @@
 deprecated
 generateAssertForResult: anObject 
-	"generate an asser() type of thing. If the object is simple (Bool, Number)
+	"generate an asser() layout of thing. If the object is simple (Bool, Number)
 	create a direct c assert for increased readability"
 	anObject ifNil: [
 		^ self putAssert: 'result == Nil'.
@@ -14,4 +14,4 @@ generateAssertForResult: anObject
 	(anObject isKindOf: Character) ifTrue: [
 		^ self putAssert: '((Type_Character)result)->value == ''', (anObject asString), ''''.
 	].
-	self error: 'Incompatible type given'.
+	self error: 'Incompatible layout given'.

@@ -1,6 +1,6 @@
 initialize-release
 symbolDefintion
-    "Auto generated Symbol definition from system/type/SymbolInitialization.ci
+    "Auto generated Symbol definition from system/layout/SymbolInitialization.ci
      Use the script at _meta/extractSymbols to generate this method"
 
     ^ (Array new: 63)

@@ -1,3 +1,3 @@
 typing
 combineTypeWith: anObject
-	self type combineWith: anObject type.
+	self layout combineWith: anObject layout.

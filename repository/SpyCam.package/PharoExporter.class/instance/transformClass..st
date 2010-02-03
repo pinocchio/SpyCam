@@ -6,11 +6,11 @@ transformClass: sclassIn
 	aPinocchioClass := sclass asPClass.
 	self done at: aPinocchioClass name ifPresent: [ :present | ^ present ].
 	
-	Transcript show: aPinocchioClass.
+	"Transcript show: aPinocchioClass."
 	
 	self haltIf: (pinocchioVisitor rootScope isKindOf: PRootScope) not.
 	
-	Transcript show: aPinocchioClass name; cr.
+	"Transcript show: aPinocchioClass name; cr."
 	
 	self done at: aPinocchioClass name put: aPinocchioClass.
 	aPinocchioClass package: (self ensurePackageFor: aPinocchioClass sclass).

@@ -1,6 +1,6 @@
 exporting
 pInstVarNames
 	^ OrderedCollection
-		with: #type
+		with: #layout
 		with: #superclass
 		with: #methods.

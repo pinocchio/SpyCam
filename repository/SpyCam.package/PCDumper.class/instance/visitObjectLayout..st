@@ -5,7 +5,7 @@ visitObjectLayout: aPinocchioObjectLayout
 		^ aPinocchioObjectLayout uid: 'empty_object_layout'.
 	].
 	self put: aPinocchioObjectLayout 
-		with: 'create_type_with_vars(Type_ObjectLayout, ',
+		with: 'create_layout_with_vars(Type_ObjectLayout, ',
 										 aPinocchioObjectLayout size asString ,')'.
 	1 to: aPinocchioObjectLayout size do: [ :index|
 		element := aPinocchioObjectLayout at: index.

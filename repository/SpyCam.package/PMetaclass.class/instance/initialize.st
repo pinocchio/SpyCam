@@ -2,7 +2,7 @@ initialization
 initialize
 	super initialize.
 	instVarNames := OrderedCollection 
-		with: #type 
+		with: #layout 
 		with: #super 
 		with: #methods 
 		with: #name 

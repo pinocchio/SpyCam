@@ -1,3 +1,3 @@
 typing
 hasSameTypeAs: anObject
-	^ self type isSameTypeAs: anObject type 
+	^ self layout isSameTypeAs: anObject layout 

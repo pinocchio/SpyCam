@@ -9,7 +9,7 @@ generateEqualsSendFor: anObject
 		]
 	].
 	
-	ast ifNil: [ self error: 'Unknown type given']. 
+	ast ifNil: [ self error: 'Unknown layout given']. 
 	cdumper stream: outStream.
 	cdumper visit: ast.
 	outStream nextPutAll: 'result = Eval_Send1(result, SMB__equal, ';

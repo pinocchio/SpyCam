@@ -1,3 +1,4 @@
 accessing
 uid: cSymbol
- uid := cSymbol
+	<preventExport>
+ 	uid := cSymbol

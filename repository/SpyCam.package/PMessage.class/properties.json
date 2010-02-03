@@ -1,0 +1,14 @@
+{
+	"category" : "SpyCam-Pinocchio-Runtime",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector" ],
+	"name" : "PMessage",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "variable" }
