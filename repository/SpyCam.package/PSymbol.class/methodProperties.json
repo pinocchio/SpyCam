@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"clearSymbolCache" : "TestRunner 11/17/2009 10:33",
-		"initialize" : "TestRunner 11/17/2009 10:33",
-		"initializeSymbols" : "CamilloBruni 1/19/2010 11:16",
-		"named:" : "CamilloBruni 12/9/2009 11:28",
-		"symbolDefintion" : "CamilloBruni 2/3/2010 13:42",
-		"symbolDictionary" : "TestRunner 11/17/2009 10:06" },
+		"clearSymbolCache" : "CamilloBruni 2/3/2010 14:50",
+		"initialize" : "CamilloBruni 2/3/2010 14:50",
+		"initializeSymbols" : "CamilloBruni 2/3/2010 14:50",
+		"named:" : "CamilloBruni 2/3/2010 14:51",
+		"symbolDefintion" : "CamilloBruni 2/3/2010 14:50",
+		"symbolDictionary" : "CamilloBruni 2/3/2010 14:50" },
 	"instance" : {
 		"=" : "CamilloBruni 12/9/2009 11:07",
 		"asPSymbol" : "TestRunner 11/18/2009 14:34",

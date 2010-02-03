@@ -1,7 +1,7 @@
 {
 	"category" : "SpyCam-Pinocchio-IO",
 	"classinstvars" : [
-		 ],
+		"stream" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

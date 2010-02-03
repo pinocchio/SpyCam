@@ -5,6 +5,6 @@ parentInstVariables
 	self hasSuperclass ifTrue: [
 		instVars addAll: self superclass layout.
 	] ifFalse: [ 
-		Transcript show: self sclass name, ' superclass was nil'; cr 
+		"Transcript show: self sclass name, ' superclass was nil'; cr "
 	].
 	^ instVars

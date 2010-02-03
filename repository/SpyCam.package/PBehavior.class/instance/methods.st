@@ -1,3 +1,3 @@
-pinocchio-export
+accessing
 methods
 	^ methods

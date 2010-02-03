@@ -1,3 +1,4 @@
-accessing
+pharo-exporter
 methodProvider
+	<preventExport>
 	^ methodProvider

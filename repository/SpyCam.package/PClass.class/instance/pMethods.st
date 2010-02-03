@@ -1,11 +1,11 @@
-exporting
+pharo-exporter
 pMethods
-	self halt.
+	<preventExport>
 	methods := sclass pMethods.
 	methods = #all ifTrue: [
-		^ sclass methods collect: #selector. 
+		methods := sclass methods collect: #selector. 
 	].
 	methods isSymbol ifTrue: [
-		^ sclass organization listAtCategoryNamed: methods
+		methods := sclass organization listAtCategoryNamed: methods
 	].
-	^ methods.
+	^ sclass filterExportMethodSelectors: methods.

@@ -1,3 +1,3 @@
-exporting
+pharo-exporting
 pInstVarNames 
 	^ OrderedCollection new.

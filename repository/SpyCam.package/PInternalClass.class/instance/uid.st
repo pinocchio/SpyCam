@@ -1,4 +1,4 @@
-accessing
+pharo-exporter
 uid
 	<preventExport>
 	uid ifNotNil: [ ^ uid ].

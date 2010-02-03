@@ -1,3 +1,4 @@
-exporting
+pharo-exporting
 pMethods
+	<preventExport>
 	^ #all.

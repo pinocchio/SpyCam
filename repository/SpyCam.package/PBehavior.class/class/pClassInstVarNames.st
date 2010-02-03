@@ -1,5 +1,6 @@
-as yet unclassified
+pharo-exporting
 pClassInstVarNames
+	<preventExport>
 	^ OrderedCollection
 		with: #layout
 		with: #superclass

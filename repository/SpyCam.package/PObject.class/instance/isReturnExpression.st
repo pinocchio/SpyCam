@@ -1,3 +1,3 @@
-accessing
+pharo-exporting
 isReturnExpression
 	^ false

@@ -1,5 +1,6 @@
-initialize-release
+pharo-exporting
 symbolDefintion
+	<preventExport>
     "Auto generated Symbol definition from system/layout/SymbolInitialization.ci
      Use the script at _meta/extractSymbols to generate this method"
 

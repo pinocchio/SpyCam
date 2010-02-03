@@ -1,5 +1,6 @@
-exporting
+pharo-exporting
 pInstVarNames
+	<preventExport>
 	^ OrderedCollection
 		with: #layout
 		with: #superclass

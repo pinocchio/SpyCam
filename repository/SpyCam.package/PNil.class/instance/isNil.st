@@ -1,4 +1,3 @@
-pinocchio-export
+accessing
 isNil
-	self halt.
 	^ true

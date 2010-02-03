@@ -1,4 +1,4 @@
-initialize-release
+pharo-exporting
 newWith: cls exporting: aPinocchioObject uid: uid
 	^ self new sclass: cls; 
 		name: cls pinocchioName asPSymbol;

@@ -1,5 +1,6 @@
-initialization
+pharo-exporter
 initialize
+	<preventExport>
 	super initialize.
 	instVarNames := OrderedCollection 
 		with: #layout 

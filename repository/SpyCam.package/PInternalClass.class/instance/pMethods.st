@@ -1,5 +1,6 @@
-exporting
+pharo-exporter
 pMethods
+	<preventExport>
 	"instead of returning the cls's methods I return my methods for exporting"
 	methods := self methodProvider pMethods.
 	methods = #all ifTrue: [

@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"pClassInstVarNames" : "CamilloBruni 2/3/2010 13:42",
-		"pInstVarNames" : "CamilloBruni 2/3/2010 13:30",
-		"pMethods" : "CamilloBruni 2/3/2010 10:23" },
+		"pClassInstVarNames" : "CamilloBruni 2/3/2010 14:43",
+		"pInstVarNames" : "CamilloBruni 2/3/2010 14:43",
+		"pMethods" : "CamilloBruni 2/3/2010 14:43" },
 	"instance" : {
 		"hasSuperclass" : "CamilloBruni 1/25/2010 15:48",
-		"initialize" : "CamilloBruni 1/19/2010 20:33",
+		"initialize" : "CamilloBruni 2/3/2010 14:39",
 		"instVariables" : "CamilloBruni 2/3/2010 13:46",
 		"layout" : "CamilloBruni 2/3/2010 13:42",
 		"layout:" : "CamilloBruni 2/3/2010 13:43",
@@ -14,7 +14,7 @@
 		"new" : "CamilloBruni 1/11/2010 09:46",
 		"new:" : "CamilloBruni 1/11/2010 09:46",
 		"pInstVarNames" : "CamilloBruni 2/3/2010 13:46",
-		"parentInstVariables" : "CamilloBruni 2/3/2010 13:46",
+		"parentInstVariables" : "CamilloBruni 2/3/2010 14:31",
 		"smetaclass" : "CamilloBruni 2/3/2010 13:45",
 		"superclass" : "CamilloBruni 1/19/2010 20:31",
 		"superclass:" : "CamilloBruni 2/3/2010 13:45" } }
