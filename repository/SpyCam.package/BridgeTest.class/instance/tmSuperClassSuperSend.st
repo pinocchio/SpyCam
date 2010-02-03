@@ -2,4 +2,4 @@ test-class
 tmSuperClassSuperSend
 	| instance |
 	instance := ChildClassTestClass basicNew.
-	self assert: instance testSuper = 100
+	self assert: instance test = 100

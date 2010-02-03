@@ -18,4 +18,3 @@ createClass: aPinocchioClass
 		nextPutAll: aPinocchioClass name uid;
 		nextPutAll: ';';
 		cr.
-	currentClass should = aPinocchioClass

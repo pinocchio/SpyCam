@@ -1,0 +1,15 @@
+{
+	"category" : "SpyCam-Pinocchio-Bridge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classOrder",
+		"sortedClasses" ],
+	"name" : "PClassTopSorter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

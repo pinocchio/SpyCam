@@ -1,9 +1,8 @@
 visitor
 createClassMethods: aPinocchioClass
-	| oldClass |
-	oldClass := currentClass.
-	currentClass  := aPinocchioClass pmetaclass.
-	currentClass methods do: [ :each|
+	self currentClass should be isNil.
+	self currentClass: aPinocchioClass pmetaclass.
+	self currentClass methods do: [ :each|
 		self visit: each.
 	].
-	currentClass := oldClass.
+	self currentClass: nil.

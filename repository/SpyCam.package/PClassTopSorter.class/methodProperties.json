@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "CamilloBruni 2/3/2010 17:55",
+		"sortedClasses" : "CamilloBruni 2/3/2010 17:58",
+		"visitClass:" : "CamilloBruni 2/3/2010 18:06",
+		"visitClassReference:" : "CamilloBruni 2/3/2010 18:05",
+		"visitCollection:" : "CamilloBruni 2/3/2010 17:58",
+		"visitInternalClass:" : "CamilloBruni 2/3/2010 18:06",
+		"visitPackage:" : "CamilloBruni 2/3/2010 17:57",
+		"visitRootPackage:" : "CamilloBruni 2/3/2010 17:57" } }

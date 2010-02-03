@@ -1,10 +1,8 @@
 visitor
 visitInternalClass: aPinocchioInternalClass 
-	| oldClass |
-	oldClass := self currentClass.
+	self currentClass should be isNil.
 	self currentClass: aPinocchioInternalClass.
 	
 	self visitCollection: aPinocchioInternalClass methods.
-	self visit: aPinocchioInternalClass package.
 	
-	self currentClass: oldClass.
+	self currentClass: nil.

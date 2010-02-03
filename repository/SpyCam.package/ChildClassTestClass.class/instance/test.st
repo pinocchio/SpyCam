@@ -1,3 +1,3 @@
 super-test
-testSuper
+test
 	^ 10 * super test

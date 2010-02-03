@@ -4,6 +4,7 @@ export
 	self exportBasicClasses.
 	[ todo isEmpty ] whileFalse: [
 		clsReference := self transformNext.
+		self fetchDanglingClassReferences
 	].
 
 	(pinocchioVisitor rootScope decls anySatisfy: [ :each | 

@@ -1,18 +1,12 @@
 visitor
 visitClass: aPinocchioClass 
-	| oldClass |
-	(aPinocchioClass superclass isKindOf: PNil)
-		ifFalse: [ self visit: aPinocchioClass superclass package ].
-	self visit: aPinocchioClass superclass.
+	self currentClass should be isNil.
 	
-	oldClass := self currentClass.
+	Transcript show: aPinocchioClass name; cr.
+	
 	self currentClass: aPinocchioClass.
-	
-	self createClass: aPinocchioClass.
-	self createMetaclass: aPinocchioClass.
-	self createClassMethods: aPinocchioClass.
-	
 	self visitCollection: aPinocchioClass methods.
-	self visit: aPinocchioClass package.
 	
-	self currentClass: oldClass.
+	self currentClass: nil.
+	
+	self createClassMethods: aPinocchioClass.
