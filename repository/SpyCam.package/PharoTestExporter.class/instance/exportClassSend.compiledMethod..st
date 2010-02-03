@@ -1,6 +1,9 @@
 convenience
 exportClassSend: anASTMethod compiledMethod: aCompiledMethod 
-	| arguments |
+	| arguments returnValue |
 	arguments := self testArgumentsFor: anASTMethod of: aCompiledMethod.
-	^ self exportClassInstance perform: anASTMethod selector asSymbol
+	self exportClassInstance setUp.
+	returnValue := self exportClassInstance perform: anASTMethod selector asSymbol
 						withArguments: arguments.
+	self exportClassInstance tearDown.				
+	^ returnValue.
