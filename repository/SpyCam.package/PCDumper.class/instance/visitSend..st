@@ -3,6 +3,7 @@ visitSend: aPinocchioSend
 	self visit: aPinocchioSend receiver.
 	self visit: aPinocchioSend message.
 	self visitCollection: aPinocchioSend arguments.
+	self comment: aPinocchioSend message asSymbol asString.
 	self put: aPinocchioSend 
 		with: ('new_AST_Send((Object)',aPinocchioSend receiver uid,', ',
 							    '(Object)', aPinocchioSend message uid,', ',
