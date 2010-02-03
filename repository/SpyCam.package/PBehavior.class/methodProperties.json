@@ -1,8 +1,10 @@
 {
 	"class" : {
+		"asPClass" : "CamilloBruni 2/3/2010 15:25",
 		"pClassInstVarNames" : "CamilloBruni 2/3/2010 14:43",
 		"pInstVarNames" : "CamilloBruni 2/3/2010 14:43",
-		"pMethods" : "CamilloBruni 2/3/2010 14:43" },
+		"pMethods" : "CamilloBruni 2/3/2010 14:43",
+		"pinocchioPackage" : "CamilloBruni 2/3/2010 15:30" },
 	"instance" : {
 		"hasSuperclass" : "CamilloBruni 1/25/2010 15:48",
 		"initialize" : "CamilloBruni 2/3/2010 14:39",

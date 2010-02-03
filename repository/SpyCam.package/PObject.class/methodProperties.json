@@ -14,7 +14,10 @@
 	"instance" : {
 		"doesNotUnderstand:" : "CamilloBruni 11/10/2009 18:27",
 		"hash" : "TestRunner 11/17/2009 11:11",
+		"isNil" : "CamilloBruni 1/27/2010 16:59",
 		"isReturnExpression" : "CamilloBruni 2/3/2010 14:42",
 		"objectName" : "ToonVerwaest 11/5/2009 11:20",
 		"uid" : "CamilloBruni 2/3/2010 11:46",
-		"uid:" : "CamilloBruni 2/3/2010 11:46" } }
+		"uid:" : "CamilloBruni 2/3/2010 11:46",
+		"yourself" : "CamilloBruni 1/27/2010 16:56",
+		"~=" : "CamilloBruni 2/2/2010 16:06" } }

@@ -10,7 +10,7 @@ transformClass: sclassIn
 	
 	self haltIf: (pinocchioVisitor rootScope isKindOf: PRootScope) not.
 	
-	"Transcript show: aPinocchioClass name; cr."
+	Transcript show: 'Transforming '; show: aPinocchioClass name; cr.
 	
 	self done at: aPinocchioClass name put: aPinocchioClass.
 	aPinocchioClass package: (self ensurePackageFor: aPinocchioClass sclass).
@@ -23,6 +23,5 @@ transformClass: sclassIn
 	aPinocchioClass layout: (self layoutFor: aPinocchioClass).
 	
 	aPinocchioClass methods: (self transformMethodsFor: aPinocchioClass).
-	
 	classASTs at: aPinocchioClass name asSymbol put: aPinocchioClass.
 	^ aPinocchioClass.

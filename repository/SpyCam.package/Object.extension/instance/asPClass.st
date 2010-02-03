@@ -1,7 +1,6 @@
 *SpyCam-Pinocchio
 asPClass
 	|dict|
-	dict ifNil: [
 		dict := Dictionary new.
 		dict at: Object 			put: {PObject. 		'Type_Object_Class'}.
 		dict at: Class 			put: {PClass. 		'Class'}.
@@ -17,7 +16,7 @@ asPClass
 		dict at: Symbol 			put: {PSymbol. 		'Type_Symbol_Class'}.
 		dict at: Character 		put: {PCharacter.	'Type_Character_Class'}.
 		dict at: SmallInteger 	put: {PSmallInt. 		'Type_SmallInt_Class'}.
-	].
+					
 	dict at: self ifPresent: [ :aTuple|
 		^ PInternalClass newWith: self 
 				exporting: aTuple first

@@ -8,7 +8,8 @@ ensureClassReferenceForName: aString
 	
 	aClassReference := PClassReference named: aClassNameSymbol
 										in: package.
-	"Transcript show: ('ensureClassReferenceForName: ', aClassNameSymbol printString)."
+	Transcript show: ('ensureClassReferenceForName: ', aClassNameSymbol printString).
+	
 	package storeClassReference: aClassReference.
 	(self todo includes: cls) ifFalse: [ self todo add: cls ].
 	^ aClassReference
