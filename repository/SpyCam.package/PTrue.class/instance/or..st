@@ -1,3 +1,3 @@
 logical-operations
 or: aBoolean
-	^ True.
+	^ self.
