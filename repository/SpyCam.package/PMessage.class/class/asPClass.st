@@ -1,6 +1,6 @@
 pharo-exporting
 asPClass 
 	<preventExport>
-	self = PMessage ifFalse: [ ^ super PMethodClosure ].
+	self = PMessage ifFalse: [ ^ super asPClass ].
 	^ PInternalClass newWith: PMessage
-		uid: 'Runtime_Message'.
+		uid: 'Runtime_Message_Class'.
