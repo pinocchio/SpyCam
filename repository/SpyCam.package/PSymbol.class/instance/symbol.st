@@ -1,3 +1,4 @@
 accessing
 symbol
+	<preventExport>
 	^ symbol

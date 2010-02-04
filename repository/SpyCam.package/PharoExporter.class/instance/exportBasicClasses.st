@@ -4,4 +4,11 @@ exportBasicClasses
 		add: Behavior;
 		add: Metaclass;
 		add: Class;
-		add: PMessage.
+		add: PMessage;
+		add: PTrue;
+		add: PFalse;
+		add: PNil;
+		add: PString;
+		add: PSymbol;
+		add: PSmallInt;
+		add: PCharacter.

@@ -1,8 +1,11 @@
 {
 	"class" : {
-		 },
+		"asPClass" : "DavidGurtner 2/4/2010 16:27" },
 	"instance" : {
-		"=" : "CamilloBruni 12/9/2009 11:05",
-		"printOn:" : "TestRunner 10/27/2009 15:46",
-		"string" : "DavidGurtner 10/21/2009 15:02",
-		"string:" : "DavidGurtner 10/21/2009 15:03" } }
+		"=" : "DavidGurtner 2/4/2010 16:32",
+		"capitalized" : "DavidGurtner 2/4/2010 16:03",
+		"copy" : "DavidGurtner 2/4/2010 16:13",
+		"isEmpty" : "DavidGurtner 2/4/2010 16:10",
+		"printOn:" : "DavidGurtner 2/4/2010 16:32",
+		"string" : "DavidGurtner 2/4/2010 16:31",
+		"string:" : "DavidGurtner 2/4/2010 16:31" } }

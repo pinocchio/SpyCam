@@ -1,3 +1,4 @@
 converting
 asPSymbol
+	<preventExport>
 	^ self

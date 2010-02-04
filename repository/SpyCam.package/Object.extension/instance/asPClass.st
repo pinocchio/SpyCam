@@ -1,5 +1,6 @@
 *SpyCam-Pinocchio
 asPClass
+	"TODO: FIXME mapping to internal classes doesn't work properly''"
 	|dict|
 		dict := Dictionary new.
 		dict at: Object 			put: {PObject. 		'Type_Object_Class'}.
