@@ -1,5 +1,6 @@
 error handling
 doesNotUnderstand: aMessage
+	<preventExport>
 	| selector |
 	(aMessage selector = #accept:) 
 		ifFalse: [ ^ super doesNotUnderstand: aMessage ].
