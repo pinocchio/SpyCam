@@ -1,3 +1,3 @@
 instance creation
 separators
-	^ PEGParser basicSeparators 
+	^ PEGParser basicSeparators

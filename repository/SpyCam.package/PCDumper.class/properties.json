@@ -10,7 +10,8 @@
 		"symbolDict",
 		"visitedNodes",
 		"currentClass",
-		"onAssignToBlock" ],
+		"onAssignToBlock",
+		"exportingClasses" ],
 	"name" : "PCDumper",
 	"pools" : [
 		 ],

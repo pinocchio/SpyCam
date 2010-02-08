@@ -1,4 +1,4 @@
 *SpyCam-Pinocchio
 pClassMethods
 	<preventExport>
-	^ #'pinocchio-export'
+	^ #all.

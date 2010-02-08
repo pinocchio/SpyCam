@@ -1,0 +1,2 @@
+accessing
+ifNil: aBlock

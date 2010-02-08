@@ -6,7 +6,7 @@
 		"initialize" : "CamilloBruni 2/3/2010 12:02",
 		"isPinocchioInternalClass" : "CamilloBruni 12/9/2009 10:03",
 		"pClassInstVarNames" : "CamilloBruni 1/27/2010 15:36",
-		"pClassMethods" : "CamilloBruni 2/3/2010 11:37",
+		"pClassMethods" : "ToonVerwaest 2/8/2010 11:10",
 		"pMethods" : "CamilloBruni 2/3/2010 13:31",
 		"pinocchioName" : "CamilloBruni 2/3/2010 11:37",
 		"uidCounter" : "CamilloBruni 2/3/2010 11:37",
@@ -14,6 +14,7 @@
 	"instance" : {
 		"doesNotUnderstand:" : "ToonVerwaest 2/4/2010 15:33",
 		"hash" : "TestRunner 11/17/2009 11:11",
+		"ifNil:" : "ToonVerwaest 2/8/2010 12:59",
 		"initialize" : "ToonVerwaest 2/4/2010 13:42",
 		"isNil" : "CamilloBruni 1/27/2010 16:59",
 		"isReturnExpression" : "CamilloBruni 2/3/2010 14:42",
