@@ -4,7 +4,8 @@ pMethods
 	| s |
 	self = PositionableStream ifTrue: [
 		s := OrderedCollection new.
-		s add: #on:.
+		s add: #on:;
+			add: #reset.
 		^ s
 	].
 	^ super pMethods
