@@ -1,10 +1,11 @@
 visitor
-visitSend: aPinocchioSend 
-	self visit: aPinocchioSend receiver.
-	self visit: aPinocchioSend message.
-	self visitCollection: aPinocchioSend arguments.
-	self comment: aPinocchioSend message asSymbol asString.
-	self put: aPinocchioSend 
-		with: ('new_AST_Send((Object)',aPinocchioSend receiver uid,', ',
-							    '(Object)', aPinocchioSend message uid,', ',
-								(self multiArgFor: aPinocchioSend arguments) ,')').
+visitSend: aPSend 
+	self visit: aPSend receiver.
+	self visit: aPSend message.
+	self visitCollection: aPSend arguments.
+	self comment: aPSend message asSymbol asString.
+	self put: aPSend 
+		with: ('new_AST_Send((Object)',aPSend receiver uid,', ',
+							    '(Object)', aPSend message uid,', ',
+								(self multiArgFor: aPSend arguments) ,')').
+	self installPInfoOn: aPSend.

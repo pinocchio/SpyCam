@@ -12,7 +12,8 @@
 		"currentMethod",
 		"world",
 		"currentBlock",
-		"currentCallecVariable" ],
+		"currentCallecVariable",
+		"currentInfo" ],
 	"name" : "PASTVisitor",
 	"pools" : [
 		 ],

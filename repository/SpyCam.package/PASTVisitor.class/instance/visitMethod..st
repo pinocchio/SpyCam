@@ -2,6 +2,7 @@ visitor
 visitMethod: aMethod 
 	| block params locals body method hasReturn |
 	currentMethod := aMethod.
+	currentInfo := self createPInfo.
 	self pushScope.
 	scope declareAll: aMethod message parameters.
 	scope declareAll: aMethod temporaries.
@@ -18,7 +19,8 @@ visitMethod: aMethod
 		params: (self acceptOnCollection: aMethod message parameters) asPArray;
 		locals: (self acceptOnCollection: aMethod temporaries) asPArray;
 		annotations:  (self acceptOnCollection: aMethod annotations) asPArray;
-		hasReturn: hasReturn.
+		hasReturn: hasReturn;
+		info: self currentInfo.
 	
 	self popScope.
 	^ method.

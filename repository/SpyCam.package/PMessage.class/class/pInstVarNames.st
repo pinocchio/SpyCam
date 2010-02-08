@@ -1,4 +1,4 @@
-as yet unclassified
+exporting
 pInstVarNames 
 	<preventExport>
 	^ OrderedCollection with: #selector

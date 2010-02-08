@@ -1,15 +1,16 @@
 visitor
-visitMethodClosure: aPinocchioMethodClosure 
-	self visit: aPinocchioMethodClosure selector.
-	self visit: aPinocchioMethodClosure code.
+visitMethodClosure: aPMethodClosure 
+	self visit: aPMethodClosure selector.
+	self visit: aPMethodClosure code.
 	
-	self put: aPinocchioMethodClosure 
-		with: ('new_Runtime_MethodClosure(', aPinocchioMethodClosure code uid, ')').
+	self put: aPMethodClosure 
+		with: ('new_Runtime_MethodClosure(', aPMethodClosure code uid, ')').
+	self installPInfoOn: aPMethodClosure.
 		
 	stream nextPutAll: 'store_method((Type_Class)';
-		nextPutAll: aPinocchioMethodClosure pclass uid; 
+		nextPutAll: aPMethodClosure pclass uid; 
 		nextPutAll: ', (Type_Symbol)';
-		nextPutAll: aPinocchioMethodClosure selector uid;
+		nextPutAll: aPMethodClosure selector uid;
 		nextPutAll: ', (Runtime_MethodClosure)';
-		nextPutAll: aPinocchioMethodClosure uid;
+		nextPutAll: aPMethodClosure uid;
 		nextPutAll: ');'; cr.

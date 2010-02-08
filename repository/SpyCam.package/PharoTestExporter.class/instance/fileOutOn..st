@@ -1,5 +1,3 @@
 exporting
 fileOutOn: aFileName
-	outStream := CrLfFileStream newFileNamed: aFileName.
-
-	
+	outStream := StandardFileStream forceNewFileNamed: aFileName.

@@ -4,6 +4,7 @@
 		"pMethods" : "CamilloBruni 1/27/2010 23:30" },
 	"instance" : {
 		"addDanglingClassReference:" : "CamilloBruni 2/2/2010 14:38",
+		"astInfoForMethodSource:" : "CamilloBruni 2/8/2010 14:23",
 		"cdumper" : "CamilloBruni 12/8/2009 11:04",
 		"cdumper:" : "CamilloBruni 12/8/2009 11:04",
 		"checkClassReference:" : "CamilloBruni 1/19/2010 14:29",
@@ -32,7 +33,7 @@
 		"transformClass:" : "CamilloBruni 2/3/2010 15:22",
 		"transformClassMethodsFor:" : "CamilloBruni 2/3/2010 11:50",
 		"transformClassSideOf:" : "CamilloBruni 1/20/2010 15:29",
-		"transformMethod:" : "CamilloBruni 12/14/2009 17:09",
+		"transformMethod:" : "CamilloBruni 2/8/2010 14:26",
 		"transformMethodsFor:" : "CamilloBruni 2/2/2010 00:37",
 		"transformNext" : "TestRunner 11/12/2009 15:53",
 		"transformSuperClassOf:" : "CamilloBruni 1/27/2010 17:25" } }

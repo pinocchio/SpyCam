@@ -1,14 +1,15 @@
 visitor
-visitMethod: aPinocchioMethod
+visitMethod: aPMethod
 	self newline.
-	self comment: (self currentClass name asString, '>>', aPinocchioMethod selector asString).
-	self createMethodSourceCommentFor: aPinocchioMethod.
-	self visit: aPinocchioMethod params.	
-	self visit: aPinocchioMethod locals.
-	self visitCollection: aPinocchioMethod.
-	self createSized: aPinocchioMethod 
+	self comment: (self currentClass name asString, '>>', aPMethod selector asString).
+	self createMethodSourceCommentFor: aPMethod.
+	self visit: aPMethod params.	
+	self visit: aPMethod locals.
+	self visitCollection: aPMethod.
+	self createSized: aPMethod 
 		with: ('new_AST_Method_with(',
-						'(Type_Array)', aPinocchioMethod params uid, ', ',
-						'(Type_Array)', aPinocchioMethod locals uid).
-	self installMethod: aPinocchioMethod.
+						'(Type_Array)', aPMethod params uid, ', ',
+						'(Type_Array)', aPMethod locals uid).
+	self installPInfoOn: aPMethod.
+	self installMethod: aPMethod.
 	self newline.
