@@ -11,4 +11,5 @@ exportBasicClasses
 		add: PString;
 		add: PSymbol;
 		add: PSmallInt;
+		add: PBlockClosure;
 		add: PCharacter.

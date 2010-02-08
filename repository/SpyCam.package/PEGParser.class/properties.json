@@ -1,10 +1,10 @@
 {
 	"category" : "SpyCam-PEG",
 	"classinstvars" : [
-		 ],
+		"separators",
+		"separator" ],
 	"classvars" : [
-		"Separator",
-		"Separators" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		"expression",

@@ -1,3 +1,4 @@
 accessing
 context
+	<preventExport>
 	^ context

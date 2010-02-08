@@ -4,6 +4,6 @@ doesNotUnderstand: message
     ^ parsers at: message selector ifAbsentPut: [
         selector := ('initialize', message selector capitalized) asSymbol.
         (self respondsTo: selector)
-            ifFalse: [ super doesNotUnderstand: message ].
-        self perform: selector
+			ifTrue: [ self perform: selector ]
+            ifFalse: [ super doesNotUnderstand: message ]
 	]
