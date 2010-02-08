@@ -1,0 +1,3 @@
+test-basics
+tmDoesNotUnderstand
+	^ StandardTestClass new testUnimplementedMethod
