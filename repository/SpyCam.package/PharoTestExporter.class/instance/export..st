@@ -1,5 +1,9 @@
 exporting
 export: fileName
-	self export.
+	self clear.
 	self fileOutOn: fileName.
+	self dumpSources .
+	outStream close.
+	
+
 	
