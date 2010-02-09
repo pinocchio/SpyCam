@@ -5,6 +5,9 @@ pMethods
 	self = PositionableStream ifTrue: [
 		s := OrderedCollection new.
 		s add: #on:;
+			add: #position:;
+			add: #position;
+			add: #positionError;
 			add: #reset.
 		^ s
 	].
