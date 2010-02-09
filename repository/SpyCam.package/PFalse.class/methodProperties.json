@@ -3,4 +3,8 @@
 		"asPClass" : "DavidGurtner 2/4/2010 17:02" },
 	"instance" : {
 		"and:" : "ToonVerwaest 2/5/2010 11:18",
+		"ifFalse:" : "ToonVerwaest 2/9/2010 11:27",
+		"ifFalse:ifTrue:" : "ToonVerwaest 2/9/2010 11:26",
+		"ifTrue:" : "ToonVerwaest 2/9/2010 11:28",
+		"ifTrue:ifFalse:" : "ToonVerwaest 2/9/2010 11:27",
 		"or:" : "DavidGurtner 2/4/2010 17:10" } }
