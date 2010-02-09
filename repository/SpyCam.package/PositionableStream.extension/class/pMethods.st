@@ -8,6 +8,7 @@ pMethods
 			add: #position:;
 			add: #position;
 			add: #positionError;
+			add: #atEnd;
 			add: #reset.
 		^ s
 	].

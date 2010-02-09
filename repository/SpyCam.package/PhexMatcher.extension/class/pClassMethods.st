@@ -2,9 +2,9 @@
 pClassMethods
 	<preventExport>
 	| s |
-	self = PositionableStream ifTrue: [
+	self = PhexMatcher ifTrue: [
 		s := OrderedCollection new.
-		s add: #on:.
+		s add: #with:.
 		^ s
 	].
 	^ super pMethods

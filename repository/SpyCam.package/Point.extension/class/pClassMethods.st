@@ -2,9 +2,9 @@
 pClassMethods
 	<preventExport>
 	| s |
-	self = PositionableStream ifTrue: [
+	self = Point ifTrue: [
 		s := OrderedCollection new.
-		s add: #on:.
+		s add: #x:y:.
 		^ s
 	].
 	^ super pMethods

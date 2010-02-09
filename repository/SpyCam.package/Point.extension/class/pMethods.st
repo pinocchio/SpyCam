@@ -1,10 +1,14 @@
 *SpyCam-Pinocchio
-pClassMethods
+pMethods
 	<preventExport>
 	| s |
-	self = PositionableStream ifTrue: [
+	self = Point ifTrue: [
 		s := OrderedCollection new.
-		s add: #on:.
+		s add: #x;
+			add: #y;
+			add: #x:;
+			add: #x:y:;
+			add: #y:.
 		^ s
 	].
 	^ super pMethods
