@@ -11,6 +11,7 @@ pMethods
 		add: #growSize;
 		add: #setCollection: ;
 		add: #size ;
+		add: #do:;
 		add: #reset.
 	^ s ].
 	^ super pMethods
