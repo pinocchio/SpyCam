@@ -14,6 +14,8 @@ visitObjectLayout: aPinocchioObjectLayout
 			nextPutAll: aPinocchioObjectLayout uid; 
 			nextPutAll: (')->values[', (index - 1) asString, '] = ');
 			nextPutAll: element uid;
-			nextPutAll: ';'; cr.
+			nextPutAll: '; // '; 
+			nextPutAll: element name;
+			nextPutAll: ' '; cr.
 	]
 	

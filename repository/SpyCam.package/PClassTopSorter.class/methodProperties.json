@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "CamilloBruni 2/3/2010 17:55",
+		"classReferences" : "CamilloBruni 2/9/2010 11:05",
+		"initialize" : "CamilloBruni 2/9/2010 11:05",
 		"sortedClasses" : "CamilloBruni 2/3/2010 17:58",
 		"visitClass:" : "CamilloBruni 2/3/2010 18:06",
-		"visitClassReference:" : "CamilloBruni 2/3/2010 18:05",
+		"visitClassReference:" : "CamilloBruni 2/9/2010 11:08",
 		"visitCollection:" : "CamilloBruni 2/3/2010 17:58",
 		"visitInternalClass:" : "CamilloBruni 2/3/2010 18:06",
 		"visitPackage:" : "CamilloBruni 2/3/2010 17:57",

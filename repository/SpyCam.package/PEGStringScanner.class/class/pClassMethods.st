@@ -1,3 +1,0 @@
-*SpyCam-Pinocchio
-pClassMethods 
-	^ #all.

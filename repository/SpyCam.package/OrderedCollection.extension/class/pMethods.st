@@ -1,7 +1,6 @@
 *SpyCam-Pinocchio
 pMethods
 	<preventExport>
-	self = OrderedCollection ifTrue: [
 	| s |
 	s := OrderedCollection new.
 	s add: #add: ;
@@ -12,5 +11,4 @@ pMethods
 		add: #setCollection: ;
 		add: #size ;
 		add: #reset.
-	^ s ].
-	^ super pMethods
+	^ s 
