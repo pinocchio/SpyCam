@@ -1,5 +1,7 @@
 exporting
 export
+	PSymbol clearSymbolCache.
 	self clear.
-	self dumpSources.
-	^ outStream
+	self exportClasses.
+	self createCFile.
+	self createHFile.

@@ -7,7 +7,6 @@
 	"commentStamp" : "CamilloBruni 1/11/2010 10:27",
 	"instvars" : [
 		"methods",
-		"outStream",
 		"parser",
 		"scparser",
 		"cdumper",
@@ -21,7 +20,9 @@
 		"pinocchioClassPackage",
 		"pinocchioClass",
 		"exportClassInstance",
-		"name" ],
+		"name",
+		"todo",
+		"stream" ],
 	"name" : "PharoTestExporter",
 	"pools" : [
 		 ],

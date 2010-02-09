@@ -1,18 +1,8 @@
 convenience
 export
-	| clsReference |
-	self exportBasicClasses.
-	[ todo isEmpty ] whileFalse: [
-		clsReference := self transformNext.
-	].
-
-	(pinocchioVisitor rootScope decls anySatisfy: [ :each | 
-		each pclass isNil 
-	]) should be false.
-
-	(done select: [ :each | 
-		(each package at: each name) pclass isNil 
-	]) isEmpty should be true.
+	| astExtractor |
+	astExtractor := PharoASTExporter new.
+	root := 	astExtractor extract: self todo.
+	classASTs := astExtractor classASTs.
 	
-	cdumper clear;
-		visit: root
+	cdumper export: root.

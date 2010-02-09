@@ -1,4 +1,4 @@
-visitor
+convenience
 multiArgFor: aPinocchioArray
 	^ aPinocchioArray 
 		inject: aPinocchioArray size asString

@@ -1,0 +1,15 @@
+{
+	"category" : "SpyCam-Pinocchio-Bridge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cdumper",
+		"pclass" ],
+	"name" : "PClassCDumper",
+	"pools" : [
+		 ],
+	"super" : "PCDumper",
+	"type" : "normal" }

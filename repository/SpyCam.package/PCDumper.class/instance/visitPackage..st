@@ -1,5 +1,5 @@
 visitor
-visitPackage: aPinocchioPackage 
-	Transcript show: aPinocchioPackage packageName; cr.
+visitPackage: aPPackage 
 	"TODO"
-	self visitCollection: aPinocchioPackage members.
+	self visitCollection: aPPackage members.
+	globals add: aPPackage.

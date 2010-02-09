@@ -1,5 +1,3 @@
 exporting
 export: classes
-	^ self new 
-			todo: classes asOrderedCollection;
-			export.
+	^ self new export: classes asOrderedCollection.

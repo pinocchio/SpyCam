@@ -1,5 +1,6 @@
 visitor
-visitInstanceVariable: aPinocchioInstanceVariable 
-	self put: aPinocchioInstanceVariable 
-		with: ('new_AST_InstVariable(', aPinocchioInstanceVariable localId asString
-										,', L"', aPinocchioInstanceVariable name, '")').
+visitInstanceVariable: aPInstanceVariable 
+	self putRaw: aPInstanceVariable 
+		with: ('new_AST_InstVariable(', aPInstanceVariable localId asString
+										,', L"', aPInstanceVariable name, '")').
+	globals add: aPInstanceVariable.

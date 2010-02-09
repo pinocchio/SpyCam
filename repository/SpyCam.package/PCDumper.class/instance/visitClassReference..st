@@ -1,7 +1,9 @@
 visitor
-visitClassReference: aPinocchioClassReference
+visitClassReference: aPClassReference
 	| oldClass |
 	oldClass := self currentClass.
-	self currentClass: aPinocchioClassReference pclass.
-	self visit: aPinocchioClassReference pclass.
+	self currentClass: aPClassReference pclass.
+	self visit: aPClassReference pclass.
 	self currentClass: oldClass.
+	
+	globals add: aPClassReference.

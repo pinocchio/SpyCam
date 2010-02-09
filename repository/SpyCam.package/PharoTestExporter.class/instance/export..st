@@ -1,9 +1,7 @@
 exporting
-export: fileName
-	self clear.
-	self fileOutOn: fileName.
-	self dumpSources .
-	outStream close.
+export: aCollection
+	self todo: aCollection.
+	^ self export.
 	
 
 	

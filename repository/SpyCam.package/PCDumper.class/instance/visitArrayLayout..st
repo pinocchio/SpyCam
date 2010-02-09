@@ -1,19 +1,26 @@
 visitor
-visitArrayLayout: aPinocchioArrayLayout 
+visitArrayLayout: aPArrayLayout 
 	| element |
-	aPinocchioArrayLayout size = 0 ifTrue: [
-		^ aPinocchioArrayLayout uid: 'empty_array_layout'.
+	aPArrayLayout size = 0 ifTrue: [
+		^ aPArrayLayout uid: 'empty_array_layout'.
 	].
-	self put: aPinocchioArrayLayout 
+	
+	1 to: aPArrayLayout size do: [ :index|
+		self visit: (aPArrayLayout at: index).
+	].
+
+	(self currentClass isKindOf: PInternalClass) ifTrue: [ ^ self. ].
+	
+	self putRaw: aPArrayLayout 
 		with: 'create_layout_with_vars(Type_ArrayLayout, ',
-				aPinocchioArrayLayout size asString ,')'.
-						
-	1 to: aPinocchioArrayLayout size do: [ :index|
-		element := aPinocchioArrayLayout at: index.
-		self visit: element.
+				aPArrayLayout size asString ,')'.
+			
+	1 to: aPArrayLayout size do: [ :index|
 		stream nextPutAll: '((Type_Array)';
-			nextPutAll: aPinocchioArrayLayout uid; 
+			nextPutAll: aPArrayLayout uid; 
 			nextPutAll: (')->values[', (index - 1) asString, '] = ');
-			nextPutAll: element uid;
+			nextPutAll: (aPArrayLayout at: index) uid;
 			nextPutAll: ';' ; cr.
-	]
+	].
+
+	globals add: aPArrayLayout.

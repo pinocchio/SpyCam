@@ -3,11 +3,14 @@ createClass: aPinocchioClass
 	| classLayout |
 	classLayout := aPinocchioClass pmetaclass layout.
 	self visit: classLayout.
-	self visit: aPinocchioClass name.
+	stream cr.
 	self visit: aPinocchioClass layout.
-	self put: aPinocchioClass
-		with:
-			'new_Class_withMeta((Object)' ,
+	(self currentClass isKindOf: PInternalClass) ifTrue: [ ^ self. ].
+	
+	stream cr.
+	self visit: aPinocchioClass name.
+	self putRaw: aPinocchioClass
+		with: 'new_Class_withMeta((Object)' ,
 					aPinocchioClass superclass uid , ', ' ,
 					aPinocchioClass layout uid , ', ' ,
 					classLayout uid , ')'.
@@ -16,5 +19,4 @@ createClass: aPinocchioClass
 		nextPutAll: aPinocchioClass uid;
 		nextPutAll: ')->name = (Type_Symbol)';
 		nextPutAll: aPinocchioClass name uid;
-		nextPutAll: ';';
-		cr.
+		nextPutAll: ';'; cr.

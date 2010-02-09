@@ -1,3 +1,3 @@
 accessing
-todo: anObject
-	todo := anObject
+todo: aCollection 
+	todo := OrderedCollection withAll: aCollection

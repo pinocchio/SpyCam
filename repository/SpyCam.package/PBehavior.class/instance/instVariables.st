@@ -9,7 +9,7 @@ instVariables
 				self error: 'Double Declaration of "', each, '"'
 			].
 		].
-		instVar := PInstanceVariable named: each.
+		instVar := self createInstVariable: each.
 		instVar localId: instVars size.
 		instVars add: instVar.
 	].

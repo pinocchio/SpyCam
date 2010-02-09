@@ -5,7 +5,6 @@ assign: aString to: aPinocchioObject
 		^ self.
 	].
 	stream
-		nextPutAll: 'Object ';
 		nextPutAll: aPinocchioObject uid;
 		nextPutAll: ' = ';
 		nextPutAll: aString;

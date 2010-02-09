@@ -2,7 +2,7 @@ initialize-release
 initialize
 	super initialize.
 	scparser := SCParser new.
-	cdumper := PCDumper new.
+	cdumper := PClassCDumper new.
 	visitor := PASTVisitor new.
 	testCaseClass := PInternalVariable new.
 	testCaseInstance := PInternalVariable new.

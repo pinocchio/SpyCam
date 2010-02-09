@@ -1,3 +1,3 @@
 visitor
 visitInternalClass: aPinocchioInternalClass 
-	self visitClass: aPinocchioInternalClass.
+	"Ignore here"

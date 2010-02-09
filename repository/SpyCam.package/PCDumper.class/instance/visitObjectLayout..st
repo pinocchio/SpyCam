@@ -1,21 +1,29 @@
 visitor
-visitObjectLayout: aPinocchioObjectLayout
+visitObjectLayout: aPObjectLayout
 	| element |
-	aPinocchioObjectLayout size = 0 ifTrue: [
-		^ aPinocchioObjectLayout uid: 'empty_object_layout'.
+	aPObjectLayout size = 0 ifTrue: [
+		^ aPObjectLayout uid: 'empty_object_layout'.
 	].
-	self put: aPinocchioObjectLayout 
+
+	1 to: aPObjectLayout size do: [ :index|
+		self visit: (aPObjectLayout at: index).
+	].
+
+	(self currentClass isKindOf: PInternalClass) ifTrue: [ ^ self. ].
+	self putRaw: aPObjectLayout 
 		with: 'create_layout_with_vars(Type_ObjectLayout, ',
-										 aPinocchioObjectLayout size asString ,')'.
-	1 to: aPinocchioObjectLayout size do: [ :index|
-		element := aPinocchioObjectLayout at: index.
+										 aPObjectLayout size asString ,')'.
+	1 to: aPObjectLayout size do: [ :index|
+		element := aPObjectLayout at: index.
 		self visit: element.
 		stream nextPutAll: '((Type_Array)';
-			nextPutAll: aPinocchioObjectLayout uid; 
+			nextPutAll: aPObjectLayout uid; 
 			nextPutAll: (')->values[', (index - 1) asString, '] = ');
 			nextPutAll: element uid;
 			nextPutAll: '; // '; 
 			nextPutAll: element name;
 			nextPutAll: ' '; cr.
-	]
+	].
+
+	globals add: aPObjectLayout.
 	

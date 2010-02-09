@@ -1,3 +1,4 @@
 visitor
 visitInternalMetaclass: aPInternalMetaclass 
-	self visitInternalClass: aPInternalMetaclass.
+	"Ignore here"
+	

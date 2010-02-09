@@ -1,6 +1,5 @@
-initialize-release
+exporting
 clear
-	PSymbol clearSymbolCache.
 	PRootScope clearGlobals.
 	self outStream: (WriteStream on: (String new: 1000000)).
 	parser := scparser method.

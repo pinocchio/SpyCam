@@ -11,7 +11,11 @@
 		"visitedNodes",
 		"currentClass",
 		"onAssignToBlock",
-		"exportingClasses" ],
+		"exportingClasses",
+		"globals",
+		"root",
+		"sortedClasses",
+		"classReferences" ],
 	"name" : "PCDumper",
 	"pools" : [
 		 ],
