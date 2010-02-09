@@ -13,3 +13,4 @@ SystemOrganization addCategory: #'SpyCam-Pinocchio-Bridge-Test'!
 SystemOrganization addCategory: #'SpyCam-Pinocchio-Class'!
 SystemOrganization addCategory: #'SpyCam-Pinocchio-IO'!
 SystemOrganization addCategory: #SpyCam!
+SystemOrganization addCategory: #'SpyCam-Pinocchio-Testing'!
