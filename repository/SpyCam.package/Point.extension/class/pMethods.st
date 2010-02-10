@@ -6,9 +6,7 @@ pMethods
 		s := OrderedCollection new.
 		s add: #x;
 			add: #y;
-			add: #x:;
-			add: #x:y:;
-			add: #y:.
+			add: #setX:setY:.
 		^ s
 	].
 	^ super pMethods
