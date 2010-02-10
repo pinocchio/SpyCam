@@ -3,7 +3,7 @@ createHFile
 	|guardName|
 	stream := CrLfFileStream forceNewFileNamed: self sourcePath, '/lib/lib.h'.
 	
-	guardName := 'PINOCCHIO-LIB'.
+	guardName := 'PINOCCHIO_LIB'.
 	self startGuard: guardName.
 	self include: 'pinocchio.h'.
 	stream nextPutAll: 'extern void init_lib();'; cr; cr.
