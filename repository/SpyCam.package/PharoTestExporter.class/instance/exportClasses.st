@@ -1,6 +1,6 @@
 exporting
 exportClasses
-	self clearDirectory: 'test'.
+	self clearDirectory: self sourcePath, '/test/lib'.
 	exporter export: self todo.
 	self todo
 		do: [:t1 | PharoTestClassExporter
