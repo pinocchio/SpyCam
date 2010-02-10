@@ -1,6 +1,5 @@
 tests
 testOptionalExpression
-	<preventExport>
 	| string exp1 exp2 exp |
 	string := PEGStringScanner on: 'teesest'.
 	exp1 := PEGTerminal new: 'te'.
