@@ -12,9 +12,8 @@ pMethods
 		add: #setCollection: ;
 		add: #size ;
 		add: #do:;
-		add: #reset;
-		add: #first;
-		add: #second;
-		add: #last.
+		add: #at:;
+		add: #at:put:;
+		add: #reset.
 	^ s ].
 	^ super pMethods
