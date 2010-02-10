@@ -4,16 +4,17 @@ createHFile
 	stream := CrLfFileStream forceNewFileNamed: ('test/', self name, '.h').
 	
 	guardName := 'PHARO_TEST_', self name asUppercase.
+	self startGuard: guardName.
 	
-	stream nextPutAll: '#ifndef '; nextPutAll: guardName; cr;
-		nextPutAll: '#define '; nextPutAll: guardName; cr; cr;
-		nextPutAll: '#include <pinocchio.h>'; cr;
-		nextPutAll: '#include <test/pinocchioTest.h>'; cr;
-		nextPutAll: '#include <parser/Pharo.h>'; cr; cr;
-		nextPutAll: 'extern void test_';
+	self include: 'pinocchio.h'.
+	self include: 'test/pinocchioTest.h'.
+	self include: 'parser/Pharo.h'.
+	
+	stream nextPutAll: 'extern void test_';
 		nextPutAll: self name; 
-		nextPutAll: '();'; cr; cr;
-		nextPutAll: '#endif //'; 
-		nextPutAll: guardName.
+		nextPutAll: '();'; cr; cr.
+		
+	self endGuard: guardName.
+	
 	stream close.
 	

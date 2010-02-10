@@ -5,3 +5,4 @@ clear
 	parser := scparser method.
 	selectorList := Set new.
 	cdumper clear.
+	exporter := PharoExporter new.

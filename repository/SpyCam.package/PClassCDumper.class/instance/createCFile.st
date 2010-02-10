@@ -6,6 +6,7 @@ createCFile.
 	self createHeader.
 	self exportMethods.
 	self exportClassMethods.
+	
 	self createFooter.
 	
 	stream close.

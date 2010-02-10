@@ -22,9 +22,10 @@
 		"exportClassInstance",
 		"name",
 		"todo",
-		"stream" ],
+		"progress",
+		"exporter" ],
 	"name" : "PharoTestExporter",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CFileCreator",
 	"type" : "normal" }

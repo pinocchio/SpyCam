@@ -1,11 +1,12 @@
 exporting
 createHFile
+	|guardName|
 	stream := CrLfFileStream forceNewFileNamed: 'Pharo.h'.
 	
-	stream 
-		nextPutAll: '#ifndef PHARO'; cr;
-		nextPutAll: '#define PHARO'; cr; cr;
-		nextPutAll: '#include <pinocchio.h>'; cr; cr.
+	guardName := 'PHARO'.
+	self startGuard: guardName.
+	self include: 'pinocchio.h'.
+	stream nextPutAll: 'extern void init_Pharo();'; cr; cr.
 	
 	self comment: 'GLOBALS ============================================='.
 	globals do: [ :global|
@@ -17,12 +18,9 @@ createHFile
 	self comment: 'INCLUDES ============================================='.
 	
 	self sortedClasses do: [ :pclass|
-		stream nextPutAll: '#include <parser/class/';
-			nextPutAll: pclass name asString;
-			nextPutAll: '.h>';cr.
+		self include: 'parser/class/',pclass name asString, '.h'.
 	].
 
-	stream cr; 
-		nextPutAll: '#endif // PHARO'.
+	self endGuard: guardName.
 	stream close.
 	

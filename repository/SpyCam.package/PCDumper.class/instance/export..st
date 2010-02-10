@@ -1,6 +1,7 @@
 exporting
 export: aPRootPackage 
 	| sorter |
+	progress := 0.
 	(aPRootPackage isKindOf: PRootPackage) ifFalse: [
 		self error: 'Can Only Export Root Packages'.
 	].

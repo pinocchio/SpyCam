@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"stream",
 		"symbolDict",
 		"visitedNodes",
 		"currentClass",
@@ -15,9 +14,10 @@
 		"globals",
 		"root",
 		"sortedClasses",
-		"classReferences" ],
+		"classReferences",
+		"progress" ],
 	"name" : "PCDumper",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CFileCreator",
 	"type" : "normal" }

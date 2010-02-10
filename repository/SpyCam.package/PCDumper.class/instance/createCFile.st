@@ -1,25 +1,26 @@
 exporting
 createCFile
-	| sourceFile |
-	sourceFile := CrLfFileStream forceNewFileNamed: 'Pharo.c'.
-	sourceFile nextPutAll: '#include <parser/Pharo.h>'; cr; cr.
+	| codeStream |
+	codeStream := stream.
+
+	stream := CrLfFileStream forceNewFileNamed: 'Pharo.c'.
+	self include: 'parser/Pharo.h'.
 	
 	globals do: [ :global|
-		sourceFile nextPutAll: 'Object ';
+		stream nextPutAll: 'Object ';
 			nextPutAll: global uid asString;
 			nextPutAll: ';'; cr.
 	].
 
-	sourceFile cr;
+	stream cr;
 		nextPutAll: 'void init_Pharo() {'; cr.
 	
-	sourceFile nextPutAll: stream contents; cr.
+	stream nextPutAll: codeStream contents; cr.
 	
 	self sortedClasses do: [ :pclass|
-		sourceFile nextPutAll: 'init_';
+		stream nextPutAll: 'init_';
 			nextPutAll: pclass name asString;
 			nextPutAll: '_methods();'; cr.
 	].
-	sourceFile nextPutAll: '}'.
-	
-	sourceFile close.
+	stream nextPutAll: '}'.
+	stream close.

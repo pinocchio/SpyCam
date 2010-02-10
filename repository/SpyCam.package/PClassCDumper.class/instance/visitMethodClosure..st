@@ -3,6 +3,7 @@ visitMethodClosure: aPMethodClosure
 	self visit: aPMethodClosure selector.
 	self visit: aPMethodClosure code.
 	
+	self newline.
 	self put: aPMethodClosure 
 		with: ('new_Runtime_MethodClosure(', aPMethodClosure code uid, ')').
 	self installPInfoOn: aPMethodClosure.
@@ -14,5 +15,3 @@ visitMethodClosure: aPMethodClosure
 		nextPutAll: ', (Runtime_MethodClosure)';
 		nextPutAll: aPMethodClosure uid;
 		nextPutAll: ');'; cr.
-		
-	globals add: aPMethodClosure.

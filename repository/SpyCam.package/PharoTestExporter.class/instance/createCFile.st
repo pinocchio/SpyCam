@@ -1,10 +1,11 @@
 exporting
 createCFile
 	stream := CrLfFileStream forceNewFileNamed: ('PharoTest.c').
-	
-	stream nextPutAll: '#include <parser/PharoTest.h>;'; cr; cr.
+	self include: 'parser/PharoTest.h'.
 	
 	stream nextPutAll: 'void pharo_test() {'; cr.
+	
+	stream nextPutAll: 'init_Pharo();'; cr.
 	
 	self todo do: [ :pClass|
 		stream 	nextPutAll: 'test_';

@@ -1,6 +1,10 @@
 visitor
 visitMethod: aPMethod
 	self newline.
+	stream nextPutAll: 'void init_method_';
+		nextPutAll: aPMethod uid;
+		nextPutAll: '() {'; cr.
+	
 	self comment: (self currentClass name asString, '>>', aPMethod selector asString).
 	self createMethodSourceCommentFor: aPMethod.
 	self visit: aPMethod params.	
@@ -12,6 +16,9 @@ visitMethod: aPMethod
 						'(Type_Array)', aPMethod locals uid).
 	self installPInfoOn: aPMethod.
 	self installMethod: aPMethod.
-	self newline.
 	
-	globals add: aPMethod.
+	stream nextPutAll: '}'; cr; cr.
+		
+	methods add: aPMethod.
+	"reset the node chache"
+	visitedNodes removeAll.

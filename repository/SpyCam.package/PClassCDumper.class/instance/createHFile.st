@@ -5,13 +5,14 @@ createHFile
 	
 	guardName := 'PHARO_', self pclass name asString asUppercase.
 	
-	stream nextPutAll: '#ifndef '; nextPutAll: guardName; cr;
-		nextPutAll: '#define '; nextPutAll: guardName; cr; cr;
-		nextPutAll: '#include <pinocchio.h>'; cr; cr;
-		nextPutAll: 'extern void init_';
+	self startGuard: guardName.
+	self include: 'pinocchio.h'.
+	
+	stream nextPutAll: 'extern void init_';
 		nextPutAll: self pclass name asString;
-		nextPutAll: '_methods();'; cr; cr;
-		nextPutAll: '#include <parser/Pharo.h>'; cr; cr;
-		nextPutAll: '#endif // '; nextPutAll: guardName.
+		nextPutAll: '_methods();'; cr; cr.
 		
+	self include: 'parser/Pharo.h'.
+	self endGuard: guardName.
+	
 	stream close.

@@ -13,7 +13,8 @@
 		"pinocchioVisitor",
 		"cdumper",
 		"classASTs",
-		"internalClassDict" ],
+		"internalClassDict",
+		"progress" ],
 	"name" : "PharoExporter",
 	"pools" : [
 		 ],
