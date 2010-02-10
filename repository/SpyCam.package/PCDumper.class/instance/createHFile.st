@@ -19,7 +19,7 @@ createHFile
 	self sortedClasses do: [ :pclass|
 		stream nextPutAll: '#include <parser/class/';
 			nextPutAll: pclass name asString;
-			nextPutAll: '.h>;';cr.
+			nextPutAll: '.h>';cr.
 	].
 
 	stream cr; 
