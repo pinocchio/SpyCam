@@ -1,10 +1,10 @@
 exporting
 export
 	| astExtractor |
-	astExtractor := PharoASTExporter new.
-	progress := [astExtractor progress / 5].
+	astExtractor := PharoASTExtractor new.
+	progress := [astExtractor progress / 3].
 	root := 	astExtractor extract: self todo.
 	classASTs := astExtractor classASTs.
 	
-	progress := [cdumper progress * (4/5) + (1/5)].
+	progress := [cdumper progress * (2/3) + (1/3)].
 	cdumper export: root.

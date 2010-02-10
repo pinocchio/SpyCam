@@ -15,7 +15,7 @@
 		"classASTs",
 		"internalClassDict",
 		"progress" ],
-	"name" : "PharoASTExporter",
+	"name" : "PharoASTExtractor",
 	"pools" : [
 		 ],
 	"super" : "Object",
