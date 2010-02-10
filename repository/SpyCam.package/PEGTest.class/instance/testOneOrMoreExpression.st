@@ -1,6 +1,5 @@
 tests
 testOneOrMoreExpression
-	<preventExport>
 	| string exp1 exp2 exp3 exp |
 	string := PEGStringScanner on: 'teesest'.
 	exp1 := PEGTerminal new: 'te'.

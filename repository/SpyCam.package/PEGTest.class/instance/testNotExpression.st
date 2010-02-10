@@ -1,6 +1,5 @@
 tests
 testNotExpression
-	<preventExport>
 	| string exp1 exp2 exp exp3 |
 	string := PEGStringScanner on: 'teesest'.
 	exp1 := PEGTerminal new: 'te'.

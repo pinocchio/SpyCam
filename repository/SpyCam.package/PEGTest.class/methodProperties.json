@@ -3,9 +3,9 @@
 		"pMethods" : "ToonVerwaest 2/10/2010 14:39" },
 	"instance" : {
 		"setUp" : "ToonVerwaest 2/10/2010 14:40",
-		"testExpression" : "ToonVerwaest 2/10/2010 15:00",
-		"testNotExpression" : "ToonVerwaest 2/10/2010 15:00",
-		"testOneOrMoreExpression" : "ToonVerwaest 2/10/2010 15:00",
+		"testExpression" : "ToonVerwaest 2/10/2010 16:14",
+		"testNotExpression" : "ToonVerwaest 2/10/2010 16:15",
+		"testOneOrMoreExpression" : "ToonVerwaest 2/10/2010 16:27",
 		"testOptionalExpression" : "ToonVerwaest 2/10/2010 15:00",
 		"testOrderedChoiceExpression" : "ToonVerwaest 2/10/2010 15:23",
 		"testRange" : "ToonVerwaest 2/10/2010 15:24",
