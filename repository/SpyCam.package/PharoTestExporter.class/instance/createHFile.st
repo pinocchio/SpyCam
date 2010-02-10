@@ -1,17 +1,17 @@
 exporting
 createHFile
 	| guardName |
-	stream := CrLfFileStream forceNewFileNamed: self sourcePath, '/test/lib/lib.h'.
-	guardName := 'PINOCCHIO_LIB_TEST'.
+	stream := CrLfFileStream forceNewFileNamed: 'PharoTest.h'.
+	guardName := 'PHARO_TEST'.
 	self startGuard: guardName.
 	
 	self include: 'pinocchio.h'.
-	self include: 'lib/lib.h'.
+	self include: 'parser/Pharo.h'.
 	
-	stream nextPutAll: 'extern void test_lib();'; cr; cr.
+	stream nextPutAll: 'extern void pharo_test();'; cr; cr.
 	
 	self todo do:[ :pClass | 
-		self include: 'test/lib/test/', pClass name asString, '.h'.
+		self include: 'parser/test/', pClass name asString, '.h'.
 	].
 	
 	self endGuard: guardName.

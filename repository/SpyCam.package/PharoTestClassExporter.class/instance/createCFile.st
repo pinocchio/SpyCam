@@ -1,6 +1,6 @@
 exporting
 createCFile
-	stream := CrLfFileStream forceNewFileNamed: (self sourcePath, 'test/lib/test/', self name, '.c').
+	stream := CrLfFileStream forceNewFileNamed: ('test/', self name, '.c').
 	
 	self createHeader.
 	self createTestCases.

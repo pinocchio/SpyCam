@@ -1,6 +1,6 @@
 exporting
 createHeader
-	self include: 'test/lib/test/', self name, '.h'.
+	self include: 'parser/test/', self name, '.h'.
 	stream cr;
 		nextPutAll: '// Auto generated Tests from '; 
 		nextPutAll: self name; cr; cr;

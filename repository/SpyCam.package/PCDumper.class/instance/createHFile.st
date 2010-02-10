@@ -1,12 +1,12 @@
 exporting
 createHFile
 	|guardName|
-	stream := CrLfFileStream forceNewFileNamed: self sourcePath, '/lib/lib.h'.
+	stream := CrLfFileStream forceNewFileNamed: 'Pharo.h'.
 	
-	guardName := 'PINOCCHIO_LIB'.
+	guardName := 'PHARO'.
 	self startGuard: guardName.
 	self include: 'pinocchio.h'.
-	stream nextPutAll: 'extern void init_lib();'; cr; cr.
+	stream nextPutAll: 'extern void init_Pharo();'; cr; cr.
 	
 	self comment: 'GLOBALS ============================================='.
 	globals do: [ :global|
@@ -18,7 +18,7 @@ createHFile
 	self comment: 'INCLUDES ============================================='.
 	
 	self sortedClasses do: [ :pclass|
-		self include: 'lib/class/',pclass name asString, '.h'.
+		self include: 'parser/class/',pclass name asString, '.h'.
 	].
 
 	self endGuard: guardName.

@@ -1,14 +1,14 @@
 exporting
 createHFile
 	| guardName |
-	stream := CrLfFileStream forceNewFileNamed: (self sourcePath, 'test/lib/test/', self name, '.h').
+	stream := CrLfFileStream forceNewFileNamed: ('test/', self name, '.h').
 	
-	guardName := 'PINOCCHIO_LIB_TEST_', self name asUppercase.
+	guardName := 'PHARO_TEST_', self name asUppercase.
 	self startGuard: guardName.
 	
 	self include: 'pinocchio.h'.
 	self include: 'test/pinocchioTest.h'.
-	self include: 'lib/lib.h'.
+	self include: 'parser/Pharo.h'.
 	
 	stream nextPutAll: 'extern void test_';
 		nextPutAll: self name; 

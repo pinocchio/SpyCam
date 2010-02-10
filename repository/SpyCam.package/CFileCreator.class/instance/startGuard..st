@@ -6,6 +6,5 @@ startGuard: guardName
 		cr;
 		nextPutAll: '#define ';
 		nextPutAll: guardName;
-		nextPutAll: ' ';
 		cr;
 		cr

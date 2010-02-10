@@ -2,7 +2,7 @@ exporting
 clearDirectory: dirPath
 	| dir |
 	self assert: dirPath size > 0.
-	self assureExistenceOfPath: dirPath.
+	FileDirectory default assureExistenceOfPath: dirPath.
 	
 	dir := FileDirectory on: (FileDirectory default fullNameFor: dirPath).
 	dir fileAndDirectoryNames
