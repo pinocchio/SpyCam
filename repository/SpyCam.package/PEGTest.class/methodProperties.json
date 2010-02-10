@@ -1,14 +1,16 @@
 {
 	"class" : {
-		 },
+		"pMethods" : "ToonVerwaest 2/10/2010 14:39" },
 	"instance" : {
-		"testExpression" : "CamilloBruni 12/15/2009 15:58",
-		"testNotExpression" : "CamilloBruni 12/15/2009 15:58",
-		"testOneOrMoreExpression" : "CamilloBruni 12/15/2009 15:58",
-		"testOptionalExpression" : "CamilloBruni 12/15/2009 15:58",
+		"setUp" : "ToonVerwaest 2/10/2010 14:40",
+		"testExpression" : "ToonVerwaest 2/10/2010 15:00",
+		"testNotExpression" : "ToonVerwaest 2/10/2010 15:00",
+		"testOneOrMoreExpression" : "ToonVerwaest 2/10/2010 15:00",
+		"testOptionalExpression" : "ToonVerwaest 2/10/2010 15:00",
 		"testOrderedChoiceExpression" : "CamilloBruni 12/15/2009 15:58",
 		"testRange" : "CamilloBruni 12/15/2009 15:58",
 		"testSeparator" : "CamilloBruni 12/15/2009 15:58",
 		"testSequenceExpression" : "CamilloBruni 12/15/2009 15:58",
-		"testSequenceOmit" : "CamilloBruni 12/15/2009 15:58",
+		"testSequenceOmit" : "ToonVerwaest 2/10/2010 14:58",
+		"testSingleCharacterParse" : "ToonVerwaest 2/10/2010 14:57",
 		"testZeroOrMoreExpression" : "CamilloBruni 12/15/2009 15:58" } }

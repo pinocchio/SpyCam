@@ -14,4 +14,4 @@ createTestSetup
 	stream nextPutAll: 'Eval((Object)';
 		nextPutAll: send uid asString;
 		nextPutAll: ');'; cr;
-		nextPutAll: '}'; cr; cr.
+		nextPutAll: '}'; cr.

@@ -3,7 +3,7 @@ pexportTest
 	| exporter |
 	exporter := PharoTestExporter new.
 	[exporter export: self tests] fork.
-	['Exporting Pharo' 
+	'Exporting Pharo' 
 		displayProgressAt: Display center
 		from: 0 to: 1000
 		during: [:bar ||p|
@@ -13,4 +13,4 @@ pexportTest
 				(Delay forMilliseconds: 2) wait.
 				p := exporter progress.
 			]
-	]] fork.
+		]
