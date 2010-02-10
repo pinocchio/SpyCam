@@ -3,7 +3,7 @@ createCFile
 	| codeStream |
 	codeStream := stream.
 
-	stream := CrLfFileStream forceNewFileNamed: self sourcePath, '/lib/lib.c'.
+	stream := self createStream: '/lib/lib.c'.
 	self include: 'lib/lib.h'.
 	
 	globals do: [ :global|

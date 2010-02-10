@@ -1,7 +1,7 @@
 exporting
 createHFile 
 	| guardName |
-	stream := CrLfFileStream forceNewFileNamed: (self sourcePath, '/lib/class/', self pclass name asString, '.h').
+	stream := self createStream: ('/lib/class/', self pclass name asString, '.h').
 	
 	guardName := 'PINOCCHIO_LIB_', self pclass name asString asUppercase.
 	

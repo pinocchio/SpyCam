@@ -1,7 +1,7 @@
 exporting
 createHFile
 	| guardName |
-	stream := CrLfFileStream forceNewFileNamed: self sourcePath, '/test/lib/lib.h'.
+	stream := self createStream: '/test/lib/lib.h'.
 	guardName := 'PINOCCHIO_LIB_TEST'.
 	self startGuard: guardName.
 	

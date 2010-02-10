@@ -1,6 +1,6 @@
 exporting
 createCFile
-	stream := CrLfFileStream forceNewFileNamed: (self sourcePath, '/test/lib/lib.c').
+	stream := self createStream: '/test/lib/lib.c'.
 	self include: 'test/lib/lib.h'.
 	
 	stream nextPutAll: 'void test_lib() {'; cr.
