@@ -1,3 +1,0 @@
-test-basics
-tmSymbol
-	^ #Symbol

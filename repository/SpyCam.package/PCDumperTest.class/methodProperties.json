@@ -30,6 +30,7 @@
 		"testGenerateTestSourcesForTestMethods" : "TestRunner 11/18/2009 13:03",
 		"testKeywordMessageSend1Arg" : "TestRunner 11/17/2009 16:16",
 		"testKeywordMessageSend2Arg" : "TestRunner 11/17/2009 16:16",
+		"testLocalVariable" : "CamilloBruni 2/10/2010 13:30",
 		"testReturn" : "TestRunner 11/24/2009 18:09",
 		"testReturnHidden" : "TestRunner 11/24/2009 18:37",
 		"testSmallInt" : "TestRunner 12/16/2009 18:55",
@@ -40,5 +41,4 @@
 		"testStringEscapeNewline" : "TestRunner 12/16/2009 18:56",
 		"testStringEscapeSingleQuote" : "TestRunner 12/16/2009 18:56",
 		"testSymbol" : "TestRunner 12/16/2009 18:56",
-		"testVisit" : "TestRunner 12/16/2009 18:57",
-		"tmLocalVariable" : "CamilloBruni 12/1/2009 17:01" } }
+		"testVisit" : "TestRunner 12/16/2009 18:57" } }

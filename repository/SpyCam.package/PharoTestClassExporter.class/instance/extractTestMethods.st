@@ -1,5 +1,5 @@
 convenience
 extractTestMethods
 	methods := self sclass methodDict keys select: [ :m|
-		m beginsWith: 'tm'.
+		m beginsWith: 'test'.
 	]
