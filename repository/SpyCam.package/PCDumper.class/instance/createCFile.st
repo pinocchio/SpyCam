@@ -3,8 +3,8 @@ createCFile
 	| codeStream |
 	codeStream := stream.
 
-	stream := CrLfFileStream forceNewFileNamed: 'Pharo.c'.
-	self include: 'parser/Pharo.h'.
+	stream := CrLfFileStream forceNewFileNamed: self sourcePath, '/lib/lib.c'.
+	self include: 'lib/lib.h'.
 	
 	globals do: [ :global|
 		stream nextPutAll: 'Object ';
@@ -13,7 +13,7 @@ createCFile
 	].
 
 	stream cr;
-		nextPutAll: 'void init_Pharo() {'; cr.
+		nextPutAll: 'void init_lib() {'; cr.
 	
 	stream nextPutAll: codeStream contents; cr.
 	

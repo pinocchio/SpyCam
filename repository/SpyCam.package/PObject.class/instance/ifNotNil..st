@@ -1,3 +1,3 @@
 accessing
 ifNotNil: aBlock
-	^ aBlock value: self
+	^ aBlock valueWithPossibleArgs: (Array with: self)

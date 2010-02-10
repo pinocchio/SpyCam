@@ -1,4 +1,4 @@
 exporting
 createHeader
-	stream 
-		nextPutAll: '#include <parser/class/'; nextPutAll: self pclass name asString; nextPutAll: '.h>'; cr; cr.
+	self include: 'lib/class/', self pclass name asString, '.h'.
+	stream cr; cr.
