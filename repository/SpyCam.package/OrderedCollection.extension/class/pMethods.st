@@ -13,6 +13,7 @@ pMethods
 		add: #size ;
 		add: #do:;
 		add: #at:;
+		add: #collect:;
 		add: #at:put:;
 		add: #reset.
 	^ s ].

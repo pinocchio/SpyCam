@@ -1,3 +1,3 @@
-as yet unclassified
+copying
 copy
 	^ self asSymbol asString
