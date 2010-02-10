@@ -6,6 +6,8 @@
 	"instance" : {
 		"=" : "TestRunner 11/17/2009 14:48",
 		"add:" : "DavidGurtner 11/11/2009 15:49",
+		"asString" : "CamilloBruni 2/10/2010 22:11",
+		"copyFrom:to:" : "CamilloBruni 2/10/2010 22:26",
 		"do:" : "TestRunner 11/11/2009 16:17",
 		"doWithIndex:" : "DavidGurtner 11/11/2009 15:50",
 		"first" : "CamilloBruni 11/9/2009 17:43",
@@ -19,5 +21,6 @@
 		"last" : "CamilloBruni 11/10/2009 12:08",
 		"last:" : "CamilloBruni 11/10/2009 12:09",
 		"printOn:" : "CamilloBruni 11/10/2009 18:40",
-		"replaceFrom:to:with:startingAt:" : "ToonVerwaest 2/8/2010 12:28",
+		"replaceFrom:to:with:startingAt:" : "CamilloBruni 2/10/2010 22:27",
+		"species" : "CamilloBruni 2/10/2010 22:26",
 		"uid" : "CamilloBruni 2/3/2010 13:49" } }
