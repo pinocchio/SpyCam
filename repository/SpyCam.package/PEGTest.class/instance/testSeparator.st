@@ -1,5 +1,6 @@
 tests
 testSeparator
+	<preventExport>
 	| string |
 	string := PEGStringScanner on: ' a'.
 	(PEGParser separator match: string) should not be isNil.

@@ -1,9 +1,7 @@
 exporting
 createHeader
-	stream 
-		nextPutAll: '#include <parser/test/';
-		nextPutAll: self name;
-		nextPutAll: '.h>;'; cr; cr;
+	self include: 'parser/test/', self name, '.h'.
+	stream cr;
 		nextPutAll: '// Auto generated Tests from '; 
 		nextPutAll: self name; cr; cr;
 		nextPutAll: '// Test Object to put test methods into '; cr;

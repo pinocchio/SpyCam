@@ -1,5 +1,6 @@
 tests
 testOrderedChoiceExpression
+	<preventExport>
 	| string exp1 exp2 exp3 seq1 |
 	string := PEGStringScanner on: 'teest'.
 	exp1 := PEGTerminal new: 'te'.

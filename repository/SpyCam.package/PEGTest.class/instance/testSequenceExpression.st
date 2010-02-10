@@ -1,5 +1,6 @@
 tests
 testSequenceExpression
+	<preventExport>
 	| string exp1 exp2 exp3 seq1 seq2 seq3 |
 	string := PEGStringScanner on: 'teest'.
 	exp1 := PEGTerminal new: 'te'.
