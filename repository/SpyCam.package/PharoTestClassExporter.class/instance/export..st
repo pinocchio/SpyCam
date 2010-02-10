@@ -5,7 +5,7 @@ export: pclass
 	self pclass: pclass.
 	self sclass: pclass sclass.
 	
-	FileDirectory default assureExistenceOfPath: 'test'. 
+	FileDirectory default assureExistenceOfPath: self sourcePath, '/test/lib/test'. 
 	
 	self createCFile.
 	self createHFile.

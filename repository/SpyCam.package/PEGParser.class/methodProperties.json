@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"basicSeparator" : "ToonVerwaest 2/8/2010 10:31",
-		"basicSeparators" : "ToonVerwaest 2/10/2010 19:56",
+		"basicSeparators" : "ToonVerwaest 2/8/2010 15:45",
 		"named:" : "tv 3/26/2009 12:02",
 		"named:parsing:" : "tv 3/26/2009 12:01",
 		"named:parsing:semantics:" : "tv 3/26/2009 17:47",
@@ -10,8 +10,7 @@
 	"instance" : {
 		"<=" : "tv 3/25/2009 19:44",
 		"initialize" : "TestRunner 11/11/2009 14:48",
-		"match:" : "ToonVerwaest 2/10/2010 20:10",
-		"omitMatch:" : "ToonVerwaest 2/10/2010 20:38",
+		"match:" : "CamilloBruni 11/10/2009 17:42",
 		"parse:" : "CamilloBruni 11/10/2009 16:34",
 		"performMatch:" : "TestRunner 11/11/2009 16:14",
 		"semantics:" : "tv 3/26/2009 15:00",
