@@ -1,7 +1,6 @@
 {
 	"class" : {
-		"pMethods" : "CamilloBruni 1/27/2010 17:54",
-		"pexportTest" : "CamilloBruni 2/3/2010 14:32" },
+		"pMethods" : "CamilloBruni 1/27/2010 17:54" },
 	"instance" : {
 		"setUp" : "tv 3/28/2009 19:17",
 		"testAnnotation" : "CamilloBruni 1/27/2010 23:30",

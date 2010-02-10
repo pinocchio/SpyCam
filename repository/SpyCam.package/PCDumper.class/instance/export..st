@@ -8,6 +8,7 @@ export: aPRootPackage
 	
 	self root: aPRootPackage.
 	self clear.
+	self clearDirectory: 'class'.
 	
 	sorter := PClassTopSorter new.
 	sorter visitRootPackage: self root.

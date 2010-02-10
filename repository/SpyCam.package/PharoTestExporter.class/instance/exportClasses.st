@@ -1,8 +1,7 @@
 exporting
 exportClasses
-	"Export all the needed test classes"
+	self clearDirectory: 'test'.
 	exporter export: self todo.
-	
-	self todo do: [ :sclass|
-		PharoTestClassExporter export: (exporter classASTs at: sclass name).
-	].
+	self todo
+		do: [:t1 | PharoTestClassExporter
+				export: (exporter classASTs at: t1 name)]
