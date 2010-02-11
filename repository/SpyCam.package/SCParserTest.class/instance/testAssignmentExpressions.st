@@ -1,6 +1,5 @@
 tests
 testAssignmentExpressions
-	<preventExport>
 	| parser string |
 	parser := scparser assignmentExpressions.
 	string := PEGStringScanner on: 'a :=  b:= c := d'.

@@ -16,6 +16,7 @@ pMethods
 		add: #at:;
 		add: #collect:;
 		add: #at:put:;
+		add: #asArray;
 		add: #reset.
 	^ s ].
 	^ super pMethods
