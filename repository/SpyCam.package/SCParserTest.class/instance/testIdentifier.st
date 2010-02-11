@@ -1,6 +1,5 @@
 tests
 testIdentifier
-	<preventExport>
 	| parser string |
 	parser := scparser identifier.
 	string := PEGStringScanner on: 'abcd '.
