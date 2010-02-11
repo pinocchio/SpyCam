@@ -1,5 +1,6 @@
 tests
 testMethod2
+	<preventExport>
 	" We just allow fully MessageExpressions in our annotations. Semantic checker will catch this (probably :)) "
 
 	| parser string result |

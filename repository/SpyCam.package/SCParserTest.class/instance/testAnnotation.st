@@ -1,5 +1,6 @@
 tests
 testAnnotation
+	<preventExport>
 	| parser string result arg |
 	" We just allow fully MessageExpressions in our annotations. Semantic checker will catch this (probably :)) "
 	parser := scparser annotation.

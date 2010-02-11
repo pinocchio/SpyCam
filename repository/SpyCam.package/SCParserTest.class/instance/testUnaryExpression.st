@@ -1,5 +1,6 @@
 tests
 testUnaryExpression
+	<preventExport>
 	| parser string result |
 	parser := scparser unaryExpression.
 	string := PEGStringScanner on: 'abc def ghi '.

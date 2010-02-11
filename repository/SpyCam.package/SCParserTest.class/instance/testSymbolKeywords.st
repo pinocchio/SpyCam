@@ -1,5 +1,6 @@
 tests
 testSymbolKeywords
+	<preventExport>
 	| parser string |
 	parser := scparser symbolKeywords.
 	string := PEGStringScanner on: 'abcd:def: '.

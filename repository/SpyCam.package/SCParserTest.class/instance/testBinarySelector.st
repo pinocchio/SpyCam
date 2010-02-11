@@ -1,5 +1,6 @@
 tests
 testBinarySelector
+	<preventExport>
 	| parser string |
 	parser := scparser binarySelector.
 	string := PEGStringScanner on: '+= a'.

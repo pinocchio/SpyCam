@@ -1,5 +1,6 @@
 tests
 testMethod4
+	<preventExport>
 	| parser string result |
 	parser := scparser method.
 	string := 'withA: a withB: b withC: c

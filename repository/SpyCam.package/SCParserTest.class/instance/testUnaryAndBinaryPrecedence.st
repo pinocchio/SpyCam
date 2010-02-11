@@ -1,5 +1,6 @@
 tests
 testUnaryAndBinaryPrecedence
+	<preventExport>
 	| parser ast |
 	parser := scparser statements.
 	

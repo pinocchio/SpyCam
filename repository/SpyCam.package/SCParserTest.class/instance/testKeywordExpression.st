@@ -1,5 +1,6 @@
 tests
 testKeywordExpression
+	<preventExport>
 	| parser string result arg |
 	parser := scparser keywordExpression.
 	string := PEGStringScanner on: '2+4 abc: 1 def: 2+2 ghi: 3 b '.

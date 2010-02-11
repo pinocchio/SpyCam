@@ -1,3 +1,3 @@
 accessing
 ifNotNil: aBlock ifNil: otherBlock
-	^ aBlock value
+	^ self ifNotNil: aBlock

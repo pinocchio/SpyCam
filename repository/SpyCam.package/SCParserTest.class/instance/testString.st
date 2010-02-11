@@ -1,5 +1,6 @@
 tests
 testString
+	<preventExport>
 	| parser string |
 	parser := scparser string.
 	string := PEGStringScanner on: ''.

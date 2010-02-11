@@ -1,5 +1,6 @@
 tests
 testStringConstant
+	<preventExport>
 	| parser string result |
 	parser := scparser stringConstant.
 	string := PEGStringScanner on: '''abc'''.

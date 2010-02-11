@@ -1,5 +1,6 @@
 nontests
 testParseTestMethods
+	<preventExport>
 	<temps: 6 annotations: 1 statements: 3>
 	| parser string result code annotations annotation |
 	parser := scparser method.

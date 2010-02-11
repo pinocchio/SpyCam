@@ -1,5 +1,6 @@
 tests
 testBinaryExpression2
+	<preventExport>
 	" becomes ((abc | ghi) <= c) "
 	| string result parser |
 	parser := scparser binaryObjectDescription.
