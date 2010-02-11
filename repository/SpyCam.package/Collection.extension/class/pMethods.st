@@ -4,6 +4,8 @@ pMethods
 	self = Collection ifTrue: [
 	| s |
 	s := OrderedCollection new.
-	s add: #inject:into:.
+	s add: #inject:into:;
+		add: #isEmpty;
+		add: #emptyCheck.
 	^ s ].
 	^ super pMethods

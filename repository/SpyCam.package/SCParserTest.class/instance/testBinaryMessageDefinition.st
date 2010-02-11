@@ -1,6 +1,5 @@
 tests
 testBinaryMessageDefinition
-	<preventExport>
 	| parser string result |
 	parser := scparser binaryMessageDefinition.
 	string := PEGStringScanner on: '+= a'.

@@ -5,6 +5,7 @@ pMethods
 	| s |
 	s := OrderedCollection new.
 	s add: #add: ;
+		add: #removeFirst;
 		add: #addLast: ;
 		add: #makeRoomAtLast;
 		add: #grow;

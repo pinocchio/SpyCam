@@ -1,6 +1,5 @@
 tests
 testCapitalIdentifier
-	<preventExport>
 	| parser string |
 	parser := scparser capitalIdentifier.
 	string := PEGStringScanner on: 'Abcd '.

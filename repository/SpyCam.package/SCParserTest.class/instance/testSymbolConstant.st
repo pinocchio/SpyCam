@@ -1,6 +1,5 @@
 tests
 testSymbolConstant
-	<preventExport>
 	| parser string result |
 	parser := scparser symbolConstant.
 	string := PEGStringScanner on: '#abc'.

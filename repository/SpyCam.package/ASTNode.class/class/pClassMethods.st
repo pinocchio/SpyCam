@@ -1,4 +1,4 @@
 accessing
-pMethods
+pClassMethods
 	<preventExport>
 	^ #all.

@@ -1,6 +1,5 @@
 tests
 testUnarySelector
-	<preventExport>
 	| parser string result |
 	parser := scparser unarySelector.
 	string := PEGStringScanner on: 'abcd bla'.

@@ -1,6 +1,5 @@
 tests
 testBlockArguments
-	<preventExport>
 	| string result var parser |
 	parser := scparser blockArguments.
 	string := PEGStringScanner on: ':abcd :def'.
