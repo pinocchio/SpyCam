@@ -1,6 +1,5 @@
 tests
 testSeparator
-	<preventExport>
 	| parser string |
 	parser := scparser separator.
 	string := PEGStringScanner on: '"Test"'.
