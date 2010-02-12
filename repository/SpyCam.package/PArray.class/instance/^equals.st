@@ -1,9 +1,10 @@
 comparing
-= other
-	self == other ifTrue: [^ true].
-	self class = other class ifFalse: [ ^ false].
-	self size = other size ifFalse: [ ^ false ].
-	1 to: self size do: [ :index|
-	 	(self at: index) = (other at: index) ifFalse: [ ^ false].
-	].
-	^ true.
+= otherCollection 
+	"Answer true if the receiver is equivalent to the otherCollection.
+	First test for identity, then rule out different species and sizes of
+	collections. As a last resort, examine each element of the receiver
+	and the otherCollection."
+
+	self == otherCollection ifTrue: [^ true].
+	self species == otherCollection species ifFalse: [^ false].
+	^ self hasEqualElements: otherCollection

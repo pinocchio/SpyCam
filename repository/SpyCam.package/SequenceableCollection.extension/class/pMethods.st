@@ -6,6 +6,8 @@ pMethods
 	s := OrderedCollection new.
 	s add: #first;
 		add: #second;
+		add: #=;
+		add: #hasEqualElements:;
 		add: #last.
 	^ s ].
 	^ super pMethods

@@ -1,5 +1,5 @@
 tests
-testMemoize
+testResultEquals
 	| string exp1 result |
 	string := PEGStringScanner on: 'te'.
 	exp1 := PEGTerminal new: 'te'.
