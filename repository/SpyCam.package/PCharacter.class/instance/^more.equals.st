@@ -1,4 +1,4 @@
 comparing
 >= aCharacter 
 
-	^ (self < aCharacter) not
+	^  aCharacter <= self asSmallInt

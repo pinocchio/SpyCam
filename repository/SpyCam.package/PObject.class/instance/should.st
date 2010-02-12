@@ -1,3 +1,3 @@
 testing
 should
-	^PPexMatcher new: self
+	^ PPexMatcher new: self

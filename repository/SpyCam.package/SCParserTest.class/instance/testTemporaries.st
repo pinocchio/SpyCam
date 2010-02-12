@@ -1,6 +1,5 @@
 tests
 testTemporaries
-	<preventExport>
 	| parser string result |
 	parser := scparser temporaries.
 	string := PEGStringScanner on: '|a b c|'.

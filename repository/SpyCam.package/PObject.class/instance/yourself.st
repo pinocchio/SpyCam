@@ -1,3 +1,3 @@
 pinocchio-export
 yourself
-	^ self
+	"^ self"

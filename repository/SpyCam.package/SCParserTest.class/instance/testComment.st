@@ -1,6 +1,5 @@
 tests
 testComment
-	<preventExport>
 	| parser |
 	parser := PEGParser named: 'COMMENT' parsing: scparser commentFormat.
 	(parser parse: '"Test"') should not be isNil.
