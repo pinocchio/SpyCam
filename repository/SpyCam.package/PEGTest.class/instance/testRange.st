@@ -1,6 +1,5 @@
 tests
 testRange
-	<preventExport>
 	| string |
 	string := PEGStringScanner on: 'p'.
 	((PEGRange between: $a and: $z) match: string) should = 'p'.

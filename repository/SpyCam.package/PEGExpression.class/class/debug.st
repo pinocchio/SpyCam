@@ -1,3 +1,3 @@
 accessing
 debug
-	^ false
+	^ true

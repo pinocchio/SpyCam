@@ -1,7 +1,7 @@
 {
 	"category" : "SpyCam-PEG",
 	"classinstvars" : [
-		 ],
+		"indent" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

@@ -1,0 +1,2 @@
+*SpyCam-Pinocchio
+stdout

@@ -1,6 +1,5 @@
 tests
 testSequenceOmit
-	<preventExport>
 	| string exp1 exp2 seq1 |
 	string := PEGStringScanner on: 'abc'.
 	exp1 := 'a' asPEG omit: true.
