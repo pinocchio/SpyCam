@@ -4,6 +4,7 @@
 	"instance" : {
 		"setUp" : "ToonVerwaest 2/10/2010 14:40",
 		"testExpression" : "ToonVerwaest 2/10/2010 16:14",
+		"testMemoize" : "ToonVerwaest 2/12/2010 14:29",
 		"testNotExpression" : "CamilloBruni 2/10/2010 22:30",
 		"testOneOrMoreExpression" : "ToonVerwaest 2/10/2010 16:27",
 		"testOptionalExpression" : "ToonVerwaest 2/10/2010 17:10",
