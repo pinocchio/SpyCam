@@ -1,3 +1,3 @@
 expression
 initializeUnaryObjectDescription
-	^ self unaryExpression | self primary
+	^ (self unaryExpression | self primary) name: 'UNARY-OBJECT-DESCRIPTION'

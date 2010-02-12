@@ -5,5 +5,5 @@ debugEnd: input result: result
 			PEGExpression decreaseIndent.
 			PEGExpression indent.
 			result
-				ifNil: [ 'failed' stdout; cr ]
-				ifNotNil: [ 'success' stdout; cr ]]
+				ifNil: [ ('failed ', self printString) stdout; cr ]
+				ifNotNil: [ ('success ', self printString) stdout; cr ]]

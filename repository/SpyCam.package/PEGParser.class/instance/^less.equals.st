@@ -1,3 +1,4 @@
 adding
 <= theExpression
-	expression := theExpression asPEG
+	expression := theExpression asPEG.
+	name ifNotNil: [ expression name: name ]
