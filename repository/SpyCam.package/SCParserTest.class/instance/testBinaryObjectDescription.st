@@ -1,6 +1,5 @@
 tests
 testBinaryObjectDescription
-	<preventExport>
 	| parser string result |
 	parser := scparser binaryObjectDescription.	" unary object description -> unary expression "
 	string := PEGStringScanner on: 'abc def ghi '.

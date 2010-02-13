@@ -1,6 +1,5 @@
 tests
 testBlock
-	<preventExport>
 	| parser string result |
 	parser := scparser block.
 	string := PEGStringScanner on: '[]'.

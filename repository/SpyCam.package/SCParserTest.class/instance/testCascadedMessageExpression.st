@@ -1,6 +1,5 @@
 tests
 testCascadedMessageExpression
-	<preventExport>
 	| parser string result expression |
 	parser := scparser cascadedMessageExpression.
 	string := PEGStringScanner on: '2+4; x: 3 b; d: 3 c: 4; x '.

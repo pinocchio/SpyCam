@@ -1,6 +1,5 @@
 tests
 testBinaryExpression2
-	<preventExport>
 	| string result parser |
 	parser := scparser binaryObjectDescription.
 	string := PEGStringScanner on: 'a <<<<<<<< ghi <= c <= d '.
