@@ -15,14 +15,9 @@ testBinaryExpression3
 	arg receiver name should = 'c'.
 	result := result receiver.
 	result class should = ASTBinaryExpression.
-	result selector printString should = '<='.
-	result argument class should = ASTVariable.
-	result argument name should = 'c'.
-	result := result receiver.
-	result class should = ASTBinaryExpression.
 	result selector printString should = '<<<<<<<<'.
 	result receiver class should = ASTVariable.
 	result receiver name should = 'a'.
 	result argument class should = ASTVariable.
 	result argument name should = 'ghi'.
-	string position should = 24
+	string position should = 26
