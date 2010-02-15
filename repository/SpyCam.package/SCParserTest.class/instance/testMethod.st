@@ -1,8 +1,7 @@
 tests
 testMethod
-	<preventExport>
 	" We just allow fully MessageExpressions in our annotations. Semantic checker will catch this (probably :)) "
-
+	<preventExport>
 	| parser string result |
 	parser := scparser method.
 	string := 'a: b c: d

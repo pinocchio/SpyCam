@@ -1,6 +1,5 @@
 tests
 testReturn
-	<preventExport>
 	| parser string result |
 	parser := scparser return.
 	string := PEGStringScanner on: '^ a:= b :=    c:= 2+4 abc: 1 def: 2+2 ghi: 3 b '.

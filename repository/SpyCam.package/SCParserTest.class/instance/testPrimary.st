@@ -1,6 +1,5 @@
 tests
 testPrimary
-	<preventExport>
 	| parser string result |
 	parser := scparser primary.	" primary variable"
 	string := PEGStringScanner on: 'abc '.
