@@ -1,7 +1,7 @@
 expecting
 = expected
-	value isNumber
+	"value isNumber
 		ifTrue: [ value asString stdout; cr ]
-		ifFalse: [ value yourself ].
+		ifFalse: [ value yourself ]."
 	self expect: value = expected.
 	^ nil
