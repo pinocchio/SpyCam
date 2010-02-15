@@ -1,6 +1,5 @@
 tests
 testMessageExpression
-	<preventExport>
 	| parser string result |
 
 	parser := scparser messageExpression.

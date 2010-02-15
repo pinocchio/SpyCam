@@ -1,6 +1,5 @@
 tests
 testArray
-	<preventExport>
 	| parser string result |
 	parser := scparser array.
 	string := PEGStringScanner on: '()'.

@@ -1,6 +1,5 @@
 tests
 testKeywordsArguments
-	<preventExport>
 	| parser string result |
 	parser := scparser keywordsArguments.
 	string := PEGStringScanner on: 'test: ab'.
