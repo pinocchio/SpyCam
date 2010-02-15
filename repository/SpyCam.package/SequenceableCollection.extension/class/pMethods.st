@@ -11,6 +11,7 @@ pMethods
 		add: #reversed;
 		add: #joinUsing:;
 		add: #hasEqualElements:;
+		add: #do:separatedBy:;
 		add: #last.
 	^ s ].
 	^ super pMethods

@@ -9,6 +9,7 @@ pMethods
 			add: #position;
 			add: #positionError;
 			add: #atEnd;
+			add: #contents;
 			add: #reset.
 		^ s
 	].

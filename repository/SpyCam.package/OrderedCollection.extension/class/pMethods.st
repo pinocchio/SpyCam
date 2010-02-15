@@ -8,6 +8,8 @@ pMethods
 		add: #removeFirst;
 		add: #addLast: ;
 		add: #makeRoomAtLast;
+		add: #addFirst:;
+		add: #makeRoomAtFirst;
 		add: #grow;
 		add: #growSize;
 		add: #setCollection: ;
