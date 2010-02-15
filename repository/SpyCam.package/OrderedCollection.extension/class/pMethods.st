@@ -18,6 +18,8 @@ pMethods
 		add: #at:;
 		add: #collect:;
 		add: #at:put:;
+		add: #reverseDo:;
+		add: #reversed;
 		add: #asArray;
 		add: #reset.
 	^ s ].

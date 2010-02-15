@@ -1,5 +1,6 @@
 matching
-match: input
+debugMatch: input
+	<preventExport>
 	| position match |
 	self debug: input.
 	position := input position.
