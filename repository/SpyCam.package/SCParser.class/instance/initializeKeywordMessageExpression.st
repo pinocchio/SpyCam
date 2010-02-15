@@ -1,13 +1,15 @@
 expression
 initializeKeywordMessageExpression
+	| keywords |
 	^ PEGParser
 		named: 'KEYWORD-MESSAGE-EXPRESSION'
 		parsing: (self keyword & (self binaryObjectDescription)) plus
 		semantics: [ :parts |
+			keywords := parts collect: #first.
 			ASTMessageExpression new
-				keywords: (parts collect: #first);
-				selector: (ASTKeywordSelector new 
-							keywords: (parts collect: #first);
-							selector: (self createSymbol: ((parts collect: #first) joinUsing: ':'), ':'));
+				keywords: keywords;
+				selector: (ASTKeywordSelector new
+							keywords: keywords;
+							selector: (self createSymbol: (':' join: keywords), ':'));
 				arguments: (parts collect: #second)
 		]
